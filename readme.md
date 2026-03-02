@@ -1,180 +1,258 @@
-# BirdSignal 🦅
+# BirdSignal
 
-BirdSignal helps students find and analyze "bird courses" (easy courses) by processing Reddit discussions with sentiment and NLP signals.
+BirdSignal is a full-stack course discovery app that identifies likely "bird courses" by analyzing Reddit discussions and combining NLP/sentiment signals with a curated course catalog.
 
-## Project Structure
+## What This Project Does
 
-```
-BirdSignal/
-├── frontend/           # React + TypeScript frontend
+- Fetches posts from `r/wlu` related to bird courses.
+- Extracts course mentions (for example, `BU111`, `EM203`) from thread text.
+- Computes per-course bird scores and supporting signals.
+- Generates per-course JSON artifacts consumed by the frontend.
+- Displays ranked courses with filtering, confidence signals, and evidence-ranked threads.
+
+## Repository Structure
+
+```text
+birdcourse/
+├── frontend/                   # React + TypeScript + Vite UI
+│   ├── src/                    # UI components and client-side enrichment logic
+│   ├── public/course_details/  # Generated course JSON files used by UI
+│   └── scripts/                # Catalog sync/normalize scripts
 ├── backend/
-│   ├── data/          # Python data processing scripts
-│   └── reddit_api/    # Node.js Reddit API service
+│   ├── reddit_api/             # Node.js API for Reddit fetching and lookup endpoints
+│   └── data/                   # Python pipeline + sentiment analysis
+└── scripts/
+    └── update-term.sh          # One-command refresh: sync + pipeline + build
 ```
 
-## Setup
+## Architecture and Data Flow
 
-### Quick Start: Run Locally
+1. `backend/reddit_api` serves endpoints that fetch Reddit search results and expose course-thread/top-course data.
+2. `backend/data/pipeline.py` calls the API, runs sentiment analysis, and writes processed outputs.
+3. Generated course files are copied into `frontend/public/course_details/`.
+4. `frontend/src/App.tsx` loads those JSON files and enriches display data (confidence + evidence ranking).
 
-Use this flow to run the app locally and view the UI.
+## Tech Stack
+
+- Frontend: React 19, TypeScript, Vite, Tailwind CSS 4, Vaul (mobile drawer)
+- Backend API: Node.js, Express, CORS middleware
+- Data pipeline: Python 3.11+, NLTK, VADER sentiment, regex-based course extraction
+- Tooling: `pnpm`, `uv`, Bash automation
+
+## Prerequisites
+
+- Node.js 18+
+- `pnpm`
+- Python 3.11+
+- `uv` (recommended)
+- `curl`
+
+## Local Development (3 Terminals)
+
+### 1. Run Reddit API
 
 ```bash
-# Terminal 1: start Reddit API
 cd backend/reddit_api
 pnpm install
 pnpm start
 ```
 
+API health check: `http://localhost:3001/health`
+
+### 2. Run Data Pipeline
+
 ```bash
-# Terminal 2: run data pipeline (updates course JSON data)
 cd backend/data
 uv sync
 uv run python bootstrap_nltk.py
-uv run python pipeline.py --no-prompt --time-period all --limit 500 --analyze-top-courses --top-courses-count 80
+uv run python pipeline.py \
+  --api-url http://localhost:3001 \
+  --no-prompt \
+  --time-period all \
+  --limit 500 \
+  --analyze-top-courses \
+  --top-courses-count 80
 ```
 
+### 3. Run Frontend
+
 ```bash
-# Terminal 3: run frontend dev server
 cd frontend
 pnpm install
 pnpm run dev
 ```
 
-Then open the local URL shown by Vite (usually `http://localhost:5173`).
+Open Vite URL (usually `http://localhost:5173`).
 
-### Quick Start: One-Command Term Refresh
+## One-Command Refresh
 
-If you want to refresh catalog + course details + frontend build in one shot:
+Use this when you want fresh catalog + fresh analyzed course data + production build:
 
 ```bash
 ./scripts/update-term.sh
 ```
 
-This script:
-1. Start Reddit API if not already running.
-2. Sync catalog data.
-3. Run Python pipeline.
-4. Copy generated JSON into frontend public data.
-5. Build frontend static files.
+Script workflow:
 
-Important:
-- `./scripts/update-term.sh` does **not** start the frontend dev server.
-- For local UI development, run `cd frontend && pnpm run dev` separately.
+1. Ensures Reddit API is running.
+2. Syncs/normalizes curated course catalog.
+3. Runs Python pipeline.
+4. Copies processed course JSON into frontend public data.
+5. Builds frontend output.
 
-### Reddit API Service
+Optional environment variables:
 
-```bash
-cd backend/reddit_api
-pnpm install
-pnpm start
+- `API_URL` (default `http://localhost:3001`)
+- `TIME_PERIOD` (default `all`)
+- `LIMIT` (default `500`)
+- `TOP_COURSES_COUNT` (default `80`)
+- `KEEP_API_RUNNING=1` (do not kill spawned API process on exit)
 
-# For development with auto-restart
-pnpm run dev
-```
+## Backend API Reference
 
-Optional API environment variables:
+Base URL: `http://localhost:3001`
 
-- `CORS_ORIGIN`: comma-separated allowed origins (example: `https://birdsignal.app,https://www.birdsignal.app`)
-- `RATE_LIMIT_WINDOW_SECONDS`: per-IP rate-limit window in seconds (default `60`)
-- `RATE_LIMIT_MAX`: max API requests per window per IP (default `120`)
+### `GET /health`
 
-### Data Processing Pipeline
+Returns `200 OK` when service is alive.
+
+### `GET /api/bird-courses`
+
+Query params:
+
+- `limit` (positive int, capped)
+- `timePeriod` (`hour|day|week|month|year|all`)
+
+Returns matching Reddit threads about bird courses.
+
+### `GET /api/top-bird-courses`
+
+Query params:
+
+- `count` (positive int)
+
+Returns top courses from processed course detail artifacts.
+
+### `GET /api/course-threads/:courseCode`
+
+Path params:
+
+- `courseCode` (validated course code format)
+
+Query params:
+
+- `limit` (positive int)
+
+Returns deduplicated course-specific threads (title/body/general search).
+
+## API Environment Variables
+
+Set these in your shell or `.env` before starting `backend/reddit_api`:
+
+- `PORT` (default `3001`)
+- `CORS_ORIGIN` (comma-separated allowlist; empty means allow all origins)
+- `RATE_LIMIT_WINDOW_SECONDS` (default `60`)
+- `RATE_LIMIT_MAX` (default `120`)
+
+## Data Pipeline Commands
 
 ```bash
 cd backend/data
-
-# Install uv (one-time)
-# https://docs.astral.sh/uv/getting-started/installation/
-
 uv sync
 uv run python bootstrap_nltk.py
 uv run python pipeline.py
-
-# Optional smoke test
 uv run python pipeline_smoke_test.py
-
-# Pipeline with parameters
-uv run python pipeline.py --time-period all --limit 300 --analyze-top-courses --top-courses-count 50
 ```
 
-If you prefer to keep using `pip`, `backend/data/requirements.txt` is still available as a fallback.
+Useful options for `pipeline.py`:
 
-#### Pipeline Parameters
+- `--api-url` (default `http://localhost:3001`)
+- `--limit` (default `200`)
+- `--time-period` (`hour|day|week|month|year|all`)
+- `--analyze-top-courses`
+- `--skip-top-courses`
+- `--top-courses-count` (default `15`)
+- `--no-prompt`
 
-| Parameter | Description | Default | Options |
-|-----------|-------------|---------|---------|
-| --time-period | Time period to search | all | hour, day, week, month, year, all |
-| --limit | Max threads to fetch | 200 | Any positive integer |
-| --analyze-top-courses | Force analyze top courses | True | Flag |
-| --skip-top-courses | Skip top-course analysis | False | Flag |
-| --top-courses-count | Number of top courses | 15 | Any positive integer |
-
-### Frontend Application
+## Frontend Commands
 
 ```bash
 cd frontend
 pnpm install
-
-# Normalize curated catalog data (if raw sheet changed)
-pnpm run catalog:normalize
-
-# Sync from Google Sheet + normalize
-pnpm run catalog:sync
-
-# Start development server
 pnpm run dev
+pnpm run build
+pnpm run lint
 ```
 
-### Curated Course Catalog Files
-
-These files are used to enrich Reddit-driven course data with curated titles/categories:
-
-- Raw source sheet JSON: `frontend/public/data/course-catalog/raw.json`
-- Normalized catalog list: `frontend/public/data/course-catalog/normalized.json`
-- Code lookup map used by the app: `frontend/public/data/course-catalog/by-code.json`
-
-When `raw.json` changes, run:
+Catalog scripts:
 
 ```bash
-cd frontend
+# Normalize existing raw catalog JSON
 pnpm run catalog:normalize
-```
 
-To fetch directly from the Google Sheet source and regenerate all catalog files:
-
-```bash
-cd frontend
+# Fetch from Google Sheet, normalize, and merge with existing catalog
 pnpm run catalog:sync
 ```
 
-`catalog:sync` merges sheet courses with your existing local catalog and deduplicates by course code, so courses already in your catalog are preserved.
+If needed, override the sheet URL:
 
-## Course Analysis
+```bash
+BIRDCOURSE_SHEET_URL="<google-sheet-url>" pnpm run catalog:sync
+```
 
-You can analyze specific courses using:
+## Generated Data Artifacts
+
+Pipeline output files are written under `backend/data/processed/` and then copied to frontend public assets.
+
+Primary files used by UI:
+
+- `frontend/public/course_details/catalog.json`
+- `frontend/public/course_details/index.json`
+- `frontend/public/course_details/<COURSE_CODE>.json`
+
+Curated catalog files:
+
+- `frontend/public/data/course-catalog/raw.json`
+- `frontend/public/data/course-catalog/normalized.json`
+- `frontend/public/data/course-catalog/by-code.json`
+
+## Scoring and Confidence Notes
+
+Bird score and ranking are heuristic, not an objective measure of course quality.
+
+- Python pipeline computes base bird scores using sentiment, bird-term detection, mention counts, engagement signals, and department/level adjustments.
+- Frontend computes display confidence (`high|medium|low`) from mention volume and recency.
+- Low-confidence courses intentionally hide the numeric bird score and surface warning context.
+- Threads inside course details are evidence-ranked to prioritize stronger signals.
+
+## Troubleshooting
+
+### Missing NLTK resources
+
+Run:
 
 ```bash
 cd backend/data
-uv run python course_details_analyzer.py --course-codes CS101 BU111 PS262 --limit 50
+uv run python bootstrap_nltk.py
 ```
 
-### Analysis Parameters
+### Pipeline says no data fetched
 
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| --course-codes | Courses to analyze | Required |
-| --limit | Max threads per course | 25 |
-| --output-dir | Output directory | processed/course_details |
+- Ensure API is running on expected URL (`http://localhost:3001` by default).
+- Verify `GET /health` responds with `200`.
+- Retry with a broader time period (`--time-period all`).
 
-## Contributing
+### Frontend loads but no courses appear
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+- Confirm generated files exist in `frontend/public/course_details/`.
+- Re-run pipeline and copy step (or run `./scripts/update-term.sh`).
 
-## Tech Stack
+## Current Limitations
 
-- Frontend: React, TypeScript, Tailwind CSS, Vite
-- Backend: Node.js, Express, Python, NLTK (Natural Language Processing), VADER Sentiment Analysis
+- Reddit source is currently scoped to `r/wlu` search.
+- Scores are heuristic and sensitive to sample size and recency.
+- Catalog/category quality depends on source sheet quality and normalization.
+
+## License
+
+No license file is currently included in this repository.

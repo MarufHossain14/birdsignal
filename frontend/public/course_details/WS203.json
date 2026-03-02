@@ -1,0 +1,165 @@
+{
+  "code": "WS203",
+  "department": "WS",
+  "bird_score": 7.96,
+  "specific_mentions": 15,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (7 vs 1). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "confidence_signals": {
+    "recent_mentions": 3,
+    "oldest_thread_date": "2018-09-19T01:04:50+00:00",
+    "newest_thread_date": "2025-12-25T20:06:46+00:00",
+    "sample_bias_warning": "Most evidence is older. Course experience may have changed."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 0
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 7,
+    "hard_mentions": 1,
+    "workload": 3
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Has anyone taken WS100 and if so is it a bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/1pvlmmu/has_anyone_taken_ws100_and_if_so_is_it_a_bird/",
+      "score": 1,
+      "created": "2025-12-25T20:06:46.000Z",
+      "num_comments": 7,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "OC classes spring 2025",
+      "url": "https://www.reddit.com/r/wlu/comments/1kfur1n/oc_classes_spring_2025/",
+      "score": 3,
+      "created": "2025-05-06T03:17:00.000Z",
+      "num_comments": 7,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "bird courses!",
+      "url": "https://www.reddit.com/r/wlu/comments/1oplc89/bird_courses/",
+      "score": 0,
+      "created": "2025-11-06T01:13:17.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "Thoughts on classes",
+      "url": "https://www.reddit.com/r/wlu/comments/humdn0/thoughts_on_classes/",
+      "score": 5,
+      "created": "2020-07-20T14:38:36.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "SE200 vs. EM203 vs. WS203",
+      "url": "https://www.reddit.com/r/wlu/comments/aeni75/se200_vs_em203_vs_ws203/",
+      "score": 2,
+      "created": "2019-01-10T21:07:52.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "is se200 (social entrepreneurship) worth it?",
+      "url": "https://www.reddit.com/r/wlu/comments/9h0nx1/is_se200_social_entrepreneurship_worth_it/",
+      "score": 3,
+      "created": "2018-09-19T01:04:50.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Opinions on WS203 Needed!",
+      "url": "https://www.reddit.com/r/wlu/comments/i871qz/opinions_on_ws203_needed/",
+      "score": 2,
+      "created": "2020-08-12T04:14:45.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Thoughts on these courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/ofoszv/thoughts_on_these_courses/",
+      "score": 1,
+      "created": "2021-07-07T18:22:26.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "WS203 Syllabus",
+      "url": "https://www.reddit.com/r/wlu/comments/wtdzwz/ws203_syllabus/",
+      "score": 1,
+      "created": "2022-08-20T18:28:58.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "WS205/WS203 syllabus",
+      "url": "https://www.reddit.com/r/wlu/comments/o9y9e7/ws205ws203_syllabus/",
+      "score": 1,
+      "created": "2021-06-29T01:38:10.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "GPA booster elective",
+      "url": "https://www.reddit.com/r/wlu/comments/ohz2xk/gpa_booster_elective/",
+      "score": 4,
+      "created": "2021-07-11T06:07:19.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Looking for any easy level 200 bird course suggestions?",
+      "url": "https://www.reddit.com/r/wlu/comments/14iwjsz/looking_for_any_easy_level_200_bird_course/",
+      "score": 2,
+      "created": "2023-06-25T20:35:34.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "Easy 200 year courses",
+      "url": "https://www.reddit.com/r/wlu/comments/159ipyv/easy_200_year_courses/",
+      "score": 1,
+      "created": "2023-07-25T19:43:11.000Z",
+      "num_comments": 6,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "WS100 Online Lorraine Vander Hoef",
+      "url": "https://www.reddit.com/r/wlu/comments/zt9oaf/ws100_online_lorraine_vander_hoef/",
+      "score": 2,
+      "created": "2022-12-23T07:51:21.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "PP201, NO105, WS100, PP247 difficulty?",
+      "url": "https://www.reddit.com/r/wlu/comments/c5v733/pp201_no105_ws100_pp247_difficulty/",
+      "score": 1,
+      "created": "2019-06-26T20:17:18.000Z",
+      "num_comments": 9,
+      "evidence_score": 2.2
+    }
+  ]
+}

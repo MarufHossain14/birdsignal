@@ -1,0 +1,373 @@
+{
+  "code": "BU111",
+  "department": "BU",
+  "bird_score": 0.0,
+  "specific_mentions": 41,
+  "is_online_available": true,
+  "ai_summary": "More posts call it hard than easy (15 vs 2). Light workload signals across 1 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 40,
+    "oldest_thread_date": "2024-04-30T08:22:00+00:00",
+    "newest_thread_date": "2026-02-27T16:08:27+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": -100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": -100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 40
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 50
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 2,
+    "hard_mentions": 15,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": true
+  },
+  "threads": [
+    {
+      "title": "BU111 Trauma",
+      "url": "https://www.reddit.com/r/wlu/comments/1rbf5tr/bu111_trauma/",
+      "score": 27,
+      "created": "2026-02-22T07:05:23.000Z",
+      "num_comments": 17,
+      "evidence_score": 8.6
+    },
+    {
+      "title": "BU111 Final Leak rumours",
+      "url": "https://www.reddit.com/r/wlu/comments/1pg69ex/bu111_final_leak_rumours/",
+      "score": 28,
+      "created": "2025-12-07T01:52:58.000Z",
+      "num_comments": 66,
+      "evidence_score": 8.2
+    },
+    {
+      "title": "BU111 - It\u2019s not THAT bad.",
+      "url": "https://www.reddit.com/r/wlu/comments/1qld5qf/bu111_its_not_that_bad/",
+      "score": 27,
+      "created": "2026-01-24T04:24:15.000Z",
+      "num_comments": 11,
+      "evidence_score": 8.2
+    },
+    {
+      "title": "BU111 final leak?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ph48kb/bu111_final_leak/",
+      "score": 35,
+      "created": "2025-12-08T05:22:10.000Z",
+      "num_comments": 13,
+      "evidence_score": 8.1
+    },
+    {
+      "title": "BU111 Live Case Write Up",
+      "url": "https://www.reddit.com/r/wlu/comments/1op53yc/bu111_live_case_write_up/",
+      "score": 47,
+      "created": "2025-11-05T14:59:08.000Z",
+      "num_comments": 16,
+      "evidence_score": 8.1
+    },
+    {
+      "title": "BU111 FINAL",
+      "url": "https://www.reddit.com/r/wlu/comments/1pu6afq/bu111_final/",
+      "score": 26,
+      "created": "2025-12-23T21:55:59.000Z",
+      "num_comments": 9,
+      "evidence_score": 7.9
+    },
+    {
+      "title": "Failing an exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1q1r4ni/failing_an_exam/",
+      "score": 23,
+      "created": "2026-01-02T06:15:55.000Z",
+      "num_comments": 5,
+      "evidence_score": 7.8
+    },
+    {
+      "title": "David Swanston - BU111 Appreciation Post",
+      "url": "https://www.reddit.com/r/wlu/comments/1rfl8qr/david_swanston_bu111_appreciation_post/",
+      "score": 7,
+      "created": "2026-02-26T20:22:20.000Z",
+      "num_comments": 17,
+      "evidence_score": 7.7
+    },
+    {
+      "title": "When is bu111 final grades coming out?",
+      "url": "https://www.reddit.com/r/wlu/comments/1prmzdu/when_is_bu111_final_grades_coming_out/",
+      "score": 16,
+      "created": "2025-12-20T19:47:47.000Z",
+      "num_comments": 18,
+      "evidence_score": 7.7
+    },
+    {
+      "title": "help",
+      "url": "https://www.reddit.com/r/wlu/comments/1ptatl6/help/",
+      "score": 15,
+      "created": "2025-12-22T20:59:45.000Z",
+      "num_comments": 16,
+      "evidence_score": 7.6
+    },
+    {
+      "title": "How hard is BBA actually(hopefully I survive)",
+      "url": "https://www.reddit.com/r/wlu/comments/1reugbd/how_hard_is_bba_actuallyhopefully_i_survive/",
+      "score": 5,
+      "created": "2026-02-25T23:59:48.000Z",
+      "num_comments": 19,
+      "evidence_score": 7.5
+    },
+    {
+      "title": "What are your guys crazy comeback story",
+      "url": "https://www.reddit.com/r/wlu/comments/1o3il1o/what_are_your_guys_crazy_comeback_story/",
+      "score": 23,
+      "created": "2025-10-11T01:11:24.000Z",
+      "num_comments": 24,
+      "evidence_score": 7.5
+    },
+    {
+      "title": "BU121 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1qu827t/bu121_midterm/",
+      "score": 14,
+      "created": "2026-02-02T21:19:49.000Z",
+      "num_comments": 1,
+      "evidence_score": 7.5
+    },
+    {
+      "title": "9.8/20 bu111 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1ocgwvy/9820_bu111_midterm/",
+      "score": 16,
+      "created": "2025-10-21T16:02:14.000Z",
+      "num_comments": 28,
+      "evidence_score": 7.3
+    },
+    {
+      "title": "The Impossible part of BU111",
+      "url": "https://www.reddit.com/r/wlu/comments/1r4rout/the_impossible_part_of_bu111/",
+      "score": 9,
+      "created": "2026-02-14T18:15:15.000Z",
+      "num_comments": 2,
+      "evidence_score": 7.3
+    },
+    {
+      "title": "bu111 case write up",
+      "url": "https://www.reddit.com/r/wlu/comments/1opmbm1/bu111_case_write_up/",
+      "score": 19,
+      "created": "2025-11-06T01:58:44.000Z",
+      "num_comments": 10,
+      "evidence_score": 7.3
+    },
+    {
+      "title": "Anyone who had to retake courses because they couldn't make the average for BBA.",
+      "url": "https://www.reddit.com/r/wlu/comments/1pbgq1n/anyone_who_had_to_retake_courses_because_they/",
+      "score": 10,
+      "created": "2025-12-01T16:07:31.000Z",
+      "num_comments": 12,
+      "evidence_score": 7.1
+    },
+    {
+      "title": "Real talk yall are some disappointments",
+      "url": "https://www.reddit.com/r/wlu/comments/1cgnomn/real_talk_yall_are_some_disappointments/",
+      "score": 280,
+      "created": "2024-04-30T08:22:00.000Z",
+      "num_comments": 70,
+      "evidence_score": 7.0
+    },
+    {
+      "title": "Why is BU111 Marked so hard?",
+      "url": "https://www.reddit.com/r/wlu/comments/1nq8lnt/why_is_bu111_marked_so_hard/",
+      "score": 11,
+      "created": "2025-09-25T14:41:15.000Z",
+      "num_comments": 24,
+      "evidence_score": 6.9
+    },
+    {
+      "title": "HELP! How to succeed in BBA",
+      "url": "https://www.reddit.com/r/wlu/comments/1nyv1l9/help_how_to_succeed_in_bba/",
+      "score": 10,
+      "created": "2025-10-05T17:54:04.000Z",
+      "num_comments": 27,
+      "evidence_score": 6.9
+    },
+    {
+      "title": "It\u2019s going to be a rough for me",
+      "url": "https://www.reddit.com/r/wlu/comments/1q353u6/its_going_to_be_a_rough_for_me/",
+      "score": 6,
+      "created": "2026-01-03T20:24:42.000Z",
+      "num_comments": 6,
+      "evidence_score": 6.9
+    },
+    {
+      "title": "What is the grade requirement for BBA Year 1 for DD student",
+      "url": "https://www.reddit.com/r/wlu/comments/1pc96sj/what_is_the_grade_requirement_for_bba_year_1_for/",
+      "score": 8,
+      "created": "2025-12-02T14:01:07.000Z",
+      "num_comments": 10,
+      "evidence_score": 6.9
+    },
+    {
+      "title": "BU121 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1qouhr3/bu121_midterm/",
+      "score": 5,
+      "created": "2026-01-27T23:31:46.000Z",
+      "num_comments": 3,
+      "evidence_score": 6.9
+    },
+    {
+      "title": "ciip project nobody seems to be in the mood to show up to the presentation",
+      "url": "https://www.reddit.com/r/wlu/comments/1ohqtif/ciip_project_nobody_seems_to_be_in_the_mood_to/",
+      "score": 11,
+      "created": "2025-10-27T21:16:31.000Z",
+      "num_comments": 13,
+      "evidence_score": 6.9
+    },
+    {
+      "title": "Bu111 mark is out",
+      "url": "https://www.reddit.com/r/wlu/comments/1pt4ohb/bu111_mark_is_out/",
+      "score": 3,
+      "created": "2025-12-22T16:59:57.000Z",
+      "num_comments": 42,
+      "evidence_score": 6.8
+    },
+    {
+      "title": "What to do if you failed BU111 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1ny29q8/what_to_do_if_you_failed_bu111_midterm/",
+      "score": 9,
+      "created": "2025-10-04T18:56:01.000Z",
+      "num_comments": 30,
+      "evidence_score": 6.8
+    },
+    {
+      "title": "How do I achieve high grades in bu111 with Swanston?",
+      "url": "https://www.reddit.com/r/wlu/comments/1n8k9ko/how_do_i_achieve_high_grades_in_bu111_with/",
+      "score": 12,
+      "created": "2025-09-04T19:50:46.000Z",
+      "num_comments": 28,
+      "evidence_score": 6.8
+    },
+    {
+      "title": "BU111 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1qyrgjq/bu111_midterm/",
+      "score": 4,
+      "created": "2026-02-07T22:28:27.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.8
+    },
+    {
+      "title": "Bu121 vs bu111 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1qpnoxn/bu121_vs_bu111_midterm/",
+      "score": 5,
+      "created": "2026-01-28T20:54:49.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.8
+    },
+    {
+      "title": "Student life and campus vibe?",
+      "url": "https://www.reddit.com/r/wlu/comments/1pyxxro/student_life_and_campus_vibe/",
+      "score": 3,
+      "created": "2025-12-29T20:57:27.000Z",
+      "num_comments": 8,
+      "evidence_score": 6.5
+    },
+    {
+      "title": "is management option actually worth it",
+      "url": "https://www.reddit.com/r/wlu/comments/1qt6g4h/is_management_option_actually_worth_it/",
+      "score": 2,
+      "created": "2026-02-01T18:31:03.000Z",
+      "num_comments": 3,
+      "evidence_score": 6.4
+    },
+    {
+      "title": "bu111 spring",
+      "url": "https://www.reddit.com/r/wlu/comments/1qzppaw/bu111_spring/",
+      "score": 2,
+      "created": "2026-02-09T00:31:57.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.3
+    },
+    {
+      "title": "Bu111",
+      "url": "https://www.reddit.com/r/wlu/comments/1qm9wpw/bu111/",
+      "score": 1,
+      "created": "2026-01-25T05:04:40.000Z",
+      "num_comments": 9,
+      "evidence_score": 6.2
+    },
+    {
+      "title": "do swanston and sofy have different midterms for bu111?",
+      "url": "https://www.reddit.com/r/wlu/comments/1nfolmm/do_swanston_and_sofy_have_different_midterms_for/",
+      "score": 5,
+      "created": "2025-09-13T04:48:32.000Z",
+      "num_comments": 21,
+      "evidence_score": 6.2
+    },
+    {
+      "title": "Peer evaluation",
+      "url": "https://www.reddit.com/r/wlu/comments/1pcv9gr/peer_evaluation/",
+      "score": 2,
+      "created": "2025-12-03T04:58:37.000Z",
+      "num_comments": 15,
+      "evidence_score": 6.2
+    },
+    {
+      "title": "BU111 deferred exam mark",
+      "url": "https://www.reddit.com/r/wlu/comments/1rgasxi/bu111_deferred_exam_mark/",
+      "score": 1,
+      "created": "2026-02-27T16:08:27.000Z",
+      "num_comments": 0,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "Bu111",
+      "url": "https://www.reddit.com/r/wlu/comments/1q65isv/bu111/",
+      "score": 1,
+      "created": "2026-01-07T04:18:21.000Z",
+      "num_comments": 6,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "Bu111 midterm tomorrow and I\u2019m freaking out",
+      "url": "https://www.reddit.com/r/wlu/comments/1nwd1io/bu111_midterm_tomorrow_and_im_freaking_out/",
+      "score": 2,
+      "created": "2025-10-02T19:14:44.000Z",
+      "num_comments": 19,
+      "evidence_score": 5.8
+    },
+    {
+      "title": "Who\u2019s retaking bu111?",
+      "url": "https://www.reddit.com/r/wlu/comments/1r8tgmm/whos_retaking_bu111/",
+      "score": 0,
+      "created": "2026-02-19T08:05:34.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "Bu111 ciip groups",
+      "url": "https://www.reddit.com/r/wlu/comments/1qep86a/bu111_ciip_groups/",
+      "score": 0,
+      "created": "2026-01-16T19:12:32.000Z",
+      "num_comments": 6,
+      "evidence_score": 5.5
+    },
+    {
+      "title": "EC120 mid terms out",
+      "url": "https://www.reddit.com/r/wlu/comments/1onu1gd/ec120_mid_terms_out/",
+      "score": 0,
+      "created": "2025-11-04T01:10:41.000Z",
+      "num_comments": 20,
+      "evidence_score": 5.2
+    }
+  ]
+}

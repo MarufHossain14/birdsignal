@@ -1,0 +1,85 @@
+{
+  "code": "DH200",
+  "department": "DH",
+  "bird_score": 6.44,
+  "specific_mentions": 5,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (4 vs 0). Light workload signals across 0 workload references. Finals: mentioned; midterms: mentioned. Low sample size. Treat this score as directional only.",
+  "confidence_signals": {
+    "recent_mentions": 1,
+    "oldest_thread_date": "2020-07-21T22:36:20+00:00",
+    "newest_thread_date": "2025-05-22T22:06:05+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 4,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "My Bird Course List",
+      "url": "https://www.reddit.com/r/wlu/comments/1b0zpn1/my_bird_course_list/",
+      "score": 26,
+      "created": "2024-02-27T01:53:43.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "What bird courses should I take",
+      "url": "https://www.reddit.com/r/wlu/comments/1kt3eet/what_bird_courses_should_i_take/",
+      "score": 0,
+      "created": "2025-05-22T22:06:05.000Z",
+      "num_comments": 10,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "Has anyone taken dh200? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1dp7rdh/has_anyone_taken_dh200/",
+      "score": 1,
+      "created": "2024-06-26T19:50:17.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Is DH200 an easy elective to take?",
+      "url": "https://www.reddit.com/r/wlu/comments/hvhk96/is_dh200_an_easy_elective_to_take/",
+      "score": 2,
+      "created": "2020-07-21T22:36:20.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "DH200, DH300 textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/kkchc1/dh200_dh300_textbook/",
+      "score": 2,
+      "created": "2020-12-26T04:26:38.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "code": "UX103",
+  "department": "UX",
+  "bird_score": 5.85,
+  "specific_mentions": 18,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (6 vs 1). Light workload signals across 0 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "confidence_signals": {
+    "recent_mentions": 3,
+    "oldest_thread_date": "2019-06-17T16:45:46+00:00",
+    "newest_thread_date": "2026-01-02T11:33:03+00:00",
+    "sample_bias_warning": "Most evidence is older. Course experience may have changed."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 6,
+    "hard_mentions": 1,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 73,
+      "created": "2021-04-07T20:33:30.000Z",
+      "num_comments": 46,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "Ux103",
+      "url": "https://www.reddit.com/r/wlu/comments/1q1wdh2/ux103/",
+      "score": 2,
+      "created": "2026-01-02T11:33:03.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 14,
+      "created": "2024-09-10T16:03:00.000Z",
+      "num_comments": 24,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "first year elective recs?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l6ue9i/first_year_elective_recs/",
+      "score": 3,
+      "created": "2025-06-09T03:07:56.000Z",
+      "num_comments": 7,
+      "evidence_score": 5.2
+    },
+    {
+      "title": "ux103",
+      "url": "https://www.reddit.com/r/wlu/comments/1jf3jza/ux103/",
+      "score": 2,
+      "created": "2025-03-19T18:10:34.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "anyone taken ux103",
+      "url": "https://www.reddit.com/r/wlu/comments/1hg605t/anyone_taken_ux103/",
+      "score": 2,
+      "created": "2024-12-17T08:08:37.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "UX103 - Spring",
+      "url": "https://www.reddit.com/r/wlu/comments/mfsr5g/ux103_spring/",
+      "score": 4,
+      "created": "2021-03-29T16:01:44.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "first year courses selection",
+      "url": "https://www.reddit.com/r/wlu/comments/14e24e3/first_year_courses_selection/",
+      "score": 2,
+      "created": "2023-06-20T05:36:09.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "2 OC Electives Manageable during Co-op",
+      "url": "https://www.reddit.com/r/wlu/comments/sy1pav/2_oc_electives_manageable_during_coop/",
+      "score": 7,
+      "created": "2022-02-21T19:13:40.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "UX design minor requires 3 first year courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/14e5rx2/ux_design_minor_requires_3_first_year_courses/",
+      "score": 1,
+      "created": "2023-06-20T08:59:08.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "ux courses for bba",
+      "url": "https://www.reddit.com/r/wlu/comments/zw2ofi/ux_courses_for_bba/",
+      "score": 1,
+      "created": "2022-12-27T01:18:49.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "should I take uu101 as an elective or ux103? what would be more easier?",
+      "url": "https://www.reddit.com/r/wlu/comments/107w63l/should_i_take_uu101_as_an_elective_or_ux103_what/",
+      "score": 1,
+      "created": "2023-01-10T01:09:09.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Have any BBA Students Taken UX103, UX100 OR DH100?",
+      "url": "https://www.reddit.com/r/wlu/comments/glhnyo/have_any_bba_students_taken_ux103_ux100_or_dh100/",
+      "score": 1,
+      "created": "2020-05-17T15:51:11.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "UX103",
+      "url": "https://www.reddit.com/r/wlu/comments/vkb9id/ux103/",
+      "score": 1,
+      "created": "2022-06-25T09:24:57.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "How is UX103 As an elective",
+      "url": "https://www.reddit.com/r/wlu/comments/c1pury/how_is_ux103_as_an_elective/",
+      "score": 1,
+      "created": "2019-06-17T16:45:46.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "Spring 2023 Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/11vugmx/spring_2023_courses/",
+      "score": 2,
+      "created": "2023-03-19T19:09:18.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "hi there! i\u2019m doing a survey for my ux103 class and would love to get some responses from anyone who\u2019s interested! it\u2019ll take a minute, thank you :)",
+      "url": "https://www.reddit.com/r/wlu/comments/m0mr4m/hi_there_im_doing_a_survey_for_my_ux103_class_and/",
+      "score": 0,
+      "created": "2021-03-08T18:45:50.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.0
+    },
+    {
+      "title": "Best first year birds",
+      "url": "https://www.reddit.com/r/wlu/comments/mdafx4/best_first_year_birds/",
+      "score": 0,
+      "created": "2021-03-25T22:41:38.000Z",
+      "num_comments": 4,
+      "evidence_score": 1.6
+    }
+  ]
+}

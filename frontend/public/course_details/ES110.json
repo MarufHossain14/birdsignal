@@ -1,0 +1,381 @@
+{
+  "code": "ES110",
+  "department": "ES",
+  "bird_score": 8.47,
+  "specific_mentions": 42,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (8 vs 6). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 29,
+    "oldest_thread_date": "2021-04-07T20:33:30+00:00",
+    "newest_thread_date": "2026-02-22T04:37:18+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 0
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 8,
+    "hard_mentions": 6,
+    "workload": 3
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Got 50% in ES110 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1opdhqw/got_50_in_es110_midterm/",
+      "score": 13,
+      "created": "2025-11-05T20:02:05.000Z",
+      "num_comments": 13,
+      "evidence_score": 7.1
+    },
+    {
+      "title": "ES110 Midterm - Lauren Judge",
+      "url": "https://www.reddit.com/r/wlu/comments/1rbch88/es110_midterm_lauren_judge/",
+      "score": 3,
+      "created": "2026-02-22T04:37:18.000Z",
+      "num_comments": 4,
+      "evidence_score": 6.8
+    },
+    {
+      "title": "Es110 exam cheat",
+      "url": "https://www.reddit.com/r/wlu/comments/1ply7s8/es110_exam_cheat/",
+      "score": 5,
+      "created": "2025-12-13T22:43:12.000Z",
+      "num_comments": 8,
+      "evidence_score": 6.7
+    },
+    {
+      "title": "Should i opt out of textbook for GG102 VA and Es110 VA",
+      "url": "https://www.reddit.com/r/wlu/comments/1q9aneh/should_i_opt_out_of_textbook_for_gg102_va_and/",
+      "score": 4,
+      "created": "2026-01-10T17:54:35.000Z",
+      "num_comments": 3,
+      "evidence_score": 6.6
+    },
+    {
+      "title": "ES110 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1r9dgh3/es110_midterm/",
+      "score": 2,
+      "created": "2026-02-19T22:24:11.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.4
+    },
+    {
+      "title": "Advice on easiest electives (PP201, SC100, ES110, ES274, ES295)?",
+      "url": "https://www.reddit.com/r/wlu/comments/1pyrx3q/advice_on_easiest_electives_pp201_sc100_es110/",
+      "score": 3,
+      "created": "2025-12-29T17:13:34.000Z",
+      "num_comments": 6,
+      "evidence_score": 6.4
+    },
+    {
+      "title": "ES110 VA",
+      "url": "https://www.reddit.com/r/wlu/comments/1q65gcu/es110_va/",
+      "score": 3,
+      "created": "2026-01-07T04:14:55.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.3
+    },
+    {
+      "title": "Someone please give me an available easy online course that\u2019s not ES110 or SC100",
+      "url": "https://www.reddit.com/r/wlu/comments/1q5hfnn/someone_please_give_me_an_available_easy_online/",
+      "score": 3,
+      "created": "2026-01-06T12:36:48.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.3
+    },
+    {
+      "title": "Online Es110",
+      "url": "https://www.reddit.com/r/wlu/comments/1q08kyg/online_es110/",
+      "score": 3,
+      "created": "2025-12-31T09:03:14.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.2
+    },
+    {
+      "title": "Should I be fine for co-op?",
+      "url": "https://www.reddit.com/r/wlu/comments/1p6g7nd/should_i_be_fine_for_coop/",
+      "score": 3,
+      "created": "2025-11-25T16:00:48.000Z",
+      "num_comments": 8,
+      "evidence_score": 6.2
+    },
+    {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 73,
+      "created": "2021-04-07T20:33:30.000Z",
+      "num_comments": 46,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "ES110 study method help",
+      "url": "https://www.reddit.com/r/wlu/comments/1q7lgs1/es110_study_method_help/",
+      "score": 1,
+      "created": "2026-01-08T19:32:00.000Z",
+      "num_comments": 7,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "ES110 WHEN AND WHERE IS THE MIDTERM?????",
+      "url": "https://www.reddit.com/r/wlu/comments/1oh60of/es110_when_and_where_is_the_midterm/",
+      "score": 4,
+      "created": "2025-10-27T05:11:00.000Z",
+      "num_comments": 3,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "Easiest 12 ",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
+      "score": 18,
+      "created": "2024-12-17T22:57:19.000Z",
+      "num_comments": 17,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 16,
+      "created": "2024-09-10T16:03:00.000Z",
+      "num_comments": 24,
+      "evidence_score": 5.7
+    },
+    {
+      "title": "AN100- Do you need to go to lectures?",
+      "url": "https://www.reddit.com/r/wlu/comments/1pck5oq/an100_do_you_need_to_go_to_lectures/",
+      "score": 1,
+      "created": "2025-12-02T20:52:44.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "CP102 or ES110 or ES295 or AB202",
+      "url": "https://www.reddit.com/r/wlu/comments/1nfgbcm/cp102_or_es110_or_es295_or_ab202/",
+      "score": 2,
+      "created": "2025-09-12T22:03:18.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "Who tf said es110 is a bird course??",
+      "url": "https://www.reddit.com/r/wlu/comments/1809a79/who_tf_said_es110_is_a_bird_course/",
+      "score": 21,
+      "created": "2023-11-21T05:11:24.000Z",
+      "num_comments": 19,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "I still don't know what courses to take...",
+      "url": "https://www.reddit.com/r/wlu/comments/1popmnj/i_still_dont_know_what_courses_to_take/",
+      "score": 0,
+      "created": "2025-12-17T06:35:46.000Z",
+      "num_comments": 11,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "Which two are the most bird!! Help",
+      "url": "https://www.reddit.com/r/wlu/comments/1q6f5ue/which_two_are_the_most_bird_help/",
+      "score": 0,
+      "created": "2026-01-07T13:19:54.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.3
+    },
+    {
+      "title": "(ADVICE) Rate my course selection",
+      "url": "https://www.reddit.com/r/wlu/comments/1lg90x1/advice_rate_my_course_selection/",
+      "score": 2,
+      "created": "2025-06-20T16:55:56.000Z",
+      "num_comments": 16,
+      "evidence_score": 5.2
+    },
+    {
+      "title": "ES110 OC spring/summer",
+      "url": "https://www.reddit.com/r/wlu/comments/1lth2ut/es110_oc_springsummer/",
+      "score": 2,
+      "created": "2025-07-07T00:58:04.000Z",
+      "num_comments": 8,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "Should I take ES110 as a bird course?",
+      "url": "https://www.reddit.com/r/wlu/comments/1lk4whq/should_i_take_es110_as_a_bird_course/",
+      "score": 2,
+      "created": "2025-06-25T12:54:31.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.9
+    },
+    {
+      "title": "recommend some electives to me!! what did you enjoy?",
+      "url": "https://www.reddit.com/r/wlu/comments/1lza9rs/recommend_some_electives_to_me_what_did_you_enjoy/",
+      "score": 1,
+      "created": "2025-07-14T01:59:19.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "course recommendations",
+      "url": "https://www.reddit.com/r/wlu/comments/1kflw6s/course_recommendations/",
+      "score": 2,
+      "created": "2025-05-05T20:22:50.000Z",
+      "num_comments": 6,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "Es110 gc",
+      "url": "https://www.reddit.com/r/wlu/comments/1nc6zsc/es110_gc/",
+      "score": 1,
+      "created": "2025-09-09T02:17:16.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.7
+    },
+    {
+      "title": "Did Mcleman stop teaching ES110 for this year?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l9cdrg/did_mcleman_stop_teaching_es110_for_this_year/",
+      "score": 2,
+      "created": "2025-06-12T03:28:42.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.7
+    },
+    {
+      "title": "ES110 midterm short answer or multiple choice",
+      "url": "https://www.reddit.com/r/wlu/comments/1j2vimd/es110_midterm_short_answer_or_multiple_choice/",
+      "score": 3,
+      "created": "2025-03-03T22:34:00.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "ES110 Lauren Vanessa Judge",
+      "url": "https://www.reddit.com/r/wlu/comments/1hq3iln/es110_lauren_vanessa_judge/",
+      "score": 3,
+      "created": "2024-12-31T01:39:23.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "thoughts on my sched (bba first year)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lkkpal/thoughts_on_my_sched_bba_first_year/",
+      "score": 1,
+      "created": "2025-06-25T23:17:33.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "2nd year courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1kfuksu/2nd_year_courses/",
+      "score": 2,
+      "created": "2025-05-06T03:07:28.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "How hard is ES110 OC? Compared to in person",
+      "url": "https://www.reddit.com/r/wlu/comments/1h7osqc/how_hard_is_es110_oc_compared_to_in_person/",
+      "score": 2,
+      "created": "2024-12-06T00:44:54.000Z",
+      "num_comments": 9,
+      "evidence_score": 4.4
+    },
+    {
+      "title": "ES110 Robert Mcleman",
+      "url": "https://www.reddit.com/r/wlu/comments/1lgatjh/es110_robert_mcleman/",
+      "score": 1,
+      "created": "2025-06-20T18:07:58.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "CC100 vs ES110 for spring",
+      "url": "https://www.reddit.com/r/wlu/comments/1j6q1pr/cc100_vs_es110_for_spring/",
+      "score": 1,
+      "created": "2025-03-08T20:23:18.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Interesting/easy first and second year courses for BBA Winter Term?",
+      "url": "https://www.reddit.com/r/wlu/comments/1hc8wqn/interestingeasy_first_and_second_year_courses_for/",
+      "score": 2,
+      "created": "2024-12-12T00:45:40.000Z",
+      "num_comments": 6,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1hi90ek/bird_courses/",
+      "score": 1,
+      "created": "2024-12-20T01:49:29.000Z",
+      "num_comments": 15,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Summer school online classes",
+      "url": "https://www.reddit.com/r/wlu/comments/1keqzr1/summer_school_online_classes/",
+      "score": 1,
+      "created": "2025-05-04T18:38:59.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Es110 final exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1heedm3/es110_final_exam/",
+      "score": 1,
+      "created": "2024-12-14T22:33:38.000Z",
+      "num_comments": 10,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "Gg102 and es110 OC online winter term",
+      "url": "https://www.reddit.com/r/wlu/comments/1g1t1nc/gg102_and_es110_oc_online_winter_term/",
+      "score": 2,
+      "created": "2024-10-12T05:12:41.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
+      "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
+      "score": 3,
+      "created": "2023-12-04T18:42:01.000Z",
+      "num_comments": 20,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "ES110 Cheat sheet",
+      "url": "https://www.reddit.com/r/wlu/comments/1hek0ja/es110_cheat_sheet/",
+      "score": 1,
+      "created": "2024-12-15T03:35:13.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
+      "score": 0,
+      "created": "2024-06-15T01:16:23.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.1
+    }
+  ]
+}

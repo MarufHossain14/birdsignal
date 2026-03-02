@@ -1,0 +1,101 @@
+{
+  "code": "HI128",
+  "department": "HI",
+  "bird_score": 8.16,
+  "specific_mentions": 7,
+  "is_online_available": true,
+  "ai_summary": "Mixed difficulty signals (1 easy, 0 hard mentions). Light workload signals across 1 workload references. Finals: mentioned; midterms: mentioned. Low sample size. Treat this score as directional only.",
+  "confidence_signals": {
+    "recent_mentions": 3,
+    "oldest_thread_date": "2019-06-05T01:09:19+00:00",
+    "newest_thread_date": "2026-02-02T20:16:59+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 40
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 0,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Electives with no final",
+      "url": "https://www.reddit.com/r/wlu/comments/1q4uwac/electives_with_no_final/",
+      "score": 12,
+      "created": "2026-01-05T19:10:22.000Z",
+      "num_comments": 6,
+      "evidence_score": 6.6
+    },
+    {
+      "title": "Online Summer Course Options?",
+      "url": "https://www.reddit.com/r/wlu/comments/1qu6beu/online_summer_course_options/",
+      "score": 2,
+      "created": "2026-02-02T20:16:59.000Z",
+      "num_comments": 0,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "HI128 (OC) - Revolution in the Modern World",
+      "url": "https://www.reddit.com/r/wlu/comments/1hbxuzs/hi128_oc_revolution_in_the_modern_world/",
+      "score": 3,
+      "created": "2024-12-11T16:48:39.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Are these electives easy",
+      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
+      "score": 0,
+      "created": "2025-06-26T18:07:52.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
+      "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
+      "score": 2,
+      "created": "2023-12-04T18:42:01.000Z",
+      "num_comments": 20,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "WILL I SURVIVE? \ud83d\ude42",
+      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
+      "score": 1,
+      "created": "2023-07-21T02:49:30.000Z",
+      "num_comments": 23,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "Bird summer (6 week) online courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/bwwoxh/bird_summer_6_week_online_courses/",
+      "score": 0,
+      "created": "2019-06-05T01:09:19.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.2
+    }
+  ]
+}

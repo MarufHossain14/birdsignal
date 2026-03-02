@@ -1,0 +1,365 @@
+{
+  "code": "CP102",
+  "department": "CP",
+  "bird_score": 5.86,
+  "specific_mentions": 40,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (6 vs 1). Light workload signals across 2 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 21,
+    "oldest_thread_date": "2020-12-18T01:17:32+00:00",
+    "newest_thread_date": "2026-01-07T23:53:49+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 20
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 6,
+    "hard_mentions": 1,
+    "workload": 2
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "CP102 Final",
+      "url": "https://www.reddit.com/r/wlu/comments/1phj9zy/cp102_final/",
+      "score": 10,
+      "created": "2025-12-08T17:57:53.000Z",
+      "num_comments": 8,
+      "evidence_score": 7.1
+    },
+    {
+      "title": "first year classes without ANY assignments",
+      "url": "https://www.reddit.com/r/wlu/comments/1pji7fq/first_year_classes_without_any_assignments/",
+      "score": 10,
+      "created": "2025-12-10T23:34:09.000Z",
+      "num_comments": 10,
+      "evidence_score": 7.1
+    },
+    {
+      "title": "Cp 102",
+      "url": "https://www.reddit.com/r/wlu/comments/1q3xvgz/cp_102/",
+      "score": 3,
+      "created": "2026-01-04T18:44:27.000Z",
+      "num_comments": 8,
+      "evidence_score": 6.5
+    },
+    {
+      "title": "CP102",
+      "url": "https://www.reddit.com/r/wlu/comments/1pf0jt7/cp102/",
+      "score": 4,
+      "created": "2025-12-05T17:06:35.000Z",
+      "num_comments": 4,
+      "evidence_score": 6.3
+    },
+    {
+      "title": "CP102 final",
+      "url": "https://www.reddit.com/r/wlu/comments/1pff327/cp102_final/",
+      "score": 4,
+      "created": "2025-12-06T03:25:45.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "CP102: Laurier\u2019s lack of academic integrity",
+      "url": "https://www.reddit.com/r/wlu/comments/kfaxsd/cp102_lauriers_lack_of_academic_integrity/",
+      "score": 87,
+      "created": "2020-12-18T01:17:32.000Z",
+      "num_comments": 25,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 71,
+      "created": "2021-04-07T20:33:30.000Z",
+      "num_comments": 46,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "CP102 HELP!!",
+      "url": "https://www.reddit.com/r/wlu/comments/1pfcvyt/cp102_help/",
+      "score": 2,
+      "created": "2025-12-06T01:36:35.000Z",
+      "num_comments": 6,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "Cp102",
+      "url": "https://www.reddit.com/r/wlu/comments/1pioh4c/cp102/",
+      "score": 2,
+      "created": "2025-12-10T00:40:19.000Z",
+      "num_comments": 5,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "CP102 help",
+      "url": "https://www.reddit.com/r/wlu/comments/1pfysnj/cp102_help/",
+      "score": 3,
+      "created": "2025-12-06T20:13:19.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "Easiest 12 ",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
+      "score": 19,
+      "created": "2024-12-17T22:57:19.000Z",
+      "num_comments": 17,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "Can't Access CP102 Resources",
+      "url": "https://www.reddit.com/r/wlu/comments/1q6vzm7/cant_access_cp102_resources/",
+      "score": 1,
+      "created": "2026-01-07T23:53:49.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "cp102",
+      "url": "https://www.reddit.com/r/wlu/comments/1pabsqn/cp102/",
+      "score": 2,
+      "created": "2025-11-30T06:56:19.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "CP102",
+      "url": "https://www.reddit.com/r/wlu/comments/1pq7xhi/cp102/",
+      "score": 1,
+      "created": "2025-12-19T01:12:03.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.8
+    },
+    {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 17,
+      "created": "2024-09-10T16:03:00.000Z",
+      "num_comments": 24,
+      "evidence_score": 5.7
+    },
+    {
+      "title": "What is CP102 about?",
+      "url": "https://www.reddit.com/r/wlu/comments/1lgbjmt/what_is_cp102_about/",
+      "score": 6,
+      "created": "2025-06-20T18:38:03.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "RE104 online vs CP102 online",
+      "url": "https://www.reddit.com/r/wlu/comments/1omo0p8/re104_online_vs_cp102_online/",
+      "score": 1,
+      "created": "2025-11-02T17:55:35.000Z",
+      "num_comments": 6,
+      "evidence_score": 5.5
+    },
+    {
+      "title": "CP102 or ES110 or ES295 or AB202",
+      "url": "https://www.reddit.com/r/wlu/comments/1nfgbcm/cp102_or_es110_or_es295_or_ab202/",
+      "score": 2,
+      "created": "2025-09-12T22:03:18.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "How do I study for CP102",
+      "url": "https://www.reddit.com/r/wlu/comments/1p7nuyz/how_do_i_study_for_cp102/",
+      "score": 0,
+      "created": "2025-11-27T00:10:31.000Z",
+      "num_comments": 8,
+      "evidence_score": 5.2
+    },
+    {
+      "title": "Potential round up opportunity?",
+      "url": "https://www.reddit.com/r/wlu/comments/1pph9qn/potential_round_up_opportunity/",
+      "score": 0,
+      "created": "2025-12-18T04:02:22.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.2
+    },
+    {
+      "title": "cp102 final exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1k1efyo/cp102_final_exam/",
+      "score": 6,
+      "created": "2025-04-17T14:39:39.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "CP102 final, no cheatsheet?",
+      "url": "https://www.reddit.com/r/wlu/comments/1h4wz6o/cp102_final_no_cheatsheet/",
+      "score": 5,
+      "created": "2024-12-02T15:04:56.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "CP102",
+      "url": "https://www.reddit.com/r/wlu/comments/1lx0q6f/cp102/",
+      "score": 1,
+      "created": "2025-07-11T07:31:34.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.7
+    },
+    {
+      "title": "Course Drop Penalty",
+      "url": "https://www.reddit.com/r/wlu/comments/1g5dd6j/course_drop_penalty/",
+      "score": 7,
+      "created": "2024-10-16T23:37:45.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "Cp102 studying",
+      "url": "https://www.reddit.com/r/wlu/comments/1k1we4x/cp102_studying/",
+      "score": 1,
+      "created": "2025-04-18T04:25:42.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Exam deadlines",
+      "url": "https://www.reddit.com/r/wlu/comments/1hcbxv4/exam_deadlines/",
+      "score": 2,
+      "created": "2024-12-12T03:21:14.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Is it bad that I take too many OC?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ljpyxr/is_it_bad_that_i_take_too_many_oc/",
+      "score": 0,
+      "created": "2025-06-24T23:09:32.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Do I need to buy CP102 textbook?",
+      "url": "https://www.reddit.com/r/wlu/comments/1hw8ws4/do_i_need_to_buy_cp102_textbook/",
+      "score": 1,
+      "created": "2025-01-08T02:16:31.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "Cp102 Final Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/zpi54e/cp102_final_exam/",
+      "score": 3,
+      "created": "2022-12-19T04:42:32.000Z",
+      "num_comments": 26,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "CP202 with only CP102",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvr7xc/cp202_with_only_cp102/",
+      "score": 3,
+      "created": "2024-07-05T06:19:01.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "Year 1  &amp; 2 Course layout, is this good??",
+      "url": "https://www.reddit.com/r/wlu/comments/1kpaxvp/year_1_2_course_layout_is_this_good/",
+      "score": 0,
+      "created": "2025-05-18T03:45:04.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "Is CP 102 Easy?",
+      "url": "https://www.reddit.com/r/wlu/comments/1g63bc8/is_cp_102_easy/",
+      "score": 2,
+      "created": "2024-10-17T22:31:50.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "Help with BBA Classes Choice",
+      "url": "https://www.reddit.com/r/wlu/comments/14ic8p7/help_with_bba_classes_choice/",
+      "score": 3,
+      "created": "2023-06-25T04:01:07.000Z",
+      "num_comments": 16,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "CP102 (online)",
+      "url": "https://www.reddit.com/r/wlu/comments/1hv5uin/cp102_online/",
+      "score": 1,
+      "created": "2025-01-06T18:24:31.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "Winter 2025 electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgue3i/winter_2025_electives/",
+      "score": 0,
+      "created": "2024-12-18T05:05:59.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "CP102 Final",
+      "url": "https://www.reddit.com/r/wlu/comments/188l0kq/cp102_final/",
+      "score": 1,
+      "created": "2023-12-01T20:04:10.000Z",
+      "num_comments": 19,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "4th year BBA student looking for an OC course because of co-op commitments",
+      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
+      "score": 0,
+      "created": "2024-12-16T02:23:39.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "Need Course Outlines for Transfer (MA100, BI196, CP102, RE204)",
+      "url": "https://www.reddit.com/r/wlu/comments/1dku7r6/need_course_outlines_for_transfer_ma100_bi196/",
+      "score": 1,
+      "created": "2024-06-21T03:20:00.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "What is on the cp102 final exam and is it easy?",
+      "url": "https://www.reddit.com/r/wlu/comments/1gxl1h8/what_is_on_the_cp102_final_exam_and_is_it_easy/",
+      "score": 0,
+      "created": "2024-11-22T23:06:00.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Electives for BBA",
+      "url": "https://www.reddit.com/r/wlu/comments/1dnfz01/electives_for_bba/",
+      "score": 0,
+      "created": "2024-06-24T15:16:37.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.9
+    }
+  ]
+}

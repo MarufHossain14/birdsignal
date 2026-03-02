@@ -1,0 +1,125 @@
+{
+  "code": "HI127",
+  "department": "HI",
+  "bird_score": 5.9,
+  "specific_mentions": 10,
+  "is_online_available": false,
+  "ai_summary": "More posts call it easy than hard (3 vs 1). Light workload signals across 1 workload references. Finals: mentioned; midterms: not clearly mentioned. Most evidence is older. Course experience may have changed.",
+  "confidence_signals": {
+    "recent_mentions": 3,
+    "oldest_thread_date": "2020-09-15T15:52:50+00:00",
+    "newest_thread_date": "2026-01-07T19:25:59+00:00",
+    "sample_bias_warning": "Most evidence is older. Course experience may have changed."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": -100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": -100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 40
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 3,
+    "hard_mentions": 1,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "HI127",
+      "url": "https://www.reddit.com/r/wlu/comments/1pga8l6/hi127/",
+      "score": 8,
+      "created": "2025-12-07T05:18:26.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.6
+    },
+    {
+      "title": "HI127 final exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1pkb0ag/hi127_final_exam/",
+      "score": 2,
+      "created": "2025-12-11T22:28:01.000Z",
+      "num_comments": 7,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "HI127 textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/1q6ozhl/hi127_textbook/",
+      "score": 1,
+      "created": "2026-01-07T19:25:59.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "Shoutout to Jeff Grischow, he's a gem",
+      "url": "https://www.reddit.com/r/wlu/comments/k8kdg9/shoutout_to_jeff_grischow_hes_a_gem/",
+      "score": 40,
+      "created": "2020-12-07T16:56:46.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "BBA Co-op ",
+      "url": "https://www.reddit.com/r/wlu/comments/1hrhheh/bba_coop/",
+      "score": 6,
+      "created": "2025-01-02T00:54:53.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.9
+    },
+    {
+      "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
+      "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
+      "score": 4,
+      "created": "2023-12-04T18:42:01.000Z",
+      "num_comments": 20,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Elective Advice",
+      "url": "https://www.reddit.com/r/wlu/comments/nwdccj/elective_advice/",
+      "score": 2,
+      "created": "2021-06-10T02:55:01.000Z",
+      "num_comments": 13,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "hi123 vs hi127",
+      "url": "https://www.reddit.com/r/wlu/comments/itbhvd/hi123_vs_hi127/",
+      "score": 1,
+      "created": "2020-09-15T15:52:50.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Recommended History &amp; Geography Courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/jq6hco/recommended_history_geography_courses/",
+      "score": 2,
+      "created": "2020-11-08T05:40:23.000Z",
+      "num_comments": 12,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "How\u2019s HI127 (Pirates History ) . Is it a bird course ?",
+      "url": "https://www.reddit.com/r/wlu/comments/o4vktl/hows_hi127_pirates_history_is_it_a_bird_course/",
+      "score": 0,
+      "created": "2021-06-21T13:50:31.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.3
+    }
+  ]
+}

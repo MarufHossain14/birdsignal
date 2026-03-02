@@ -1,0 +1,141 @@
+{
+  "code": "HR100",
+  "department": "HR",
+  "bird_score": 6.18,
+  "specific_mentions": 12,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (6 vs 2). Light workload signals across 1 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 9,
+    "oldest_thread_date": "2021-10-14T17:06:00+00:00",
+    "newest_thread_date": "2026-02-27T14:29:28+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 40
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 6,
+    "hard_mentions": 2,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": true
+  },
+  "threads": [
+    {
+      "title": "looking for gpa boosting electives as a science student for the spring online",
+      "url": "https://www.reddit.com/r/wlu/comments/1rcn0jc/looking_for_gpa_boosting_electives_as_a_science/",
+      "score": 2,
+      "created": "2026-02-23T17:01:22.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.4
+    },
+    {
+      "title": "Hr100 VA",
+      "url": "https://www.reddit.com/r/wlu/comments/1q5wl3s/hr100_va/",
+      "score": 2,
+      "created": "2026-01-06T22:02:06.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "Bird course for the winter term (HR100)",
+      "url": "https://www.reddit.com/r/wlu/comments/1pdlxs6/bird_course_for_the_winter_term_hr100/",
+      "score": 2,
+      "created": "2025-12-04T00:48:18.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.8
+    },
+    {
+      "title": "Is hr100 easy",
+      "url": "https://www.reddit.com/r/wlu/comments/1phln40/is_hr100_easy/",
+      "score": 2,
+      "created": "2025-12-08T19:25:26.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.8
+    },
+    {
+      "title": "Professor not replying and I need topic approval or I\u2019ll get 0",
+      "url": "https://www.reddit.com/r/wlu/comments/1odf9ku/professor_not_replying_and_i_need_topic_approval/",
+      "score": 4,
+      "created": "2025-10-22T17:48:23.000Z",
+      "num_comments": 13,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "Bird courses Suggestion",
+      "url": "https://www.reddit.com/r/wlu/comments/1rg86bw/bird_courses_suggestion/",
+      "score": 0,
+      "created": "2026-02-27T14:29:28.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "course recommendations",
+      "url": "https://www.reddit.com/r/wlu/comments/1kflw6s/course_recommendations/",
+      "score": 2,
+      "created": "2025-05-05T20:22:50.000Z",
+      "num_comments": 6,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "ES295 or HR100",
+      "url": "https://www.reddit.com/r/wlu/comments/1ht4vf4/es295_or_hr100/",
+      "score": 3,
+      "created": "2025-01-04T03:07:37.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "BBA FIRST YEAR COURSE RECOMMENDATIONS",
+      "url": "https://www.reddit.com/r/wlu/comments/1l2sctj/bba_first_year_course_recommendations/",
+      "score": 2,
+      "created": "2025-06-04T00:46:09.000Z",
+      "num_comments": 12,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1kvnysw/electives/",
+      "score": 3,
+      "created": "2025-05-26T06:57:22.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "HR100 Textbook (Cheap!!!)",
+      "url": "https://www.reddit.com/r/wlu/comments/16g7d6n/hr100_textbook_cheap/",
+      "score": 1,
+      "created": "2023-09-11T21:06:15.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "HR100 Midterm with Pietro Piriani",
+      "url": "https://www.reddit.com/r/wlu/comments/q840qo/hr100_midterm_with_pietro_piriani/",
+      "score": 0,
+      "created": "2021-10-14T17:06:00.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.0
+    }
+  ]
+}

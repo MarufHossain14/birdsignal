@@ -1,0 +1,165 @@
+{
+  "code": "EC229",
+  "department": "EC",
+  "bird_score": 3.82,
+  "specific_mentions": 15,
+  "is_online_available": true,
+  "ai_summary": "Mixed difficulty signals (4 easy, 3 hard mentions). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 7,
+    "oldest_thread_date": "2022-12-06T23:22:24+00:00",
+    "newest_thread_date": "2026-02-17T17:01:45+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": -20
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 4,
+    "hard_mentions": 3,
+    "workload": 4
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "EC online courses summer recommendations \ud83d\ude4f\ud83c\udffc",
+      "url": "https://www.reddit.com/r/wlu/comments/1r7bslr/ec_online_courses_summer_recommendations/",
+      "score": 3,
+      "created": "2026-02-17T17:01:45.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.8
+    },
+    {
+      "title": "Second year bird econ courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/1pnser0/second_year_bird_econ_courses/",
+      "score": 3,
+      "created": "2025-12-16T04:05:31.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.3
+    },
+    {
+      "title": "Econ Courses Minor",
+      "url": "https://www.reddit.com/r/wlu/comments/1n8euqk/econ_courses_minor/",
+      "score": 1,
+      "created": "2025-09-04T16:25:31.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "Econ courses!",
+      "url": "https://www.reddit.com/r/wlu/comments/1q0hr0f/econ_courses/",
+      "score": 1,
+      "created": "2025-12-31T16:58:27.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "EC249 (Online)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lbgsif/ec249_online/",
+      "score": 2,
+      "created": "2025-06-14T19:22:53.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.9
+    },
+    {
+      "title": "Ec229 Final",
+      "url": "https://www.reddit.com/r/wlu/comments/1k4m8gw/ec229_final/",
+      "score": 2,
+      "created": "2025-04-21T19:27:21.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.7
+    },
+    {
+      "title": "ec229",
+      "url": "https://www.reddit.com/r/wlu/comments/1hah429/ec229/",
+      "score": 2,
+      "created": "2024-12-09T18:50:25.000Z",
+      "num_comments": 12,
+      "evidence_score": 4.4
+    },
+    {
+      "title": "EC229 and EC248",
+      "url": "https://www.reddit.com/r/wlu/comments/1giup34/ec229_and_ec248/",
+      "score": 1,
+      "created": "2024-11-03T19:15:47.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "EC229 or EC248?",
+      "url": "https://www.reddit.com/r/wlu/comments/1kawghd/ec229_or_ec248/",
+      "score": 0,
+      "created": "2025-04-29T19:21:15.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "Second Year Econ Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
+      "score": 2,
+      "created": "2024-07-05T03:42:23.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "EC233 or EC229",
+      "url": "https://www.reddit.com/r/wlu/comments/1f7l0kk/ec233_or_ec229/",
+      "score": 1,
+      "created": "2024-09-02T23:18:11.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "4th year BBA student looking for an OC course because of co-op commitments",
+      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
+      "score": 0,
+      "created": "2024-12-16T02:23:39.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "EC229 - Economics of China (Final)",
+      "url": "https://www.reddit.com/r/wlu/comments/zelkek/ec229_economics_of_china_final/",
+      "score": 2,
+      "created": "2022-12-06T23:22:24.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Ec248oc or ec229oc",
+      "url": "https://www.reddit.com/r/wlu/comments/1dti2qg/ec248oc_or_ec229oc/",
+      "score": 0,
+      "created": "2024-07-02T09:57:02.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Double Minor",
+      "url": "https://www.reddit.com/r/wlu/comments/137y4ek/double_minor/",
+      "score": 2,
+      "created": "2023-05-04T19:59:08.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.5
+    }
+  ]
+}

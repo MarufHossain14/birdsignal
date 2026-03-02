@@ -1,0 +1,117 @@
+{
+  "code": "EN112",
+  "department": "EN",
+  "bird_score": 6.07,
+  "specific_mentions": 9,
+  "is_online_available": false,
+  "ai_summary": "Mixed difficulty signals (1 easy, 1 hard mentions). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Most evidence is older. Course experience may have changed.",
+  "confidence_signals": {
+    "recent_mentions": 3,
+    "oldest_thread_date": "2021-06-08T02:26:16+00:00",
+    "newest_thread_date": "2025-09-17T20:28:13+00:00",
+    "sample_bias_warning": "Most evidence is older. Course experience may have changed."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 40
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 1,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "can I pm anyone who has taken en112 (literature and love) before?",
+      "url": "https://www.reddit.com/r/wlu/comments/1njobxt/can_i_pm_anyone_who_has_taken_en112_literature/",
+      "score": 3,
+      "created": "2025-09-17T20:28:13.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "How do you guys like literature &amp; love (EN112)",
+      "url": "https://www.reddit.com/r/wlu/comments/1liokbf/how_do_you_guys_like_literature_love_en112/",
+      "score": 6,
+      "created": "2025-06-23T18:36:27.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "En112 - Lit and Love",
+      "url": "https://www.reddit.com/r/wlu/comments/1ljx0do/en112_lit_and_love/",
+      "score": 2,
+      "created": "2025-06-25T05:02:17.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "EN112",
+      "url": "https://www.reddit.com/r/wlu/comments/1izpcdl/en112/",
+      "score": 3,
+      "created": "2025-02-27T20:17:17.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "Having trouble researching the courses so I am ready for course registration",
+      "url": "https://www.reddit.com/r/wlu/comments/nuu3it/having_trouble_researching_the_courses_so_i_am/",
+      "score": 3,
+      "created": "2021-06-08T02:26:16.000Z",
+      "num_comments": 15,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "Anyone take any of the following courses and can share their experience?",
+      "url": "https://www.reddit.com/r/wlu/comments/11l1rfj/anyone_take_any_of_the_following_courses_and_can/",
+      "score": 2,
+      "created": "2023-03-07T15:07:28.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "first year electives to take: KS100, EN112, FS101, or CC202",
+      "url": "https://www.reddit.com/r/wlu/comments/vc9al7/first_year_electives_to_take_ks100_en112_fs101_or/",
+      "score": 1,
+      "created": "2022-06-14T17:52:50.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "BIRD COURSE???? EN112 - Love and Literature",
+      "url": "https://www.reddit.com/r/wlu/comments/107y6pv/bird_course_en112_love_and_literature/",
+      "score": 0,
+      "created": "2023-01-10T02:39:39.000Z",
+      "num_comments": 8,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "Anybody in EN 112?",
+      "url": "https://www.reddit.com/r/wlu/comments/109dkvo/anybody_in_en_112/",
+      "score": 0,
+      "created": "2023-01-11T19:32:17.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.2
+    }
+  ]
+}

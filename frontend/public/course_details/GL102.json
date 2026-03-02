@@ -1,0 +1,77 @@
+{
+  "code": "GL102",
+  "department": "GL",
+  "bird_score": 3.57,
+  "specific_mentions": 4,
+  "is_online_available": false,
+  "ai_summary": "Mixed difficulty signals (1 easy, 1 hard mentions). Light workload signals across 0 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
+  "confidence_signals": {
+    "recent_mentions": 1,
+    "oldest_thread_date": "2023-04-23T22:59:59+00:00",
+    "newest_thread_date": "2025-11-11T22:33:18+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 1,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": true
+  },
+  "threads": [
+    {
+      "title": "GL 102 with Abdullah BaMasoud",
+      "url": "https://www.reddit.com/r/wlu/comments/1ounsc3/gl_102_with_abdullah_bamasoud/",
+      "score": 2,
+      "created": "2025-11-11T22:33:18.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.8
+    },
+    {
+      "title": "Second year bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1duk5dr/second_year_bird_courses/",
+      "score": 4,
+      "created": "2024-07-03T17:31:15.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "GL102",
+      "url": "https://www.reddit.com/r/wlu/comments/16uwkpt/gl102/",
+      "score": 1,
+      "created": "2023-09-29T00:18:24.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "gl102 discord",
+      "url": "https://www.reddit.com/r/wlu/comments/12wtm2k/gl102_discord/",
+      "score": 2,
+      "created": "2023-04-23T22:59:59.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.0
+    }
+  ]
+}

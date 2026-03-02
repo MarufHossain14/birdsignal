@@ -1,0 +1,424 @@
+[
+  {
+    "code": "UU150",
+    "alt_codes": [],
+    "raw_codes": [
+      "UU150"
+    ],
+    "title": "Foundations for Community Engagement and Service",
+    "description": "Introduction to core concepts, theories and competencies that serve as underpinnings for effective community engagement and service. Topics include ethical conduct, academic integrity, community service learning, civic engagement, career skills and professionalism. This is a practical course that provides a foundation for undertaking further experiential education opportunities. (Online Learning only)",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": true
+  },
+  {
+    "code": "ES110",
+    "alt_codes": [],
+    "raw_codes": [
+      "ES110"
+    ],
+    "title": "Environment, Sustainability and Society",
+    "description": "An interdisciplinary introduction to humans’ interactions with the natural environment. Pressing environmental challenges are explored, and creative sustainable responses, using Canadian and international examples, are proposed. Topics include food, water and energy systems; climate change adaptation; environmental management; and, policy-making.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "AR105",
+    "alt_codes": [],
+    "raw_codes": [
+      "AR105"
+    ],
+    "title": "Roman Civilization",
+    "description": "A general introduction to the people of Rome and the world they created: law, architecture, education, literature, daily life and politics.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "GG102",
+    "alt_codes": [],
+    "raw_codes": [
+      "GG102"
+    ],
+    "title": "Introduction to Human Geography",
+    "description": "This course provides an introduction to human geography. Topics include population and development, cartography and GIS, economic geography, cultural geography and political geography. In laboratory exercises, students learn methods and techniques used by geographers.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "AS101",
+    "alt_codes": [],
+    "raw_codes": [
+      "AS101"
+    ],
+    "title": "Astronomy I: Our place in the cosmos",
+    "description": "An introduction to the science of astronomy, the process by which we develop astronomical principles and the application of these techniques to gain a modern understanding of our Solar System. Topics covered include the historical development of astronomy, understanding the night sky, Newton's law of gravitation, light and telescopes, and a detailed study of the Solar System. New data from recent explorations of Mars, Saturn and other celestial objects will be discussed.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "UX100",
+    "alt_codes": [],
+    "raw_codes": [
+      "UX100"
+    ],
+    "title": "Design Thinking I: Foundations",
+    "description": "This course is an introduction to the theories and methods that underpin design thinking and practice. UX100 introduces the design process, visual analysis, design theories, universal design, and the socio-cultural implications of design. Students investigate the interactions between humans and their natural, social, and designed environments where purposeful design helps determine the quality of those interactions. Students will learn how design outcomes, whether successes or failures, shape and are shaped by socio/cultural and historical factors. Students of design thinking will learn to critically assess the processes, outcomes and effects of design engagement. During the course, students will have opportunities to test and explore the concepts of design thinking through small-group, hands-on participation in design projects.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "RE104",
+    "alt_codes": [],
+    "raw_codes": [
+      "RE104"
+    ],
+    "title": "Evil and Its Symbols",
+    "description": "An investigation of the symbolism of opposites, for example, sacred and profane, God and the devil, feminine and masculine, villain and hero, light and darkness. The use of symbols of evil is considered in contexts such as crusades, heresy trials, sexism, racism and scapegoating. The course utilizes these themes important to several religious traditions, to introduce basic concepts in religious studies.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "RE103",
+    "alt_codes": [],
+    "raw_codes": [
+      "RE103"
+    ],
+    "title": "Love and Its Myths",
+    "description": "An enquiry into the mythologies of relationship which inform today's attitudes towards loving. Recurrent themes in the course are marriage, sexuality, attraction, friendship, fellowship and fidelity. The course utilizes these themes important to several religious traditions, to introduce basic concepts in religious studies.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "UU101",
+    "alt_codes": [],
+    "raw_codes": [
+      "UU101"
+    ],
+    "title": "Perspectives on Sustainability",
+    "description": "The course provides an interdisciplinary introduction to the topic of sustainability and is designed to be accessible and career relevant for students from all faculties. The focus is on understanding the challenges of sustainability with respect to different spheres (e.g. ecological, economic, socio-cultural) and at different scales from personal to global. Guest lecturers will explore sustainability from a variety of perspectives and students will develop their own plans of action to address concrete sustainability issues.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "CC102",
+    "alt_codes": [],
+    "raw_codes": [
+      "CC102"
+    ],
+    "title": "Introduction to the Criminal Justice System",
+    "description": "This course will examine the functions and structure of the major components of the Canadian criminal justice system. Students will be introduced to the roles played by various criminal justice organizations in the administration of justice. Topics may include police, criminal courts and trial procedures, sentencing, and corrections.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "SC100",
+    "alt_codes": [],
+    "raw_codes": [
+      "SC100"
+    ],
+    "title": "Introduction to the Science of Everyday Life",
+    "description": "An introduction to the science behind questions ranging from small-scale phenomena, to larger-scale processes that may influence public policy for years or decades to come. The course will take an integrative and comparative approach, incorporating perspectives from across the natural sciences. Emphasis will be placed on the logic of scientific thinking, the process of gathering evidence, and the limits of conclusions that can be made with available evidence.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "EM203",
+    "alt_codes": [],
+    "raw_codes": [
+      "EM203"
+    ],
+    "title": "Learning in 140 Characters or Less",
+    "description": "In a digital world, 21st century learners need to be co-constructors of knowledge. This course will examine emerging research and innovative approaches to learning that utilize the potential of digital technology for collaborative, critical, creative and authentic learning.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "EM202",
+    "alt_codes": [],
+    "raw_codes": [
+      "EM202"
+    ],
+    "title": "The Educational Divide",
+    "description": "Teachers, students, and school systems can either perpetuate or change circumstances of injustice, both locally and globally. This course examines these dynamics and how teachers and students work toward building just societies. Global educational philosophies, research, and practices will be examined through a social justice lens.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "OL140",
+    "alt_codes": [],
+    "raw_codes": [
+      "OL140"
+    ],
+    "title": "Leadership Foundations",
+    "description": "This introductory course provides a broad overview of theoretical and practical issues within the field of leadership. Historical exemplars of leadership, as well as tools for personal leadership development, will be taken under consideration.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "CP104",
+    "alt_codes": [],
+    "raw_codes": [
+      "CP104"
+    ],
+    "title": "Introduction to Programming",
+    "description": "An introductory course designed to familiarize the student with modern software development techniques. Emphasis is on problem-solving and structured program design methodologies. Programming projects are implemented in a widely used high-level language.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "GG101",
+    "alt_codes": [],
+    "raw_codes": [
+      "GG101"
+    ],
+    "title": "Introduction to Physical Geography",
+    "description": "This course provides an introduction to physical geography. Topics include weather and climate, hydrology, geomorphology and biogeography. Laboratory exercises address geographic methods and techniques and illustrate human-environment relations through case studies.",
+    "category": "Bird Courses",
+    "categories": [
+      "Bird Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "GC380D",
+    "alt_codes": [],
+    "raw_codes": [
+      "GC380D"
+    ],
+    "title": "Women in Islam",
+    "description": "This course explores emerging topics of study in the area of public ethics and spirituality. The rights and roles of Muslim women have long been source of social, religious, and political debates in the Muslim and non-Muslim world. In this class, we will discuss theological and religious attitudes in the light of contemporary applications in Islamic and Western world in an effort to appreciate what being a woman means today.",
+    "category": "Recommended",
+    "categories": [
+      "Recommended"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "GC362",
+    "alt_codes": [],
+    "raw_codes": [
+      "GC362"
+    ],
+    "title": "Jesus in Islam",
+    "description": "This course examines one of the most prominent themes of Islamic theology: Jesus's place and role in this faith tradition. The course will allow students to explore how the Qur'an and Hadith sources speak about Jesus. This course also will provide an overview on the role and place of Jesus in Abrahamic Faith tradition.",
+    "category": "Recommended",
+    "categories": [
+      "Recommended"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "GC380J",
+    "alt_codes": [],
+    "raw_codes": [
+      "GC380J"
+    ],
+    "title": "Living Interfaithfully",
+    "description": "Today, interfaith/intercultural dialogue is imperative. The current diverse situation requires dialogue among cultures and societies to resolve conflicts of power and worldview. This course explores various aspects of interfaith and cultural relations in contemporary Canadian context, with some emphasis on Abrahamic traditions. This course offers an introduction to religion, faith, and cultural diversity, and it will offer a unique opportunity for students to engage with these diverse contexts in real communities in Kitchener and Waterloo.",
+    "category": "Recommended",
+    "categories": [
+      "Recommended"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "GC280R",
+    "alt_codes": [],
+    "raw_codes": [
+      "GC280R"
+    ],
+    "title": "Wellness in Islam",
+    "description": null,
+    "category": "Recommended",
+    "categories": [
+      "Recommended"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "AB101",
+    "alt_codes": [],
+    "raw_codes": [
+      "AB101"
+    ],
+    "title": "Elementary Modern Standard Arabic I",
+    "description": "This course will introduce students to Arabic as a language and a culture. The emphasis will be put initially on speaking and listening with authentic audio, video material. This course is designed for students with no previous knowledge in Arabic.",
+    "category": "Learning Arabic",
+    "categories": [
+      "Learning Arabic"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "AB102",
+    "alt_codes": [],
+    "raw_codes": [
+      "AB102"
+    ],
+    "title": "Elementary Modern Standard Arabic II",
+    "description": "A continuation of AB101. In this second course, the emphasis will be put foremost on improving reading and writing skills through the use of authentic material. Speaking and listening comprehension skills and cultural elements will be further developed.",
+    "category": "Learning Arabic",
+    "categories": [
+      "Learning Arabic"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "GS422",
+    "alt_codes": [],
+    "raw_codes": [
+      "GS422"
+    ],
+    "title": "Dialogue and Critique in an Age of Terror",
+    "description": "The course addresses the delicate balance between dialogical understanding and the quest for critical objectivity in intercultural encounters. Questions addressed include: Does dialogue require understanding the Other in the Other’s own terms, or that we understand the Other as best as we can given our prejudices and biases? How do we define the Age of Terror? Is dialogue possible with extremists?",
+    "category": "Other Courses",
+    "categories": [
+      "Other Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "MZ200",
+    "alt_codes": [],
+    "raw_codes": [
+      "MZ200"
+    ],
+    "title": "Introduction to Muslim Studies",
+    "description": "This course provides an overview of the aims, methods, and central issues in the Muslim Studies field. In particular it will investigate the diversity of contemporary Muslims, ideational currents that are influencing them, and the major debates about Islamic identity. Cross-listed with RE231.",
+    "category": "Other Courses",
+    "categories": [
+      "Other Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "MZ201",
+    "alt_codes": [
+      "RE213"
+    ],
+    "raw_codes": [
+      "MZ201/RE213"
+    ],
+    "title": "Religious Heritage of Islam",
+    "description": "This course is an exploration of the origins, precepts, and historical development of Islam, one of the world's major religions and multi-cultural civilizations. Attention will be given to the unity and diversity of religious beliefs and practices, the classical period of Islamic history, and issues facing Muslim communities in the modern era. (Cross-listed with MZ201.)",
+    "category": "Other Courses",
+    "categories": [
+      "Other Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "RE101",
+    "alt_codes": [],
+    "raw_codes": [
+      "RE101"
+    ],
+    "title": "Religious of the Americas: Asian and Middle Eastern",
+    "description": "An introduction to religious studies using selected examples of religion in North America as sources. Major topics include inter-religious relations, the westernizing of Asian religions, the changing nature of religious tradition and religions in multicultural settings. The course concentrates on Hinduism, Buddhism and Islam in North America.",
+    "category": "Other Courses",
+    "categories": [
+      "Other Courses"
+    ],
+    "is_online_hint": false
+  },
+  {
+    "code": "CP102",
+    "alt_codes": [],
+    "raw_codes": [
+      "CP102 (OC)"
+    ],
+    "title": "Info Processing With Micros",
+    "description": "An introduction to the concepts of microcomputer hardware and software applications in a hands-on environment. Topics include the history of technological innovation in microcomputer systems, design and operation, input/output devices, storage media and techniques, communications, operating systems, word processors, spreadsheets, presentation software, database management and system utilities. (Online Learning only)",
+    "category": "Other Courses",
+    "categories": [
+      "Other Courses"
+    ],
+    "is_online_hint": true
+  },
+  {
+    "code": "GESC151",
+    "alt_codes": [],
+    "raw_codes": [
+      "GESC151 (OC)"
+    ],
+    "title": "Our Digital Health",
+    "description": "The purpose of this course is to explore the Digital Earth: how our environment is represented in digital spaces and how these are used to plan cities, manage epidemics, and create a more sustainable world.",
+    "category": "Other Courses",
+    "categories": [
+      "Other Courses"
+    ],
+    "is_online_hint": true
+  },
+  {
+    "code": "ES274",
+    "alt_codes": [],
+    "raw_codes": [
+      "ES274 (OC)"
+    ],
+    "title": "One Earth, One Health",
+    "description": "This course introduces students to current issues in health and the environment. Through One Health and Eco-Health lenses, students will learn how to critically analyze the nexus of people, animals, and environmental factors that result in interconnected health risks and spaces for improvement. \nPrerequisite: Senior student status.",
+    "category": "Other Courses",
+    "categories": [
+      "Other Courses"
+    ],
+    "is_online_hint": true
+  },
+  {
+    "code": "EM101",
+    "alt_codes": [],
+    "raw_codes": [
+      "EM101 (OC)"
+    ],
+    "title": "Images of Education in Media",
+    "description": "Education as portrayed through film and literature serves as a lens on the cultural landscape of western society. This course will examine images of teachers and teaching in the past, the present and the future, through the study of film and literature. Canonized, villainized or lampooned, these media forms portray teachers in various and often conflicting ways, aiming to show what education is, what we perceive it to be and what it might or ought to be.",
+    "category": "Other Courses",
+    "categories": [
+      "Other Courses"
+    ],
+    "is_online_hint": true
+  }
+]

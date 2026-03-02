@@ -1,0 +1,133 @@
+{
+  "code": "SE200",
+  "department": "SE",
+  "bird_score": 8.92,
+  "specific_mentions": 11,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (3 vs 1). Light workload signals across 0 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Most evidence is older. Course experience may have changed.",
+  "confidence_signals": {
+    "recent_mentions": 2,
+    "oldest_thread_date": "2018-09-19T01:04:50+00:00",
+    "newest_thread_date": "2026-01-05T21:35:48+00:00",
+    "sample_bias_warning": "Most evidence is older. Course experience may have changed."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 3,
+    "hard_mentions": 1,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Bird courses virtual",
+      "url": "https://www.reddit.com/r/wlu/comments/1q4yw7l/bird_courses_virtual/",
+      "score": 3,
+      "created": "2026-01-05T21:35:48.000Z",
+      "num_comments": 9,
+      "evidence_score": 6.6
+    },
+    {
+      "title": "Had anyone taken se200? How is it",
+      "url": "https://www.reddit.com/r/wlu/comments/1nhs5i3/had_anyone_taken_se200_how_is_it/",
+      "score": 2,
+      "created": "2025-09-15T17:24:55.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "Winter 2024 bird electives",
+      "url": "https://www.reddit.com/r/wlu/comments/18pibhw/winter_2024_bird_electives/",
+      "score": 8,
+      "created": "2023-12-23T23:47:20.000Z",
+      "num_comments": 12,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "Bird courses for second year",
+      "url": "https://www.reddit.com/r/wlu/comments/m0u75t/bird_courses_for_second_year/",
+      "score": 13,
+      "created": "2021-03-09T00:19:14.000Z",
+      "num_comments": 13,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "SE200 vs. EM203 vs. WS203",
+      "url": "https://www.reddit.com/r/wlu/comments/aeni75/se200_vs_em203_vs_ws203/",
+      "score": 2,
+      "created": "2019-01-10T21:07:52.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "is se200 (social entrepreneurship) worth it?",
+      "url": "https://www.reddit.com/r/wlu/comments/9h0nx1/is_se200_social_entrepreneurship_worth_it/",
+      "score": 3,
+      "created": "2018-09-19T01:04:50.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Spring 2020 Electives Help",
+      "url": "https://www.reddit.com/r/wlu/comments/erl5yv/spring_2020_electives_help/",
+      "score": 4,
+      "created": "2020-01-20T22:48:25.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Anyone take se200? How is it?",
+      "url": "https://www.reddit.com/r/wlu/comments/zaugfu/anyone_take_se200_how_is_it/",
+      "score": 1,
+      "created": "2022-12-02T19:04:50.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "SE200?",
+      "url": "https://www.reddit.com/r/wlu/comments/gfvlux/se200/",
+      "score": 2,
+      "created": "2020-05-08T15:49:55.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Groupchat",
+      "url": "https://www.reddit.com/r/wlu/comments/ipq71q/groupchat/",
+      "score": 2,
+      "created": "2020-09-09T21:59:57.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Second year electives",
+      "url": "https://www.reddit.com/r/wlu/comments/15u37dc/second_year_electives/",
+      "score": 3,
+      "created": "2023-08-17T23:18:51.000Z",
+      "num_comments": 5,
+      "evidence_score": 2.9
+    }
+  ]
+}

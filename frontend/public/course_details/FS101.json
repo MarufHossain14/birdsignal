@@ -1,0 +1,85 @@
+{
+  "code": "FS101",
+  "department": "FS",
+  "bird_score": 6.42,
+  "specific_mentions": 5,
+  "is_online_available": false,
+  "ai_summary": "More posts call it easy than hard (2 vs 0). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
+  "confidence_signals": {
+    "recent_mentions": 1,
+    "oldest_thread_date": "2019-05-13T21:38:03+00:00",
+    "newest_thread_date": "2025-06-09T03:07:56+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 40
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 2,
+    "hard_mentions": 0,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "first year elective recs?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l6ue9i/first_year_elective_recs/",
+      "score": 2,
+      "created": "2025-06-09T03:07:56.000Z",
+      "num_comments": 7,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "are there any extremely easy bird courses for first year?",
+      "url": "https://www.reddit.com/r/wlu/comments/ncl35y/are_there_any_extremely_easy_bird_courses_for/",
+      "score": 2,
+      "created": "2021-05-14T22:47:05.000Z",
+      "num_comments": 23,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "first year electives to take: KS100, EN112, FS101, or CC202",
+      "url": "https://www.reddit.com/r/wlu/comments/vc9al7/first_year_electives_to_take_ks100_en112_fs101_or/",
+      "score": 1,
+      "created": "2022-06-14T17:52:50.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "First Year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/bo9njx/first_year_electives/",
+      "score": 2,
+      "created": "2019-05-13T21:38:03.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Notes &amp; Textbooks for first year BBA students",
+      "url": "https://www.reddit.com/r/wlu/comments/o6ujaw/notes_textbooks_for_first_year_bba_students/",
+      "score": 0,
+      "created": "2021-06-24T05:38:09.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.3
+    }
+  ]
+}

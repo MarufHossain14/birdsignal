@@ -1,0 +1,373 @@
+{
+  "code": "GG102",
+  "department": "GG",
+  "bird_score": 8.48,
+  "specific_mentions": 41,
+  "is_online_available": true,
+  "ai_summary": "More posts call it hard than easy (11 vs 9). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 24,
+    "oldest_thread_date": "2021-04-07T20:33:30+00:00",
+    "newest_thread_date": "2026-02-24T19:28:25+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": -33
+    },
+    "grading": {
+      "label": "Grading",
+      "score": -100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": -20
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 9,
+    "hard_mentions": 11,
+    "workload": 4
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Should i opt out of textbook for GG102 VA and Es110 VA",
+      "url": "https://www.reddit.com/r/wlu/comments/1q9aneh/should_i_opt_out_of_textbook_for_gg102_va_and/",
+      "score": 5,
+      "created": "2026-01-10T17:54:35.000Z",
+      "num_comments": 3,
+      "evidence_score": 6.7
+    },
+    {
+      "title": "GG102 VA",
+      "url": "https://www.reddit.com/r/wlu/comments/1pz2z5j/gg102_va/",
+      "score": 6,
+      "created": "2025-12-30T00:20:12.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.6
+    },
+    {
+      "title": "GG102 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1rdq036/gg102_midterm/",
+      "score": 2,
+      "created": "2026-02-24T19:28:25.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.5
+    },
+    {
+      "title": "GG102 Intro to Human Geography. Is the textbook necessary?",
+      "url": "https://www.reddit.com/r/wlu/comments/1q57zz0/gg102_intro_to_human_geography_is_the_textbook/",
+      "score": 2,
+      "created": "2026-01-06T03:50:17.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 71,
+      "created": "2021-04-07T20:33:30.000Z",
+      "num_comments": 46,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "GG102 insta gc",
+      "url": "https://www.reddit.com/r/wlu/comments/1qdtrow/gg102_insta_gc/",
+      "score": 2,
+      "created": "2026-01-15T19:49:21.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "plz send gg102 notes",
+      "url": "https://www.reddit.com/r/wlu/comments/1qaozpg/plz_send_gg102_notes/",
+      "score": 2,
+      "created": "2026-01-12T07:53:01.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "GG102 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1o7o73x/gg102_midterm/",
+      "score": 2,
+      "created": "2025-10-15T21:44:24.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.5
+    },
+    {
+      "title": "GG102",
+      "url": "https://www.reddit.com/r/wlu/comments/1ocu7lr/gg102/",
+      "score": 2,
+      "created": "2025-10-22T00:45:18.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "I still don't know what courses to take...",
+      "url": "https://www.reddit.com/r/wlu/comments/1popmnj/i_still_dont_know_what_courses_to_take/",
+      "score": 0,
+      "created": "2025-12-17T06:35:46.000Z",
+      "num_comments": 11,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "Which two are the most bird!! Help",
+      "url": "https://www.reddit.com/r/wlu/comments/1q6f5ue/which_two_are_the_most_bird_help/",
+      "score": 0,
+      "created": "2026-01-07T13:19:54.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.3
+    },
+    {
+      "title": "GG102 OC Spring Marinel Mandres",
+      "url": "https://www.reddit.com/r/wlu/comments/1kb43tp/gg102_oc_spring_marinel_mandres/",
+      "score": 4,
+      "created": "2025-04-30T01:01:10.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "GG102 Final exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1jxbv4u/gg102_final_exam/",
+      "score": 7,
+      "created": "2025-04-12T07:30:12.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "GG102 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1g36x5c/gg102_midterm/",
+      "score": 9,
+      "created": "2024-10-14T03:16:53.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.9
+    },
+    {
+      "title": "Gg102 OC vs SC100",
+      "url": "https://www.reddit.com/r/wlu/comments/1lwm9tf/gg102_oc_vs_sc100/",
+      "score": 1,
+      "created": "2025-07-10T19:48:38.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "Gg102 testbank for final",
+      "url": "https://www.reddit.com/r/wlu/comments/1jjn64j/gg102_testbank_for_final/",
+      "score": 3,
+      "created": "2025-03-25T16:14:55.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.7
+    },
+    {
+      "title": "Just selected my courses - wondering if my workload 2nd sem will be too much?",
+      "url": "https://www.reddit.com/r/wlu/comments/1lkhlyv/just_selected_my_courses_wondering_if_my_workload/",
+      "score": 1,
+      "created": "2025-06-25T21:08:11.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.7
+    },
+    {
+      "title": "GG101 or GG102",
+      "url": "https://www.reddit.com/r/wlu/comments/1lkdv02/gg101_or_gg102/",
+      "score": 1,
+      "created": "2025-06-25T18:42:01.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "UU150 vs HS 101",
+      "url": "https://www.reddit.com/r/wlu/comments/1lqv12a/uu150_vs_hs_101/",
+      "score": 1,
+      "created": "2025-07-03T17:09:23.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "2nd year courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1kfuksu/2nd_year_courses/",
+      "score": 2,
+      "created": "2025-05-06T03:07:28.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "AN100 OR gg102",
+      "url": "https://www.reddit.com/r/wlu/comments/1k5j1ly/an100_or_gg102/",
+      "score": 1,
+      "created": "2025-04-22T22:08:01.000Z",
+      "num_comments": 6,
+      "evidence_score": 4.4
+    },
+    {
+      "title": "GG102 Online Class Final",
+      "url": "https://www.reddit.com/r/wlu/comments/1jnp8lm/gg102_online_class_final/",
+      "score": 3,
+      "created": "2025-03-30T23:05:44.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.4
+    },
+    {
+      "title": "gg101 vs gg102",
+      "url": "https://www.reddit.com/r/wlu/comments/1lkplwu/gg101_vs_gg102/",
+      "score": 1,
+      "created": "2025-06-26T03:14:39.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "To GG 102 online learning students",
+      "url": "https://www.reddit.com/r/wlu/comments/1igh52v/to_gg_102_online_learning_students/",
+      "score": 2,
+      "created": "2025-02-03T04:42:35.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Is it bad that I take too many OC?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ljpyxr/is_it_bad_that_i_take_too_many_oc/",
+      "score": 0,
+      "created": "2025-06-24T23:09:32.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "BBA course choices",
+      "url": "https://www.reddit.com/r/wlu/comments/15n99ik/bba_course_choices/",
+      "score": 4,
+      "created": "2023-08-10T11:01:14.000Z",
+      "num_comments": 24,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "GG102 or GG101 as a bird course?",
+      "url": "https://www.reddit.com/r/wlu/comments/1lgbvq3/gg102_or_gg101_as_a_bird_course/",
+      "score": 0,
+      "created": "2025-06-20T18:51:40.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "HR260 and GG102",
+      "url": "https://www.reddit.com/r/wlu/comments/1kdmkfi/hr260_and_gg102/",
+      "score": 1,
+      "created": "2025-05-03T06:37:16.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "GG102 Online final",
+      "url": "https://www.reddit.com/r/wlu/comments/1is0fgq/gg102_online_final/",
+      "score": 2,
+      "created": "2025-02-18T01:08:41.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "Gg102 and es110 OC online winter term",
+      "url": "https://www.reddit.com/r/wlu/comments/1g1t1nc/gg102_and_es110_oc_online_winter_term/",
+      "score": 2,
+      "created": "2024-10-12T05:12:41.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
+      "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
+      "score": 3,
+      "created": "2023-12-04T18:42:01.000Z",
+      "num_comments": 20,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "GG102 Notes",
+      "url": "https://www.reddit.com/r/wlu/comments/1iyqozn/gg102_notes/",
+      "score": 1,
+      "created": "2025-02-26T15:54:20.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "GG102 midterm #1",
+      "url": "https://www.reddit.com/r/wlu/comments/1adks4y/gg102_midterm_1/",
+      "score": 3,
+      "created": "2024-01-29T02:55:57.000Z",
+      "num_comments": 8,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "GG102 with Doherty",
+      "url": "https://www.reddit.com/r/wlu/comments/1gd11iz/gg102_with_doherty/",
+      "score": 1,
+      "created": "2024-10-27T02:25:41.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "Bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1hi90ek/bird_courses/",
+      "score": 0,
+      "created": "2024-12-20T01:49:29.000Z",
+      "num_comments": 15,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "Two Geography courses in one term",
+      "url": "https://www.reddit.com/r/wlu/comments/1dsiq0f/two_geography_courses_in_one_term/",
+      "score": 1,
+      "created": "2024-07-01T02:59:33.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "help me choose electives !!",
+      "url": "https://www.reddit.com/r/wlu/comments/148hwos/help_me_choose_electives/",
+      "score": 2,
+      "created": "2023-06-13T15:23:11.000Z",
+      "num_comments": 12,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "Birds for winter",
+      "url": "https://www.reddit.com/r/wlu/comments/175yaps/birds_for_winter/",
+      "score": 1,
+      "created": "2023-10-12T04:30:39.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "GG102 OC spring",
+      "url": "https://www.reddit.com/r/wlu/comments/1cmjswd/gg102_oc_spring/",
+      "score": 1,
+      "created": "2024-05-07T19:05:51.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Syllabus for OL101, GG102, ES110",
+      "url": "https://www.reddit.com/r/wlu/comments/1dmntdc/syllabus_for_ol101_gg102_es110/",
+      "score": 0,
+      "created": "2024-06-23T14:48:56.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "First Year Electives (BBA)",
+      "url": "https://www.reddit.com/r/wlu/comments/1dmb1ax/first_year_electives_bba/",
+      "score": 0,
+      "created": "2024-06-23T01:37:01.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.6
+    }
+  ]
+}

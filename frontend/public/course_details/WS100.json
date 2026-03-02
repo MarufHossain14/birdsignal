@@ -1,0 +1,301 @@
+{
+  "code": "WS100",
+  "department": "WS",
+  "bird_score": 9.05,
+  "specific_mentions": 32,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (6 vs 4). Light workload signals across 2 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "confidence_signals": {
+    "recent_mentions": 8,
+    "oldest_thread_date": "2018-07-09T21:42:13+00:00",
+    "newest_thread_date": "2026-01-22T00:06:52+00:00",
+    "sample_bias_warning": "Most evidence is older. Course experience may have changed."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 20
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 6,
+    "hard_mentions": 4,
+    "workload": 2
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": true
+  },
+  "threads": [
+    {
+      "title": "Has anyone taken WS100 and if so is it a bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/1pvlmmu/has_anyone_taken_ws100_and_if_so_is_it_a_bird/",
+      "score": 1,
+      "created": "2025-12-25T20:06:46.000Z",
+      "num_comments": 7,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "ws100 notes",
+      "url": "https://www.reddit.com/r/wlu/comments/1qjexx9/ws100_notes/",
+      "score": 1,
+      "created": "2026-01-22T00:06:52.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.7
+    },
+    {
+      "title": "WS100 - Helen",
+      "url": "https://www.reddit.com/r/wlu/comments/1jgp977/ws100_helen/",
+      "score": 9,
+      "created": "2025-03-21T19:28:26.000Z",
+      "num_comments": 9,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "Exam Study Guide Google Doc [Free] Hopefully this helps with any remaining exams",
+      "url": "https://www.reddit.com/r/wlu/comments/ecckjd/exam_study_guide_google_doc_free_hopefully_this/",
+      "score": 82,
+      "created": "2019-12-18T13:24:21.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.4
+    },
+    {
+      "title": "Anyone taking WS100 - VA",
+      "url": "https://www.reddit.com/r/wlu/comments/1p3b2gk/anyone_taking_ws100_va/",
+      "score": 1,
+      "created": "2025-11-21T21:34:22.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.2
+    },
+    {
+      "title": "elective help (PS101, SY101, WS100)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lzun7r/elective_help_ps101_sy101_ws100/",
+      "score": 3,
+      "created": "2025-07-14T18:39:48.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.2
+    },
+    {
+      "title": "What are the easiest/best courses for me to take first year BBA?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l162s9/what_are_the_easiestbest_courses_for_me_to_take/",
+      "score": 7,
+      "created": "2025-06-02T01:52:47.000Z",
+      "num_comments": 19,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "Elective",
+      "url": "https://www.reddit.com/r/wlu/comments/1q4h4rj/elective/",
+      "score": 1,
+      "created": "2026-01-05T09:20:38.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "Anyone taking WS100 - VA",
+      "url": "https://www.reddit.com/r/wlu/comments/1p3b2o8/anyone_taking_ws100_va/",
+      "score": 0,
+      "created": "2025-11-21T21:34:35.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "WS 100",
+      "url": "https://www.reddit.com/r/wlu/comments/1hhd28o/ws_100/",
+      "score": 1,
+      "created": "2024-12-18T22:02:07.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "WS100",
+      "url": "https://www.reddit.com/r/wlu/comments/1hed3bd/ws100/",
+      "score": 1,
+      "created": "2024-12-14T21:33:07.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "ws100 with helen ramirez",
+      "url": "https://www.reddit.com/r/wlu/comments/1fyqug1/ws100_with_helen_ramirez/",
+      "score": 1,
+      "created": "2024-10-08T03:42:06.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "WS100 or GG101",
+      "url": "https://www.reddit.com/r/wlu/comments/ele08o/ws100_or_gg101/",
+      "score": 3,
+      "created": "2020-01-07T16:45:09.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "Ps101",
+      "url": "https://www.reddit.com/r/wlu/comments/8xgllv/ps101/",
+      "score": 3,
+      "created": "2018-07-09T21:42:13.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "WS100 with Helen",
+      "url": "https://www.reddit.com/r/wlu/comments/199w6tn/ws100_with_helen/",
+      "score": 1,
+      "created": "2024-01-18T17:56:35.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "WS100 online with Loraine or in person with Helen",
+      "url": "https://www.reddit.com/r/wlu/comments/194crz2/ws100_online_with_loraine_or_in_person_with_helen/",
+      "score": 1,
+      "created": "2024-01-11T21:18:06.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "Can anyone send the textbooks for WS100 OC (Lorraine), EM202 OC (Nadeem Saqlain), or AS101 OC (Ismael Moumen)?",
+      "url": "https://www.reddit.com/r/wlu/comments/1093890/can_anyone_send_the_textbooks_for_ws100_oc/",
+      "score": 2,
+      "created": "2023-01-11T12:12:11.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "WS100 Online Lorraine Vander Hoef",
+      "url": "https://www.reddit.com/r/wlu/comments/zt9oaf/ws100_online_lorraine_vander_hoef/",
+      "score": 2,
+      "created": "2022-12-23T07:51:21.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Elective Recommendations?",
+      "url": "https://www.reddit.com/r/wlu/comments/hxas72/elective_recommendations/",
+      "score": 2,
+      "created": "2020-07-24T21:47:19.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "PP201, NO105, WS100, PP247 difficulty?",
+      "url": "https://www.reddit.com/r/wlu/comments/c5v733/pp201_no105_ws100_pp247_difficulty/",
+      "score": 1,
+      "created": "2019-06-26T20:17:18.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "First Year Electives for BBA student Please help!",
+      "url": "https://www.reddit.com/r/wlu/comments/bwse2a/first_year_electives_for_bba_student_please_help/",
+      "score": 1,
+      "created": "2019-06-04T18:48:15.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "WS100 or GG101",
+      "url": "https://www.reddit.com/r/wlu/comments/elgx6x/ws100_or_gg101/",
+      "score": 2,
+      "created": "2020-01-07T20:09:49.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "WS100 OC TEST BANKS!!",
+      "url": "https://www.reddit.com/r/wlu/comments/dd2kqe/ws100_oc_test_banks/",
+      "score": 2,
+      "created": "2019-10-04T04:40:36.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Thoughts on RE104",
+      "url": "https://www.reddit.com/r/wlu/comments/hyvy5a/thoughts_on_re104/",
+      "score": 2,
+      "created": "2020-07-27T16:50:53.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Which course should I take that? I need a bird course: AN100 online or WS100 online???",
+      "url": "https://www.reddit.com/r/wlu/comments/18vpkf1/which_course_should_i_take_that_i_need_a_bird/",
+      "score": 0,
+      "created": "2024-01-01T05:08:37.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "WS100?",
+      "url": "https://www.reddit.com/r/wlu/comments/kljlp2/ws100/",
+      "score": 1,
+      "created": "2020-12-28T04:55:26.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "An100 got harder?? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1fbhfdc/an100_got_harder/",
+      "score": 0,
+      "created": "2024-09-07T21:16:30.000Z",
+      "num_comments": 11,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "Ws100 online or an100 online",
+      "url": "https://www.reddit.com/r/wlu/comments/197buqi/ws100_online_or_an100_online/",
+      "score": 0,
+      "created": "2024-01-15T15:49:01.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "WS100 with prof helen or lorraine?",
+      "url": "https://www.reddit.com/r/wlu/comments/vi41z1/ws100_with_prof_helen_or_lorraine/",
+      "score": 0,
+      "created": "2022-06-22T12:25:56.000Z",
+      "num_comments": 4,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "bird courses help",
+      "url": "https://www.reddit.com/r/wlu/comments/rw52dc/bird_courses_help/",
+      "score": 0,
+      "created": "2022-01-04T21:20:44.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "WS100 group chat",
+      "url": "https://www.reddit.com/r/wlu/comments/xda1pq/ws100_group_chat/",
+      "score": 0,
+      "created": "2022-09-13T15:07:53.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.1
+    },
+    {
+      "title": "WS100 Textbook?",
+      "url": "https://www.reddit.com/r/wlu/comments/kuihu3/ws100_textbook/",
+      "score": 0,
+      "created": "2021-01-10T17:18:16.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.0
+    }
+  ]
+}

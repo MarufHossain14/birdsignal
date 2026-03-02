@@ -1,0 +1,93 @@
+{
+  "code": "EC234",
+  "department": "EC",
+  "bird_score": 4.4,
+  "specific_mentions": 6,
+  "is_online_available": false,
+  "ai_summary": "More posts call it easy than hard (3 vs 0). Light workload signals across 0 workload references. Finals: mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
+  "confidence_signals": {
+    "recent_mentions": 2,
+    "oldest_thread_date": "2022-07-04T19:17:13+00:00",
+    "newest_thread_date": "2025-12-29T16:16:10+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 3,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Ec234 final",
+      "url": "https://www.reddit.com/r/wlu/comments/1pqkzfh/ec234_final/",
+      "score": 4,
+      "created": "2025-12-19T13:23:17.000Z",
+      "num_comments": 0,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "EC234 Final Grades",
+      "url": "https://www.reddit.com/r/wlu/comments/1pyqdjd/ec234_final_grades/",
+      "score": 1,
+      "created": "2025-12-29T16:16:10.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.6
+    },
+    {
+      "title": "is Sports Economics with Ken Jackson only available during the spring term? (EC234)",
+      "url": "https://www.reddit.com/r/wlu/comments/14psu8g/is_sports_economics_with_ken_jackson_only/",
+      "score": 7,
+      "created": "2023-07-03T19:48:50.000Z",
+      "num_comments": 8,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Second Year Econ Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
+      "score": 2,
+      "created": "2024-07-05T03:42:23.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "EC234",
+      "url": "https://www.reddit.com/r/wlu/comments/vrf0ne/ec234/",
+      "score": 4,
+      "created": "2022-07-04T19:17:13.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "Second year econ",
+      "url": "https://www.reddit.com/r/wlu/comments/vrj01c/second_year_econ/",
+      "score": 3,
+      "created": "2022-07-04T22:23:38.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.1
+    }
+  ]
+}

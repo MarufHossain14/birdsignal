@@ -1,0 +1,53 @@
+{
+  "code": "MZ200",
+  "department": "MZ",
+  "bird_score": 9.33,
+  "specific_mentions": 1,
+  "is_online_available": false,
+  "ai_summary": "Very limited evidence (1 mention). Use the thread list directly before relying on this score.",
+  "confidence_signals": {
+    "recent_mentions": 0,
+    "oldest_thread_date": "2021-05-26T00:08:46+00:00",
+    "newest_thread_date": "2021-05-26T00:08:46+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Anyone taken MZ200, Re213 or MZ201??",
+      "url": "https://www.reddit.com/r/wlu/comments/nl3pio/anyone_taken_mz200_re213_or_mz201/",
+      "score": 2,
+      "created": "2021-05-26T00:08:46.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    }
+  ]
+}

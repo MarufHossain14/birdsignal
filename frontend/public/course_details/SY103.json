@@ -1,0 +1,157 @@
+{
+  "code": "SY103",
+  "department": "SY",
+  "bird_score": 4.47,
+  "specific_mentions": 14,
+  "is_online_available": true,
+  "ai_summary": "More posts call it hard than easy (4 vs 2). Light workload signals across 0 workload references. Finals: mentioned; midterms: not clearly mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 8,
+    "oldest_thread_date": "2020-12-24T19:30:20+00:00",
+    "newest_thread_date": "2026-02-02T21:09:37+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 2,
+    "hard_mentions": 4,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "What r some bird courses I can take to boost my Avrg",
+      "url": "https://www.reddit.com/r/wlu/comments/1ootlxo/what_r_some_bird_courses_i_can_take_to_boost_my/",
+      "score": 4,
+      "created": "2025-11-05T04:35:04.000Z",
+      "num_comments": 3,
+      "evidence_score": 6.1
+    },
+    {
+      "title": "Taking SY103 without doing SY101",
+      "url": "https://www.reddit.com/r/wlu/comments/1q4zkwr/taking_sy103_without_doing_sy101/",
+      "score": 2,
+      "created": "2026-01-05T22:01:24.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.0
+    },
+    {
+      "title": "SY103 Test 1",
+      "url": "https://www.reddit.com/r/wlu/comments/1qu7s48/sy103_test_1/",
+      "score": 1,
+      "created": "2026-02-02T21:09:37.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "Anyone one need the textbook's for CS100, SY103, or EN165?",
+      "url": "https://www.reddit.com/r/wlu/comments/1q6nkul/anyone_one_need_the_textbooks_for_cs100_sy103_or/",
+      "score": 2,
+      "created": "2026-01-07T18:36:52.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "SY103",
+      "url": "https://www.reddit.com/r/wlu/comments/1pvmrxd/sy103/",
+      "score": 1,
+      "created": "2025-12-25T21:01:56.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.7
+    },
+    {
+      "title": "UU100 with Rebecca Pister and SY103 with Greg Bird",
+      "url": "https://www.reddit.com/r/wlu/comments/1pikjvq/uu100_with_rebecca_pister_and_sy103_with_greg_bird/",
+      "score": 1,
+      "created": "2025-12-09T21:57:04.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.7
+    },
+    {
+      "title": "Sociology schedule",
+      "url": "https://www.reddit.com/r/wlu/comments/1q4y6hp/sociology_schedule/",
+      "score": 2,
+      "created": "2026-01-05T21:09:41.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.3
+    },
+    {
+      "title": "Does my schedule look good (first year bba)?",
+      "url": "https://www.reddit.com/r/wlu/comments/1liw40x/does_my_schedule_look_good_first_year_bba/",
+      "score": 3,
+      "created": "2025-06-23T23:38:36.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.4
+    },
+    {
+      "title": "CS100 vs SY103",
+      "url": "https://www.reddit.com/r/wlu/comments/18k9smf/cs100_vs_sy103/",
+      "score": 2,
+      "created": "2023-12-17T05:08:19.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "What are good coures to take as first psych student at Laurier for BA? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1dgt44r/what_are_good_coures_to_take_as_first_psych/",
+      "score": 3,
+      "created": "2024-06-15T22:19:20.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "SY101 difficulty?",
+      "url": "https://www.reddit.com/r/wlu/comments/1htnrsf/sy101_difficulty/",
+      "score": 0,
+      "created": "2025-01-04T20:37:57.000Z",
+      "num_comments": 5,
+      "evidence_score": 2.7
+    },
+    {
+      "title": "How is SY103",
+      "url": "https://www.reddit.com/r/wlu/comments/kjl8qc/how_is_sy103/",
+      "score": 1,
+      "created": "2020-12-24T19:30:20.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "First Year Sociology courses",
+      "url": "https://www.reddit.com/r/wlu/comments/149ucbi/first_year_sociology_courses/",
+      "score": 0,
+      "created": "2023-06-15T06:00:41.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "As of 2024, What are the best first year electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
+      "score": 0,
+      "created": "2024-06-17T02:28:21.000Z",
+      "num_comments": 7,
+      "evidence_score": 2.3
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "code": "ES274",
+  "department": "ES",
+  "bird_score": 8.24,
+  "specific_mentions": 17,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (6 vs 3). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 6,
+    "oldest_thread_date": "2022-07-11T15:37:17+00:00",
+    "newest_thread_date": "2025-12-29T17:13:34+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 0
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 6,
+    "hard_mentions": 3,
+    "workload": 3
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Advice on easiest electives (PP201, SC100, ES110, ES274, ES295)?",
+      "url": "https://www.reddit.com/r/wlu/comments/1pyrx3q/advice_on_easiest_electives_pp201_sc100_es110/",
+      "score": 4,
+      "created": "2025-12-29T17:13:34.000Z",
+      "num_comments": 6,
+      "evidence_score": 6.6
+    },
+    {
+      "title": "Es274",
+      "url": "https://www.reddit.com/r/wlu/comments/1pycnyb/es274/",
+      "score": 1,
+      "created": "2025-12-29T04:33:41.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.8
+    },
+    {
+      "title": "ES274",
+      "url": "https://www.reddit.com/r/wlu/comments/1ncnrb9/es274/",
+      "score": 2,
+      "created": "2025-09-09T16:34:04.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "ES274 VIRTUAL FINAL",
+      "url": "https://www.reddit.com/r/wlu/comments/1kfccgs/es274_virtual_final/",
+      "score": 3,
+      "created": "2025-05-05T14:00:55.000Z",
+      "num_comments": 6,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "Second year electives - winter semester",
+      "url": "https://www.reddit.com/r/wlu/comments/1lu73yn/second_year_electives_winter_semester/",
+      "score": 1,
+      "created": "2025-07-07T21:48:33.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "Es274 OC exam grade",
+      "url": "https://www.reddit.com/r/wlu/comments/1ewzmq2/es274_oc_exam_grade/",
+      "score": 2,
+      "created": "2024-08-20T16:12:01.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "course help",
+      "url": "https://www.reddit.com/r/wlu/comments/1lq8031/course_help/",
+      "score": 1,
+      "created": "2025-07-02T21:33:03.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "GG294, CC102 (OC), ES274, ES295, ES296, GG231, GG270",
+      "url": "https://www.reddit.com/r/wlu/comments/vwlba2/gg294_cc102_oc_es274_es295_es296_gg231_gg270/",
+      "score": 3,
+      "created": "2022-07-11T15:37:17.000Z",
+      "num_comments": 10,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "OC electives with no midterms/finals",
+      "url": "https://www.reddit.com/r/wlu/comments/xt4evi/oc_electives_with_no_midtermsfinals/",
+      "score": 2,
+      "created": "2022-10-01T19:48:12.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "ES274 or ES295 online in the spring? whats the breakdown f the corse loads?",
+      "url": "https://www.reddit.com/r/wlu/comments/1azy0p3/es274_or_es295_online_in_the_spring_whats_the/",
+      "score": 2,
+      "created": "2024-02-25T20:29:40.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "2nd year elective recommendations? (I\u2019m in bba)",
+      "url": "https://www.reddit.com/r/wlu/comments/12yc1k1/2nd_year_elective_recommendations_im_in_bba/",
+      "score": 5,
+      "created": "2023-04-25T07:38:32.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "online courses",
+      "url": "https://www.reddit.com/r/wlu/comments/12v8xtr/online_courses/",
+      "score": 1,
+      "created": "2023-04-22T15:14:41.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Second Year bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1chzw2d/second_year_bird_courses/",
+      "score": 2,
+      "created": "2024-05-01T22:52:37.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "Has anyone taken ES274 OC?",
+      "url": "https://www.reddit.com/r/wlu/comments/10fhvhc/has_anyone_taken_es274_oc/",
+      "score": 0,
+      "created": "2023-01-18T20:32:33.000Z",
+      "num_comments": 5,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "Bird econ courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1176thi/bird_econ_courses/",
+      "score": 1,
+      "created": "2023-02-20T13:36:03.000Z",
+      "num_comments": 5,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "EM212 and ES274",
+      "url": "https://www.reddit.com/r/wlu/comments/14qy1xw/em212_and_es274/",
+      "score": 0,
+      "created": "2023-07-05T02:39:14.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "Easiest 2nd year econ course",
+      "url": "https://www.reddit.com/r/wlu/comments/ymgmkm/easiest_2nd_year_econ_course/",
+      "score": 0,
+      "created": "2022-11-05T01:34:47.000Z",
+      "num_comments": 5,
+      "evidence_score": 1.7
+    }
+  ]
+}

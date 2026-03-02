@@ -46,7 +46,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
         <span className="text-[var(--muted)]">
           {mentions} mentions{scoreConfidence === "low" ? " • low confidence" : ""}
         </span>
-        <span className="text-[var(--muted)] transition-transform group-hover:translate-x-0.5">
+        <span className="text-[var(--muted)]/80">
           View
         </span>
       </div>

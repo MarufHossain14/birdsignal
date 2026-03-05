@@ -264,14 +264,15 @@ function App() {
     <div className="min-h-screen bg-[var(--bg)] text-[var(--text)]">
       <Header onSearch={handleSearch} />
 
-      <main className="mx-auto max-w-6xl px-4 pb-24 pt-44 sm:px-6 sm:pt-32 md:px-8">
+      <main className="mx-auto max-w-6xl px-4 pb-24 pt-40 sm:px-6 sm:pt-32 md:px-8">
         <div className="mb-12">
           <h1 className="text-3xl tracking-tight text-[var(--primary)] md:text-4xl">
             Understand BirdScore Quickly
           </h1>
           <p className="mt-4 max-w-3xl text-[var(--muted)]">
             BirdScore runs from 0.0 to 10.0. Higher means the course is usually
-            lighter and easier, based on student mentions on Reddit.
+            lighter and easier, based on Reddit discussion signals including
+            workload, difficulty, assessments, and overall sentiment.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-2 text-xs sm:text-sm">
             <span className="rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-emerald-800">
@@ -291,7 +292,7 @@ function App() {
         </div>
 
         {loading ? (
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4 lg:grid-cols-3">
             {Array.from({ length: 6 }).map((_, index) => (
               <div
                 key={index}
@@ -320,7 +321,7 @@ function App() {
                 <select
                   value={deliveryFilter}
                   onChange={(event) => setDeliveryFilter(event.target.value as DeliveryFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-xs text-[var(--muted)] md:min-w-[10rem] md:w-auto"
+                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All delivery</option>
                   <option value="online">Online-friendly</option>
@@ -329,7 +330,7 @@ function App() {
                 <select
                   value={assessmentFilter}
                   onChange={(event) => setAssessmentFilter(event.target.value as AssessmentFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-xs text-[var(--muted)] md:min-w-[10rem] md:w-auto"
+                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All assessments</option>
                   <option value="few-exams">Few exams</option>
@@ -339,7 +340,7 @@ function App() {
                 <select
                   value={workloadFilter}
                   onChange={(event) => setWorkloadFilter(event.target.value as WorkloadFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-xs text-[var(--muted)] md:min-w-[10rem] md:w-auto"
+                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All workloads</option>
                   <option value="light">Light workload</option>
@@ -349,7 +350,7 @@ function App() {
                 <select
                   value={yearLevelFilter}
                   onChange={(event) => setYearLevelFilter(event.target.value as YearLevelFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-xs text-[var(--muted)] md:min-w-[10rem] md:w-auto"
+                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All year levels</option>
                   <option value="100">100 level</option>
@@ -360,7 +361,7 @@ function App() {
                 <select
                   value={catalogFilter}
                   onChange={(event) => setCatalogFilter(event.target.value as CatalogFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-xs text-[var(--muted)] md:min-w-[10rem] md:w-auto"
+                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All groups</option>
                   <option value="bird-courses">Bird Courses</option>
@@ -384,7 +385,7 @@ function App() {
                 No courses match your search.
               </div>
             ) : (
-              <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+              <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4 lg:grid-cols-3">
                 {filteredCourses.map((course) => (
                   <CourseCard
                     key={course.code}

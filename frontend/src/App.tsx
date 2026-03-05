@@ -267,10 +267,26 @@ function App() {
       <main className="mx-auto max-w-6xl px-4 pb-24 pt-44 sm:px-6 sm:pt-32 md:px-8">
         <div className="mb-12">
           <h1 className="text-3xl tracking-tight text-[var(--primary)] md:text-4xl">
-            Course Signals, Simplified
+            Understand BirdScore Quickly
           </h1>
-          <p className="mt-4 max-w-2xl text-[var(--muted)]">
-            Browse Reddit-derived bird scores with only the details you need.
+          <p className="mt-4 max-w-3xl text-[var(--muted)]">
+            BirdScore runs from 0.0 to 10.0. Higher means the course is usually
+            lighter and easier, based on student mentions on Reddit.
+          </p>
+          <div className="mt-4 flex flex-wrap items-center gap-2 text-xs sm:text-sm">
+            <span className="rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-emerald-800">
+              8.0-10.0 Easy / light
+            </span>
+            <span className="rounded-full border border-amber-200 bg-amber-50 px-2.5 py-1 text-amber-900">
+              6.0-7.9 Moderate
+            </span>
+            <span className="rounded-full border border-rose-200 bg-rose-50 px-2.5 py-1 text-rose-900">
+              0.0-5.9 Heavier
+            </span>
+          </div>
+          <p className="mt-3 max-w-3xl text-xs text-[var(--muted)]">
+            This is a directional signal, not a guarantee. N/A means there is not
+            enough reliable data yet.
           </p>
         </div>
 

@@ -16,10 +16,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch }) => {
   }, [query, onSearch]);
 
   return (
-    <header
-      className="fixed left-0 top-0 z-40 border-b border-[var(--line)] bg-[var(--surface)]/95 backdrop-blur-sm"
-      style={{ right: "var(--scrollbar-compensation, 0px)" }}
-    >
+    <header className="fixed inset-x-0 top-0 z-40 border-b border-[var(--line)] bg-[var(--surface)]/95">
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-5 sm:px-6 sm:py-3.5 md:px-8">
         <div className="flex items-center gap-3">
           <img src="/logo.png" alt="BirdSignal logo" className="h-7 w-7 object-contain" />

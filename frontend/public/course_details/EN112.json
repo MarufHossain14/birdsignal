@@ -1,7 +1,7 @@
 {
   "code": "EN112",
   "department": "EN",
-  "bird_score": 6.07,
+  "bird_score": 6.06,
   "specific_mentions": 9,
   "is_online_available": false,
   "ai_summary": "Mixed difficulty signals (1 easy, 1 hard mentions). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Most evidence is older. Course experience may have changed.",
@@ -52,10 +52,10 @@
     {
       "title": "How do you guys like literature &amp; love (EN112)",
       "url": "https://www.reddit.com/r/wlu/comments/1liokbf/how_do_you_guys_like_literature_love_en112/",
-      "score": 6,
+      "score": 4,
       "created": "2025-06-23T18:36:27.000Z",
       "num_comments": 5,
-      "evidence_score": 5.6
+      "evidence_score": 5.4
     },
     {
       "title": "En112 - Lit and Love",

@@ -58,14 +58,6 @@
       "evidence_score": 3.4
     },
     {
-      "title": "Hey guys! I need some help picking electives. Lets Pool our knowledge!",
-      "url": "https://www.reddit.com/r/wlu/comments/1gxsla/hey_guys_i_need_some_help_picking_electives_lets/",
-      "score": 8,
-      "created": "2013-06-24T00:36:31.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.2
-    },
-    {
       "title": "when do the online courses show up on myls and my schedule?",
       "url": "https://www.reddit.com/r/wlu/comments/1910s7e/when_do_the_online_courses_show_up_on_myls_and_my/",
       "score": 1,
@@ -79,6 +71,14 @@
       "score": 1,
       "created": "2023-01-19T17:12:42.000Z",
       "num_comments": 4,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Hey guys! I need some help picking electives. Lets Pool our knowledge!",
+      "url": "https://www.reddit.com/r/wlu/comments/1gxsla/hey_guys_i_need_some_help_picking_electives_lets/",
+      "score": 6,
+      "created": "2013-06-24T00:36:31.000Z",
+      "num_comments": 3,
       "evidence_score": 3.0
     },
     {
@@ -100,10 +100,10 @@
     {
       "title": "What are some easy online bird courses for winter term",
       "url": "https://www.reddit.com/r/wlu/comments/z84g8p/what_are_some_easy_online_bird_courses_for_winter/",
-      "score": 1,
+      "score": 2,
       "created": "2022-11-29T20:04:36.000Z",
       "num_comments": 7,
-      "evidence_score": 2.3
+      "evidence_score": 2.6
     },
     {
       "title": "Bird summer (6 week) online courses?",

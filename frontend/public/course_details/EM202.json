@@ -1,12 +1,12 @@
 {
   "code": "EM202",
   "department": "EM",
-  "bird_score": 8.79,
-  "specific_mentions": 38,
+  "bird_score": 10.0,
+  "specific_mentions": 65,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (20 vs 6). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "ai_summary": "More posts call it easy than hard (37 vs 9). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
-    "recent_mentions": 11,
+    "recent_mentions": 13,
     "oldest_thread_date": "2020-10-19T03:02:37+00:00",
     "newest_thread_date": "2026-02-28T01:15:48+00:00",
     "sample_bias_warning": "Most evidence is older. Course experience may have changed."
@@ -14,7 +14,7 @@
   "aspect_sentiment": {
     "difficulty": {
       "label": "Difficulty",
-      "score": 0
+      "score": 100
     },
     "grading": {
       "label": "Grading",
@@ -30,8 +30,8 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 20,
-    "hard_mentions": 6,
+    "easy_mentions": 37,
+    "hard_mentions": 9,
     "workload": 3
   },
   "course_structure": {
@@ -76,18 +76,18 @@
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 16,
+      "score": 15,
       "created": "2024-09-10T16:03:00.000Z",
       "num_comments": 24,
-      "evidence_score": 5.7
+      "evidence_score": 5.6
     },
     {
       "title": "My Bird Course List",
       "url": "https://www.reddit.com/r/wlu/comments/1b0zpn1/my_bird_course_list/",
-      "score": 25,
+      "score": 27,
       "created": "2024-02-27T01:53:43.000Z",
       "num_comments": 5,
-      "evidence_score": 5.3
+      "evidence_score": 5.4
     },
     {
       "title": "Electives for Winter 2026 Term",
@@ -100,10 +100,10 @@
     {
       "title": "Online classes spring 2025",
       "url": "https://www.reddit.com/r/wlu/comments/1itb2b3/online_classes_spring_2025/",
-      "score": 14,
+      "score": 13,
       "created": "2025-02-19T17:25:55.000Z",
       "num_comments": 13,
-      "evidence_score": 5.1
+      "evidence_score": 5.0
     },
     {
       "title": "recommend some electives to me!! what did you enjoy?",
@@ -127,6 +127,14 @@
       "score": 1,
       "created": "2025-07-02T19:30:42.000Z",
       "num_comments": 2,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "What are some easy 12s for senior electives? (200 or above)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lbmivr/what_are_some_easy_12s_for_senior_electives_200/",
+      "score": 7,
+      "created": "2025-06-14T23:46:09.000Z",
+      "num_comments": 1,
       "evidence_score": 4.6
     },
     {
@@ -154,14 +162,6 @@
       "evidence_score": 4.1
     },
     {
-      "title": "How are my electives (first year)",
-      "url": "https://www.reddit.com/r/wlu/comments/1lcacdl/how_are_my_electives_first_year/",
-      "score": 0,
-      "created": "2025-06-15T20:35:15.000Z",
-      "num_comments": 2,
-      "evidence_score": 4.0
-    },
-    {
       "title": "Senior Elective Choices -  EM299 and EM300 ?",
       "url": "https://www.reddit.com/r/wlu/comments/1e5pd47/senior_elective_choices_em299_and_em300/",
       "score": 2,
@@ -170,11 +170,27 @@
       "evidence_score": 4.0
     },
     {
+      "title": "How are my electives (first year)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lcacdl/how_are_my_electives_first_year/",
+      "score": 0,
+      "created": "2025-06-15T20:35:15.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.9
+    },
+    {
       "title": "EM202 Culmulating Assignment",
       "url": "https://www.reddit.com/r/wlu/comments/1c4oskd/em202_culmulating_assignment/",
       "score": 2,
       "created": "2024-04-15T15:17:45.000Z",
       "num_comments": 8,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "Winter 2024 bird electives",
+      "url": "https://www.reddit.com/r/wlu/comments/18pibhw/winter_2024_bird_electives/",
+      "score": 8,
+      "created": "2023-12-23T23:47:20.000Z",
+      "num_comments": 12,
       "evidence_score": 3.8
     },
     {
@@ -186,20 +202,20 @@
       "evidence_score": 3.7
     },
     {
-      "title": "Winter 2025 electives",
-      "url": "https://www.reddit.com/r/wlu/comments/1hgue3i/winter_2025_electives/",
-      "score": 0,
-      "created": "2024-12-18T05:05:59.000Z",
-      "num_comments": 9,
-      "evidence_score": 3.6
+      "title": "Bird courses with take home exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1laqibq/bird_courses_with_take_home_exam/",
+      "score": 1,
+      "created": "2025-06-13T20:39:53.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.7
     },
     {
-      "title": "OC electives with no midterms/finals",
-      "url": "https://www.reddit.com/r/wlu/comments/xt4evi/oc_electives_with_no_midtermsfinals/",
-      "score": 3,
-      "created": "2022-10-01T19:48:12.000Z",
+      "title": "Class Suggestions",
+      "url": "https://www.reddit.com/r/wlu/comments/1ix6cwf/class_suggestions/",
+      "score": 2,
+      "created": "2025-02-24T16:39:13.000Z",
       "num_comments": 7,
-      "evidence_score": 3.6
+      "evidence_score": 3.7
     },
     {
       "title": "ec223 and em202",
@@ -207,6 +223,14 @@
       "score": 4,
       "created": "2021-03-05T03:18:03.000Z",
       "num_comments": 2,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "Winter 2025 electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgue3i/winter_2025_electives/",
+      "score": 0,
+      "created": "2024-12-18T05:05:59.000Z",
+      "num_comments": 9,
       "evidence_score": 3.5
     },
     {
@@ -234,11 +258,19 @@
       "evidence_score": 3.5
     },
     {
-      "title": "Thoughts on these courses?",
-      "url": "https://www.reddit.com/r/wlu/comments/ofoszv/thoughts_on_these_courses/",
-      "score": 3,
-      "created": "2021-07-07T18:22:26.000Z",
-      "num_comments": 7,
+      "title": "2nd yr Fall schedule review",
+      "url": "https://www.reddit.com/r/wlu/comments/1eq7n0s/2nd_yr_fall_schedule_review/",
+      "score": 4,
+      "created": "2024-08-12T07:36:17.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "EM101 OC with Sarrah Beemer",
+      "url": "https://www.reddit.com/r/wlu/comments/1fe955o/em101_oc_with_sarrah_beemer/",
+      "score": 4,
+      "created": "2024-09-11T12:41:28.000Z",
+      "num_comments": 2,
       "evidence_score": 3.5
     },
     {
@@ -250,11 +282,27 @@
       "evidence_score": 3.4
     },
     {
+      "title": "OC electives with no midterms/finals",
+      "url": "https://www.reddit.com/r/wlu/comments/xt4evi/oc_electives_with_no_midtermsfinals/",
+      "score": 2,
+      "created": "2022-10-01T19:48:12.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.4
+    },
+    {
       "title": "first year courses selection",
       "url": "https://www.reddit.com/r/wlu/comments/14e24e3/first_year_courses_selection/",
       "score": 2,
       "created": "2023-06-20T05:36:09.000Z",
       "num_comments": 2,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "Thoughts on these courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/ofoszv/thoughts_on_these_courses/",
+      "score": 2,
+      "created": "2021-07-07T18:22:26.000Z",
+      "num_comments": 7,
       "evidence_score": 3.3
     },
     {
@@ -264,6 +312,22 @@
       "created": "2025-05-22T22:06:05.000Z",
       "num_comments": 10,
       "evidence_score": 3.3
+    },
+    {
+      "title": "Gg102 and es110 OC online winter term",
+      "url": "https://www.reddit.com/r/wlu/comments/1g1t1nc/gg102_and_es110_oc_online_winter_term/",
+      "score": 2,
+      "created": "2024-10-12T05:12:41.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "Second year, Second semester bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1hjnm2p/second_year_second_semester_bird_courses/",
+      "score": 2,
+      "created": "2024-12-22T00:54:19.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.2
     },
     {
       "title": "Can anyone send the textbooks for WS100 OC (Lorraine), EM202 OC (Nadeem Saqlain), or AS101 OC (Ismael Moumen)?",
@@ -290,11 +354,27 @@
       "evidence_score": 3.1
     },
     {
+      "title": "Easy second year electives to boost GPA",
+      "url": "https://www.reddit.com/r/wlu/comments/mzdubt/easy_second_year_electives_to_boost_gpa/",
+      "score": 6,
+      "created": "2021-04-27T01:55:16.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.1
+    },
+    {
       "title": "In person 2nd year electives",
       "url": "https://www.reddit.com/r/wlu/comments/vs80re/in_person_2nd_year_electives/",
       "score": 1,
       "created": "2022-07-05T20:57:31.000Z",
       "num_comments": 4,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Spring 2021 Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/l1scgi/spring_2021_bird_courses/",
+      "score": 7,
+      "created": "2021-01-21T05:58:32.000Z",
+      "num_comments": 1,
       "evidence_score": 3.0
     },
     {
@@ -306,6 +386,22 @@
       "evidence_score": 2.9
     },
     {
+      "title": "Easiest BBA electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1der9n0/easiest_bba_electives/",
+      "score": 1,
+      "created": "2024-06-13T05:18:09.000Z",
+      "num_comments": 10,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "Any OC recommendation?",
+      "url": "https://www.reddit.com/r/wlu/comments/11ww0d5/any_oc_recommendation/",
+      "score": 4,
+      "created": "2023-03-20T21:09:44.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.9
+    },
+    {
       "title": "EM101 vs EM110 vs EM202/203",
       "url": "https://www.reddit.com/r/wlu/comments/1500qpk/em101_vs_em110_vs_em202203/",
       "score": 0,
@@ -314,11 +410,51 @@
       "evidence_score": 2.8
     },
     {
+      "title": "200-level bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/11dmhm9/200level_bird_courses/",
+      "score": 2,
+      "created": "2023-02-27T20:50:55.000Z",
+      "num_comments": 7,
+      "evidence_score": 2.7
+    },
+    {
+      "title": "Easy courses to take during a Co-op term (BBA)",
+      "url": "https://www.reddit.com/r/wlu/comments/zcox3p/easy_courses_to_take_during_a_coop_term_bba/",
+      "score": 3,
+      "created": "2022-12-04T23:04:12.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.7
+    },
+    {
+      "title": "Looking for any easy level 200 bird course suggestions?",
+      "url": "https://www.reddit.com/r/wlu/comments/14iwjsz/looking_for_any_easy_level_200_bird_course/",
+      "score": 2,
+      "created": "2023-06-25T20:35:34.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "GPA booster elective",
+      "url": "https://www.reddit.com/r/wlu/comments/ohz2xk/gpa_booster_elective/",
+      "score": 3,
+      "created": "2021-07-11T06:07:19.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.6
+    },
+    {
       "title": "EN107, EM202, EM212",
       "url": "https://www.reddit.com/r/wlu/comments/jdtyf8/en107_em202_em212/",
       "score": 1,
       "created": "2020-10-19T03:02:37.000Z",
       "num_comments": 0,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "Courses with no exams",
+      "url": "https://www.reddit.com/r/wlu/comments/18ygtih/courses_with_no_exams/",
+      "score": 1,
+      "created": "2024-01-04T16:14:12.000Z",
+      "num_comments": 4,
       "evidence_score": 2.5
     },
     {
@@ -330,10 +466,50 @@
       "evidence_score": 2.4
     },
     {
+      "title": "Looking for the 100% easiest GPA boosting electives.",
+      "url": "https://www.reddit.com/r/wlu/comments/14p9969/looking_for_the_100_easiest_gpa_boosting_electives/",
+      "score": 1,
+      "created": "2023-07-03T04:52:14.000Z",
+      "num_comments": 8,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "Winter term courses that doesn\u2019t have any exams",
+      "url": "https://www.reddit.com/r/wlu/comments/18nug36/winter_term_courses_that_doesnt_have_any_exams/",
+      "score": 1,
+      "created": "2023-12-21T19:01:43.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "Thoughts on Em 202/ UU100?",
+      "url": "https://www.reddit.com/r/wlu/comments/11xqi1s/thoughts_on_em_202_uu100/",
+      "score": 1,
+      "created": "2023-03-21T18:55:50.000Z",
+      "num_comments": 9,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "electives for 2nd year",
+      "url": "https://www.reddit.com/r/wlu/comments/vqri1w/electives_for_2nd_year/",
+      "score": 2,
+      "created": "2022-07-03T21:26:06.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.4
+    },
+    {
       "title": "EM202, HI129 and EM212",
       "url": "https://www.reddit.com/r/wlu/comments/ujtqpn/em202_hi129_and_em212/",
       "score": 0,
       "created": "2022-05-06T18:19:39.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "easy online elective",
+      "url": "https://www.reddit.com/r/wlu/comments/16e843l/easy_online_elective/",
+      "score": 1,
+      "created": "2023-09-09T15:10:38.000Z",
       "num_comments": 1,
       "evidence_score": 2.2
     },
@@ -344,6 +520,46 @@
       "created": "2022-07-04T19:08:53.000Z",
       "num_comments": 0,
       "evidence_score": 2.1
+    },
+    {
+      "title": "1st or 2nd year bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/18u7h92/1st_or_2nd_year_bird_course/",
+      "score": 0,
+      "created": "2023-12-30T05:01:27.000Z",
+      "num_comments": 8,
+      "evidence_score": 2.1
+    },
+    {
+      "title": "Bird Courses second year",
+      "url": "https://www.reddit.com/r/wlu/comments/14qy621/bird_courses_second_year/",
+      "score": 1,
+      "created": "2023-07-05T02:45:28.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.1
+    },
+    {
+      "title": "Looking for easy elective 200,300 level",
+      "url": "https://www.reddit.com/r/wlu/comments/vt58wt/looking_for_easy_elective_200300_level/",
+      "score": 1,
+      "created": "2022-07-07T00:36:22.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.1
+    },
+    {
+      "title": "Easy second year online electives ?",
+      "url": "https://www.reddit.com/r/wlu/comments/vsx448/easy_second_year_online_electives/",
+      "score": 1,
+      "created": "2022-07-06T18:39:12.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.0
+    },
+    {
+      "title": "Looking for senior-level bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/vwmv3o/looking_for_seniorlevel_bird_courses/",
+      "score": 0,
+      "created": "2022-07-11T16:42:37.000Z",
+      "num_comments": 1,
+      "evidence_score": 1.4
     }
   ]
 }

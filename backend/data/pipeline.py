@@ -5,6 +5,22 @@ from sentiment_analyzer import SentimentAnalyzer
 from course_details_analyzer import analyze_course_specific_threads
 import json
 
+
+def parse_course_codes(raw_value):
+    """Parse comma/space-separated course codes into uppercase unique list."""
+    if not raw_value:
+        return []
+    tokens = raw_value.replace(",", " ").split()
+    unique = []
+    seen = set()
+    for token in tokens:
+        code = token.strip().upper()
+        if not code or code in seen:
+            continue
+        seen.add(code)
+        unique.append(code)
+    return unique
+
 def save_to_json(data, file_path):
     """Save data to a JSON file"""
     try:
@@ -14,7 +30,17 @@ def save_to_json(data, file_path):
     except Exception as e:
         print(f"Error saving data to {file_path}: {e}")
 
-def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_top_courses=True, top_courses_count=10):
+def run_pipeline(
+    api_url,
+    limit,
+    time_period,
+    data_dir,
+    processed_dir,
+    analyze_top_courses=True,
+    top_courses_count=10,
+    must_include_courses=None,
+    course_thread_limit=25,
+):
     """Run the full data pipeline"""
     # Ensure directories exist
     os.makedirs(data_dir, exist_ok=True)
@@ -59,13 +85,37 @@ def run_pipeline(api_url, limit, time_period, data_dir, processed_dir, analyze_t
     # 8. If enabled, analyze top courses in more detail
     if analyze_top_courses and course_rankings:
         print(f"\nAnalyzing top {top_courses_count} courses in detail...")
-        
-        # Get the top N course codes
+
+        # Build a single target list so course details catalog/index are generated once.
         top_courses = [course['code'] for course in course_rankings[:top_courses_count]]
-        print(f"Top courses selected for detailed analysis: {', '.join(top_courses)}")
-        
+        requested_must_include = [code.upper() for code in (must_include_courses or [])]
+        seen = set()
+        courses_for_detailed_analysis = []
+        for code in top_courses + requested_must_include:
+            normalized = code.upper()
+            if normalized in seen:
+                continue
+            seen.add(normalized)
+            courses_for_detailed_analysis.append(normalized)
+
+        print(
+            "Courses selected for detailed analysis: "
+            f"{', '.join(courses_for_detailed_analysis)}"
+        )
+        if requested_must_include:
+            print(
+                "Must-include courses requested: "
+                f"{', '.join(requested_must_include)}"
+            )
+        print(f"Per-course thread limit: {course_thread_limit}")
+
         # Run detailed analysis
-        course_details = analyze_course_specific_threads(api_url, top_courses, course_details_dir)
+        course_details = analyze_course_specific_threads(
+            api_url,
+            courses_for_detailed_analysis,
+            course_details_dir,
+            course_thread_limit,
+        )
         
         if course_details:
             print(f"Detailed analysis completed for {len(course_details)} courses.")
@@ -96,6 +146,17 @@ def main():
                         help='Skip detailed analysis of top courses')
     parser.add_argument('--top-courses-count', type=int, default=15, 
                         help='Number of top courses to analyze in detail')
+    parser.add_argument(
+        '--must-include-courses',
+        default='',
+        help='Comma/space-separated course codes to always include in detailed analysis',
+    )
+    parser.add_argument(
+        '--course-thread-limit',
+        type=int,
+        default=25,
+        help='Maximum number of threads fetched per course for detailed analysis',
+    )
     parser.add_argument('--no-prompt', action='store_true', 
                         help='Run without prompting for time period')
     
@@ -140,7 +201,9 @@ def main():
         args.data_dir, 
         args.processed_dir,
         analyze_top_courses,
-        args.top_courses_count
+        args.top_courses_count,
+        parse_course_codes(args.must_include_courses),
+        args.course_thread_limit,
     )
 
 if __name__ == "__main__":

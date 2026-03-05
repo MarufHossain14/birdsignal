@@ -2,9 +2,9 @@
   "code": "SC100",
   "department": "SC",
   "bird_score": 10.0,
-  "specific_mentions": 31,
+  "specific_mentions": 43,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (11 vs 2). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "ai_summary": "More posts call it easy than hard (18 vs 2). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
   "confidence_signals": {
     "recent_mentions": 16,
     "oldest_thread_date": "2017-11-09T17:06:25+00:00",
@@ -22,7 +22,7 @@
     },
     "workload": {
       "label": "Workload",
-      "score": 0
+      "score": -20
     },
     "professor": {
       "label": "Professor",
@@ -30,9 +30,9 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 11,
+    "easy_mentions": 18,
     "hard_mentions": 2,
-    "workload": 3
+    "workload": 4
   },
   "course_structure": {
     "has_finals": true,
@@ -44,10 +44,10 @@
     {
       "title": "Advice on easiest electives (PP201, SC100, ES110, ES274, ES295)?",
       "url": "https://www.reddit.com/r/wlu/comments/1pyrx3q/advice_on_easiest_electives_pp201_sc100_es110/",
-      "score": 4,
+      "score": 3,
       "created": "2025-12-29T17:13:34.000Z",
       "num_comments": 6,
-      "evidence_score": 6.6
+      "evidence_score": 6.4
     },
     {
       "title": "Someone please give me an available easy online course that\u2019s not ES110 or SC100",
@@ -92,10 +92,10 @@
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 16,
+      "score": 15,
       "created": "2024-09-10T16:03:00.000Z",
       "num_comments": 24,
-      "evidence_score": 5.7
+      "evidence_score": 5.6
     },
     {
       "title": "laurier summer bird courses (online)?",
@@ -106,20 +106,28 @@
       "evidence_score": 5.6
     },
     {
-      "title": "Opinions! (CS Spring-Term)",
-      "url": "https://www.reddit.com/r/wlu/comments/1kcqke8/opinions_cs_springterm/",
-      "score": 5,
-      "created": "2025-05-02T02:40:54.000Z",
-      "num_comments": 5,
-      "evidence_score": 5.3
-    },
-    {
       "title": "online bird courses",
       "url": "https://www.reddit.com/r/wlu/comments/1qag8o7/online_bird_courses/",
       "score": 1,
       "created": "2026-01-12T00:36:33.000Z",
-      "num_comments": 9,
+      "num_comments": 10,
       "evidence_score": 5.3
+    },
+    {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 72,
+      "created": "2021-04-07T20:33:30.000Z",
+      "num_comments": 46,
+      "evidence_score": 5.3
+    },
+    {
+      "title": "Opinions! (CS Spring-Term)",
+      "url": "https://www.reddit.com/r/wlu/comments/1kcqke8/opinions_cs_springterm/",
+      "score": 4,
+      "created": "2025-05-02T02:40:54.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.1
     },
     {
       "title": "UU100 OR SC100 FOR SPRING 2025?",
@@ -127,6 +135,14 @@
       "score": 5,
       "created": "2025-02-25T12:23:35.000Z",
       "num_comments": 5,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "Are these electives easy",
+      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
+      "score": 2,
+      "created": "2025-06-26T18:07:52.000Z",
+      "num_comments": 7,
       "evidence_score": 5.0
     },
     {
@@ -162,20 +178,12 @@
       "evidence_score": 4.8
     },
     {
-      "title": "Are these electives easy",
-      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
-      "score": 1,
-      "created": "2025-06-26T18:07:52.000Z",
-      "num_comments": 7,
-      "evidence_score": 4.8
-    },
-    {
       "title": "First year bba electives",
       "url": "https://www.reddit.com/r/wlu/comments/1l6u5xk/first_year_bba_electives/",
-      "score": 6,
+      "score": 4,
       "created": "2025-06-09T02:55:38.000Z",
       "num_comments": 4,
-      "evidence_score": 4.7
+      "evidence_score": 4.4
     },
     {
       "title": "Anyone taken sc100, Science of Everyday Life",
@@ -202,6 +210,14 @@
       "evidence_score": 4.1
     },
     {
+      "title": "Easy bird courses for spring to boost gpa?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ig4ok6/easy_bird_courses_for_spring_to_boost_gpa/",
+      "score": 3,
+      "created": "2025-02-02T19:01:32.000Z",
+      "num_comments": 11,
+      "evidence_score": 4.0
+    },
+    {
       "title": "SC100 and CP104, Which is better/easier?",
       "url": "https://www.reddit.com/r/wlu/comments/1hs7b5f/sc100_and_cp104_which_is_bettereasier/",
       "score": 1,
@@ -210,12 +226,28 @@
       "evidence_score": 3.9
     },
     {
+      "title": "Easiest bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/yu8kld/easiest_bird_course/",
+      "score": 8,
+      "created": "2022-11-13T17:46:39.000Z",
+      "num_comments": 36,
+      "evidence_score": 3.8
+    },
+    {
       "title": "How hard is SC100 OC",
       "url": "https://www.reddit.com/r/wlu/comments/18315bz/how_hard_is_sc100_oc/",
-      "score": 4,
+      "score": 3,
       "created": "2023-11-24T20:23:13.000Z",
       "num_comments": 2,
-      "evidence_score": 3.8
+      "evidence_score": 3.7
+    },
+    {
+      "title": "Birds for winter",
+      "url": "https://www.reddit.com/r/wlu/comments/175yaps/birds_for_winter/",
+      "score": 2,
+      "created": "2023-10-12T04:30:39.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.7
     },
     {
       "title": "Looking for the 100% easiest GPA boosting electives.",
@@ -224,14 +256,6 @@
       "created": "2023-07-03T04:52:14.000Z",
       "num_comments": 8,
       "evidence_score": 3.6
-    },
-    {
-      "title": "Sc100 Final Exam",
-      "url": "https://www.reddit.com/r/wlu/comments/g2me7f/sc100_final_exam/",
-      "score": 4,
-      "created": "2020-04-16T20:00:33.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.5
     },
     {
       "title": "SC100 as a 2nd year bba elective",
@@ -258,12 +282,20 @@
       "evidence_score": 3.4
     },
     {
-      "title": "Birds for winter",
-      "url": "https://www.reddit.com/r/wlu/comments/175yaps/birds_for_winter/",
-      "score": 1,
-      "created": "2023-10-12T04:30:39.000Z",
-      "num_comments": 9,
-      "evidence_score": 3.3
+      "title": "Sc100 Final Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/g2me7f/sc100_final_exam/",
+      "score": 3,
+      "created": "2020-04-16T20:00:33.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "easy summer courses",
+      "url": "https://www.reddit.com/r/wlu/comments/fq8eck/easy_summer_courses/",
+      "score": 10,
+      "created": "2020-03-27T23:23:04.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.2
     },
     {
       "title": "Is SC100 a good bird course?",
@@ -271,6 +303,14 @@
       "score": 1,
       "created": "2022-12-18T00:45:24.000Z",
       "num_comments": 3,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Easiest electives beside uu150 and cp102",
+      "url": "https://www.reddit.com/r/wlu/comments/hadw6b/easiest_electives_beside_uu150_and_cp102/",
+      "score": 5,
+      "created": "2020-06-16T22:04:03.000Z",
+      "num_comments": 7,
       "evidence_score": 3.0
     },
     {
@@ -288,6 +328,62 @@
       "created": "2017-11-09T17:06:25.000Z",
       "num_comments": 2,
       "evidence_score": 2.8
+    },
+    {
+      "title": "4th year BBA student looking for an OC course because of co-op commitments",
+      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
+      "score": 0,
+      "created": "2024-12-16T02:23:39.000Z",
+      "num_comments": 6,
+      "evidence_score": 2.7
+    },
+    {
+      "title": "Dropping courses",
+      "url": "https://www.reddit.com/r/wlu/comments/xdevdq/dropping_courses/",
+      "score": 2,
+      "created": "2022-09-13T18:34:51.000Z",
+      "num_comments": 4,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "No exam bird courses ",
+      "url": "https://www.reddit.com/r/wlu/comments/1equpp6/no_exam_bird_courses/",
+      "score": 0,
+      "created": "2024-08-13T00:55:29.000Z",
+      "num_comments": 6,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "easy online course (Excluding uu150)",
+      "url": "https://www.reddit.com/r/wlu/comments/d0l7l1/easy_online_course_excluding_uu150/",
+      "score": 2,
+      "created": "2019-09-06T19:19:18.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "First Year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1cxik9s/first_year_electives/",
+      "score": 0,
+      "created": "2024-05-21T20:55:40.000Z",
+      "num_comments": 4,
+      "evidence_score": 2.1
+    },
+    {
+      "title": "What are some easy electives (with lame/no assignments) if you have taken data science with management option",
+      "url": "https://www.reddit.com/r/wlu/comments/bldnwc/what_are_some_easy_electives_with_lameno/",
+      "score": 1,
+      "created": "2019-05-06T15:36:57.000Z",
+      "num_comments": 5,
+      "evidence_score": 2.1
+    },
+    {
+      "title": "Laurier BBA GPA Course Booster",
+      "url": "https://www.reddit.com/r/wlu/comments/14gllrs/laurier_bba_gpa_course_booster/",
+      "score": 0,
+      "created": "2023-06-23T01:51:02.000Z",
+      "num_comments": 4,
+      "evidence_score": 1.8
     }
   ]
 }

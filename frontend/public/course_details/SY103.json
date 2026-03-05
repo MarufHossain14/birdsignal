@@ -42,14 +42,6 @@
   },
   "threads": [
     {
-      "title": "What r some bird courses I can take to boost my Avrg",
-      "url": "https://www.reddit.com/r/wlu/comments/1ootlxo/what_r_some_bird_courses_i_can_take_to_boost_my/",
-      "score": 4,
-      "created": "2025-11-05T04:35:04.000Z",
-      "num_comments": 3,
-      "evidence_score": 6.1
-    },
-    {
       "title": "Taking SY103 without doing SY101",
       "url": "https://www.reddit.com/r/wlu/comments/1q4zkwr/taking_sy103_without_doing_sy101/",
       "score": 2,
@@ -66,12 +58,20 @@
       "evidence_score": 5.9
     },
     {
+      "title": "What r some bird courses I can take to boost my Avrg",
+      "url": "https://www.reddit.com/r/wlu/comments/1ootlxo/what_r_some_bird_courses_i_can_take_to_boost_my/",
+      "score": 3,
+      "created": "2025-11-05T04:35:04.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.9
+    },
+    {
       "title": "Anyone one need the textbook's for CS100, SY103, or EN165?",
       "url": "https://www.reddit.com/r/wlu/comments/1q6nkul/anyone_one_need_the_textbooks_for_cs100_sy103_or/",
       "score": 2,
       "created": "2026-01-07T18:36:52.000Z",
       "num_comments": 0,
-      "evidence_score": 5.9
+      "evidence_score": 5.8
     },
     {
       "title": "SY103",
@@ -87,7 +87,7 @@
       "score": 1,
       "created": "2025-12-09T21:57:04.000Z",
       "num_comments": 4,
-      "evidence_score": 5.7
+      "evidence_score": 5.6
     },
     {
       "title": "Sociology schedule",

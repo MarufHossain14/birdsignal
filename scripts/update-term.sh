@@ -10,6 +10,8 @@ TIME_PERIOD="${TIME_PERIOD:-all}"
 LIMIT="${LIMIT:-500}"
 TOP_COURSES_COUNT="${TOP_COURSES_COUNT:-80}"
 API_URL="${API_URL:-http://localhost:3001}"
+MUST_INCLUDE_COURSES="${MUST_INCLUDE_COURSES:-CP104}"
+COURSE_THREAD_LIMIT="${COURSE_THREAD_LIMIT:-100}"
 
 API_PID=""
 KEEP_API_RUNNING="${KEEP_API_RUNNING:-0}"
@@ -85,6 +87,8 @@ echo "Step 3/5: Run backend pipeline"
     --limit "$LIMIT" \
     --analyze-top-courses \
     --top-courses-count "$TOP_COURSES_COUNT" \
+    --must-include-courses "$MUST_INCLUDE_COURSES" \
+    --course-thread-limit "$COURSE_THREAD_LIMIT" \
     --no-prompt
 )
 

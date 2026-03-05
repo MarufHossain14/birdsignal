@@ -1,7 +1,7 @@
 {
   "code": "HI127",
   "department": "HI",
-  "bird_score": 5.9,
+  "bird_score": 5.89,
   "specific_mentions": 10,
   "is_online_available": false,
   "ai_summary": "More posts call it easy than hard (3 vs 1). Light workload signals across 1 workload references. Finals: mentioned; midterms: not clearly mentioned. Most evidence is older. Course experience may have changed.",
@@ -44,10 +44,10 @@
     {
       "title": "HI127",
       "url": "https://www.reddit.com/r/wlu/comments/1pga8l6/hi127/",
-      "score": 8,
+      "score": 7,
       "created": "2025-12-07T05:18:26.000Z",
       "num_comments": 1,
-      "evidence_score": 6.6
+      "evidence_score": 6.5
     },
     {
       "title": "HI127 final exam",
@@ -63,7 +63,7 @@
       "score": 1,
       "created": "2026-01-07T19:25:59.000Z",
       "num_comments": 0,
-      "evidence_score": 5.6
+      "evidence_score": 5.5
     },
     {
       "title": "Shoutout to Jeff Grischow, he's a gem",
@@ -76,10 +76,10 @@
     {
       "title": "BBA Co-op ",
       "url": "https://www.reddit.com/r/wlu/comments/1hrhheh/bba_coop/",
-      "score": 6,
+      "score": 5,
       "created": "2025-01-02T00:54:53.000Z",
       "num_comments": 4,
-      "evidence_score": 4.9
+      "evidence_score": 4.8
     },
     {
       "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",

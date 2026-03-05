@@ -1,7 +1,7 @@
 {
   "code": "HS201",
   "department": "HS",
-  "bird_score": 2.66,
+  "bird_score": 2.65,
   "specific_mentions": 4,
   "is_online_available": true,
   "ai_summary": "More posts call it hard than easy (2 vs 0). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
@@ -44,10 +44,10 @@
     {
       "title": "Which Online Bird Courses Should I Take? ",
       "url": "https://www.reddit.com/r/wlu/comments/1gz47ii/which_online_bird_courses_should_i_take/",
-      "score": 5,
+      "score": 4,
       "created": "2024-11-24T23:02:55.000Z",
       "num_comments": 17,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "Spring Term Run:",
@@ -60,10 +60,10 @@
     {
       "title": "Has anyone taken HS200(Social determinants of health) or HS201 (Canadian Health care systems) ? Are they bird courses ?",
       "url": "https://www.reddit.com/r/wlu/comments/vtjtxg/has_anyone_taken_hs200social_determinants_of/",
-      "score": 4,
+      "score": 3,
       "created": "2022-07-07T14:21:50.000Z",
       "num_comments": 6,
-      "evidence_score": 3.7
+      "evidence_score": 3.6
     },
     {
       "title": "How is ol140 and hs201 online",

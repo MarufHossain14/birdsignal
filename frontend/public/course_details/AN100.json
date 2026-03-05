@@ -2,37 +2,37 @@
   "code": "AN100",
   "department": "AN",
   "bird_score": 10.0,
-  "specific_mentions": 46,
+  "specific_mentions": 135,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (16 vs 9). Light workload signals across 2 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "ai_summary": "More posts call it easy than hard (32 vs 25). Heavy workload signals across 9 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
-    "recent_mentions": 23,
-    "oldest_thread_date": "2021-04-07T20:33:30+00:00",
-    "newest_thread_date": "2026-01-25T08:34:03+00:00",
-    "sample_bias_warning": "Signals are reasonably representative."
+    "recent_mentions": 29,
+    "oldest_thread_date": "2016-05-31T21:52:47+00:00",
+    "newest_thread_date": "2026-02-27T14:29:28+00:00",
+    "sample_bias_warning": "Most evidence is older. Course experience may have changed."
   },
   "aspect_sentiment": {
     "difficulty": {
       "label": "Difficulty",
-      "score": -100
+      "score": -43
     },
     "grading": {
       "label": "Grading",
-      "score": -100
+      "score": -67
     },
     "workload": {
       "label": "Workload",
-      "score": 20
+      "score": -100
     },
     "professor": {
       "label": "Professor",
-      "score": 0
+      "score": 67
     }
   },
   "difficulty_level": {
-    "easy_mentions": 16,
-    "hard_mentions": 9,
-    "workload": 2
+    "easy_mentions": 32,
+    "hard_mentions": 25,
+    "workload": 9
   },
   "course_structure": {
     "has_finals": true,
@@ -44,18 +44,18 @@
     {
       "title": "Should I be fine for co-op?",
       "url": "https://www.reddit.com/r/wlu/comments/1p6g7nd/should_i_be_fine_for_coop/",
-      "score": 3,
+      "score": 4,
       "created": "2025-11-25T16:00:48.000Z",
       "num_comments": 8,
-      "evidence_score": 6.2
+      "evidence_score": 6.4
     },
     {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 75,
+      "score": 74,
       "created": "2021-04-07T20:33:30.000Z",
       "num_comments": 46,
-      "evidence_score": 6.2
+      "evidence_score": 6.1
     },
     {
       "title": "An100",
@@ -63,7 +63,7 @@
       "score": 1,
       "created": "2026-01-06T17:10:00.000Z",
       "num_comments": 6,
-      "evidence_score": 6.0
+      "evidence_score": 5.9
     },
     {
       "title": "Textbooks",
@@ -74,14 +74,6 @@
       "evidence_score": 5.9
     },
     {
-      "title": "How easy is AN100",
-      "url": "https://www.reddit.com/r/wlu/comments/1ph8wwi/how_easy_is_an100/",
-      "score": 2,
-      "created": "2025-12-08T10:18:02.000Z",
-      "num_comments": 1,
-      "evidence_score": 5.8
-    },
-    {
       "title": "Elective",
       "url": "https://www.reddit.com/r/wlu/comments/1q4h4rj/elective/",
       "score": 1,
@@ -90,11 +82,11 @@
       "evidence_score": 5.8
     },
     {
-      "title": "BIRD COURSES",
-      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 16,
-      "created": "2024-09-10T16:03:00.000Z",
-      "num_comments": 24,
+      "title": "How easy is AN100",
+      "url": "https://www.reddit.com/r/wlu/comments/1ph8wwi/how_easy_is_an100/",
+      "score": 2,
+      "created": "2025-12-08T10:18:02.000Z",
+      "num_comments": 1,
       "evidence_score": 5.7
     },
     {
@@ -114,12 +106,20 @@
       "evidence_score": 5.6
     },
     {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 15,
+      "created": "2024-09-10T16:03:00.000Z",
+      "num_comments": 24,
+      "evidence_score": 5.6
+    },
+    {
       "title": "An100 Exam",
       "url": "https://www.reddit.com/r/wlu/comments/1pgai5f/an100_exam/",
       "score": 1,
       "created": "2025-12-07T05:33:09.000Z",
       "num_comments": 1,
-      "evidence_score": 5.5
+      "evidence_score": 5.4
     },
     {
       "title": "Anyone currently taking AN100 OC for the spring?",
@@ -127,6 +127,14 @@
       "score": 2,
       "created": "2025-06-22T09:44:48.000Z",
       "num_comments": 12,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "Bird Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1q19kev/bird_courses/",
+      "score": 1,
+      "created": "2026-01-01T17:26:38.000Z",
+      "num_comments": 5,
       "evidence_score": 5.1
     },
     {
@@ -138,6 +146,14 @@
       "evidence_score": 5.0
     },
     {
+      "title": "an100 midterm ",
+      "url": "https://www.reddit.com/r/wlu/comments/1g3olx3/an100_midterm/",
+      "score": 10,
+      "created": "2024-10-14T19:36:32.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.0
+    },
+    {
       "title": "What\u2019s I clicker",
       "url": "https://www.reddit.com/r/wlu/comments/1n6pwgc/whats_i_clicker/",
       "score": 1,
@@ -146,12 +162,12 @@
       "evidence_score": 4.9
     },
     {
-      "title": "an100 midterm ",
-      "url": "https://www.reddit.com/r/wlu/comments/1g3olx3/an100_midterm/",
-      "score": 7,
-      "created": "2024-10-14T19:36:32.000Z",
-      "num_comments": 4,
-      "evidence_score": 4.8
+      "title": "Bird courses Suggestion",
+      "url": "https://www.reddit.com/r/wlu/comments/1rg86bw/bird_courses_suggestion/",
+      "score": 0,
+      "created": "2026-02-27T14:29:28.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.9
     },
     {
       "title": "recommend some electives to me!! what did you enjoy?",
@@ -178,19 +194,35 @@
       "evidence_score": 4.7
     },
     {
+      "title": "An100 OC",
+      "url": "https://www.reddit.com/r/wlu/comments/18pl5pi/an100_oc/",
+      "score": 8,
+      "created": "2023-12-24T02:17:10.000Z",
+      "num_comments": 9,
+      "evidence_score": 4.6
+    },
+    {
       "title": "why are textbooks SO EXPENSIVE",
       "url": "https://www.reddit.com/r/wlu/comments/xb0fb0/why_are_textbooks_so_expensive/",
-      "score": 10,
+      "score": 11,
       "created": "2022-09-10T21:22:44.000Z",
       "num_comments": 17,
       "evidence_score": 4.6
     },
     {
-      "title": "An100 OC",
-      "url": "https://www.reddit.com/r/wlu/comments/18pl5pi/an100_oc/",
-      "score": 7,
-      "created": "2023-12-24T02:17:10.000Z",
-      "num_comments": 9,
+      "title": "First year bba electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1l6u5xk/first_year_bba_electives/",
+      "score": 5,
+      "created": "2025-06-09T02:55:38.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "AN100 MIDTERM",
+      "url": "https://www.reddit.com/r/wlu/comments/1g3po3t/an100_midterm/",
+      "score": 4,
+      "created": "2024-10-14T20:19:37.000Z",
+      "num_comments": 6,
       "evidence_score": 4.5
     },
     {
@@ -207,14 +239,6 @@
       "score": 1,
       "created": "2025-04-22T22:08:01.000Z",
       "num_comments": 6,
-      "evidence_score": 4.4
-    },
-    {
-      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
-      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
-      "score": 7,
-      "created": "2024-02-28T16:56:01.000Z",
-      "num_comments": 3,
       "evidence_score": 4.4
     },
     {
@@ -242,11 +266,11 @@
       "evidence_score": 4.2
     },
     {
-      "title": "Is it bad that I take too many OC?",
-      "url": "https://www.reddit.com/r/wlu/comments/1ljpyxr/is_it_bad_that_i_take_too_many_oc/",
-      "score": 0,
-      "created": "2025-06-24T23:09:32.000Z",
-      "num_comments": 5,
+      "title": "An100 study tips",
+      "url": "https://www.reddit.com/r/wlu/comments/pxy9fx/an100_study_tips/",
+      "score": 10,
+      "created": "2021-09-29T15:52:14.000Z",
+      "num_comments": 4,
       "evidence_score": 4.2
     },
     {
@@ -258,11 +282,43 @@
       "evidence_score": 4.2
     },
     {
-      "title": "AN100 MIDTERM",
-      "url": "https://www.reddit.com/r/wlu/comments/1g3po3t/an100_midterm/",
+      "title": "BBA FIRST YEAR COURSE RECOMMENDATIONS",
+      "url": "https://www.reddit.com/r/wlu/comments/1l2sctj/bba_first_year_course_recommendations/",
       "score": 2,
-      "created": "2024-10-14T20:19:37.000Z",
-      "num_comments": 6,
+      "created": "2025-06-04T00:46:09.000Z",
+      "num_comments": 12,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1kvnysw/electives/",
+      "score": 3,
+      "created": "2025-05-26T06:57:22.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Courses with no exams",
+      "url": "https://www.reddit.com/r/wlu/comments/190b0bf/courses_with_no_exams/",
+      "score": 11,
+      "created": "2024-01-06T21:41:45.000Z",
+      "num_comments": 21,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
+      "score": 5,
+      "created": "2024-02-28T16:56:01.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "Is it bad that I take too many OC?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ljpyxr/is_it_bad_that_i_take_too_many_oc/",
+      "score": 0,
+      "created": "2025-06-24T23:09:32.000Z",
+      "num_comments": 5,
       "evidence_score": 4.1
     },
     {
@@ -274,12 +330,20 @@
       "evidence_score": 4.1
     },
     {
-      "title": "How are my electives (first year)",
-      "url": "https://www.reddit.com/r/wlu/comments/1lcacdl/how_are_my_electives_first_year/",
-      "score": 0,
-      "created": "2025-06-15T20:35:15.000Z",
-      "num_comments": 2,
-      "evidence_score": 4.0
+      "title": "Help with BBA Classes Choice",
+      "url": "https://www.reddit.com/r/wlu/comments/14ic8p7/help_with_bba_classes_choice/",
+      "score": 4,
+      "created": "2023-06-25T04:01:07.000Z",
+      "num_comments": 16,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "Easy bird courses for spring to boost gpa?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ig4ok6/easy_bird_courses_for_spring_to_boost_gpa/",
+      "score": 4,
+      "created": "2025-02-02T19:01:32.000Z",
+      "num_comments": 11,
+      "evidence_score": 4.1
     },
     {
       "title": "elective help!",
@@ -290,12 +354,36 @@
       "evidence_score": 4.0
     },
     {
-      "title": "Help with BBA Classes Choice",
-      "url": "https://www.reddit.com/r/wlu/comments/14ic8p7/help_with_bba_classes_choice/",
-      "score": 3,
-      "created": "2023-06-25T04:01:07.000Z",
-      "num_comments": 16,
+      "title": "Advices on my schedule!",
+      "url": "https://www.reddit.com/r/wlu/comments/1lh4usk/advices_on_my_schedule/",
+      "score": 1,
+      "created": "2025-06-21T19:35:46.000Z",
+      "num_comments": 12,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "How are my electives (first year)",
+      "url": "https://www.reddit.com/r/wlu/comments/1lcacdl/how_are_my_electives_first_year/",
+      "score": 0,
+      "created": "2025-06-15T20:35:15.000Z",
+      "num_comments": 2,
       "evidence_score": 3.9
+    },
+    {
+      "title": "thoughts on AN100 (OC) winter term?",
+      "url": "https://www.reddit.com/r/wlu/comments/zurqst/thoughts_on_an100_oc_winter_term/",
+      "score": 4,
+      "created": "2022-12-25T05:47:03.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "an100 midterm with victor",
+      "url": "https://www.reddit.com/r/wlu/comments/qc7y3e/an100_midterm_with_victor/",
+      "score": 6,
+      "created": "2021-10-20T18:48:42.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.8
     },
     {
       "title": "An100 OC spring",
@@ -322,12 +410,28 @@
       "evidence_score": 3.7
     },
     {
-      "title": "Has anyone recently taken an100?",
-      "url": "https://www.reddit.com/r/wlu/comments/16dq19p/has_anyone_recently_taken_an100/",
-      "score": 2,
-      "created": "2023-09-08T23:36:10.000Z",
-      "num_comments": 6,
-      "evidence_score": 3.6
+      "title": "AN100 Textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/xcec6r/an100_textbook/",
+      "score": 5,
+      "created": "2022-09-12T14:30:48.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "AN100 online or UU150",
+      "url": "https://www.reddit.com/r/wlu/comments/krrxng/an100_online_or_uu150/",
+      "score": 4,
+      "created": "2021-01-06T17:01:18.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "Thoughts on first year courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/o3qbpt/thoughts_on_first_year_courses/",
+      "score": 3,
+      "created": "2021-06-19T21:30:06.000Z",
+      "num_comments": 19,
+      "evidence_score": 3.7
     },
     {
       "title": "Second year electives",
@@ -346,12 +450,108 @@
       "evidence_score": 3.6
     },
     {
+      "title": "What Should I Do?",
+      "url": "https://www.reddit.com/r/wlu/comments/mgksde/what_should_i_do/",
+      "score": 3,
+      "created": "2021-03-30T17:07:02.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.6
+    },
+    {
       "title": "AN100 Online",
       "url": "https://www.reddit.com/r/wlu/comments/18u0brw/an100_online/",
       "score": 2,
       "created": "2023-12-29T23:11:25.000Z",
       "num_comments": 3,
       "evidence_score": 3.5
+    },
+    {
+      "title": "Has anyone recently taken an100?",
+      "url": "https://www.reddit.com/r/wlu/comments/16dq19p/has_anyone_recently_taken_an100/",
+      "score": 2,
+      "created": "2023-09-08T23:36:10.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "an100",
+      "url": "https://www.reddit.com/r/wlu/comments/17kcsc8/an100/",
+      "score": 3,
+      "created": "2023-10-31T04:19:51.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "an100 with iga mergler",
+      "url": "https://www.reddit.com/r/wlu/comments/vhqa5f/an100_with_iga_mergler/",
+      "score": 3,
+      "created": "2022-06-21T23:08:31.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "An100-OC2 quiz?",
+      "url": "https://www.reddit.com/r/wlu/comments/les57e/an100oc2_quiz/",
+      "score": 3,
+      "created": "2021-02-07T18:25:42.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "Can upper year students take courses meant for previous years?",
+      "url": "https://www.reddit.com/r/wlu/comments/14ozhsl/can_upper_year_students_take_courses_meant_for/",
+      "score": 3,
+      "created": "2023-07-02T21:15:33.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "does anyone have professor iga megler\u2019s email?",
+      "url": "https://www.reddit.com/r/wlu/comments/1hxnh6v/does_anyone_have_professor_iga_meglers_email/",
+      "score": 2,
+      "created": "2025-01-09T21:15:11.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "AN100",
+      "url": "https://www.reddit.com/r/wlu/comments/18kyqem/an100/",
+      "score": 3,
+      "created": "2023-12-18T03:09:54.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "Anyone in AN100 OC this term with Iga Mergeler?",
+      "url": "https://www.reddit.com/r/wlu/comments/13pz1xa/anyone_in_an100_oc_this_term_with_iga_mergeler/",
+      "score": 2,
+      "created": "2023-05-23T20:02:45.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "Who started with AN100 course? Not sure where to start and not sure if I have to check daily\u2026 ANY HELP!",
+      "url": "https://www.reddit.com/r/wlu/comments/xdr6km/who_started_with_an100_course_not_sure_where_to/",
+      "score": 3,
+      "created": "2022-09-14T03:26:56.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "UU101, NO105 &amp; AN100",
+      "url": "https://www.reddit.com/r/wlu/comments/h7r6n8/uu101_no105_an100/",
+      "score": 2,
+      "created": "2020-06-12T19:18:59.000Z",
+      "num_comments": 10,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "Tips for OC classes?",
+      "url": "https://www.reddit.com/r/wlu/comments/x2eaj7/tips_for_oc_classes/",
+      "score": 2,
+      "created": "2022-08-31T13:56:44.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.4
     },
     {
       "title": "An100 got harder?? ",
@@ -370,12 +570,204 @@
       "evidence_score": 3.3
     },
     {
+      "title": "AN100 vs GG102 vs ES110 Which is the easiest elective course ?",
+      "url": "https://www.reddit.com/r/wlu/comments/vugl4m/an100_vs_gg102_vs_es110_which_is_the_easiest/",
+      "score": 2,
+      "created": "2022-07-08T17:52:35.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "an100 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/jjgkb4/an100_midterm/",
+      "score": 3,
+      "created": "2020-10-28T03:34:23.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "Does this seem okay? Or too hard?",
+      "url": "https://www.reddit.com/r/wlu/comments/mn1gtf/does_this_seem_okay_or_too_hard/",
+      "score": 2,
+      "created": "2021-04-08T21:03:06.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "First Year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/4lxrk2/first_year_electives/",
+      "score": 2,
+      "created": "2016-05-31T21:52:47.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "What are good coures to take as first psych student at Laurier for BA? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1dgt44r/what_are_good_coures_to_take_as_first_psych/",
+      "score": 3,
+      "created": "2024-06-15T22:19:20.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "Opinions on AN100, RE104, ES295,WS 203,Gg231 OR any other online course",
+      "url": "https://www.reddit.com/r/wlu/comments/cqqswc/opinions_on_an100_re104_es295ws_203gg231_or_any/",
+      "score": 3,
+      "created": "2019-08-15T14:46:58.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "AN100OC or RE104OC?",
+      "url": "https://www.reddit.com/r/wlu/comments/18ywj5z/an100oc_or_re104oc/",
+      "score": 2,
+      "created": "2024-01-05T03:16:34.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "How does this look -Spring 2021",
+      "url": "https://www.reddit.com/r/wlu/comments/n57kvq/how_does_this_look_spring_2021/",
+      "score": 2,
+      "created": "2021-05-05T04:47:01.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Looking for Online Classes to take as first year",
+      "url": "https://www.reddit.com/r/wlu/comments/1hkg5fp/looking_for_online_classes_to_take_as_first_year/",
+      "score": 2,
+      "created": "2024-12-23T04:35:30.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "AN100 Lecture notes?",
+      "url": "https://www.reddit.com/r/wlu/comments/17diuzq/an100_lecture_notes/",
+      "score": 1,
+      "created": "2023-10-22T02:19:21.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "AN100 Difficulty",
+      "url": "https://www.reddit.com/r/wlu/comments/16bo6d8/an100_difficulty/",
+      "score": 1,
+      "created": "2023-09-06T16:05:50.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "An100 course load?",
+      "url": "https://www.reddit.com/r/wlu/comments/10fs596/an100_course_load/",
+      "score": 1,
+      "created": "2023-01-19T04:15:15.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "AN100 oc vs GG102",
+      "url": "https://www.reddit.com/r/wlu/comments/krw7td/an100_oc_vs_gg102/",
+      "score": 1,
+      "created": "2021-01-06T20:17:04.000Z",
+      "num_comments": 11,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Thoughts on AN100 online with Iga Mergler",
+      "url": "https://www.reddit.com/r/wlu/comments/bj47i2/thoughts_on_an100_online_with_iga_mergler/",
+      "score": 2,
+      "created": "2019-04-30T14:51:27.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "first yr bba txbks",
+      "url": "https://www.reddit.com/r/wlu/comments/in4j2s/first_yr_bba_txbks/",
+      "score": 1,
+      "created": "2020-09-05T16:55:28.000Z",
+      "num_comments": 15,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "first yr txbks",
+      "url": "https://www.reddit.com/r/wlu/comments/iik15d/first_yr_txbks/",
+      "score": 1,
+      "created": "2020-08-29T01:44:33.000Z",
+      "num_comments": 11,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "AN110,CP102,AN110,RE103",
+      "url": "https://www.reddit.com/r/wlu/comments/hakjz4/an110cp102an110re103/",
+      "score": 2,
+      "created": "2020-06-17T05:05:06.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Can someone please send a pdf download for the textbooks of es110 and an100, would really appreciate it",
+      "url": "https://www.reddit.com/r/wlu/comments/xg4g6r/can_someone_please_send_a_pdf_download_for_the/",
+      "score": 1,
+      "created": "2022-09-16T22:05:56.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "AN100 OC textbook?",
+      "url": "https://www.reddit.com/r/wlu/comments/iukt35/an100_oc_textbook/",
+      "score": 1,
+      "created": "2020-09-17T14:42:25.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Winter 2021: UU101 or AN100?",
+      "url": "https://www.reddit.com/r/wlu/comments/kwkbpf/winter_2021_uu101_or_an100/",
+      "score": 2,
+      "created": "2021-01-13T16:46:34.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "AN100 online vs in class",
+      "url": "https://www.reddit.com/r/wlu/comments/ei5dn3/an100_online_vs_in_class/",
+      "score": 2,
+      "created": "2019-12-31T16:52:43.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
       "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
       "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
       "score": 0,
       "created": "2024-06-15T01:16:23.000Z",
       "num_comments": 6,
-      "evidence_score": 3.1
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Digital Textbook Access",
+      "url": "https://www.reddit.com/r/wlu/comments/15ss9ob/digital_textbook_access/",
+      "score": 1,
+      "created": "2023-08-16T15:00:44.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "First Year Electives for BBA student Please help!",
+      "url": "https://www.reddit.com/r/wlu/comments/bwse2a/first_year_electives_for_bba_student_please_help/",
+      "score": 1,
+      "created": "2019-06-04T18:48:15.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Courses for Winter Term",
+      "url": "https://www.reddit.com/r/wlu/comments/dvdj7n/courses_for_winter_term/",
+      "score": 2,
+      "created": "2019-11-12T17:53:49.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
     },
     {
       "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
@@ -383,6 +775,38 @@
       "score": 0,
       "created": "2024-07-05T04:10:23.000Z",
       "num_comments": 2,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "CC100 and AN100 discord channels",
+      "url": "https://www.reddit.com/r/wlu/comments/191wrlr/cc100_and_an100_discord_channels/",
+      "score": 1,
+      "created": "2024-01-08T21:35:02.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "An100 l-oc online group chat ?",
+      "url": "https://www.reddit.com/r/wlu/comments/10dgbnn/an100_loc_online_group_chat/",
+      "score": 1,
+      "created": "2023-01-16T14:46:26.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "Anyone in AN100 OC with Iga?",
+      "url": "https://www.reddit.com/r/wlu/comments/10c1kcu/anyone_in_an100_oc_with_iga/",
+      "score": 1,
+      "created": "2023-01-14T22:02:21.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "do i need the textbook for an100 and cp102 (oc)?",
+      "url": "https://www.reddit.com/r/wlu/comments/omj8dq/do_i_need_the_textbook_for_an100_and_cp102_oc/",
+      "score": 1,
+      "created": "2021-07-18T04:01:54.000Z",
+      "num_comments": 4,
       "evidence_score": 2.9
     },
     {
@@ -394,11 +818,67 @@
       "evidence_score": 2.9
     },
     {
+      "title": "Spring courses without Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/mfx8wf/spring_courses_without_exam/",
+      "score": 1,
+      "created": "2021-03-29T19:21:22.000Z",
+      "num_comments": 4,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "Easiest BBA electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1der9n0/easiest_bba_electives/",
+      "score": 1,
+      "created": "2024-06-13T05:18:09.000Z",
+      "num_comments": 10,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "Is anyone else struggling in AN100?",
+      "url": "https://www.reddit.com/r/wlu/comments/h7umaf/is_anyone_else_struggling_in_an100/",
+      "score": 1,
+      "created": "2020-06-12T22:28:36.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "OC first year bird course for winter",
+      "url": "https://www.reddit.com/r/wlu/comments/z1f6ix/oc_first_year_bird_course_for_winter/",
+      "score": 1,
+      "created": "2022-11-22T00:24:40.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.8
+    },
+    {
       "title": "AN100, ML100, ES110 work load",
       "url": "https://www.reddit.com/r/wlu/comments/18yyg1a/an100_ml100_es110_work_load/",
       "score": 0,
       "created": "2024-01-05T04:54:51.000Z",
       "num_comments": 3,
+      "evidence_score": 2.7
+    },
+    {
+      "title": "AN100 - Textbook opt out?",
+      "url": "https://www.reddit.com/r/wlu/comments/n9g500/an100_textbook_opt_out/",
+      "score": 1,
+      "created": "2021-05-10T21:08:02.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.7
+    },
+    {
+      "title": "AN100-OC Quiz 2",
+      "url": "https://www.reddit.com/r/wlu/comments/mlk007/an100oc_quiz_2/",
+      "score": 1,
+      "created": "2021-04-06T19:45:05.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.7
+    },
+    {
+      "title": "UX100 vs AN100",
+      "url": "https://www.reddit.com/r/wlu/comments/kx5nxh/ux100_vs_an100/",
+      "score": 1,
+      "created": "2021-01-14T13:30:47.000Z",
+      "num_comments": 1,
       "evidence_score": 2.7
     },
     {
@@ -408,6 +888,238 @@
       "created": "2024-01-01T05:08:37.000Z",
       "num_comments": 2,
       "evidence_score": 2.6
+    },
+    {
+      "title": "Need Help Choosing Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/ntzl4v/need_help_choosing_electives/",
+      "score": 0,
+      "created": "2021-06-07T00:22:32.000Z",
+      "num_comments": 11,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "Any first-year online bird courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/rvvbgx/any_firstyear_online_bird_courses/",
+      "score": 1,
+      "created": "2022-01-04T14:13:44.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "AN100 - Rajat Nayyar (cultures today)",
+      "url": "https://www.reddit.com/r/wlu/comments/107uigq/an100_rajat_nayyar_cultures_today/",
+      "score": 0,
+      "created": "2023-01-09T23:57:37.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "AN100 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/yd8tpy/an100_midterm/",
+      "score": 0,
+      "created": "2022-10-25T16:19:29.000Z",
+      "num_comments": 4,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "first year bird courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/nr46me/first_year_bird_courses/",
+      "score": 0,
+      "created": "2021-06-03T03:50:04.000Z",
+      "num_comments": 9,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "is this a hard first semester for bba?",
+      "url": "https://www.reddit.com/r/wlu/comments/o54lb9/is_this_a_hard_first_semester_for_bba/",
+      "score": 0,
+      "created": "2021-06-21T20:24:40.000Z",
+      "num_comments": 8,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "creating a time table for first year",
+      "url": "https://www.reddit.com/r/wlu/comments/o0scyg/creating_a_time_table_for_first_year/",
+      "score": 0,
+      "created": "2021-06-16T00:18:35.000Z",
+      "num_comments": 8,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "selling textbooks",
+      "url": "https://www.reddit.com/r/wlu/comments/kjkyry/selling_textbooks/",
+      "score": 1,
+      "created": "2020-12-24T19:13:43.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.5
+    },
+    {
+      "title": "Ws100 online or an100 online",
+      "url": "https://www.reddit.com/r/wlu/comments/197buqi/ws100_online_or_an100_online/",
+      "score": 0,
+      "created": "2024-01-15T15:49:01.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "Does anyone have a pdf version of the an100 (cultures today) textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/1939pfg/does_anyone_have_a_pdf_version_of_the_an100/",
+      "score": 0,
+      "created": "2024-01-10T14:37:17.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "wat marks did u get/ should i expect to get in these courses",
+      "url": "https://www.reddit.com/r/wlu/comments/ipy2b6/wat_marks_did_u_get_should_i_expect_to_get_in/",
+      "score": 0,
+      "created": "2020-09-10T06:30:27.000Z",
+      "num_comments": 6,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "No exam bird courses ",
+      "url": "https://www.reddit.com/r/wlu/comments/1equpp6/no_exam_bird_courses/",
+      "score": 0,
+      "created": "2024-08-13T00:55:29.000Z",
+      "num_comments": 6,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "Anyone have An100 textbook?",
+      "url": "https://www.reddit.com/r/wlu/comments/xffxie/anyone_have_an100_textbook/",
+      "score": 0,
+      "created": "2022-09-16T03:10:39.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "Drop AN100",
+      "url": "https://www.reddit.com/r/wlu/comments/kvgfra/drop_an100/",
+      "score": 0,
+      "created": "2021-01-12T00:45:33.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "An100 week 11 quiz notes?",
+      "url": "https://www.reddit.com/r/wlu/comments/mks5ko/an100_week_11_quiz_notes/",
+      "score": 0,
+      "created": "2021-04-05T19:02:56.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "Looking/Buying these textbooks please!",
+      "url": "https://www.reddit.com/r/wlu/comments/xcnnsb/lookingbuying_these_textbooks_please/",
+      "score": 0,
+      "created": "2022-09-12T20:45:10.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "bird courses help",
+      "url": "https://www.reddit.com/r/wlu/comments/rw52dc/bird_courses_help/",
+      "score": 0,
+      "created": "2022-01-04T21:20:44.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "Bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/qpmao4/bird_course/",
+      "score": 0,
+      "created": "2021-11-08T20:23:37.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "first yr schedule",
+      "url": "https://www.reddit.com/r/wlu/comments/halj9f/first_yr_schedule/",
+      "score": 0,
+      "created": "2020-06-17T06:10:57.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "As of 2024, What are the best first year electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
+      "score": 0,
+      "created": "2024-06-17T02:28:21.000Z",
+      "num_comments": 7,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "AN100 or CP102? Wlu , 1 year.",
+      "url": "https://www.reddit.com/r/wlu/comments/vj5o9a/an100_or_cp102_wlu_1_year/",
+      "score": 0,
+      "created": "2022-06-23T20:00:14.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "AN100",
+      "url": "https://www.reddit.com/r/wlu/comments/rxu90u/an100/",
+      "score": 0,
+      "created": "2022-01-07T01:00:29.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "Bu121 and An100",
+      "url": "https://www.reddit.com/r/wlu/comments/qfxxi8/bu121_and_an100/",
+      "score": 0,
+      "created": "2021-10-26T03:47:08.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "where's the zoom link for an100?",
+      "url": "https://www.reddit.com/r/wlu/comments/pllp36/wheres_the_zoom_link_for_an100/",
+      "score": 0,
+      "created": "2021-09-10T14:04:19.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "AS101 Online VS AN100 Online",
+      "url": "https://www.reddit.com/r/wlu/comments/km16n4/as101_online_vs_an100_online/",
+      "score": 0,
+      "created": "2020-12-28T22:59:04.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "Have I picked the right electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/wai5zw/have_i_picked_the_right_electives/",
+      "score": 0,
+      "created": "2022-07-28T19:00:44.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "AN100 - Groupchat?",
+      "url": "https://www.reddit.com/r/wlu/comments/na67nc/an100_groupchat/",
+      "score": 0,
+      "created": "2021-05-11T20:02:28.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.0
+    },
+    {
+      "title": "AN100 Discord",
+      "url": "https://www.reddit.com/r/wlu/comments/mz5v2u/an100_discord/",
+      "score": 0,
+      "created": "2021-04-26T19:31:48.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.0
+    },
+    {
+      "title": "GG101",
+      "url": "https://www.reddit.com/r/wlu/comments/lpy690/gg101/",
+      "score": 0,
+      "created": "2021-02-22T19:58:26.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.0
     }
   ]
 }

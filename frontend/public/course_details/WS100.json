@@ -1,10 +1,10 @@
 {
   "code": "WS100",
   "department": "WS",
-  "bird_score": 9.05,
-  "specific_mentions": 32,
+  "bird_score": 9.76,
+  "specific_mentions": 39,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (6 vs 4). Light workload signals across 2 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "ai_summary": "More posts call it easy than hard (10 vs 7). Light workload signals across 2 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
     "recent_mentions": 8,
     "oldest_thread_date": "2018-07-09T21:42:13+00:00",
@@ -30,8 +30,8 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 6,
-    "hard_mentions": 4,
+    "easy_mentions": 10,
+    "hard_mentions": 7,
     "workload": 2
   },
   "course_structure": {
@@ -55,7 +55,7 @@
       "score": 1,
       "created": "2026-01-22T00:06:52.000Z",
       "num_comments": 0,
-      "evidence_score": 5.7
+      "evidence_score": 5.6
     },
     {
       "title": "WS100 - Helen",
@@ -90,19 +90,19 @@
       "evidence_score": 5.2
     },
     {
-      "title": "What are the easiest/best courses for me to take first year BBA?",
-      "url": "https://www.reddit.com/r/wlu/comments/1l162s9/what_are_the_easiestbest_courses_for_me_to_take/",
-      "score": 7,
-      "created": "2025-06-02T01:52:47.000Z",
-      "num_comments": 19,
-      "evidence_score": 5.1
-    },
-    {
       "title": "Elective",
       "url": "https://www.reddit.com/r/wlu/comments/1q4h4rj/elective/",
       "score": 1,
       "created": "2026-01-05T09:20:38.000Z",
       "num_comments": 3,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "What are the easiest/best courses for me to take first year BBA?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l162s9/what_are_the_easiestbest_courses_for_me_to_take/",
+      "score": 6,
+      "created": "2025-06-02T01:52:47.000Z",
+      "num_comments": 19,
       "evidence_score": 5.0
     },
     {
@@ -112,6 +112,22 @@
       "created": "2025-11-21T21:34:35.000Z",
       "num_comments": 1,
       "evidence_score": 4.8
+    },
+    {
+      "title": "Courses with no exams",
+      "url": "https://www.reddit.com/r/wlu/comments/190b0bf/courses_with_no_exams/",
+      "score": 12,
+      "created": "2024-01-06T21:41:45.000Z",
+      "num_comments": 21,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Stop talking in lecture",
+      "url": "https://www.reddit.com/r/wlu/comments/10vf5gi/stop_talking_in_lecture/",
+      "score": 19,
+      "created": "2023-02-06T19:11:28.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.0
     },
     {
       "title": "WS 100",
@@ -234,11 +250,27 @@
       "evidence_score": 2.8
     },
     {
+      "title": "HE100: Health Issues I review",
+      "url": "https://www.reddit.com/r/wlu/comments/1f7stgb/he100_health_issues_i_review/",
+      "score": 1,
+      "created": "2024-09-03T06:08:42.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.7
+    },
+    {
       "title": "Which course should I take that? I need a bird course: AN100 online or WS100 online???",
       "url": "https://www.reddit.com/r/wlu/comments/18vpkf1/which_course_should_i_take_that_i_need_a_bird/",
       "score": 0,
       "created": "2024-01-01T05:08:37.000Z",
       "num_comments": 2,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "Bird/Easy second year courses to complete in the summer",
+      "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
+      "score": 2,
+      "created": "2023-04-08T20:33:20.000Z",
+      "num_comments": 5,
       "evidence_score": 2.6
     },
     {
@@ -282,11 +314,27 @@
       "evidence_score": 2.3
     },
     {
+      "title": "In person 2nd year electives",
+      "url": "https://www.reddit.com/r/wlu/comments/vs80re/in_person_2nd_year_electives/",
+      "score": 1,
+      "created": "2022-07-05T20:57:31.000Z",
+      "num_comments": 4,
+      "evidence_score": 2.2
+    },
+    {
       "title": "WS100 group chat",
       "url": "https://www.reddit.com/r/wlu/comments/xda1pq/ws100_group_chat/",
       "score": 0,
       "created": "2022-09-13T15:07:53.000Z",
       "num_comments": 0,
+      "evidence_score": 2.1
+    },
+    {
+      "title": "Interesting electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/gwzbg1/interesting_electives/",
+      "score": 1,
+      "created": "2020-06-05T06:33:17.000Z",
+      "num_comments": 4,
       "evidence_score": 2.1
     },
     {
@@ -296,6 +344,14 @@
       "created": "2021-01-10T17:18:16.000Z",
       "num_comments": 0,
       "evidence_score": 2.0
+    },
+    {
+      "title": "UU150?? Incoming BBA student wanting co-op",
+      "url": "https://www.reddit.com/r/wlu/comments/oqt894/uu150_incoming_bba_student_wanting_coop/",
+      "score": 0,
+      "created": "2021-07-24T16:25:10.000Z",
+      "num_comments": 11,
+      "evidence_score": 1.8
     }
   ]
 }

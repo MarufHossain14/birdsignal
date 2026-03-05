@@ -1,10 +1,10 @@
 {
   "code": "EC207",
   "department": "EC",
-  "bird_score": 3.46,
-  "specific_mentions": 31,
+  "bird_score": 3.34,
+  "specific_mentions": 32,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (9 vs 6). Moderate workload signals across 6 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "ai_summary": "More posts call it easy than hard (10 vs 6). Moderate workload signals across 6 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
     "recent_mentions": 4,
     "oldest_thread_date": "2017-08-17T04:57:24+00:00",
@@ -30,7 +30,7 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 9,
+    "easy_mentions": 10,
     "hard_mentions": 6,
     "workload": 6
   },
@@ -44,10 +44,10 @@
     {
       "title": "Econ Minor - Easy Courses",
       "url": "https://www.reddit.com/r/wlu/comments/1rgv3l9/econ_minor_easy_courses/",
-      "score": 3,
+      "score": 5,
       "created": "2026-02-28T06:17:04.000Z",
       "num_comments": 3,
-      "evidence_score": 6.8
+      "evidence_score": 7.1
     },
     {
       "title": "I need EC207 Tutor",
@@ -55,7 +55,7 @@
       "score": 2,
       "created": "2026-01-09T03:36:02.000Z",
       "num_comments": 0,
-      "evidence_score": 5.9
+      "evidence_score": 5.8
     },
     {
       "title": "Best Additional courses to take for Economics?",
@@ -74,6 +74,14 @@
       "evidence_score": 5.0
     },
     {
+      "title": "Easy economic electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/18omgte/easy_economic_electives/",
+      "score": 6,
+      "created": "2023-12-22T19:09:33.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.3
+    },
+    {
       "title": "Easiest Economics Courses",
       "url": "https://www.reddit.com/r/wlu/comments/g2pnay/easiest_economics_courses/",
       "score": 8,
@@ -84,26 +92,18 @@
     {
       "title": "EC207 Olivia Mesta Midterm",
       "url": "https://www.reddit.com/r/wlu/comments/1dlypky/ec207_olivia_mesta_midterm/",
-      "score": 6,
+      "score": 4,
       "created": "2024-06-22T15:51:43.000Z",
       "num_comments": 0,
-      "evidence_score": 4.1
-    },
-    {
-      "title": "Easy economic electives?",
-      "url": "https://www.reddit.com/r/wlu/comments/18omgte/easy_economic_electives/",
-      "score": 5,
-      "created": "2023-12-22T19:09:33.000Z",
-      "num_comments": 5,
-      "evidence_score": 4.1
+      "evidence_score": 3.9
     },
     {
       "title": "EC Minor Courses",
       "url": "https://www.reddit.com/r/wlu/comments/nx0uxv/ec_minor_courses/",
-      "score": 5,
+      "score": 4,
       "created": "2021-06-10T22:49:23.000Z",
       "num_comments": 15,
-      "evidence_score": 4.0
+      "evidence_score": 3.9
     },
     {
       "title": "ec247 and ec207",
@@ -130,11 +130,11 @@
       "evidence_score": 3.7
     },
     {
-      "title": "200 level Economics for minor ? EC238, EC207,EC223????",
-      "url": "https://www.reddit.com/r/wlu/comments/aisvju/200_level_economics_for_minor_ec238_ec207ec223/",
-      "score": 5,
-      "created": "2019-01-22T23:08:28.000Z",
-      "num_comments": 1,
+      "title": "Thoughts on these courses?",
+      "url": "https://www.reddit.com/r/wlu/comments/ofoszv/thoughts_on_these_courses/",
+      "score": 3,
+      "created": "2021-07-07T18:22:26.000Z",
+      "num_comments": 7,
       "evidence_score": 3.5
     },
     {
@@ -146,20 +146,20 @@
       "evidence_score": 3.4
     },
     {
+      "title": "200 level Economics for minor ? EC238, EC207,EC223????",
+      "url": "https://www.reddit.com/r/wlu/comments/aisvju/200_level_economics_for_minor_ec238_ec207ec223/",
+      "score": 4,
+      "created": "2019-01-22T23:08:28.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.4
+    },
+    {
       "title": "ECON COURSE SECOND YEAR",
       "url": "https://www.reddit.com/r/wlu/comments/ga1el0/econ_course_second_year/",
       "score": 3,
       "created": "2020-04-29T02:49:25.000Z",
       "num_comments": 4,
       "evidence_score": 3.4
-    },
-    {
-      "title": "Thoughts on these courses?",
-      "url": "https://www.reddit.com/r/wlu/comments/ofoszv/thoughts_on_these_courses/",
-      "score": 2,
-      "created": "2021-07-07T18:22:26.000Z",
-      "num_comments": 7,
-      "evidence_score": 3.3
     },
     {
       "title": "EC207 vs. EC249 vs. EC239",
@@ -256,6 +256,14 @@
       "created": "2020-09-14T16:01:07.000Z",
       "num_comments": 0,
       "evidence_score": 2.5
+    },
+    {
+      "title": "Upper Year Econ Elective",
+      "url": "https://www.reddit.com/r/wlu/comments/xjdwhq/upper_year_econ_elective/",
+      "score": 2,
+      "created": "2022-09-20T16:48:27.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.4
     },
     {
       "title": "Bird econ courses",

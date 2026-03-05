@@ -1,13 +1,13 @@
 {
   "code": "RE104",
   "department": "RE",
-  "bird_score": 6.97,
-  "specific_mentions": 33,
+  "bird_score": 6.44,
+  "specific_mentions": 39,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (13 vs 4). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "ai_summary": "More posts call it easy than hard (15 vs 4). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
     "recent_mentions": 4,
-    "oldest_thread_date": "2018-06-22T20:46:02+00:00",
+    "oldest_thread_date": "2018-06-12T23:38:18+00:00",
     "newest_thread_date": "2026-01-15T19:49:58+00:00",
     "sample_bias_warning": "Most evidence is older. Course experience may have changed."
   },
@@ -30,7 +30,7 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 13,
+    "easy_mentions": 15,
     "hard_mentions": 4,
     "workload": 3
   },
@@ -44,7 +44,7 @@
     {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 74,
+      "score": 69,
       "created": "2021-04-07T20:33:30.000Z",
       "num_comments": 46,
       "evidence_score": 6.1
@@ -84,7 +84,7 @@
     {
       "title": "Exam Study Guide Google Doc [Free] Hopefully this helps with any remaining exams",
       "url": "https://www.reddit.com/r/wlu/comments/ecckjd/exam_study_guide_google_doc_free_hopefully_this/",
-      "score": 88,
+      "score": 83,
       "created": "2019-12-18T13:24:21.000Z",
       "num_comments": 0,
       "evidence_score": 5.4
@@ -100,7 +100,7 @@
     {
       "title": "Updated birds Laurier first year?",
       "url": "https://www.reddit.com/r/wlu/comments/188ouso/updated_birds_laurier_first_year/",
-      "score": 18,
+      "score": 17,
       "created": "2023-12-01T22:52:07.000Z",
       "num_comments": 9,
       "evidence_score": 4.3
@@ -122,19 +122,19 @@
       "evidence_score": 3.9
     },
     {
-      "title": "First Year courses with no finals",
-      "url": "https://www.reddit.com/r/wlu/comments/18evwhc/first_year_courses_with_no_finals/",
-      "score": 8,
-      "created": "2023-12-10T04:55:54.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.6
-    },
-    {
       "title": "RE104 online?",
       "url": "https://www.reddit.com/r/wlu/comments/1dq1rlm/re104_online/",
       "score": 1,
       "created": "2024-06-27T20:49:11.000Z",
       "num_comments": 3,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "Opinions on AN100, RE104, ES295,WS 203,Gg231 OR any other online course",
+      "url": "https://www.reddit.com/r/wlu/comments/cqqswc/opinions_on_an100_re104_es295ws_203gg231_or_any/",
+      "score": 5,
+      "created": "2019-08-15T14:46:58.000Z",
+      "num_comments": 1,
       "evidence_score": 3.5
     },
     {
@@ -146,19 +146,27 @@
       "evidence_score": 3.5
     },
     {
+      "title": "RE103 Online?",
+      "url": "https://www.reddit.com/r/wlu/comments/hscvpa/re103_online/",
+      "score": 4,
+      "created": "2020-07-16T16:36:01.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "First Year courses with no finals",
+      "url": "https://www.reddit.com/r/wlu/comments/18evwhc/first_year_courses_with_no_finals/",
+      "score": 7,
+      "created": "2023-12-10T04:55:54.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.5
+    },
+    {
       "title": "RE103 (Love &amp; Myths) or RE104 (Evil &amp; Symbols) online",
       "url": "https://www.reddit.com/r/wlu/comments/ju7uws/re103_love_myths_or_re104_evil_symbols_online/",
       "score": 3,
       "created": "2020-11-14T19:40:25.000Z",
       "num_comments": 3,
-      "evidence_score": 3.4
-    },
-    {
-      "title": "Opinions on AN100, RE104, ES295,WS 203,Gg231 OR any other online course",
-      "url": "https://www.reddit.com/r/wlu/comments/cqqswc/opinions_on_an100_re104_es295ws_203gg231_or_any/",
-      "score": 4,
-      "created": "2019-08-15T14:46:58.000Z",
-      "num_comments": 1,
       "evidence_score": 3.4
     },
     {
@@ -175,14 +183,6 @@
       "score": 2,
       "created": "2022-08-19T23:36:21.000Z",
       "num_comments": 9,
-      "evidence_score": 3.4
-    },
-    {
-      "title": "RE103 Online?",
-      "url": "https://www.reddit.com/r/wlu/comments/hscvpa/re103_online/",
-      "score": 3,
-      "created": "2020-07-16T16:36:01.000Z",
-      "num_comments": 3,
       "evidence_score": 3.4
     },
     {
@@ -210,14 +210,6 @@
       "evidence_score": 3.2
     },
     {
-      "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
-      "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
-      "score": 0,
-      "created": "2024-06-15T01:16:23.000Z",
-      "num_comments": 6,
-      "evidence_score": 3.1
-    },
-    {
       "title": "Re104?",
       "url": "https://www.reddit.com/r/wlu/comments/vh4eew/re104/",
       "score": 1,
@@ -231,6 +223,14 @@
       "score": 1,
       "created": "2021-11-25T00:33:35.000Z",
       "num_comments": 5,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Im going in to first year Bba. Are these good Gpa boosters for co op?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dg6grm/im_going_in_to_first_year_bba_are_these_good_gpa/",
+      "score": 0,
+      "created": "2024-06-15T01:16:23.000Z",
+      "num_comments": 6,
       "evidence_score": 3.0
     },
     {
@@ -252,9 +252,17 @@
     {
       "title": "Help!",
       "url": "https://www.reddit.com/r/wlu/comments/15glwac/help/",
-      "score": 3,
+      "score": 4,
       "created": "2023-08-02T22:21:11.000Z",
       "num_comments": 4,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "Any OC recommendation?",
+      "url": "https://www.reddit.com/r/wlu/comments/11ww0d5/any_oc_recommendation/",
+      "score": 4,
+      "created": "2023-03-20T21:09:44.000Z",
+      "num_comments": 3,
       "evidence_score": 2.9
     },
     {
@@ -266,20 +274,28 @@
       "evidence_score": 2.8
     },
     {
+      "title": "As of 2024, What are the best first year electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
+      "score": 1,
+      "created": "2024-06-17T02:28:21.000Z",
+      "num_comments": 7,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Bird/Easy second year courses to complete in the summer",
+      "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
+      "score": 3,
+      "created": "2023-04-08T20:33:20.000Z",
+      "num_comments": 5,
+      "evidence_score": 2.8
+    },
+    {
       "title": "RE103/104",
       "url": "https://www.reddit.com/r/wlu/comments/e9qomi/re103104/",
       "score": 1,
       "created": "2019-12-12T17:32:35.000Z",
       "num_comments": 1,
       "evidence_score": 2.7
-    },
-    {
-      "title": "Bird/Easy second year courses to complete in the summer",
-      "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
-      "score": 2,
-      "created": "2023-04-08T20:33:20.000Z",
-      "num_comments": 5,
-      "evidence_score": 2.6
     },
     {
       "title": "RE104 OC",
@@ -290,12 +306,28 @@
       "evidence_score": 2.5
     },
     {
-      "title": "As of 2024, What are the best first year electives?",
-      "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
-      "score": 0,
-      "created": "2024-06-17T02:28:21.000Z",
+      "title": "Bird couses for Fall 2018 (for courses that you dont even nee to pass the final to pass the course)",
+      "url": "https://www.reddit.com/r/wlu/comments/8slfln/bird_couses_for_fall_2018_for_courses_that_you/",
+      "score": 2,
+      "created": "2018-06-20T19:57:58.000Z",
       "num_comments": 7,
-      "evidence_score": 2.3
+      "evidence_score": 2.5
+    },
+    {
+      "title": "electives for 2nd year",
+      "url": "https://www.reddit.com/r/wlu/comments/vqri1w/electives_for_2nd_year/",
+      "score": 2,
+      "created": "2022-07-03T21:26:06.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "Have any professors reached out yet?",
+      "url": "https://www.reddit.com/r/wlu/comments/pjt1c1/have_any_professors_reached_out_yet/",
+      "score": 2,
+      "created": "2021-09-07T18:36:55.000Z",
+      "num_comments": 4,
+      "evidence_score": 2.4
     },
     {
       "title": "Selling required books for RE104",
@@ -304,6 +336,22 @@
       "created": "2023-01-17T20:48:16.000Z",
       "num_comments": 0,
       "evidence_score": 2.2
+    },
+    {
+      "title": "First Year Easy Electives with NO labs or tutorials",
+      "url": "https://www.reddit.com/r/wlu/comments/x9facx/first_year_easy_electives_with_no_labs_or/",
+      "score": 0,
+      "created": "2022-09-08T23:29:56.000Z",
+      "num_comments": 5,
+      "evidence_score": 1.7
+    },
+    {
+      "title": "BBA Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/8qnrme/bba_electives/",
+      "score": 0,
+      "created": "2018-06-12T23:38:18.000Z",
+      "num_comments": 6,
+      "evidence_score": 1.6
     }
   ]
 }

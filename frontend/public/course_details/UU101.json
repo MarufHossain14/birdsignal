@@ -1,8 +1,8 @@
 {
   "code": "UU101",
   "department": "UU",
-  "bird_score": 8.51,
-  "specific_mentions": 27,
+  "bird_score": 8.48,
+  "specific_mentions": 28,
   "is_online_available": true,
   "ai_summary": "More posts call it hard than easy (8 vs 6). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
@@ -44,7 +44,7 @@
     {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 72,
+      "score": 71,
       "created": "2021-04-07T20:33:30.000Z",
       "num_comments": 46,
       "evidence_score": 6.1
@@ -52,7 +52,7 @@
     {
       "title": "My thoughts on Laurier Econ after two years, from a former BBA transfer hopeful",
       "url": "https://www.reddit.com/r/wlu/comments/bmidrr/my_thoughts_on_laurier_econ_after_two_years_from/",
-      "score": 33,
+      "score": 32,
       "created": "2019-05-09T11:03:39.000Z",
       "num_comments": 24,
       "evidence_score": 5.4
@@ -66,14 +66,6 @@
       "evidence_score": 4.3
     },
     {
-      "title": "raising gpa second sem in bba",
-      "url": "https://www.reddit.com/r/wlu/comments/rvjed2/raising_gpa_second_sem_in_bba/",
-      "score": 4,
-      "created": "2022-01-04T02:40:15.000Z",
-      "num_comments": 8,
-      "evidence_score": 3.8
-    },
-    {
       "title": "First year Electives Help",
       "url": "https://www.reddit.com/r/wlu/comments/ha6sob/first_year_electives_help/",
       "score": 4,
@@ -82,11 +74,19 @@
       "evidence_score": 3.8
     },
     {
-      "title": "gg102 vs uu101",
-      "url": "https://www.reddit.com/r/wlu/comments/qq7mgp/gg102_vs_uu101/",
+      "title": "raising gpa second sem in bba",
+      "url": "https://www.reddit.com/r/wlu/comments/rvjed2/raising_gpa_second_sem_in_bba/",
       "score": 3,
-      "created": "2021-11-09T16:40:04.000Z",
-      "num_comments": 5,
+      "created": "2022-01-04T02:40:15.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "UU101",
+      "url": "https://www.reddit.com/r/wlu/comments/kslror/uu101/",
+      "score": 6,
+      "created": "2021-01-07T20:20:18.000Z",
+      "num_comments": 0,
       "evidence_score": 3.5
     },
     {
@@ -98,12 +98,12 @@
       "evidence_score": 3.4
     },
     {
-      "title": "UU101",
-      "url": "https://www.reddit.com/r/wlu/comments/kslror/uu101/",
-      "score": 5,
-      "created": "2021-01-07T20:20:18.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.4
+      "title": "gg102 vs uu101",
+      "url": "https://www.reddit.com/r/wlu/comments/qq7mgp/gg102_vs_uu101/",
+      "score": 2,
+      "created": "2021-11-09T16:40:04.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.3
     },
     {
       "title": "uu101 w Manuel Riemer vs cc102OC w Wayne Moris",
@@ -160,6 +160,14 @@
       "created": "2023-01-10T01:09:09.000Z",
       "num_comments": 1,
       "evidence_score": 2.8
+    },
+    {
+      "title": "Easiest electives beside uu150 and cp102",
+      "url": "https://www.reddit.com/r/wlu/comments/hadw6b/easiest_electives_beside_uu150_and_cp102/",
+      "score": 3,
+      "created": "2020-06-16T22:04:03.000Z",
+      "num_comments": 7,
+      "evidence_score": 2.7
     },
     {
       "title": "Need Help Choosing Electives",

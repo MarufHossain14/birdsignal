@@ -1,10 +1,10 @@
 {
   "code": "UX100",
   "department": "UX",
-  "bird_score": 7.62,
-  "specific_mentions": 32,
+  "bird_score": 6.74,
+  "specific_mentions": 41,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (11 vs 2). Light workload signals across 1 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "ai_summary": "More posts call it easy than hard (18 vs 4). Light workload signals across 1 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
     "recent_mentions": 4,
     "oldest_thread_date": "2018-06-14T04:48:28+00:00",
@@ -14,11 +14,11 @@
   "aspect_sentiment": {
     "difficulty": {
       "label": "Difficulty",
-      "score": 0
+      "score": 100
     },
     "grading": {
       "label": "Grading",
-      "score": 0
+      "score": 100
     },
     "workload": {
       "label": "Workload",
@@ -30,8 +30,8 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 11,
-    "hard_mentions": 2,
+    "easy_mentions": 18,
+    "hard_mentions": 4,
     "workload": 1
   },
   "course_structure": {
@@ -44,7 +44,7 @@
     {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 71,
+      "score": 70,
       "created": "2021-04-07T20:33:30.000Z",
       "num_comments": 46,
       "evidence_score": 6.1
@@ -52,15 +52,15 @@
     {
       "title": "Looking for first year bird courses with no exams",
       "url": "https://www.reddit.com/r/wlu/comments/1ozngx8/looking_for_first_year_bird_courses_with_no_exams/",
-      "score": 7,
+      "score": 9,
       "created": "2025-11-17T18:06:09.000Z",
       "num_comments": 9,
-      "evidence_score": 5.9
+      "evidence_score": 6.1
     },
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 15,
+      "score": 16,
       "created": "2024-09-10T16:03:00.000Z",
       "num_comments": 24,
       "evidence_score": 5.6
@@ -100,18 +100,18 @@
     {
       "title": "UX100 - How is this course?",
       "url": "https://www.reddit.com/r/wlu/comments/12x3iqu/ux100_how_is_this_course/",
-      "score": 8,
+      "score": 6,
       "created": "2023-04-24T04:46:41.000Z",
       "num_comments": 14,
-      "evidence_score": 4.5
+      "evidence_score": 4.3
     },
     {
       "title": "Updated birds Laurier first year?",
       "url": "https://www.reddit.com/r/wlu/comments/188ouso/updated_birds_laurier_first_year/",
-      "score": 17,
+      "score": 16,
       "created": "2023-12-01T22:52:07.000Z",
       "num_comments": 9,
-      "evidence_score": 4.3
+      "evidence_score": 4.2
     },
     {
       "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
@@ -130,28 +130,44 @@
       "evidence_score": 4.1
     },
     {
-      "title": "UX100 Final Exam",
-      "url": "https://www.reddit.com/r/wlu/comments/184x6li/ux100_final_exam/",
-      "score": 3,
-      "created": "2023-11-27T07:14:11.000Z",
-      "num_comments": 5,
+      "title": "Has anyone taken UX100, I am planning to take it in the spring sem, is it a easy 11/12?",
+      "url": "https://www.reddit.com/r/wlu/comments/lti9kf/has_anyone_taken_ux100_i_am_planning_to_take_it/",
+      "score": 7,
+      "created": "2021-02-27T06:39:59.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "Bird courses spring term",
+      "url": "https://www.reddit.com/r/wlu/comments/114pztw/bird_courses_spring_term/",
+      "score": 10,
+      "created": "2023-02-17T16:03:30.000Z",
+      "num_comments": 13,
       "evidence_score": 3.8
     },
     {
       "title": "UX100 EXAM",
       "url": "https://www.reddit.com/r/wlu/comments/18gf7s0/ux100_exam/",
-      "score": 4,
+      "score": 3,
       "created": "2023-12-12T06:04:56.000Z",
       "num_comments": 2,
-      "evidence_score": 3.8
+      "evidence_score": 3.7
     },
     {
-      "title": "Has anyone taken UX100, I am planning to take it in the spring sem, is it a easy 11/12?",
-      "url": "https://www.reddit.com/r/wlu/comments/lti9kf/has_anyone_taken_ux100_i_am_planning_to_take_it/",
-      "score": 6,
-      "created": "2021-02-27T06:39:59.000Z",
-      "num_comments": 1,
+      "title": "courses",
+      "url": "https://www.reddit.com/r/wlu/comments/12kzqck/courses/",
+      "score": 4,
+      "created": "2023-04-13T19:03:15.000Z",
+      "num_comments": 2,
       "evidence_score": 3.7
+    },
+    {
+      "title": "UX100 Final Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/184x6li/ux100_final_exam/",
+      "score": 2,
+      "created": "2023-11-27T07:14:11.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.6
     },
     {
       "title": "Easiest first year course that don\u2019t require final exams or have tests at all for first year students. As long as it is easy I don\u2019t mind what it is.",
@@ -159,21 +175,13 @@
       "score": 0,
       "created": "2025-08-16T19:58:07.000Z",
       "num_comments": 6,
-      "evidence_score": 3.7
+      "evidence_score": 3.6
     },
     {
       "title": "What is the difference between UX100(Design Thinking) and DH100 (Digital Creativity)?",
       "url": "https://www.reddit.com/r/wlu/comments/8qz4c0/what_is_the_difference_between_ux100design/",
       "score": 4,
       "created": "2018-06-14T04:48:28.000Z",
-      "num_comments": 2,
-      "evidence_score": 3.5
-    },
-    {
-      "title": "courses",
-      "url": "https://www.reddit.com/r/wlu/comments/12kzqck/courses/",
-      "score": 3,
-      "created": "2023-04-13T19:03:15.000Z",
       "num_comments": 2,
       "evidence_score": 3.5
     },
@@ -216,6 +224,14 @@
       "created": "2025-05-22T22:06:05.000Z",
       "num_comments": 10,
       "evidence_score": 3.3
+    },
+    {
+      "title": "2 OC Electives Manageable during Co-op",
+      "url": "https://www.reddit.com/r/wlu/comments/sy1pav/2_oc_electives_manageable_during_coop/",
+      "score": 7,
+      "created": "2022-02-21T19:13:40.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.2
     },
     {
       "title": "Second Year Econ with Finance Courses Review?",
@@ -266,6 +282,22 @@
       "evidence_score": 2.8
     },
     {
+      "title": "Bird/Easy second year courses to complete in the summer",
+      "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
+      "score": 3,
+      "created": "2023-04-08T20:33:20.000Z",
+      "num_comments": 5,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "OC electives with no midterms/finals",
+      "url": "https://www.reddit.com/r/wlu/comments/xt4evi/oc_electives_with_no_midtermsfinals/",
+      "score": 3,
+      "created": "2022-10-01T19:48:12.000Z",
+      "num_comments": 7,
+      "evidence_score": 2.8
+    },
+    {
       "title": "UX100 vs AN100",
       "url": "https://www.reddit.com/r/wlu/comments/kx5nxh/ux100_vs_an100/",
       "score": 1,
@@ -296,6 +328,46 @@
       "created": "2022-06-26T07:04:04.000Z",
       "num_comments": 3,
       "evidence_score": 2.4
+    },
+    {
+      "title": "Spring 2023 Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/11vugmx/spring_2023_courses/",
+      "score": 2,
+      "created": "2023-03-19T19:09:18.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "Easiest Online Spring Classes 2022",
+      "url": "https://www.reddit.com/r/wlu/comments/tc7m9l/easiest_online_spring_classes_2022/",
+      "score": 2,
+      "created": "2022-03-12T03:41:29.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.4
+    },
+    {
+      "title": "ux design major",
+      "url": "https://www.reddit.com/r/wlu/comments/zgesrl/ux_design_major/",
+      "score": 1,
+      "created": "2022-12-08T22:56:43.000Z",
+      "num_comments": 4,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "1st year birds courses",
+      "url": "https://www.reddit.com/r/wlu/comments/14ampmy/1st_year_birds_courses/",
+      "score": 0,
+      "created": "2023-06-16T04:13:47.000Z",
+      "num_comments": 6,
+      "evidence_score": 1.9
+    },
+    {
+      "title": "Easy electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/14fsndj/easy_electives/",
+      "score": 0,
+      "created": "2023-06-22T03:55:49.000Z",
+      "num_comments": 1,
+      "evidence_score": 1.6
     }
   ]
 }

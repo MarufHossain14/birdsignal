@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Drawer } from "vaul";
 import { BirdScoreMeter } from "./BirdScoreMeter";
 import { ThreadList } from "./ThreadList";
@@ -186,9 +186,13 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
   course,
   onClose,
 }) => {
+  const mobileCloseTimerRef = useRef<number | null>(null);
+  const desktopCloseTimerRef = useRef<number | null>(null);
   const [isMobile, setIsMobile] = useState(() =>
     typeof window !== "undefined" ? window.matchMedia("(max-width: 639px)").matches : false
   );
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [desktopOpen, setDesktopOpen] = useState(false);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -201,15 +205,102 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
 
   useEffect(() => {
     if (isMobile) return;
+    if (typeof window === "undefined") return;
+
+    const previousBodyOverflow = document.body.style.overflow;
+    const previousBodyPaddingRight = document.body.style.paddingRight;
+    const previousScrollbarCompensation = document.documentElement.style.getPropertyValue(
+      "--scrollbar-compensation"
+    );
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+
     document.body.style.overflow = "hidden";
+    document.documentElement.style.setProperty("--scrollbar-compensation", `${Math.max(scrollbarWidth, 0)}px`);
+    if (scrollbarWidth > 0) {
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+    }
+
     return () => {
-      document.body.style.overflow = "unset";
+      document.body.style.overflow = previousBodyOverflow;
+      document.body.style.paddingRight = previousBodyPaddingRight;
+      if (previousScrollbarCompensation) {
+        document.documentElement.style.setProperty(
+          "--scrollbar-compensation",
+          previousScrollbarCompensation
+        );
+      } else {
+        document.documentElement.style.removeProperty("--scrollbar-compensation");
+      }
     };
   }, [isMobile]);
 
+  useEffect(() => {
+    if (!isMobile || typeof window === "undefined") return;
+    const raf = window.requestAnimationFrame(() => {
+      setMobileOpen(true);
+    });
+    return () => window.cancelAnimationFrame(raf);
+  }, [isMobile, course.code]);
+
+  useEffect(() => {
+    return () => {
+      if (mobileCloseTimerRef.current !== null) {
+        window.clearTimeout(mobileCloseTimerRef.current);
+      }
+      if (desktopCloseTimerRef.current !== null) {
+        window.clearTimeout(desktopCloseTimerRef.current);
+      }
+    };
+  }, []);
+
+  const closeMobileDrawer = useCallback(() => {
+    if (typeof window === "undefined") {
+      onClose();
+      return;
+    }
+    if (mobileCloseTimerRef.current !== null) return;
+    setMobileOpen(false);
+    mobileCloseTimerRef.current = window.setTimeout(() => {
+      mobileCloseTimerRef.current = null;
+      onClose();
+    }, 220);
+  }, [onClose]);
+
+  useEffect(() => {
+    if (isMobile || typeof window === "undefined") return;
+    const raf = window.requestAnimationFrame(() => {
+      setDesktopOpen(true);
+    });
+    return () => window.cancelAnimationFrame(raf);
+  }, [isMobile, course.code]);
+
+  const closeDesktopModal = useCallback(() => {
+    if (typeof window === "undefined") {
+      onClose();
+      return;
+    }
+    if (desktopCloseTimerRef.current !== null) return;
+    setDesktopOpen(false);
+    desktopCloseTimerRef.current = window.setTimeout(() => {
+      desktopCloseTimerRef.current = null;
+      onClose();
+    }, 180);
+  }, [onClose]);
+
+  useEffect(() => {
+    if (isMobile || typeof window === "undefined") return;
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        closeDesktopModal();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isMobile, closeDesktopModal]);
+
   if (isMobile) {
     return (
-      <Drawer.Root open onOpenChange={(open) => !open && onClose()}>
+      <Drawer.Root open={mobileOpen} onOpenChange={(open) => !open && closeMobileDrawer()}>
         <Drawer.Portal>
           <Drawer.Overlay className="fixed inset-0 z-50 bg-black/40" />
           <Drawer.Content className="fixed inset-x-0 bottom-0 z-50 max-h-[92vh] rounded-t-2xl border border-[var(--line)] bg-[var(--surface)] outline-none">
@@ -219,7 +310,7 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
             </Drawer.Description>
             <div className="mx-auto mt-2 h-1.5 w-10 rounded-full bg-[var(--line-strong)]" />
             <div className="max-h-[calc(92vh-14px)] overflow-y-auto">
-              <CourseDetailsBody course={course} onClose={onClose} />
+              <CourseDetailsBody course={course} onClose={closeMobileDrawer} />
             </div>
           </Drawer.Content>
         </Drawer.Portal>
@@ -229,14 +320,20 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
 
   return (
     <div
-      className="fixed inset-0 z-50 overflow-y-auto bg-black/45 p-0 sm:overflow-hidden sm:p-4 md:p-6"
-      onClick={onClose}
+      className={`fixed inset-0 z-50 overflow-y-auto p-0 transition-colors duration-180 ease-out sm:overflow-hidden sm:p-4 md:p-6 ${
+        desktopOpen ? "bg-black/45" : "bg-black/0"
+      }`}
+      onClick={closeDesktopModal}
     >
       <div
-        className="mx-auto min-h-[100dvh] w-full rounded-none border-0 bg-[var(--surface)] sm:mt-8 sm:h-[88vh] sm:min-h-0 sm:max-h-[88vh] sm:max-w-5xl sm:overflow-hidden sm:rounded-2xl sm:border sm:border-[var(--line)]"
+        className={`mx-auto min-h-[100dvh] w-full rounded-none border-0 bg-[var(--surface)] transition-[opacity,transform] duration-180 ease-out sm:mt-8 sm:h-[88vh] sm:min-h-0 sm:max-h-[88vh] sm:max-w-5xl sm:overflow-hidden sm:rounded-2xl sm:border sm:border-[var(--line)] ${
+          desktopOpen
+            ? "opacity-100 sm:translate-y-0 sm:scale-100"
+            : "opacity-0 sm:translate-y-2 sm:scale-[0.995]"
+        }`}
         onClick={(event) => event.stopPropagation()}
       >
-        <CourseDetailsBody course={course} onClose={onClose} />
+        <CourseDetailsBody course={course} onClose={closeDesktopModal} />
       </div>
     </div>
   );

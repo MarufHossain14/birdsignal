@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { Header } from "./components/Header";
 import { CourseCard } from "./components/CourseCard";
 import { CourseDetails } from "./components/CourseDetails";
@@ -36,6 +36,7 @@ const getSortableScore = (course: CourseData): number =>
   typeof course.display_bird_score === "number" ? course.display_bird_score : Number.NEGATIVE_INFINITY;
 
 function App() {
+  const hasDrawerHistoryEntry = useRef(false);
   const [courses, setCourses] = useState<CourseData[]>([]);
   const [filteredCourses, setFilteredCourses] = useState<CourseData[]>([]);
   const [selectedCourse, setSelectedCourse] = useState<CourseData | null>(null);
@@ -167,6 +168,37 @@ function App() {
 
   const handleSearch = useCallback((query: string) => {
     setSearchQuery(query);
+  }, []);
+
+  const handleSelectCourse = useCallback((course: CourseData) => {
+    setSelectedCourse(course);
+    if (typeof window === "undefined" || hasDrawerHistoryEntry.current) return;
+    window.history.pushState({ courseDrawer: true }, "");
+    hasDrawerHistoryEntry.current = true;
+  }, []);
+
+  const handleCloseCourse = useCallback(() => {
+    if (typeof window !== "undefined" && hasDrawerHistoryEntry.current) {
+      hasDrawerHistoryEntry.current = false;
+      window.history.back();
+      return;
+    }
+    setSelectedCourse(null);
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const onPopState = () => {
+      setSelectedCourse((current) => {
+        if (!current) return current;
+        hasDrawerHistoryEntry.current = false;
+        return null;
+      });
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => {
+      window.removeEventListener("popstate", onPopState);
+    };
   }, []);
 
   useEffect(() => {
@@ -346,7 +378,7 @@ function App() {
                     birdScore={course.display_bird_score}
                     scoreConfidence={course.score_confidence}
                     mentions={course.specific_mentions}
-                    onClick={() => setSelectedCourse(course)}
+                    onClick={() => handleSelectCourse(course)}
                   />
                 ))}
               </div>
@@ -373,7 +405,7 @@ function App() {
       {selectedCourse && (
         <CourseDetails
           course={selectedCourse}
-          onClose={() => setSelectedCourse(null)}
+          onClose={handleCloseCourse}
         />
       )}
     </div>

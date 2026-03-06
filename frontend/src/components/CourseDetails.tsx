@@ -93,7 +93,7 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
       </div>
 
       <div className="grid grid-cols-1 gap-0 lg:grid-cols-[280px_minmax(0,1fr)]">
-        <aside className="space-y-6 border-b border-[var(--line)] p-4 sm:p-6 lg:max-h-[66vh] lg:overflow-y-auto lg:border-b-0 lg:border-r lg:p-6">
+        <aside className="space-y-6 border-b border-[var(--line)] p-4 sm:p-6 lg:max-h-[66dvh] lg:overflow-y-auto lg:border-b-0 lg:border-r lg:p-6">
           <section>
             <h3 className="text-sm font-medium uppercase tracking-[0.1em] text-[var(--muted)]">
               Summary
@@ -118,21 +118,21 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
               Difficulty
             </h3>
             <dl className="mt-3 space-y-2.5 text-sm">
-              <div className="flex justify-between">
+              <div className="flex items-start justify-between gap-3">
                 <dt>Easy mentions</dt>
-                <dd className="text-[var(--text)]">
+                <dd className="text-right text-[var(--text)]">
                   {course.difficulty_level.easy_mentions}
                 </dd>
               </div>
-              <div className="flex justify-between">
+              <div className="flex items-start justify-between gap-3">
                 <dt>Hard mentions</dt>
-                <dd className="text-[var(--text)]">
+                <dd className="text-right text-[var(--text)]">
                   {course.difficulty_level.hard_mentions}
                 </dd>
               </div>
-              <div className="flex justify-between">
+              <div className="flex items-start justify-between gap-3">
                 <dt>Workload references</dt>
-                <dd className="text-[var(--text)]">
+                <dd className="text-right text-[var(--text)]">
                   {course.difficulty_level.workload}
                 </dd>
               </div>
@@ -156,21 +156,21 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
               Confidence
             </h3>
             <dl className="mt-3 space-y-2 text-sm">
-              <div className="flex justify-between">
+              <div className="flex items-start justify-between gap-3">
                 <dt>Data coverage</dt>
-                <dd>
+                <dd className="max-w-[65%] text-right break-words">
                   {formatDate(confidence?.oldest_thread_date)} - {formatDate(confidence?.newest_thread_date)}
                 </dd>
               </div>
-              <div className="flex justify-between">
+              <div className="flex items-start justify-between gap-3">
                 <dt>Confidence</dt>
-                <dd>{confidenceLabel}</dd>
+                <dd className="text-right">{confidenceLabel}</dd>
               </div>
             </dl>
           </section>
         </aside>
 
-        <section className="max-h-none overflow-y-visible p-4 sm:p-6 lg:max-h-[66vh] lg:overflow-y-auto lg:p-7">
+        <section className="max-h-none overflow-y-visible p-4 sm:p-6 lg:max-h-[66dvh] lg:overflow-y-auto lg:p-7">
           <h3 className="mb-2 text-sm font-medium uppercase tracking-[0.1em] text-[var(--muted)]">
             Evidence-Ranked Mentions
           </h3>
@@ -282,13 +282,13 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
       <Drawer.Root open={mobileOpen} onOpenChange={(open) => !open && closeMobileDrawer()}>
         <Drawer.Portal>
           <Drawer.Overlay className="fixed inset-0 z-50 bg-black/40" />
-          <Drawer.Content className="fixed inset-x-0 bottom-0 z-50 max-h-[92vh] rounded-t-2xl border border-[var(--line)] bg-[var(--surface)] outline-none">
+          <Drawer.Content className="fixed inset-x-0 bottom-0 z-50 max-h-[92dvh] rounded-t-2xl border border-[var(--line)] bg-[var(--surface)] outline-none">
             <Drawer.Title className="sr-only">{course.code} details</Drawer.Title>
             <Drawer.Description className="sr-only">
               Detailed course summary and evidence-ranked Reddit mentions.
             </Drawer.Description>
             <div className="mx-auto mt-2 h-1.5 w-10 rounded-full bg-[var(--line-strong)]" />
-            <div className="max-h-[calc(92vh-14px)] overflow-y-auto">
+            <div className="max-h-[calc(92dvh-14px)] overflow-y-auto">
               <CourseDetailsBody course={course} onClose={closeMobileDrawer} />
             </div>
           </Drawer.Content>
@@ -299,13 +299,13 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
 
   return (
     <div
-      className={`fixed inset-0 z-50 overflow-y-auto p-0 transition-colors duration-180 ease-out sm:overflow-hidden sm:p-4 md:p-6 ${
+      className={`fixed inset-0 z-50 overflow-y-auto p-0 transition-colors duration-180 ease-out sm:p-4 md:p-6 ${
         desktopOpen ? "bg-black/45" : "bg-black/0"
       }`}
       onClick={closeDesktopModal}
     >
       <div
-        className={`mx-auto min-h-[100dvh] w-full rounded-none border-0 bg-[var(--surface)] transition-[opacity,transform] duration-180 ease-out sm:mt-8 sm:h-[88vh] sm:min-h-0 sm:max-h-[88vh] sm:max-w-5xl sm:overflow-hidden sm:rounded-2xl sm:border sm:border-[var(--line)] ${
+        className={`mx-auto min-h-[100dvh] w-full rounded-none border-0 bg-[var(--surface)] transition-[opacity,transform] duration-180 ease-out sm:mt-8 sm:h-[88dvh] sm:min-h-0 sm:max-h-[88dvh] sm:max-w-5xl sm:overflow-y-auto sm:rounded-2xl sm:border sm:border-[var(--line)] ${
           desktopOpen
             ? "opacity-100 sm:translate-y-0 sm:scale-100"
             : "opacity-0 sm:translate-y-2 sm:scale-[0.995]"

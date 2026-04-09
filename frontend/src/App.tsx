@@ -266,28 +266,27 @@ function App() {
 
       <main className="mx-auto max-w-6xl px-4 pb-24 pt-40 sm:px-6 sm:pt-32 md:px-8">
         <div className="mb-12">
-          <h1 className="text-3xl tracking-tight text-[var(--primary)] md:text-4xl">
-            Understand BirdScore Quickly
+          <h1 className="text-2xl tracking-tight text-[var(--primary)] md:text-3xl">
+            Find bird courses at Laurier
           </h1>
           <p className="mt-4 max-w-3xl text-[var(--muted)]">
-            BirdScore runs from 0.0 to 10.0. Higher means the course is usually
-            lighter and easier, based on Reddit discussion signals including
-            workload, difficulty, assessments, and overall sentiment.
+            These are courses students on Reddit describe as lighter, easier, or
+            more manageable.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-2 text-xs sm:text-sm">
-            <span className="rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-1 text-emerald-800">
+            <span className="score-band score-band-good">
               8.0-10.0 Easy / light
             </span>
-            <span className="rounded-full border border-amber-200 bg-amber-50 px-2.5 py-1 text-amber-900">
+            <span className="score-band score-band-mid">
               6.0-7.9 Moderate
             </span>
-            <span className="rounded-full border border-rose-200 bg-rose-50 px-2.5 py-1 text-rose-900">
+            <span className="score-band score-band-low">
               0.0-5.9 Heavier
             </span>
           </div>
           <p className="mt-3 max-w-3xl text-xs text-[var(--muted)]">
-            This is a directional signal, not a guarantee. N/A means there is not
-            enough reliable data yet.
+            The ease score is a quick estimate based on Reddit discussion. Higher
+            usually means easier. N/A means there is not enough recent data yet.
           </p>
         </div>
 
@@ -314,14 +313,18 @@ function App() {
         ) : (
           <>
             <div className="mb-8">
-              <div className="grid grid-cols-2 gap-2 md:flex md:flex-wrap md:items-center md:gap-3">
-                <span className="col-span-2 inline-flex items-center rounded-full border border-[var(--secondary)]/45 bg-[var(--secondary-soft)] px-3 py-1 text-sm text-[var(--secondary-content)] md:col-span-1">
-                  {filteredCourses.length} courses
-                </span>
+              <div className="mb-3">
+                <p className="text-sm text-[var(--muted)]">
+                  <span className="font-medium text-[var(--text)]">{filteredCourses.length}</span>{" "}
+                  courses
+                  {hasActiveFilters ? " matching your filters" : ""}
+                </p>
+              </div>
+              <div className="results-toolbar grid grid-cols-2 gap-2 md:flex md:flex-wrap md:items-center md:gap-3">
                 <select
                   value={deliveryFilter}
                   onChange={(event) => setDeliveryFilter(event.target.value as DeliveryFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
+                  className="filter-select w-full rounded-xl px-3 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All delivery</option>
                   <option value="online">Online-friendly</option>
@@ -330,7 +333,7 @@ function App() {
                 <select
                   value={assessmentFilter}
                   onChange={(event) => setAssessmentFilter(event.target.value as AssessmentFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
+                  className="filter-select w-full rounded-xl px-3 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All assessments</option>
                   <option value="few-exams">Few exams</option>
@@ -340,7 +343,7 @@ function App() {
                 <select
                   value={workloadFilter}
                   onChange={(event) => setWorkloadFilter(event.target.value as WorkloadFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
+                  className="filter-select w-full rounded-xl px-3 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All workloads</option>
                   <option value="light">Light workload</option>
@@ -350,7 +353,7 @@ function App() {
                 <select
                   value={yearLevelFilter}
                   onChange={(event) => setYearLevelFilter(event.target.value as YearLevelFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
+                  className="filter-select w-full rounded-xl px-3 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All year levels</option>
                   <option value="100">100 level</option>
@@ -361,7 +364,7 @@ function App() {
                 <select
                   value={catalogFilter}
                   onChange={(event) => setCatalogFilter(event.target.value as CatalogFilter)}
-                  className="w-full rounded-md border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
+                  className="filter-select w-full rounded-xl px-3 py-2 text-sm text-[var(--muted)] md:min-w-[10rem] md:w-auto md:text-xs"
                 >
                   <option value="all">All groups</option>
                   <option value="bird-courses">Bird Courses</option>
@@ -374,7 +377,7 @@ function App() {
                   type="button"
                   onClick={resetFilters}
                   disabled={!hasActiveFilters}
-                  className="w-full rounded-md border border-[var(--primary)]/25 bg-[var(--primary-soft)] px-3 py-2 text-xs font-medium text-[var(--primary)] transition-colors hover:border-[var(--primary)]/45 hover:bg-[var(--primary)]/10 disabled:cursor-not-allowed disabled:border-[var(--line)] disabled:bg-[var(--surface)] disabled:text-[var(--muted)] disabled:opacity-60 md:w-auto"
+                  className="w-full rounded-xl border border-[var(--primary)]/25 bg-[var(--primary-soft)] px-3 py-2 text-xs font-medium text-[var(--primary)] transition-colors hover:border-[var(--primary)]/45 hover:bg-[var(--primary)]/10 disabled:cursor-not-allowed disabled:border-[var(--line)] disabled:bg-[var(--surface)] disabled:text-[var(--muted)] disabled:opacity-60 md:w-auto"
                 >
                   Reset filters
                 </button>

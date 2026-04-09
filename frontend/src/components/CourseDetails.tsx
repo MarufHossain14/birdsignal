@@ -36,15 +36,15 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
 
   const confidenceLabel = (() => {
     const warning = confidence?.sample_bias_warning ?? "";
-    if (warning.includes("Low sample size")) return "Low";
-    if (warning.includes("older")) return "Medium";
-    return "Good";
+    if (warning.includes("Low sample size")) return "Limited data";
+    if (warning.includes("older")) return "Some data";
+    return "Strong signal";
   })();
 
   const confidenceToneClass =
-    confidenceLabel === "Good"
+    confidenceLabel === "Strong signal"
       ? "border-emerald-200 bg-emerald-50 text-emerald-800"
-      : confidenceLabel === "Medium"
+      : confidenceLabel === "Some data"
         ? "border-amber-200 bg-amber-50 text-amber-900"
         : "border-rose-200 bg-rose-50 text-rose-900";
 
@@ -69,11 +69,11 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
             <p className="mt-1 text-sm text-[var(--muted)]">{course.course_title}</p>
           )}
           <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
-            <p className="text-[var(--muted)]">{course.specific_mentions} mentions</p>
+            <p className="text-[var(--muted)]">{course.specific_mentions} Reddit posts</p>
             <span
               className={`inline-flex rounded-md border px-2 py-0.5 text-xs font-medium ${confidenceToneClass}`}
             >
-              {confidenceLabel} confidence
+              {confidenceLabel}
             </span>
           </div>
           <p className="mt-1 text-xs text-[var(--muted)]">
@@ -100,7 +100,7 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
             </h3>
             {course.score_confidence === "low" && (
               <p className="mt-3 rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900">
-                Not enough recent Reddit evidence to assign a reliable bird score.
+                There is not enough recent discussion to show a reliable ease score yet.
               </p>
             )}
             <p className="mt-4 text-sm text-[var(--text)]">
@@ -153,17 +153,17 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
 
           <section>
             <h3 className="text-sm font-medium uppercase tracking-[0.1em] text-[var(--muted)]">
-              Confidence
+              Discussion Window
             </h3>
             <dl className="mt-3 space-y-2 text-sm">
               <div className="flex items-start justify-between gap-3">
-                <dt>Data coverage</dt>
+                <dt>Post dates</dt>
                 <dd className="max-w-[65%] text-right break-words">
                   {formatDate(confidence?.oldest_thread_date)} - {formatDate(confidence?.newest_thread_date)}
                 </dd>
               </div>
               <div className="flex items-start justify-between gap-3">
-                <dt>Confidence</dt>
+                <dt>Data quality</dt>
                 <dd className="text-right">{confidenceLabel}</dd>
               </div>
             </dl>
@@ -172,8 +172,11 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
 
         <section className="max-h-none overflow-y-visible p-4 sm:p-6 lg:max-h-[66dvh] lg:overflow-y-auto lg:p-7">
           <h3 className="mb-2 text-sm font-medium uppercase tracking-[0.1em] text-[var(--muted)]">
-            Evidence-Ranked Mentions
+            Reddit Posts About This Course
           </h3>
+          <p className="text-xs text-[var(--muted)]">
+            Newer posts and posts focused on this course appear first.
+          </p>
           <div className="mb-5" />
           <ThreadList threads={sortedThreads} />
         </section>

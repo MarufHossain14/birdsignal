@@ -16,9 +16,9 @@ export const Header: React.FC<HeaderProps> = ({ onSearch }) => {
   }, [query, onSearch]);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-40 border-b border-[var(--line)] bg-[var(--surface)]/95 backdrop-blur-sm will-change-transform [transform:translateZ(0)] [backface-visibility:hidden]">
+    <header className="site-header fixed inset-x-0 top-0 z-40 backdrop-blur-sm will-change-transform [transform:translateZ(0)] [backface-visibility:hidden]">
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-5 sm:px-6 sm:py-3.5 md:px-8">
-        <div className="flex items-center gap-3">
+        <div className="brand-mark flex items-center gap-3">
           <img src="/logo.png" alt="BirdSignal logo" className="h-7 w-7 object-contain" />
           <div>
             <p className="text-[0.68rem] uppercase tracking-[0.12em] text-[var(--muted)]">WLU</p>
@@ -32,7 +32,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch }) => {
           <label htmlFor="course-search" className="sr-only">
             Search courses
           </label>
-          <div className="group flex items-center gap-2 rounded-lg border border-[var(--line)] bg-[var(--surface-muted)] px-3 py-2.5 transition-colors focus-within:border-[var(--primary)] focus-within:bg-[var(--surface)]">
+          <div className="search-shell group flex items-center gap-2 rounded-2xl px-3 py-2.5 transition-colors">
             <svg
               className="h-4 w-4 text-[var(--muted)] transition-colors group-focus-within:text-[var(--primary)]"
               viewBox="0 0 24 24"

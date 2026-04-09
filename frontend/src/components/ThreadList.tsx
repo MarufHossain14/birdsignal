@@ -67,13 +67,8 @@ export const ThreadList: React.FC<ThreadListProps> = ({ threads }) => {
               <div className="mt-2 flex items-center justify-between text-xs text-[var(--muted)]">
                 <span>{formatDate(thread.created)}</span>
                 <div className="flex items-center gap-2">
-                  {typeof thread.evidence_score === "number" && (
-                    <span className="rounded-md border border-[var(--primary)]/25 bg-[var(--primary-soft)] px-2 py-1 text-[var(--primary)]">
-                      Evidence {thread.evidence_score.toFixed(1)}
-                    </span>
-                  )}
                   <span className="rounded-md border border-[var(--secondary)]/45 bg-[var(--secondary-soft)] px-2 py-1 text-[var(--secondary-content)]">
-                    Score {thread.score}
+                    {thread.score} upvotes
                   </span>
                 </div>
               </div>

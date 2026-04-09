@@ -21,6 +21,56 @@ def parse_course_codes(raw_value):
         unique.append(code)
     return unique
 
+
+def load_curated_catalog_codes() -> list[str]:
+    """Load curated catalog codes from the frontend's normalized catalog."""
+    pipeline_dir = os.path.dirname(__file__)
+    catalog_path = os.path.abspath(
+        os.path.join(
+            pipeline_dir,
+            "..",
+            "..",
+            "frontend",
+            "public",
+            "data",
+            "course-catalog",
+            "normalized.json",
+        )
+    )
+
+    try:
+        with open(catalog_path, "r") as f:
+            catalog = json.load(f)
+    except Exception as e:
+        print(f"Warning: failed to load curated catalog from {catalog_path}: {e}")
+        return []
+
+    codes = []
+    seen = set()
+    for row in catalog:
+        code = str(row.get("code", "")).strip().upper()
+        if not code or code in seen:
+            continue
+        seen.add(code)
+        codes.append(code)
+    return codes
+
+
+def build_detailed_analysis_targets(top_courses, curated_catalog_codes, must_include_courses):
+    """Combine discovery and curated-coverage targets into one deduplicated list."""
+    requested_must_include = [code.upper() for code in (must_include_courses or [])]
+    seen = set()
+    ordered_targets = []
+
+    for code in list(top_courses) + list(curated_catalog_codes) + requested_must_include:
+        normalized = str(code).strip().upper()
+        if not normalized or normalized in seen:
+            continue
+        seen.add(normalized)
+        ordered_targets.append(normalized)
+
+    return ordered_targets, requested_must_include
+
 def save_to_json(data, file_path):
     """Save data to a JSON file"""
     try:
@@ -86,21 +136,22 @@ def run_pipeline(
     if analyze_top_courses and course_rankings:
         print(f"\nAnalyzing top {top_courses_count} courses in detail...")
 
-        # Build a single target list so course details catalog/index are generated once.
         top_courses = [course['code'] for course in course_rankings[:top_courses_count]]
-        requested_must_include = [code.upper() for code in (must_include_courses or [])]
-        seen = set()
-        courses_for_detailed_analysis = []
-        for code in top_courses + requested_must_include:
-            normalized = code.upper()
-            if normalized in seen:
-                continue
-            seen.add(normalized)
-            courses_for_detailed_analysis.append(normalized)
+        curated_catalog_codes = load_curated_catalog_codes()
+        courses_for_detailed_analysis, requested_must_include = build_detailed_analysis_targets(
+            top_courses,
+            curated_catalog_codes,
+            must_include_courses,
+        )
 
         print(
             "Courses selected for detailed analysis: "
             f"{', '.join(courses_for_detailed_analysis)}"
+        )
+        print(
+            "Selection breakdown: "
+            f"{len(top_courses)} discovered bird-course targets + "
+            f"{len(curated_catalog_codes)} curated catalog targets"
         )
         if requested_must_include:
             print(

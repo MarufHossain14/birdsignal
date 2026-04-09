@@ -55,7 +55,7 @@
       "score": 4,
       "created": "2025-12-08T06:48:44.000Z",
       "num_comments": 6,
-      "evidence_score": 6.2
+      "evidence_score": 6.1
     },
     {
       "title": "CP164 in class vs online?",
@@ -68,7 +68,7 @@
     {
       "title": "Feeling drained and overwhelmed",
       "url": "https://www.reddit.com/r/wlu/comments/1jiz011/feeling_drained_and_overwhelmed/",
-      "score": 19,
+      "score": 18,
       "created": "2025-03-24T19:10:04.000Z",
       "num_comments": 5,
       "evidence_score": 5.9
@@ -76,7 +76,7 @@
     {
       "title": "CP102: A Rant",
       "url": "https://www.reddit.com/r/wlu/comments/kfh3xc/cp102_a_rant/",
-      "score": 78,
+      "score": 76,
       "created": "2020-12-18T08:10:11.000Z",
       "num_comments": 11,
       "evidence_score": 5.9
@@ -106,6 +106,14 @@
       "evidence_score": 5.7
     },
     {
+      "title": "CP164",
+      "url": "https://www.reddit.com/r/wlu/comments/1o1nhcd/cp164/",
+      "score": 5,
+      "created": "2025-10-08T21:10:56.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.7
+    },
+    {
       "title": "CP104 Exam",
       "url": "https://www.reddit.com/r/wlu/comments/1pip07t/cp104_exam/",
       "score": 1,
@@ -119,14 +127,6 @@
       "score": 3,
       "created": "2025-10-27T06:02:44.000Z",
       "num_comments": 3,
-      "evidence_score": 5.6
-    },
-    {
-      "title": "CP164",
-      "url": "https://www.reddit.com/r/wlu/comments/1o1nhcd/cp164/",
-      "score": 4,
-      "created": "2025-10-08T21:10:56.000Z",
-      "num_comments": 2,
       "evidence_score": 5.6
     },
     {
@@ -148,7 +148,7 @@
     {
       "title": "The CP104 midterm monitoring is insane to me",
       "url": "https://www.reddit.com/r/wlu/comments/jkdr09/the_cp104_midterm_monitoring_is_insane_to_me/",
-      "score": 45,
+      "score": 43,
       "created": "2020-10-29T16:53:34.000Z",
       "num_comments": 9,
       "evidence_score": 5.4
@@ -191,7 +191,7 @@
       "score": 1,
       "created": "2025-10-17T20:33:53.000Z",
       "num_comments": 4,
-      "evidence_score": 5.1
+      "evidence_score": 5.0
     },
     {
       "title": "cp104",
@@ -207,6 +207,14 @@
       "score": 1,
       "created": "2025-10-31T17:41:07.000Z",
       "num_comments": 2,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "how is the CP104 midterm going to work?",
+      "url": "https://www.reddit.com/r/wlu/comments/1g7s38a/how_is_the_cp104_midterm_going_to_work/",
+      "score": 10,
+      "created": "2024-10-20T05:56:17.000Z",
+      "num_comments": 4,
       "evidence_score": 5.0
     },
     {
@@ -228,7 +236,7 @@
     {
       "title": "Consequences of failing cp104",
       "url": "https://www.reddit.com/r/wlu/comments/18gcxvf/consequences_of_failing_cp104/",
-      "score": 13,
+      "score": 12,
       "created": "2023-12-12T03:55:32.000Z",
       "num_comments": 15,
       "evidence_score": 4.9
@@ -242,27 +250,11 @@
       "evidence_score": 4.9
     },
     {
-      "title": "First/Second Semester Time Schedule - Thoughts",
-      "url": "https://www.reddit.com/r/wlu/comments/1l7biyb/firstsecond_semester_time_schedule_thoughts/",
-      "score": 6,
-      "created": "2025-06-09T17:53:44.000Z",
-      "num_comments": 19,
-      "evidence_score": 4.9
-    },
-    {
       "title": "CP104 Final Exam Spring 2025",
       "url": "https://www.reddit.com/r/wlu/comments/1mokk1x/cp104_final_exam_spring_2025/",
       "score": 1,
       "created": "2025-08-12T20:49:16.000Z",
       "num_comments": 9,
-      "evidence_score": 4.8
-    },
-    {
-      "title": "how is the CP104 midterm going to work?",
-      "url": "https://www.reddit.com/r/wlu/comments/1g7s38a/how_is_the_cp104_midterm_going_to_work/",
-      "score": 8,
-      "created": "2024-10-20T05:56:17.000Z",
-      "num_comments": 4,
       "evidence_score": 4.8
     },
     {
@@ -290,6 +282,14 @@
       "evidence_score": 4.7
     },
     {
+      "title": "Is the CS department that bad here? (BBA -&gt; CS transfer)",
+      "url": "https://www.reddit.com/r/wlu/comments/zx5p26/is_the_cs_department_that_bad_here_bba_cs_transfer/",
+      "score": 13,
+      "created": "2022-12-28T09:49:10.000Z",
+      "num_comments": 14,
+      "evidence_score": 4.7
+    },
+    {
       "title": "Cp104 final exam",
       "url": "https://www.reddit.com/r/wlu/comments/17p23uc/cp104_final_exam/",
       "score": 9,
@@ -306,11 +306,19 @@
       "evidence_score": 4.6
     },
     {
-      "title": "Is the CS department that bad here? (BBA -&gt; CS transfer)",
-      "url": "https://www.reddit.com/r/wlu/comments/zx5p26/is_the_cs_department_that_bad_here_bba_cs_transfer/",
-      "score": 11,
-      "created": "2022-12-28T09:49:10.000Z",
-      "num_comments": 14,
+      "title": "Any tips for cp164",
+      "url": "https://www.reddit.com/r/wlu/comments/1015blr/any_tips_for_cp164/",
+      "score": 13,
+      "created": "2023-01-02T06:19:45.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "First/Second Semester Time Schedule - Thoughts",
+      "url": "https://www.reddit.com/r/wlu/comments/1l7biyb/firstsecond_semester_time_schedule_thoughts/",
+      "score": 4,
+      "created": "2025-06-09T17:53:44.000Z",
+      "num_comments": 19,
       "evidence_score": 4.6
     },
     {
@@ -319,14 +327,6 @@
       "score": 3,
       "created": "2025-04-17T16:45:59.000Z",
       "num_comments": 1,
-      "evidence_score": 4.5
-    },
-    {
-      "title": "Any tips for cp164",
-      "url": "https://www.reddit.com/r/wlu/comments/1015blr/any_tips_for_cp164/",
-      "score": 12,
-      "created": "2023-01-02T06:19:45.000Z",
-      "num_comments": 7,
       "evidence_score": 4.5
     },
     {
@@ -362,11 +362,11 @@
       "evidence_score": 4.4
     },
     {
-      "title": "Anyone who took An 100 or cp104 do I need these to get an A?",
-      "url": "https://www.reddit.com/r/wlu/comments/168dpns/anyone_who_took_an_100_or_cp104_do_i_need_these/",
-      "score": 8,
-      "created": "2023-09-02T21:00:49.000Z",
-      "num_comments": 9,
+      "title": "CP104 with Muhammad Muddassir Malik",
+      "url": "https://www.reddit.com/r/wlu/comments/1b1q3c3/cp104_with_muhammad_muddassir_malik/",
+      "score": 6,
+      "created": "2024-02-27T23:06:27.000Z",
+      "num_comments": 10,
       "evidence_score": 4.4
     },
     {
@@ -394,25 +394,17 @@
       "evidence_score": 4.4
     },
     {
-      "title": "CP104 with Muhammad Muddassir Malik",
-      "url": "https://www.reddit.com/r/wlu/comments/1b1q3c3/cp104_with_muhammad_muddassir_malik/",
-      "score": 5,
-      "created": "2024-02-27T23:06:27.000Z",
-      "num_comments": 10,
-      "evidence_score": 4.3
-    },
-    {
-      "title": "Failed ma102 and cp104 as computer science major",
-      "url": "https://www.reddit.com/r/wlu/comments/100drac/failed_ma102_and_cp104_as_computer_science_major/",
-      "score": 8,
-      "created": "2023-01-01T06:38:50.000Z",
-      "num_comments": 10,
+      "title": "CP104/CP164 Extra Help Sessions Followup!",
+      "url": "https://www.reddit.com/r/wlu/comments/dtk5he/cp104cp164_extra_help_sessions_followup/",
+      "score": 14,
+      "created": "2019-11-08T19:11:57.000Z",
+      "num_comments": 2,
       "evidence_score": 4.3
     },
     {
       "title": "CP104/CP164 Extra Help Sessions",
       "url": "https://www.reddit.com/r/wlu/comments/d6hslw/cp104cp164_extra_help_sessions/",
-      "score": 20,
+      "score": 19,
       "created": "2019-09-19T18:02:20.000Z",
       "num_comments": 0,
       "evidence_score": 4.3
@@ -442,19 +434,19 @@
       "evidence_score": 4.2
     },
     {
-      "title": "what if I fail cp104 as a CS major",
-      "url": "https://www.reddit.com/r/wlu/comments/zul1ft/what_if_i_fail_cp104_as_a_cs_major/",
+      "title": "Anyone who took An 100 or cp104 do I need these to get an A?",
+      "url": "https://www.reddit.com/r/wlu/comments/168dpns/anyone_who_took_an_100_or_cp104_do_i_need_these/",
       "score": 6,
-      "created": "2022-12-24T23:01:39.000Z",
-      "num_comments": 13,
+      "created": "2023-09-02T21:00:49.000Z",
+      "num_comments": 9,
       "evidence_score": 4.2
     },
     {
-      "title": "Today is my cp104 exam and i\u2019ve been throwing up all night. Idk what I got into my body but I keep throwing up. Idk what to do now I really don\u2019t want to throw up during the exam.",
-      "url": "https://www.reddit.com/r/wlu/comments/zqqiik/today_is_my_cp104_exam_and_ive_been_throwing_up/",
+      "title": "Failed ma102 and cp104 as computer science major",
+      "url": "https://www.reddit.com/r/wlu/comments/100drac/failed_ma102_and_cp104_as_computer_science_major/",
       "score": 7,
-      "created": "2022-12-20T14:54:34.000Z",
-      "num_comments": 9,
+      "created": "2023-01-01T06:38:50.000Z",
+      "num_comments": 10,
       "evidence_score": 4.2
     },
     {
@@ -463,14 +455,6 @@
       "score": 8,
       "created": "2021-12-15T02:50:00.000Z",
       "num_comments": 8,
-      "evidence_score": 4.2
-    },
-    {
-      "title": "CP104/CP164 Extra Help Sessions Followup!",
-      "url": "https://www.reddit.com/r/wlu/comments/dtk5he/cp104cp164_extra_help_sessions_followup/",
-      "score": 13,
-      "created": "2019-11-08T19:11:57.000Z",
-      "num_comments": 2,
       "evidence_score": 4.2
     },
     {
@@ -490,20 +474,44 @@
       "evidence_score": 4.2
     },
     {
+      "title": "Can my friend get a deferred exam?",
+      "url": "https://www.reddit.com/r/wlu/comments/18ksplb/can_my_friend_get_a_deferred_exam/",
+      "score": 5,
+      "created": "2023-12-17T22:10:57.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "what if I fail cp104 as a CS major",
+      "url": "https://www.reddit.com/r/wlu/comments/zul1ft/what_if_i_fail_cp104_as_a_cs_major/",
+      "score": 5,
+      "created": "2022-12-24T23:01:39.000Z",
+      "num_comments": 13,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "Do upper year CS courses have those lab/assigment checkers?",
+      "url": "https://www.reddit.com/r/wlu/comments/1bqz1lk/do_upper_year_cs_courses_have_those_labassigment/",
+      "score": 4,
+      "created": "2024-03-29T20:51:00.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.1
+    },
+    {
       "title": "How does failing a course affect your GPA?",
       "url": "https://www.reddit.com/r/wlu/comments/18b6oa8/how_does_failing_a_course_affect_your_gpa/",
-      "score": 6,
+      "score": 5,
       "created": "2023-12-05T07:27:58.000Z",
       "num_comments": 6,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "Anyone switched from BBA to CS?",
       "url": "https://www.reddit.com/r/wlu/comments/125ca9q/anyone_switched_from_bba_to_cs/",
-      "score": 6,
+      "score": 5,
       "created": "2023-03-29T03:52:26.000Z",
       "num_comments": 10,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "cp 104 final exam",
@@ -514,12 +522,28 @@
       "evidence_score": 4.1
     },
     {
-      "title": "Electives for first year BBA",
-      "url": "https://www.reddit.com/r/wlu/comments/vd1iua/electives_for_first_year_bba/",
-      "score": 6,
-      "created": "2022-06-15T18:42:00.000Z",
-      "num_comments": 10,
-      "evidence_score": 4.1
+      "title": "Today is my cp104 exam and i\u2019ve been throwing up all night. Idk what I got into my body but I keep throwing up. Idk what to do now I really don\u2019t want to throw up during the exam.",
+      "url": "https://www.reddit.com/r/wlu/comments/zqqiik/today_is_my_cp104_exam_and_ive_been_throwing_up/",
+      "score": 5,
+      "created": "2022-12-20T14:54:34.000Z",
+      "num_comments": 9,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "CP104, EC120, EC140, and other help",
+      "url": "https://www.reddit.com/r/wlu/comments/116gjz3/cp104_ec120_ec140_and_other_help/",
+      "score": 5,
+      "created": "2023-02-19T16:14:52.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "CP104 CP164 CP 213. Tutoring sessions available",
+      "url": "https://www.reddit.com/r/wlu/comments/qjvb9t/cp104_cp164_cp_213_tutoring_sessions_available/",
+      "score": 7,
+      "created": "2021-10-31T18:16:52.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.0
     },
     {
       "title": "Cant Pick CS classes even though I am a CS MAJOR",
@@ -546,11 +570,19 @@
       "evidence_score": 4.0
     },
     {
-      "title": "Can my friend get a deferred exam?",
-      "url": "https://www.reddit.com/r/wlu/comments/18ksplb/can_my_friend_get_a_deferred_exam/",
-      "score": 4,
-      "created": "2023-12-17T22:10:57.000Z",
-      "num_comments": 7,
+      "title": "Electives for first year BBA",
+      "url": "https://www.reddit.com/r/wlu/comments/vd1iua/electives_for_first_year_bba/",
+      "score": 5,
+      "created": "2022-06-15T18:42:00.000Z",
+      "num_comments": 10,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "First Year BBA Courses/Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/o3ud16/first_year_bba_courseselectives/",
+      "score": 6,
+      "created": "2021-06-20T01:14:05.000Z",
+      "num_comments": 8,
       "evidence_score": 4.0
     },
     {
@@ -570,11 +602,11 @@
       "evidence_score": 3.9
     },
     {
-      "title": "if I pass all my assignments and exams but fail the lab portion in CP104, can I still pass the course?",
-      "url": "https://www.reddit.com/r/wlu/comments/jru5tg/if_i_pass_all_my_assignments_and_exams_but_fail/",
-      "score": 5,
-      "created": "2020-11-10T21:34:31.000Z",
-      "num_comments": 9,
+      "title": "Real thoughts on CP104",
+      "url": "https://www.reddit.com/r/wlu/comments/mpra0t/real_thoughts_on_cp104/",
+      "score": 4,
+      "created": "2021-04-13T00:35:28.000Z",
+      "num_comments": 16,
       "evidence_score": 3.9
     },
     {
@@ -586,19 +618,11 @@
       "evidence_score": 3.9
     },
     {
-      "title": "Do upper year CS courses have those lab/assigment checkers?",
-      "url": "https://www.reddit.com/r/wlu/comments/1bqz1lk/do_upper_year_cs_courses_have_those_labassigment/",
-      "score": 3,
-      "created": "2024-03-29T20:51:00.000Z",
+      "title": "Has anyone taking or has taken CP104?",
+      "url": "https://www.reddit.com/r/wlu/comments/hwsb1m/has_anyone_taking_or_has_taken_cp104/",
+      "score": 6,
+      "created": "2020-07-24T01:11:08.000Z",
       "num_comments": 5,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "First Year BBA Courses/Electives",
-      "url": "https://www.reddit.com/r/wlu/comments/o3ud16/first_year_bba_courseselectives/",
-      "score": 5,
-      "created": "2021-06-20T01:14:05.000Z",
-      "num_comments": 8,
       "evidence_score": 3.9
     },
     {
@@ -607,14 +631,6 @@
       "score": 1,
       "created": "2025-01-02T23:04:47.000Z",
       "num_comments": 2,
-      "evidence_score": 3.8
-    },
-    {
-      "title": "CP104, EC120, EC140, and other help",
-      "url": "https://www.reddit.com/r/wlu/comments/116gjz3/cp104_ec120_ec140_and_other_help/",
-      "score": 4,
-      "created": "2023-02-19T16:14:52.000Z",
-      "num_comments": 7,
       "evidence_score": 3.8
     },
     {
@@ -634,14 +650,6 @@
       "evidence_score": 3.8
     },
     {
-      "title": "CP104 CP164 CP 213. Tutoring sessions available",
-      "url": "https://www.reddit.com/r/wlu/comments/qjvb9t/cp104_cp164_cp_213_tutoring_sessions_available/",
-      "score": 5,
-      "created": "2021-10-31T18:16:52.000Z",
-      "num_comments": 5,
-      "evidence_score": 3.8
-    },
-    {
       "title": "W2021 CP104?",
       "url": "https://www.reddit.com/r/wlu/comments/koit6m/w2021_cp104/",
       "score": 6,
@@ -650,11 +658,11 @@
       "evidence_score": 3.8
     },
     {
-      "title": "Has anyone taking or has taken CP104?",
-      "url": "https://www.reddit.com/r/wlu/comments/hwsb1m/has_anyone_taking_or_has_taken_cp104/",
-      "score": 5,
-      "created": "2020-07-24T01:11:08.000Z",
-      "num_comments": 5,
+      "title": "UPDATE: CP104/CP164 Extra Help Sessions",
+      "url": "https://www.reddit.com/r/wlu/comments/d8amvj/update_cp104cp164_extra_help_sessions/",
+      "score": 9,
+      "created": "2019-09-23T18:28:16.000Z",
+      "num_comments": 0,
       "evidence_score": 3.8
     },
     {
@@ -671,14 +679,6 @@
       "score": 3,
       "created": "2023-09-04T14:41:17.000Z",
       "num_comments": 8,
-      "evidence_score": 3.8
-    },
-    {
-      "title": "Do you still need to sign up for a lab if you are doing an online course ?",
-      "url": "https://www.reddit.com/r/wlu/comments/zjmj4o/do_you_still_need_to_sign_up_for_a_lab_if_you_are/",
-      "score": 4,
-      "created": "2022-12-12T04:10:41.000Z",
-      "num_comments": 6,
       "evidence_score": 3.8
     },
     {
@@ -706,14 +706,6 @@
       "evidence_score": 3.7
     },
     {
-      "title": "Real thoughts on CP104",
-      "url": "https://www.reddit.com/r/wlu/comments/mpra0t/real_thoughts_on_cp104/",
-      "score": 3,
-      "created": "2021-04-13T00:35:28.000Z",
-      "num_comments": 16,
-      "evidence_score": 3.7
-    },
-    {
       "title": "How is the cp104 midterm?",
       "url": "https://www.reddit.com/r/wlu/comments/j9c9vc/how_is_the_cp104_midterm/",
       "score": 5,
@@ -722,10 +714,10 @@
       "evidence_score": 3.7
     },
     {
-      "title": "UPDATE: CP104/CP164 Extra Help Sessions",
-      "url": "https://www.reddit.com/r/wlu/comments/d8amvj/update_cp104cp164_extra_help_sessions/",
+      "title": "CP104/CP164 1 on 1 Tutoring!",
+      "url": "https://www.reddit.com/r/wlu/comments/b0dy7t/cp104cp164_1_on_1_tutoring/",
       "score": 8,
-      "created": "2019-09-23T18:28:16.000Z",
+      "created": "2019-03-12T22:18:36.000Z",
       "num_comments": 0,
       "evidence_score": 3.7
     },
@@ -794,6 +786,22 @@
       "evidence_score": 3.6
     },
     {
+      "title": "Cp104",
+      "url": "https://www.reddit.com/r/wlu/comments/rpcma9/cp104/",
+      "score": 3,
+      "created": "2021-12-27T02:42:37.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "if I pass all my assignments and exams but fail the lab portion in CP104, can I still pass the course?",
+      "url": "https://www.reddit.com/r/wlu/comments/jru5tg/if_i_pass_all_my_assignments_and_exams_but_fail/",
+      "score": 3,
+      "created": "2020-11-10T21:34:31.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.6
+    },
+    {
       "title": "Iclicker... Is it worth it for CP104...? If so what plan should I get (only for 1 year or 5?)",
       "url": "https://www.reddit.com/r/wlu/comments/pn2d98/iclicker_is_it_worth_it_for_cp104_if_so_what_plan/",
       "score": 4,
@@ -818,11 +826,11 @@
       "evidence_score": 3.6
     },
     {
-      "title": "CP104/CP164 1 on 1 Tutoring!",
-      "url": "https://www.reddit.com/r/wlu/comments/b0dy7t/cp104cp164_1_on_1_tutoring/",
-      "score": 7,
-      "created": "2019-03-12T22:18:36.000Z",
-      "num_comments": 0,
+      "title": "CP164 Final!!!!",
+      "url": "https://www.reddit.com/r/wlu/comments/1bl7i0s/cp164_final/",
+      "score": 1,
+      "created": "2024-03-22T19:16:30.000Z",
+      "num_comments": 14,
       "evidence_score": 3.6
     },
     {
@@ -834,11 +842,27 @@
       "evidence_score": 3.6
     },
     {
-      "title": "Course Registration Problem",
-      "url": "https://www.reddit.com/r/wlu/comments/ohl7yc/course_registration_problem/",
+      "title": "Is it worth it to learn C and/Java in the summer to prepare for second year?",
+      "url": "https://www.reddit.com/r/wlu/comments/1313blm/is_it_worth_it_to_learn_c_andjava_in_the_summer/",
+      "score": 4,
+      "created": "2023-04-27T19:26:52.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "Do you still need to sign up for a lab if you are doing an online course ?",
+      "url": "https://www.reddit.com/r/wlu/comments/zjmj4o/do_you_still_need_to_sign_up_for_a_lab_if_you_are/",
       "score": 3,
-      "created": "2021-07-10T15:53:54.000Z",
-      "num_comments": 9,
+      "created": "2022-12-12T04:10:41.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "does taking an OC course chances of getting co-op or transfer to a different program",
+      "url": "https://www.reddit.com/r/wlu/comments/zepwir/does_taking_an_oc_course_chances_of_getting_coop/",
+      "score": 4,
+      "created": "2022-12-07T02:43:28.000Z",
+      "num_comments": 2,
       "evidence_score": 3.6
     },
     {
@@ -858,11 +882,11 @@
       "evidence_score": 3.5
     },
     {
-      "title": "Is it worth it to learn C and/Java in the summer to prepare for second year?",
-      "url": "https://www.reddit.com/r/wlu/comments/1313blm/is_it_worth_it_to_learn_c_andjava_in_the_summer/",
+      "title": "No coding experience CP102 before CP212",
+      "url": "https://www.reddit.com/r/wlu/comments/p0lzi7/no_coding_experience_cp102_before_cp212/",
       "score": 3,
-      "created": "2023-04-27T19:26:52.000Z",
-      "num_comments": 2,
+      "created": "2021-08-08T20:12:26.000Z",
+      "num_comments": 5,
       "evidence_score": 3.5
     },
     {
@@ -890,6 +914,14 @@
       "evidence_score": 3.4
     },
     {
+      "title": "Do CP104 lectures get recorded?",
+      "url": "https://www.reddit.com/r/wlu/comments/oicrdi/do_cp104_lectures_get_recorded/",
+      "score": 4,
+      "created": "2021-07-11T21:12:45.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.4
+    },
+    {
       "title": "Online CS Courses",
       "url": "https://www.reddit.com/r/wlu/comments/1eu8ntr/online_cs_courses/",
       "score": 1,
@@ -906,11 +938,11 @@
       "evidence_score": 3.4
     },
     {
-      "title": "does taking an OC course chances of getting co-op or transfer to a different program",
-      "url": "https://www.reddit.com/r/wlu/comments/zepwir/does_taking_an_oc_course_chances_of_getting_coop/",
-      "score": 3,
-      "created": "2022-12-07T02:43:28.000Z",
-      "num_comments": 2,
+      "title": "Course Registration Problem",
+      "url": "https://www.reddit.com/r/wlu/comments/ohl7yc/course_registration_problem/",
+      "score": 2,
+      "created": "2021-07-10T15:53:54.000Z",
+      "num_comments": 9,
       "evidence_score": 3.4
     },
     {
@@ -927,14 +959,6 @@
       "score": 2,
       "created": "2023-05-16T01:01:42.000Z",
       "num_comments": 3,
-      "evidence_score": 3.3
-    },
-    {
-      "title": "Cp104",
-      "url": "https://www.reddit.com/r/wlu/comments/rpcma9/cp104/",
-      "score": 2,
-      "created": "2021-12-27T02:42:37.000Z",
-      "num_comments": 7,
       "evidence_score": 3.3
     },
     {
@@ -962,27 +986,11 @@
       "evidence_score": 3.3
     },
     {
-      "title": "No coding experience CP102 before CP212",
-      "url": "https://www.reddit.com/r/wlu/comments/p0lzi7/no_coding_experience_cp102_before_cp212/",
-      "score": 2,
-      "created": "2021-08-08T20:12:26.000Z",
-      "num_comments": 5,
-      "evidence_score": 3.3
-    },
-    {
       "title": "Cp202 vs cp212",
       "url": "https://www.reddit.com/r/wlu/comments/hwaupj/cp202_vs_cp212/",
       "score": 2,
       "created": "2020-07-23T06:36:56.000Z",
       "num_comments": 6,
-      "evidence_score": 3.3
-    },
-    {
-      "title": "Apply to be an SOS Course Liaison!",
-      "url": "https://www.reddit.com/r/wlu/comments/ppzull/apply_to_be_an_sos_course_liaison/",
-      "score": 4,
-      "created": "2021-09-17T13:09:40.000Z",
-      "num_comments": 0,
       "evidence_score": 3.3
     },
     {
@@ -1034,14 +1042,6 @@
       "evidence_score": 3.2
     },
     {
-      "title": "Do CP104 lectures get recorded?",
-      "url": "https://www.reddit.com/r/wlu/comments/oicrdi/do_cp104_lectures_get_recorded/",
-      "score": 3,
-      "created": "2021-07-11T21:12:45.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.2
-    },
-    {
       "title": "Worth taking CP104 as a second year BBA student?",
       "url": "https://www.reddit.com/r/wlu/comments/8xzrn6/worth_taking_cp104_as_a_second_year_bba_student/",
       "score": 2,
@@ -1063,6 +1063,14 @@
       "score": 2,
       "created": "2022-06-25T00:45:21.000Z",
       "num_comments": 2,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "first yr electives",
+      "url": "https://www.reddit.com/r/wlu/comments/nmqt5d/first_yr_electives/",
+      "score": 2,
+      "created": "2021-05-28T05:38:00.000Z",
+      "num_comments": 4,
       "evidence_score": 3.2
     },
     {
@@ -1103,14 +1111,6 @@
       "score": 2,
       "created": "2017-06-05T00:49:24.000Z",
       "num_comments": 1,
-      "evidence_score": 3.0
-    },
-    {
-      "title": "CP164 Final!!!!",
-      "url": "https://www.reddit.com/r/wlu/comments/1bl7i0s/cp164_final/",
-      "score": 0,
-      "created": "2024-03-22T19:16:30.000Z",
-      "num_comments": 14,
       "evidence_score": 3.0
     },
     {
@@ -1202,14 +1202,6 @@
       "evidence_score": 2.9
     },
     {
-      "title": "first yr electives",
-      "url": "https://www.reddit.com/r/wlu/comments/nmqt5d/first_yr_electives/",
-      "score": 1,
-      "created": "2021-05-28T05:38:00.000Z",
-      "num_comments": 4,
-      "evidence_score": 2.9
-    },
-    {
       "title": "bu 111 textbook and cp104 textbook",
       "url": "https://www.reddit.com/r/wlu/comments/pllb4g/bu_111_textbook_and_cp104_textbook/",
       "score": 1,
@@ -1296,6 +1288,14 @@
       "created": "2021-08-14T23:23:14.000Z",
       "num_comments": 1,
       "evidence_score": 2.7
+    },
+    {
+      "title": "Apply to be an SOS Course Liaison!",
+      "url": "https://www.reddit.com/r/wlu/comments/ppzull/apply_to_be_an_sos_course_liaison/",
+      "score": 1,
+      "created": "2021-09-17T13:09:40.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.6
     },
     {
       "title": "Why Can't You Take CP104 As A BBA Student?",

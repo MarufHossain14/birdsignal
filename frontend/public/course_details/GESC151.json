@@ -1,0 +1,109 @@
+{
+  "code": "GESC151",
+  "department": "GESC",
+  "bird_score": 9.01,
+  "specific_mentions": 8,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (6 vs 2). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: not clearly mentioned. Signals are reasonably representative.",
+  "confidence_signals": {
+    "recent_mentions": 3,
+    "oldest_thread_date": "2021-03-07T17:29:36+00:00",
+    "newest_thread_date": "2025-12-17T06:35:46+00:00",
+    "sample_bias_warning": "Signals are reasonably representative."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": -20
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 6,
+    "hard_mentions": 2,
+    "workload": 4
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": true
+  },
+  "threads": [
+    {
+      "title": "course recommendations",
+      "url": "https://www.reddit.com/r/wlu/comments/1kflw6s/course_recommendations/",
+      "score": 2,
+      "created": "2025-05-05T20:22:50.000Z",
+      "num_comments": 6,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "I still don't know what courses to take...",
+      "url": "https://www.reddit.com/r/wlu/comments/1popmnj/i_still_dont_know_what_courses_to_take/",
+      "score": 0,
+      "created": "2025-12-17T06:35:46.000Z",
+      "num_comments": 11,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Easy bird courses for spring to boost gpa?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ig4ok6/easy_bird_courses_for_spring_to_boost_gpa/",
+      "score": 3,
+      "created": "2025-02-02T19:01:32.000Z",
+      "num_comments": 11,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "What happens if I drop a class right now? (First year CS)",
+      "url": "https://www.reddit.com/r/wlu/comments/lzvan6/what_happens_if_i_drop_a_class_right_now_first/",
+      "score": 6,
+      "created": "2021-03-07T17:29:36.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "GESC151 our digital earth",
+      "url": "https://www.reddit.com/r/wlu/comments/rfns5q/gesc151_our_digital_earth/",
+      "score": 2,
+      "created": "2021-12-13T19:26:19.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "First Year bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1gureey/first_year_bird_courses/",
+      "score": 1,
+      "created": "2024-11-19T06:59:15.000Z",
+      "num_comments": 10,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "easy senior bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1lq4wsd/easy_senior_bird_courses/",
+      "score": 0,
+      "created": "2025-07-02T19:26:32.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "GG271 and GESC151",
+      "url": "https://www.reddit.com/r/wlu/comments/18z0obi/gg271_and_gesc151/",
+      "score": 0,
+      "created": "2024-01-05T06:59:52.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.4
+    }
+  ]
+}

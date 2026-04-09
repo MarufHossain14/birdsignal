@@ -1,0 +1,53 @@
+{
+  "code": "AB102",
+  "department": "AB",
+  "bird_score": 2.1,
+  "specific_mentions": 1,
+  "is_online_available": false,
+  "ai_summary": "Very limited evidence (1 mention). Use the thread list directly before relying on this score.",
+  "confidence_signals": {
+    "recent_mentions": 0,
+    "oldest_thread_date": "2022-07-05T09:19:12+00:00",
+    "newest_thread_date": "2022-07-05T09:19:12+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 0,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Are there any arabs that took the Arabic courses? AB101 or AB102, just wondering if I\u2019ll be fine in the class cuz I speak Arabic pretty well.",
+      "url": "https://www.reddit.com/r/wlu/comments/vrtrss/are_there_any_arabs_that_took_the_arabic_courses/",
+      "score": 2,
+      "created": "2022-07-05T09:19:12.000Z",
+      "num_comments": 15,
+      "evidence_score": 3.5
+    }
+  ]
+}

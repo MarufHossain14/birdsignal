@@ -1,7 +1,7 @@
 {
   "code": "AR101",
   "department": "AR",
-  "bird_score": 6.13,
+  "bird_score": 6.14,
   "specific_mentions": 7,
   "is_online_available": true,
   "ai_summary": "Mixed difficulty signals (3 easy, 4 hard mentions). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
@@ -50,6 +50,14 @@
       "evidence_score": 5.9
     },
     {
+      "title": "Are these electives easy",
+      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
+      "score": 1,
+      "created": "2025-06-26T18:07:52.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.6
+    },
+    {
       "title": "UU150 OC or AR101 OC- easier bird course?",
       "url": "https://www.reddit.com/r/wlu/comments/1hk696b/uu150_oc_or_ar101_oc_easier_bird_course/",
       "score": 3,
@@ -58,20 +66,12 @@
       "evidence_score": 4.3
     },
     {
-      "title": "Are these electives easy",
-      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
-      "score": 0,
-      "created": "2025-06-26T18:07:52.000Z",
-      "num_comments": 7,
-      "evidence_score": 4.0
-    },
-    {
       "title": "Ar101 or ar104 or ar105 all online? Which one is easier from your experience?",
       "url": "https://www.reddit.com/r/wlu/comments/14tkw3w/ar101_or_ar104_or_ar105_all_online_which_one_is/",
-      "score": 3,
+      "score": 4,
       "created": "2023-07-07T22:02:11.000Z",
       "num_comments": 0,
-      "evidence_score": 3.3
+      "evidence_score": 3.4
     },
     {
       "title": "Help!!",

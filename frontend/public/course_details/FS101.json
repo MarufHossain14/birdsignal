@@ -1,7 +1,7 @@
 {
   "code": "FS101",
   "department": "FS",
-  "bird_score": 6.68,
+  "bird_score": 6.67,
   "specific_mentions": 5,
   "is_online_available": false,
   "ai_summary": "More posts call it easy than hard (2 vs 0). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
@@ -44,10 +44,10 @@
     {
       "title": "first year elective recs?",
       "url": "https://www.reddit.com/r/wlu/comments/1l6ue9i/first_year_elective_recs/",
-      "score": 4,
+      "score": 3,
       "created": "2025-06-09T03:07:56.000Z",
       "num_comments": 7,
-      "evidence_score": 5.2
+      "evidence_score": 5.0
     },
     {
       "title": "are there any extremely easy bird courses for first year?",

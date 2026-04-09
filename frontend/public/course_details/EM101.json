@@ -42,28 +42,20 @@
   },
   "threads": [
     {
+      "title": "anyone taken em101 this past semester?",
+      "url": "https://www.reddit.com/r/wlu/comments/1puzshn/anyone_taken_em101_this_past_semester/",
+      "score": 4,
+      "created": "2025-12-24T23:10:12.000Z",
+      "num_comments": 12,
+      "evidence_score": 6.4
+    },
+    {
       "title": "Psych and neuro advise?",
       "url": "https://www.reddit.com/r/wlu/comments/1rgp0yj/psych_and_neuro_advise/",
       "score": 3,
       "created": "2026-02-28T01:15:48.000Z",
       "num_comments": 1,
       "evidence_score": 6.3
-    },
-    {
-      "title": "anyone taken em101 this past semester?",
-      "url": "https://www.reddit.com/r/wlu/comments/1puzshn/anyone_taken_em101_this_past_semester/",
-      "score": 3,
-      "created": "2025-12-24T23:10:12.000Z",
-      "num_comments": 12,
-      "evidence_score": 6.2
-    },
-    {
-      "title": "Easiest 12 ",
-      "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
-      "score": 19,
-      "created": "2024-12-17T22:57:19.000Z",
-      "num_comments": 17,
-      "evidence_score": 5.9
     },
     {
       "title": "DO NOT TAKE EM101!!!",
@@ -74,12 +66,12 @@
       "evidence_score": 5.8
     },
     {
-      "title": "BIRD COURSES",
-      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 16,
-      "created": "2024-09-10T16:03:00.000Z",
-      "num_comments": 24,
-      "evidence_score": 5.6
+      "title": "Easiest 12 ",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
+      "score": 18,
+      "created": "2024-12-17T22:57:19.000Z",
+      "num_comments": 17,
+      "evidence_score": 5.8
     },
     {
       "title": "EM101 Ai Bs?",
@@ -87,6 +79,14 @@
       "score": 9,
       "created": "2025-04-07T19:17:19.000Z",
       "num_comments": 8,
+      "evidence_score": 5.5
+    },
+    {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 14,
+      "created": "2024-09-10T16:03:00.000Z",
+      "num_comments": 24,
       "evidence_score": 5.5
     },
     {
@@ -108,18 +108,18 @@
     {
       "title": "Online classes spring 2025",
       "url": "https://www.reddit.com/r/wlu/comments/1itb2b3/online_classes_spring_2025/",
-      "score": 14,
+      "score": 13,
       "created": "2025-02-19T17:25:55.000Z",
       "num_comments": 13,
-      "evidence_score": 5.0
+      "evidence_score": 4.9
     },
     {
       "title": "EM101 OC with Sarrah Beemer",
       "url": "https://www.reddit.com/r/wlu/comments/1fe955o/em101_oc_with_sarrah_beemer/",
-      "score": 5,
+      "score": 4,
       "created": "2024-09-11T12:41:28.000Z",
       "num_comments": 2,
-      "evidence_score": 4.3
+      "evidence_score": 4.2
     },
     {
       "title": "EM101",
@@ -138,14 +138,6 @@
       "evidence_score": 4.0
     },
     {
-      "title": "WILL I SURVIVE? \ud83d\ude42",
-      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
-      "score": 3,
-      "created": "2023-07-21T02:49:30.000Z",
-      "num_comments": 23,
-      "evidence_score": 4.0
-    },
-    {
       "title": "recommend some electives to me!! what did you enjoy?",
       "url": "https://www.reddit.com/r/wlu/comments/1lza9rs/recommend_some_electives_to_me_what_did_you_enjoy/",
       "score": 1,
@@ -159,6 +151,14 @@
       "score": 3,
       "created": "2023-12-19T18:54:23.000Z",
       "num_comments": 6,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "WILL I SURVIVE? \ud83d\ude42",
+      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
+      "score": 2,
+      "created": "2023-07-21T02:49:30.000Z",
+      "num_comments": 23,
       "evidence_score": 3.8
     },
     {
@@ -218,14 +218,6 @@
       "evidence_score": 3.0
     },
     {
-      "title": "Bird/Easy second year courses to complete in the summer",
-      "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
-      "score": 4,
-      "created": "2023-04-08T20:33:20.000Z",
-      "num_comments": 5,
-      "evidence_score": 3.0
-    },
-    {
       "title": "How easy is EM101 for spring class",
       "url": "https://www.reddit.com/r/wlu/comments/1bok5w6/how_easy_is_em101_for_spring_class/",
       "score": 0,
@@ -239,6 +231,14 @@
       "score": 0,
       "created": "2023-07-15T03:28:11.000Z",
       "num_comments": 12,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Bird/Easy second year courses to complete in the summer",
+      "url": "https://www.reddit.com/r/wlu/comments/12fxkw0/birdeasy_second_year_courses_to_complete_in_the/",
+      "score": 3,
+      "created": "2023-04-08T20:33:20.000Z",
+      "num_comments": 5,
       "evidence_score": 2.8
     },
     {

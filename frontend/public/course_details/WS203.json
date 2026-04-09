@@ -1,7 +1,7 @@
 {
   "code": "WS203",
   "department": "WS",
-  "bird_score": 9.46,
+  "bird_score": 9.47,
   "specific_mentions": 15,
   "is_online_available": true,
   "ai_summary": "More posts call it easy than hard (7 vs 1). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
@@ -98,14 +98,6 @@
       "evidence_score": 3.2
     },
     {
-      "title": "WS205/WS203 syllabus",
-      "url": "https://www.reddit.com/r/wlu/comments/o9y9e7/ws205ws203_syllabus/",
-      "score": 2,
-      "created": "2021-06-29T01:38:10.000Z",
-      "num_comments": 2,
-      "evidence_score": 3.1
-    },
-    {
       "title": "Opinions on WS203 Needed!",
       "url": "https://www.reddit.com/r/wlu/comments/i871qz/opinions_on_ws203_needed/",
       "score": 2,
@@ -122,6 +114,22 @@
       "evidence_score": 2.9
     },
     {
+      "title": "WS205/WS203 syllabus",
+      "url": "https://www.reddit.com/r/wlu/comments/o9y9e7/ws205ws203_syllabus/",
+      "score": 1,
+      "created": "2021-06-29T01:38:10.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "GPA booster elective",
+      "url": "https://www.reddit.com/r/wlu/comments/ohz2xk/gpa_booster_elective/",
+      "score": 4,
+      "created": "2021-07-11T06:07:19.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.8
+    },
+    {
       "title": "Looking for any easy level 200 bird course suggestions?",
       "url": "https://www.reddit.com/r/wlu/comments/14iwjsz/looking_for_any_easy_level_200_bird_course/",
       "score": 2,
@@ -135,14 +143,6 @@
       "score": 1,
       "created": "2023-07-25T19:43:11.000Z",
       "num_comments": 6,
-      "evidence_score": 2.4
-    },
-    {
-      "title": "GPA booster elective",
-      "url": "https://www.reddit.com/r/wlu/comments/ohz2xk/gpa_booster_elective/",
-      "score": 2,
-      "created": "2021-07-11T06:07:19.000Z",
-      "num_comments": 3,
       "evidence_score": 2.4
     },
     {

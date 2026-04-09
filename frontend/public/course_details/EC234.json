@@ -1,7 +1,7 @@
 {
   "code": "EC234",
   "department": "EC",
-  "bird_score": 5.16,
+  "bird_score": 5.15,
   "specific_mentions": 6,
   "is_online_available": false,
   "ai_summary": "More posts call it easy than hard (3 vs 0). Light workload signals across 0 workload references. Finals: mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
@@ -76,18 +76,18 @@
     {
       "title": "EC234",
       "url": "https://www.reddit.com/r/wlu/comments/vrf0ne/ec234/",
-      "score": 4,
+      "score": 3,
       "created": "2022-07-04T19:17:13.000Z",
       "num_comments": 2,
-      "evidence_score": 3.5
+      "evidence_score": 3.4
     },
     {
       "title": "Second year econ",
       "url": "https://www.reddit.com/r/wlu/comments/vrj01c/second_year_econ/",
-      "score": 3,
+      "score": 2,
       "created": "2022-07-04T22:23:38.000Z",
       "num_comments": 0,
-      "evidence_score": 3.1
+      "evidence_score": 2.9
     }
   ]
 }

@@ -117,9 +117,8 @@ def run_pipeline(
             course_thread_limit,
         )
         
-        if course_details:
-            print(f"Detailed analysis completed for {len(course_details)} courses.")
-            save_to_json(course_details, os.path.join(processed_dir, "latest_course_details.json"))
+        print(f"Detailed analysis completed for {len(course_details)} courses.")
+        save_to_json(course_details, os.path.join(processed_dir, "latest_course_details.json"))
     
     # 9. Print summary
     print(f"\nPipeline completed successfully.")

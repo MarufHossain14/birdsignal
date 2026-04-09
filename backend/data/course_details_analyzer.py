@@ -23,7 +23,11 @@ def fetch_course_specific_threads(api_url: str, course_code: str, limit: int = 2
         print(f"Error fetching course-specific threads for {course_code}: {e}")
         return []
 
-def extract_key_course_attributes(threads: List[Dict[str, Any]], analyzer: SentimentAnalyzer = None) -> Dict[str, Any]:
+def extract_key_course_attributes(
+    threads: List[Dict[str, Any]],
+    analyzer: SentimentAnalyzer = None,
+    requested_course_code: str | None = None,
+) -> Dict[str, Any]:
     """Extract key course attributes from threads that specifically mention a course"""
     if not threads:
         return {}
@@ -32,19 +36,25 @@ def extract_key_course_attributes(threads: List[Dict[str, Any]], analyzer: Senti
     if analyzer is None:
         analyzer = SentimentAnalyzer()
     
-    # Extract the course code from the first thread's title
+    requested_course_code = (requested_course_code or "").upper().strip()
+
+    # Infer the course code from thread content when possible, but allow the caller
+    # to pin the requested course so body-only matches are not discarded.
     course_pattern = re.compile(r'\b[A-Z]{2,5}[0-9]{2,4}[A-Z]?\b')
     course_codes = []
     for thread in threads:
-        matches = course_pattern.findall(thread.get('title', ''))
+        combined_text = f"{thread.get('title', '')} {thread.get('selftext', '')}"
+        matches = [match.upper() for match in course_pattern.findall(combined_text)]
+        if requested_course_code:
+            matches = [match for match in matches if match == requested_course_code]
         course_codes.extend(matches)
-    
-    # Count frequency to find the most mentioned course code
-    if not course_codes:
+
+    if requested_course_code:
+        course_code = requested_course_code
+    elif course_codes:
+        course_code = Counter(course_codes).most_common(1)[0][0]
+    else:
         return {}
-    
-    # Use the most frequently mentioned course code
-    course_code = Counter(course_codes).most_common(1)[0][0]
     
     # Initialize course attributes with more detailed information
     course_attributes = {
@@ -430,9 +440,22 @@ def extract_key_course_attributes(threads: List[Dict[str, Any]], analyzer: Senti
     difficulty_mentions = course_attributes["discussion_topics"]["difficulty"]
     workload_mentions = course_attributes["discussion_topics"]["workload"]
     bird_course_mentions = course_attributes["discussion_topics"]["bird_course"]
-    
-    # Bird course mentions positively affect score, but difficulty and workload negatively affect it
-    topic_adjustment = (bird_course_mentions * 0.4) - (difficulty_mentions * 0.25) - (workload_mentions * 0.15)
+
+    positive_difficulty_terms = course_attributes["sentiment_analysis"]["bird_terms"].get('easy', 0)
+    positive_difficulty_terms += course_attributes["sentiment_analysis"]["bird_terms"].get('simple', 0)
+    positive_difficulty_terms += course_attributes["sentiment_analysis"]["bird_terms"].get('straightforward', 0)
+    positive_difficulty_terms += course_attributes["sentiment_analysis"]["bird_terms"].get('doable', 0)
+    negative_difficulty_terms = (
+        course_attributes["sentiment_analysis"]["bird_terms"].get('anti:hard', 0) +
+        course_attributes["sentiment_analysis"]["bird_terms"].get('anti:difficult', 0) +
+        course_attributes["sentiment_analysis"]["bird_terms"].get('anti:tough', 0) +
+        course_attributes["sentiment_analysis"]["bird_terms"].get('anti:challenging', 0)
+    )
+    net_difficulty_penalty = max(0, difficulty_mentions + negative_difficulty_terms - positive_difficulty_terms)
+
+    # Bird-course mentions should help, workload should hurt, and "easy" wording
+    # should offset generic difficulty-topic matches rather than being punished.
+    topic_adjustment = (bird_course_mentions * 0.4) - (net_difficulty_penalty * 0.25) - (workload_mentions * 0.15)
     
     # NEW: Check if failure is commonly mentioned
     failure_mentions = sum(count for term, count in course_attributes["sentiment_analysis"]["bird_terms"].items() 
@@ -504,7 +527,11 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
         analyzed_threads = analyzer.analyze_threads(threads)
         
         # Extract key course attributes
-        course_details = extract_key_course_attributes(analyzed_threads, analyzer)
+        course_details = extract_key_course_attributes(
+            analyzed_threads,
+            analyzer,
+            requested_course_code=requested_code,
+        )
 
         if course_details:
             # Preserve the requested course identity even when thread text mentions nearby course codes.

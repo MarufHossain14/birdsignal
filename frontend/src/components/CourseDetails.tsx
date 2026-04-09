@@ -288,7 +288,7 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
               Detailed course summary and evidence-ranked Reddit mentions.
             </Drawer.Description>
             <div className="mx-auto mt-2 h-1.5 w-10 rounded-full bg-[var(--line-strong)]" />
-            <div className="max-h-[calc(92dvh-14px)] overflow-y-auto">
+            <div className="max-h-[calc(92dvh-14px)] overflow-y-auto [overscroll-behavior:contain]">
               <CourseDetailsBody course={course} onClose={closeMobileDrawer} />
             </div>
           </Drawer.Content>

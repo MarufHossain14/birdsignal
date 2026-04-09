@@ -49,8 +49,11 @@ export const Header: React.FC<HeaderProps> = ({ onSearch }) => {
             </svg>
             <input
               id="course-search"
+              name="course-search"
               type="text"
               placeholder="Search by code or department"
+              autoComplete="off"
+              spellCheck={false}
               className="w-full bg-transparent text-sm outline-none placeholder:text-[var(--muted)]/85"
               value={query}
               onChange={(e) => setQuery(e.target.value)}

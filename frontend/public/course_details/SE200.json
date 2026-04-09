@@ -1,7 +1,7 @@
 {
   "code": "SE200",
   "department": "SE",
-  "bird_score": 8.91,
+  "bird_score": 9.41,
   "specific_mentions": 11,
   "is_online_available": true,
   "ai_summary": "More posts call it easy than hard (3 vs 1). Light workload signals across 0 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Most evidence is older. Course experience may have changed.",
@@ -47,7 +47,7 @@
       "score": 3,
       "created": "2026-01-05T21:35:48.000Z",
       "num_comments": 9,
-      "evidence_score": 6.5
+      "evidence_score": 6.3
     },
     {
       "title": "Had anyone taken se200? How is it",
@@ -55,15 +55,15 @@
       "score": 2,
       "created": "2025-09-15T17:24:55.000Z",
       "num_comments": 0,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "Bird courses for second year",
       "url": "https://www.reddit.com/r/wlu/comments/m0u75t/bird_courses_for_second_year/",
-      "score": 14,
+      "score": 13,
       "created": "2021-03-09T00:19:14.000Z",
       "num_comments": 13,
-      "evidence_score": 3.9
+      "evidence_score": 3.8
     },
     {
       "title": "Winter 2024 bird electives",

@@ -1,0 +1,85 @@
+{
+  "code": "RE313",
+  "department": "RE",
+  "bird_score": 10.0,
+  "specific_mentions": 5,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (5 vs 0). Light workload signals across 0 workload references. Finals: mentioned; midterms: mentioned. Low sample size. Treat this score as directional only.",
+  "confidence_signals": {
+    "recent_mentions": 2,
+    "oldest_thread_date": "2021-07-06T18:30:27+00:00",
+    "newest_thread_date": "2026-02-23T15:58:23+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 100
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 5,
+    "hard_mentions": 0,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": true,
+    "has_midterms": true,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "spring 2026 online bird courses (senior)",
+      "url": "https://www.reddit.com/r/wlu/comments/1rcl93f/spring_2026_online_bird_courses_senior/",
+      "score": 2,
+      "created": "2026-02-23T15:58:23.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.2
+    },
+    {
+      "title": "bird courses!",
+      "url": "https://www.reddit.com/r/wlu/comments/1oplc89/bird_courses/",
+      "score": 0,
+      "created": "2025-11-06T01:13:17.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "Updated birds Laurier first year?",
+      "url": "https://www.reddit.com/r/wlu/comments/188ouso/updated_birds_laurier_first_year/",
+      "score": 17,
+      "created": "2023-12-01T22:52:07.000Z",
+      "num_comments": 9,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "Profs and Opinions",
+      "url": "https://www.reddit.com/r/wlu/comments/of0z4u/profs_and_opinions/",
+      "score": 2,
+      "created": "2021-07-06T18:30:27.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "GPA booster elective",
+      "url": "https://www.reddit.com/r/wlu/comments/ohz2xk/gpa_booster_elective/",
+      "score": 3,
+      "created": "2021-07-11T06:07:19.000Z",
+      "num_comments": 3,
+      "evidence_score": 2.6
+    }
+  ]
+}

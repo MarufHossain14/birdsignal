@@ -6,7 +6,7 @@
   "is_online_available": true,
   "ai_summary": "More posts call it easy than hard (40 vs 22). Heavy workload signals across 10 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
-    "recent_mentions": 7,
+    "recent_mentions": 6,
     "oldest_thread_date": "2017-05-26T03:47:31+00:00",
     "newest_thread_date": "2026-01-23T22:06:07+00:00",
     "sample_bias_warning": "Most evidence is older. Course experience may have changed."
@@ -42,12 +42,28 @@
   },
   "threads": [
     {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 72,
+      "created": "2021-04-07T20:33:30.000Z",
+      "num_comments": 46,
+      "evidence_score": 6.1
+    },
+    {
       "title": "BIG ACHIEVEMENT pls see",
       "url": "https://www.reddit.com/r/wlu/comments/u1qgmf/big_achievement_pls_see/",
-      "score": 94,
+      "score": 93,
       "created": "2022-04-12T04:24:54.000Z",
       "num_comments": 17,
-      "evidence_score": 6.2
+      "evidence_score": 6.1
+    },
+    {
+      "title": "The BBA Coop Bible (2022 Edition)",
+      "url": "https://www.reddit.com/r/wlu/comments/xsxhg3/the_bba_coop_bible_2022_edition/",
+      "score": 84,
+      "created": "2022-10-01T15:01:26.000Z",
+      "num_comments": 7,
+      "evidence_score": 5.9
     },
     {
       "title": "UU150 missed quiz",
@@ -55,38 +71,22 @@
       "score": 2,
       "created": "2026-01-23T22:06:07.000Z",
       "num_comments": 1,
-      "evidence_score": 6.1
-    },
-    {
-      "title": "Complete bird course list (1st year)",
-      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 67,
-      "created": "2021-04-07T20:33:30.000Z",
-      "num_comments": 46,
-      "evidence_score": 6.1
-    },
-    {
-      "title": "The BBA Coop Bible (2022 Edition)",
-      "url": "https://www.reddit.com/r/wlu/comments/xsxhg3/the_bba_coop_bible_2022_edition/",
-      "score": 81,
-      "created": "2022-10-01T15:01:26.000Z",
-      "num_comments": 7,
-      "evidence_score": 5.9
-    },
-    {
-      "title": "Looking for first year bird courses with no exams",
-      "url": "https://www.reddit.com/r/wlu/comments/1ozngx8/looking_for_first_year_bird_courses_with_no_exams/",
-      "score": 7,
-      "created": "2025-11-17T18:06:09.000Z",
-      "num_comments": 9,
-      "evidence_score": 5.9
+      "evidence_score": 5.8
     },
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 17,
+      "score": 18,
       "created": "2024-09-10T16:03:00.000Z",
       "num_comments": 24,
+      "evidence_score": 5.7
+    },
+    {
+      "title": "Looking for first year bird courses with no exams",
+      "url": "https://www.reddit.com/r/wlu/comments/1ozngx8/looking_for_first_year_bird_courses_with_no_exams/",
+      "score": 8,
+      "created": "2025-11-17T18:06:09.000Z",
+      "num_comments": 9,
       "evidence_score": 5.7
     },
     {
@@ -95,12 +95,12 @@
       "score": 2,
       "created": "2025-11-09T21:32:42.000Z",
       "num_comments": 2,
-      "evidence_score": 5.6
+      "evidence_score": 5.4
     },
     {
       "title": "AMA: Took UU150 and CP102, Now I am the CEO of GameStop and Tesla",
       "url": "https://www.reddit.com/r/wlu/comments/nzcxd7/ama_took_uu150_and_cp102_now_i_am_the_ceo_of/",
-      "score": 32,
+      "score": 30,
       "created": "2021-06-14T02:56:19.000Z",
       "num_comments": 7,
       "evidence_score": 5.1
@@ -111,7 +111,15 @@
       "score": 4,
       "created": "2025-03-05T21:40:17.000Z",
       "num_comments": 8,
-      "evidence_score": 5.0
+      "evidence_score": 4.9
+    },
+    {
+      "title": "First Year Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/lo79dg/first_year_electives/",
+      "score": 11,
+      "created": "2021-02-20T13:35:41.000Z",
+      "num_comments": 17,
+      "evidence_score": 4.5
     },
     {
       "title": "UU150 vs HS 101",
@@ -119,15 +127,7 @@
       "score": 1,
       "created": "2025-07-03T17:09:23.000Z",
       "num_comments": 1,
-      "evidence_score": 4.5
-    },
-    {
-      "title": "First Year Electives",
-      "url": "https://www.reddit.com/r/wlu/comments/lo79dg/first_year_electives/",
-      "score": 10,
-      "created": "2021-02-20T13:35:41.000Z",
-      "num_comments": 17,
-      "evidence_score": 4.5
+      "evidence_score": 4.3
     },
     {
       "title": "UU150 Missed Quiz",
@@ -135,7 +135,7 @@
       "score": 3,
       "created": "2024-11-13T20:28:26.000Z",
       "num_comments": 5,
-      "evidence_score": 4.4
+      "evidence_score": 4.3
     },
     {
       "title": "UU150 OC or AR101 OC- easier bird course?",
@@ -151,14 +151,6 @@
       "score": 3,
       "created": "2024-12-20T21:37:23.000Z",
       "num_comments": 2,
-      "evidence_score": 4.3
-    },
-    {
-      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
-      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
-      "score": 6,
-      "created": "2024-02-28T16:56:01.000Z",
-      "num_comments": 3,
       "evidence_score": 4.2
     },
     {
@@ -170,19 +162,11 @@
       "evidence_score": 4.2
     },
     {
-      "title": "UU100 OR SC100 FOR SPRING 2025?",
-      "url": "https://www.reddit.com/r/wlu/comments/1ixtqoe/uu100_or_sc100_for_spring_2025/",
+      "title": "Spring OC bird courses?? (Other than AS101, CP102, ES110, UX100, UU150, AN100)",
+      "url": "https://www.reddit.com/r/wlu/comments/1b2axew/spring_oc_bird_courses_other_than_as101_cp102/",
       "score": 5,
-      "created": "2025-02-25T12:23:35.000Z",
-      "num_comments": 5,
-      "evidence_score": 4.2
-    },
-    {
-      "title": "What bird courses should I take",
-      "url": "https://www.reddit.com/r/wlu/comments/1kt3eet/what_bird_courses_should_i_take/",
-      "score": 0,
-      "created": "2025-05-22T22:06:05.000Z",
-      "num_comments": 10,
+      "created": "2024-02-28T16:56:01.000Z",
+      "num_comments": 3,
       "evidence_score": 4.1
     },
     {
@@ -196,10 +180,42 @@
     {
       "title": "Course Registration and Elective Questions",
       "url": "https://www.reddit.com/r/wlu/comments/byl038/course_registration_and_elective_questions/",
-      "score": 10,
+      "score": 9,
       "created": "2019-06-09T14:54:45.000Z",
       "num_comments": 3,
       "evidence_score": 4.1
+    },
+    {
+      "title": "UU100 OR SC100 FOR SPRING 2025?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ixtqoe/uu100_or_sc100_for_spring_2025/",
+      "score": 5,
+      "created": "2025-02-25T12:23:35.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.1
+    },
+    {
+      "title": "What bird courses should I take",
+      "url": "https://www.reddit.com/r/wlu/comments/1kt3eet/what_bird_courses_should_i_take/",
+      "score": 0,
+      "created": "2025-05-22T22:06:05.000Z",
+      "num_comments": 10,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "First year Electives Help",
+      "url": "https://www.reddit.com/r/wlu/comments/ha6sob/first_year_electives_help/",
+      "score": 5,
+      "created": "2020-06-16T16:02:05.000Z",
+      "num_comments": 15,
+      "evidence_score": 4.0
+    },
+    {
+      "title": "easy summer courses",
+      "url": "https://www.reddit.com/r/wlu/comments/fq8eck/easy_summer_courses/",
+      "score": 10,
+      "created": "2020-03-27T23:23:04.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.0
     },
     {
       "title": "Does UU150 count towards your grade?",
@@ -207,23 +223,31 @@
       "score": 1,
       "created": "2024-12-16T01:04:59.000Z",
       "num_comments": 5,
-      "evidence_score": 4.0
+      "evidence_score": 3.9
+    },
+    {
+      "title": "UU150",
+      "url": "https://www.reddit.com/r/wlu/comments/fcund0/uu150/",
+      "score": 8,
+      "created": "2020-03-03T13:35:56.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "First Year BBA Courses/Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/o3ud16/first_year_bba_courseselectives/",
+      "score": 5,
+      "created": "2021-06-20T01:14:05.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.9
     },
     {
       "title": "Classes disappeared on MyLS",
       "url": "https://www.reddit.com/r/wlu/comments/fun969/classes_disappeared_on_myls/",
-      "score": 8,
+      "score": 7,
       "created": "2020-04-04T04:20:46.000Z",
       "num_comments": 3,
-      "evidence_score": 4.0
-    },
-    {
-      "title": "easy summer courses",
-      "url": "https://www.reddit.com/r/wlu/comments/fq8eck/easy_summer_courses/",
-      "score": 11,
-      "created": "2020-03-27T23:23:04.000Z",
-      "num_comments": 1,
-      "evidence_score": 4.0
+      "evidence_score": 3.9
     },
     {
       "title": "Text book for UU150?",
@@ -231,14 +255,6 @@
       "score": 1,
       "created": "2025-01-06T15:59:19.000Z",
       "num_comments": 2,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "This is stupid but does \"S\" in a pass or fail course like UU150 indicate a pass? ",
-      "url": "https://www.reddit.com/r/wlu/comments/1domfwz/this_is_stupid_but_does_s_in_a_pass_or_fail/",
-      "score": 2,
-      "created": "2024-06-26T01:22:27.000Z",
-      "num_comments": 3,
       "evidence_score": 3.8
     },
     {
@@ -247,30 +263,6 @@
       "score": 4,
       "created": "2020-12-27T06:14:26.000Z",
       "num_comments": 10,
-      "evidence_score": 3.8
-    },
-    {
-      "title": "AN100 online or UU150",
-      "url": "https://www.reddit.com/r/wlu/comments/krrxng/an100_online_or_uu150/",
-      "score": 5,
-      "created": "2021-01-06T17:01:18.000Z",
-      "num_comments": 7,
-      "evidence_score": 3.8
-    },
-    {
-      "title": "Easiest electives beside uu150 and cp102",
-      "url": "https://www.reddit.com/r/wlu/comments/hadw6b/easiest_electives_beside_uu150_and_cp102/",
-      "score": 5,
-      "created": "2020-06-16T22:04:03.000Z",
-      "num_comments": 7,
-      "evidence_score": 3.8
-    },
-    {
-      "title": "UU150",
-      "url": "https://www.reddit.com/r/wlu/comments/fcund0/uu150/",
-      "score": 7,
-      "created": "2020-03-03T13:35:56.000Z",
-      "num_comments": 2,
       "evidence_score": 3.8
     },
     {
@@ -298,35 +290,59 @@
       "evidence_score": 3.8
     },
     {
-      "title": "I messed up \ud83d\ude2d",
-      "url": "https://www.reddit.com/r/wlu/comments/pn2hlb/i_messed_up/",
+      "title": "Second Year Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/mhzzse/second_year_courses/",
       "score": 5,
-      "created": "2021-09-12T22:20:25.000Z",
-      "num_comments": 6,
+      "created": "2021-04-01T17:12:08.000Z",
+      "num_comments": 7,
       "evidence_score": 3.8
     },
     {
-      "title": "First year Electives Help",
-      "url": "https://www.reddit.com/r/wlu/comments/ha6sob/first_year_electives_help/",
-      "score": 3,
-      "created": "2020-06-16T16:02:05.000Z",
-      "num_comments": 15,
+      "title": "BBA 2nd year online electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/hlu3j2/bba_2nd_year_online_electives/",
+      "score": 8,
+      "created": "2020-07-05T20:58:34.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "Easiest bird course",
+      "url": "https://www.reddit.com/r/wlu/comments/yu8kld/easiest_bird_course/",
+      "score": 8,
+      "created": "2022-11-13T17:46:39.000Z",
+      "num_comments": 36,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "This is stupid but does \"S\" in a pass or fail course like UU150 indicate a pass? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1domfwz/this_is_stupid_but_does_s_in_a_pass_or_fail/",
+      "score": 2,
+      "created": "2024-06-26T01:22:27.000Z",
+      "num_comments": 3,
       "evidence_score": 3.7
     },
     {
-      "title": "First Year BBA Courses/Electives",
-      "url": "https://www.reddit.com/r/wlu/comments/o3ud16/first_year_bba_courseselectives/",
+      "title": "AN100 online or UU150",
+      "url": "https://www.reddit.com/r/wlu/comments/krrxng/an100_online_or_uu150/",
       "score": 4,
-      "created": "2021-06-20T01:14:05.000Z",
-      "num_comments": 8,
-      "evidence_score": 3.7
-    },
-    {
-      "title": "Second Year Courses",
-      "url": "https://www.reddit.com/r/wlu/comments/mhzzse/second_year_courses/",
-      "score": 4,
-      "created": "2021-04-01T17:12:08.000Z",
+      "created": "2021-01-06T17:01:18.000Z",
       "num_comments": 7,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "Easiest electives beside uu150 and cp102",
+      "url": "https://www.reddit.com/r/wlu/comments/hadw6b/easiest_electives_beside_uu150_and_cp102/",
+      "score": 4,
+      "created": "2020-06-16T22:04:03.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "I messed up \ud83d\ude2d",
+      "url": "https://www.reddit.com/r/wlu/comments/pn2hlb/i_messed_up/",
+      "score": 4,
+      "created": "2021-09-12T22:20:25.000Z",
+      "num_comments": 6,
       "evidence_score": 3.7
     },
     {
@@ -338,35 +354,19 @@
       "evidence_score": 3.7
     },
     {
-      "title": "BBA 2nd year online electives?",
-      "url": "https://www.reddit.com/r/wlu/comments/hlu3j2/bba_2nd_year_online_electives/",
-      "score": 7,
-      "created": "2020-07-05T20:58:34.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.7
-    },
-    {
-      "title": "Easiest bird course",
-      "url": "https://www.reddit.com/r/wlu/comments/yu8kld/easiest_bird_course/",
-      "score": 7,
-      "created": "2022-11-13T17:46:39.000Z",
-      "num_comments": 36,
-      "evidence_score": 3.7
-    },
-    {
-      "title": "Should I Drop UU150?",
-      "url": "https://www.reddit.com/r/wlu/comments/onnc1n/should_i_drop_uu150/",
+      "title": "Online Elctives",
+      "url": "https://www.reddit.com/r/wlu/comments/fdd7cq/online_elctives/",
       "score": 4,
-      "created": "2021-07-19T21:10:31.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.6
+      "created": "2020-03-04T13:45:07.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.7
     },
     {
-      "title": "UU150 Testbanks",
-      "url": "https://www.reddit.com/r/wlu/comments/dotvlq/uu150_testbanks/",
-      "score": 6,
-      "created": "2019-10-29T18:23:25.000Z",
-      "num_comments": 1,
+      "title": "UU150 as a Double Degree",
+      "url": "https://www.reddit.com/r/wlu/comments/odysbm/uu150_as_a_double_degree/",
+      "score": 4,
+      "created": "2021-07-05T03:21:30.000Z",
+      "num_comments": 3,
       "evidence_score": 3.6
     },
     {
@@ -386,14 +386,6 @@
       "evidence_score": 3.6
     },
     {
-      "title": "Does this seem okay? Or too hard?",
-      "url": "https://www.reddit.com/r/wlu/comments/mn1gtf/does_this_seem_okay_or_too_hard/",
-      "score": 3,
-      "created": "2021-04-08T21:03:06.000Z",
-      "num_comments": 8,
-      "evidence_score": 3.6
-    },
-    {
       "title": "What Should I Do?",
       "url": "https://www.reddit.com/r/wlu/comments/mgksde/what_should_i_do/",
       "score": 3,
@@ -402,11 +394,11 @@
       "evidence_score": 3.6
     },
     {
-      "title": "UU150. Is it still light?",
-      "url": "https://www.reddit.com/r/wlu/comments/kjqtjz/uu150_is_it_still_light/",
-      "score": 3,
-      "created": "2020-12-25T01:36:13.000Z",
-      "num_comments": 6,
+      "title": "Has anyone taken the UU150 quiz this semester? If so how was it.",
+      "url": "https://www.reddit.com/r/wlu/comments/ds6q2p/has_anyone_taken_the_uu150_quiz_this_semester_if/",
+      "score": 4,
+      "created": "2019-11-05T22:29:38.000Z",
+      "num_comments": 2,
       "evidence_score": 3.5
     },
     {
@@ -418,19 +410,19 @@
       "evidence_score": 3.5
     },
     {
+      "title": "UU150 Testbanks",
+      "url": "https://www.reddit.com/r/wlu/comments/dotvlq/uu150_testbanks/",
+      "score": 5,
+      "created": "2019-10-29T18:23:25.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.5
+    },
+    {
       "title": "Courses this semester.",
       "url": "https://www.reddit.com/r/wlu/comments/191nqjj/courses_this_semester/",
       "score": 2,
       "created": "2024-01-08T15:29:05.000Z",
       "num_comments": 3,
-      "evidence_score": 3.5
-    },
-    {
-      "title": "Online Elctives",
-      "url": "https://www.reddit.com/r/wlu/comments/fdd7cq/online_elctives/",
-      "score": 3,
-      "created": "2020-03-04T13:45:07.000Z",
-      "num_comments": 6,
       "evidence_score": 3.5
     },
     {
@@ -442,27 +434,19 @@
       "evidence_score": 3.5
     },
     {
-      "title": "SC100 vs UU150",
-      "url": "https://www.reddit.com/r/wlu/comments/18frg1h/sc100_vs_uu150/",
-      "score": 1,
-      "created": "2023-12-11T10:21:04.000Z",
-      "num_comments": 7,
-      "evidence_score": 3.4
+      "title": "Is UU100 a pass fail course?",
+      "url": "https://www.reddit.com/r/wlu/comments/1g084p3/is_uu100_a_pass_fail_course/",
+      "score": 5,
+      "created": "2024-10-10T01:52:13.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.5
     },
     {
-      "title": "Does uu150 count as a credit or is it just for shi and giggles?",
-      "url": "https://www.reddit.com/r/wlu/comments/140zp9y/does_uu150_count_as_a_credit_or_is_it_just_for/",
-      "score": 2,
-      "created": "2023-06-05T02:47:05.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.4
-    },
-    {
-      "title": "UU150 as a Double Degree",
-      "url": "https://www.reddit.com/r/wlu/comments/odysbm/uu150_as_a_double_degree/",
+      "title": "Should I Drop UU150?",
+      "url": "https://www.reddit.com/r/wlu/comments/onnc1n/should_i_drop_uu150/",
       "score": 3,
-      "created": "2021-07-05T03:21:30.000Z",
-      "num_comments": 3,
+      "created": "2021-07-19T21:10:31.000Z",
+      "num_comments": 4,
       "evidence_score": 3.4
     },
     {
@@ -482,19 +466,19 @@
       "evidence_score": 3.4
     },
     {
-      "title": "Ps 101 without ps 102",
-      "url": "https://www.reddit.com/r/wlu/comments/o74m5o/ps_101_without_ps_102/",
-      "score": 3,
-      "created": "2021-06-24T16:37:46.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.4
-    },
-    {
       "title": "How bad is the waitlist for courses here?",
       "url": "https://www.reddit.com/r/wlu/comments/8u87u8/how_bad_is_the_waitlist_for_courses_here/",
       "score": 2,
       "created": "2018-06-27T09:30:29.000Z",
       "num_comments": 14,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "Ps 101 without ps 102",
+      "url": "https://www.reddit.com/r/wlu/comments/o74m5o/ps_101_without_ps_102/",
+      "score": 3,
+      "created": "2021-06-24T16:37:46.000Z",
+      "num_comments": 4,
       "evidence_score": 3.4
     },
     {
@@ -514,20 +498,20 @@
       "evidence_score": 3.4
     },
     {
-      "title": "Spring 2020 Electives Help",
-      "url": "https://www.reddit.com/r/wlu/comments/erl5yv/spring_2020_electives_help/",
-      "score": 5,
-      "created": "2020-01-20T22:48:25.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.4
+      "title": "SC100 vs UU150",
+      "url": "https://www.reddit.com/r/wlu/comments/18frg1h/sc100_vs_uu150/",
+      "score": 1,
+      "created": "2023-12-11T10:21:04.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.3
     },
     {
-      "title": "Is UU100 a pass fail course?",
-      "url": "https://www.reddit.com/r/wlu/comments/1g084p3/is_uu100_a_pass_fail_course/",
-      "score": 4,
-      "created": "2024-10-10T01:52:13.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.4
+      "title": "Does uu150 count as a credit or is it just for shi and giggles?",
+      "url": "https://www.reddit.com/r/wlu/comments/140zp9y/does_uu150_count_as_a_credit_or_is_it_just_for/",
+      "score": 2,
+      "created": "2023-06-05T02:47:05.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.3
     },
     {
       "title": "Any Bird Electives Other than CP102, GG102, AS101 &amp; UU150",
@@ -554,11 +538,11 @@
       "evidence_score": 3.3
     },
     {
-      "title": "Has anyone taken the UU150 quiz this semester? If so how was it.",
-      "url": "https://www.reddit.com/r/wlu/comments/ds6q2p/has_anyone_taken_the_uu150_quiz_this_semester_if/",
-      "score": 3,
-      "created": "2019-11-05T22:29:38.000Z",
-      "num_comments": 2,
+      "title": "Does this seem okay? Or too hard?",
+      "url": "https://www.reddit.com/r/wlu/comments/mn1gtf/does_this_seem_okay_or_too_hard/",
+      "score": 2,
+      "created": "2021-04-08T21:03:06.000Z",
+      "num_comments": 8,
       "evidence_score": 3.3
     },
     {
@@ -570,20 +554,12 @@
       "evidence_score": 3.3
     },
     {
-      "title": "electives",
-      "url": "https://www.reddit.com/r/wlu/comments/1mcpu6z/electives/",
-      "score": 0,
-      "created": "2025-07-29T22:38:30.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.3
-    },
-    {
-      "title": "Uu150 - tcps",
-      "url": "https://www.reddit.com/r/wlu/comments/17klhwp/uu150_tcps/",
+      "title": "How Can You Tell a Course is Pass/Fail and Not a Grade?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dqglv2/how_can_you_tell_a_course_is_passfail_and_not_a/",
       "score": 2,
-      "created": "2023-10-31T13:50:04.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.2
+      "created": "2024-06-28T10:38:48.000Z",
+      "num_comments": 22,
+      "evidence_score": 3.3
     },
     {
       "title": "UU150 with woods - help if you are in this course",
@@ -610,30 +586,6 @@
       "evidence_score": 3.2
     },
     {
-      "title": "Online courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1dqolg7/online_courses/",
-      "score": 0,
-      "created": "2024-06-28T17:01:38.000Z",
-      "num_comments": 12,
-      "evidence_score": 3.2
-    },
-    {
-      "title": "Easy 1st or 2nd year courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1dp7vw5/easy_1st_or_2nd_year_courses/",
-      "score": 0,
-      "created": "2024-06-26T19:55:26.000Z",
-      "num_comments": 11,
-      "evidence_score": 3.2
-    },
-    {
-      "title": "first yr electives",
-      "url": "https://www.reddit.com/r/wlu/comments/nmqt5d/first_yr_electives/",
-      "score": 2,
-      "created": "2021-05-28T05:38:00.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.2
-    },
-    {
       "title": "How does this look -Spring 2021",
       "url": "https://www.reddit.com/r/wlu/comments/n57kvq/how_does_this_look_spring_2021/",
       "score": 2,
@@ -656,6 +608,22 @@
       "created": "2019-07-22T16:58:35.000Z",
       "num_comments": 4,
       "evidence_score": 3.2
+    },
+    {
+      "title": "Summer electives",
+      "url": "https://www.reddit.com/r/wlu/comments/m1bzk9/summer_electives/",
+      "score": 6,
+      "created": "2021-03-09T17:51:11.000Z",
+      "num_comments": 7,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Uu150 - tcps",
+      "url": "https://www.reddit.com/r/wlu/comments/17klhwp/uu150_tcps/",
+      "score": 2,
+      "created": "2023-10-31T13:50:04.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.1
     },
     {
       "title": "Which is easier? CP102 or UU150?",
@@ -706,6 +674,22 @@
       "evidence_score": 3.1
     },
     {
+      "title": "Online courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dqolg7/online_courses/",
+      "score": 0,
+      "created": "2024-06-28T17:01:38.000Z",
+      "num_comments": 12,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Easy 1st or 2nd year courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1dp7vw5/easy_1st_or_2nd_year_courses/",
+      "score": 0,
+      "created": "2024-06-26T19:55:26.000Z",
+      "num_comments": 11,
+      "evidence_score": 3.1
+    },
+    {
       "title": "Online courses without textbook",
       "url": "https://www.reddit.com/r/wlu/comments/blijj0/online_courses_without_textbook/",
       "score": 2,
@@ -714,11 +698,19 @@
       "evidence_score": 3.1
     },
     {
-      "title": "How Can You Tell a Course is Pass/Fail and Not a Grade?",
-      "url": "https://www.reddit.com/r/wlu/comments/1dqglv2/how_can_you_tell_a_course_is_passfail_and_not_a/",
-      "score": 1,
-      "created": "2024-06-28T10:38:48.000Z",
-      "num_comments": 22,
+      "title": "Spring 2020 Electives Help",
+      "url": "https://www.reddit.com/r/wlu/comments/erl5yv/spring_2020_electives_help/",
+      "score": 3,
+      "created": "2020-01-20T22:48:25.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1mcpu6z/electives/",
+      "score": 0,
+      "created": "2025-07-29T22:38:30.000Z",
+      "num_comments": 1,
       "evidence_score": 3.1
     },
     {
@@ -730,11 +722,11 @@
       "evidence_score": 3.0
     },
     {
-      "title": "Question About UU150",
-      "url": "https://www.reddit.com/r/wlu/comments/piecyx/question_about_uu150/",
-      "score": 2,
-      "created": "2021-09-05T14:45:33.000Z",
-      "num_comments": 1,
+      "title": "UU150. Is it still light?",
+      "url": "https://www.reddit.com/r/wlu/comments/kjqtjz/uu150_is_it_still_light/",
+      "score": 1,
+      "created": "2020-12-25T01:36:13.000Z",
+      "num_comments": 6,
       "evidence_score": 3.0
     },
     {
@@ -762,11 +754,11 @@
       "evidence_score": 2.9
     },
     {
-      "title": "Electives for BBA",
-      "url": "https://www.reddit.com/r/wlu/comments/1dnfz01/electives_for_bba/",
-      "score": 0,
-      "created": "2024-06-24T15:16:37.000Z",
-      "num_comments": 2,
+      "title": "first yr electives",
+      "url": "https://www.reddit.com/r/wlu/comments/nmqt5d/first_yr_electives/",
+      "score": 1,
+      "created": "2021-05-28T05:38:00.000Z",
+      "num_comments": 4,
       "evidence_score": 2.9
     },
     {
@@ -786,6 +778,14 @@
       "evidence_score": 2.9
     },
     {
+      "title": "Easiest elective for winter",
+      "url": "https://www.reddit.com/r/wlu/comments/103d75n/easiest_elective_for_winter/",
+      "score": 3,
+      "created": "2023-01-04T19:55:15.000Z",
+      "num_comments": 8,
+      "evidence_score": 2.9
+    },
+    {
       "title": "UU150 OC with Dr. Nosko vs ES110 in person with Robert McLean",
       "url": "https://www.reddit.com/r/wlu/comments/r6oipp/uu150_oc_with_dr_nosko_vs_es110_in_person_with/",
       "score": 1,
@@ -798,6 +798,14 @@
       "url": "https://www.reddit.com/r/wlu/comments/hfz90y/uu150_quiz_1/",
       "score": 1,
       "created": "2020-06-26T02:22:38.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Electives for BBA",
+      "url": "https://www.reddit.com/r/wlu/comments/1dnfz01/electives_for_bba/",
+      "score": 0,
+      "created": "2024-06-24T15:16:37.000Z",
       "num_comments": 2,
       "evidence_score": 2.8
     },
@@ -826,6 +834,14 @@
       "evidence_score": 2.8
     },
     {
+      "title": "Question About UU150",
+      "url": "https://www.reddit.com/r/wlu/comments/piecyx/question_about_uu150/",
+      "score": 1,
+      "created": "2021-09-05T14:45:33.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.7
+    },
+    {
       "title": "anyone did the uu150 quiz yet?",
       "url": "https://www.reddit.com/r/wlu/comments/az5gto/anyone_did_the_uu150_quiz_yet/",
       "score": 1,
@@ -834,35 +850,11 @@
       "evidence_score": 2.7
     },
     {
-      "title": "Online courses for coop",
-      "url": "https://www.reddit.com/r/wlu/comments/1dqr773/online_courses_for_coop/",
-      "score": 0,
-      "created": "2024-06-28T18:52:33.000Z",
-      "num_comments": 0,
-      "evidence_score": 2.7
-    },
-    {
-      "title": "Is this too hard of a semester?",
-      "url": "https://www.reddit.com/r/wlu/comments/h02fpy/is_this_too_hard_of_a_semester/",
-      "score": 0,
-      "created": "2020-06-10T02:58:59.000Z",
-      "num_comments": 18,
-      "evidence_score": 2.7
-    },
-    {
       "title": "Bird courses for 1st year econ",
       "url": "https://www.reddit.com/r/wlu/comments/8y0mts/bird_courses_for_1st_year_econ/",
       "score": 0,
       "created": "2018-07-11T15:39:12.000Z",
       "num_comments": 19,
-      "evidence_score": 2.7
-    },
-    {
-      "title": "Easiest elective for winter",
-      "url": "https://www.reddit.com/r/wlu/comments/103d75n/easiest_elective_for_winter/",
-      "score": 2,
-      "created": "2023-01-04T19:55:15.000Z",
-      "num_comments": 8,
       "evidence_score": 2.7
     },
     {
@@ -882,11 +874,19 @@
       "evidence_score": 2.6
     },
     {
-      "title": "What are some easy online bird courses for winter term",
-      "url": "https://www.reddit.com/r/wlu/comments/z84g8p/what_are_some_easy_online_bird_courses_for_winter/",
-      "score": 2,
-      "created": "2022-11-29T20:04:36.000Z",
-      "num_comments": 7,
+      "title": "Online courses for coop",
+      "url": "https://www.reddit.com/r/wlu/comments/1dqr773/online_courses_for_coop/",
+      "score": 0,
+      "created": "2024-06-28T18:52:33.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.6
+    },
+    {
+      "title": "Is this too hard of a semester?",
+      "url": "https://www.reddit.com/r/wlu/comments/h02fpy/is_this_too_hard_of_a_semester/",
+      "score": 0,
+      "created": "2020-06-10T02:58:59.000Z",
+      "num_comments": 18,
       "evidence_score": 2.6
     },
     {
@@ -911,14 +911,6 @@
       "score": 0,
       "created": "2019-08-20T20:07:18.000Z",
       "num_comments": 8,
-      "evidence_score": 2.5
-    },
-    {
-      "title": "HELP - course selection",
-      "url": "https://www.reddit.com/r/wlu/comments/14vu0mp/help_course_selection/",
-      "score": 0,
-      "created": "2023-07-10T13:25:42.000Z",
-      "num_comments": 2,
       "evidence_score": 2.5
     },
     {
@@ -1055,6 +1047,14 @@
       "score": 0,
       "created": "2019-06-13T16:14:26.000Z",
       "num_comments": 3,
+      "evidence_score": 2.3
+    },
+    {
+      "title": "What are some easy online bird courses for winter term",
+      "url": "https://www.reddit.com/r/wlu/comments/z84g8p/what_are_some_easy_online_bird_courses_for_winter/",
+      "score": 1,
+      "created": "2022-11-29T20:04:36.000Z",
+      "num_comments": 7,
       "evidence_score": 2.3
     },
     {

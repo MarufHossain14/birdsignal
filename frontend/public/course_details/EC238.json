@@ -1,14 +1,14 @@
 {
   "code": "EC238",
   "department": "EC",
-  "bird_score": 4.46,
-  "specific_mentions": 67,
+  "bird_score": 5.65,
+  "specific_mentions": 68,
   "is_online_available": true,
   "ai_summary": "More posts call it easy than hard (12 vs 8). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
-    "recent_mentions": 9,
+    "recent_mentions": 10,
     "oldest_thread_date": "2017-08-17T04:57:24+00:00",
-    "newest_thread_date": "2026-02-28T06:17:04+00:00",
+    "newest_thread_date": "2026-04-06T20:49:06+00:00",
     "sample_bias_warning": "Most evidence is older. Course experience may have changed."
   },
   "aspect_sentiment": {
@@ -44,18 +44,26 @@
     {
       "title": "Econ Minor - Easy Courses",
       "url": "https://www.reddit.com/r/wlu/comments/1rgv3l9/econ_minor_easy_courses/",
-      "score": 4,
+      "score": 5,
       "created": "2026-02-28T06:17:04.000Z",
       "num_comments": 3,
-      "evidence_score": 7.0
+      "evidence_score": 6.8
+    },
+    {
+      "title": "Ec238 OC SPRING 2026",
+      "url": "https://www.reddit.com/r/wlu/comments/1seb4nz/ec238_oc_spring_2026/",
+      "score": 1,
+      "created": "2026-04-06T20:49:06.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.2
     },
     {
       "title": "Easy Economic Electives second year?",
       "url": "https://www.reddit.com/r/wlu/comments/1pp45ch/easy_economic_electives_second_year/",
-      "score": 6,
+      "score": 5,
       "created": "2025-12-17T18:31:25.000Z",
       "num_comments": 11,
-      "evidence_score": 6.0
+      "evidence_score": 5.7
     },
     {
       "title": "Second year EC elective courses",
@@ -63,7 +71,7 @@
       "score": 2,
       "created": "2025-11-24T06:39:29.000Z",
       "num_comments": 3,
-      "evidence_score": 5.8
+      "evidence_score": 5.5
     },
     {
       "title": "EC238 Final Exam",
@@ -71,7 +79,7 @@
       "score": 1,
       "created": "2025-12-10T20:22:57.000Z",
       "num_comments": 1,
-      "evidence_score": 5.5
+      "evidence_score": 5.2
     },
     {
       "title": "Econ Courses Minor",
@@ -79,7 +87,7 @@
       "score": 1,
       "created": "2025-09-04T16:25:31.000Z",
       "num_comments": 3,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "Ec238 vs Ec223",
@@ -87,23 +95,7 @@
       "score": 1,
       "created": "2025-09-05T01:08:04.000Z",
       "num_comments": 1,
-      "evidence_score": 4.8
-    },
-    {
-      "title": "ECONOMICS",
-      "url": "https://www.reddit.com/r/wlu/comments/1k1rbm2/economics/",
-      "score": 2,
-      "created": "2025-04-17T23:52:05.000Z",
-      "num_comments": 1,
-      "evidence_score": 4.4
-    },
-    {
-      "title": "EC238 vs EC239 vs EC248",
-      "url": "https://www.reddit.com/r/wlu/comments/1k3uvfw/ec238_vs_ec239_vs_ec248/",
-      "score": 1,
-      "created": "2025-04-20T19:48:22.000Z",
-      "num_comments": 3,
-      "evidence_score": 4.3
+      "evidence_score": 4.6
     },
     {
       "title": "EC238 Final",
@@ -122,12 +114,20 @@
       "evidence_score": 4.3
     },
     {
-      "title": "EC238 Post Final",
-      "url": "https://www.reddit.com/r/wlu/comments/kge4y1/ec238_post_final/",
-      "score": 8,
-      "created": "2020-12-19T19:12:36.000Z",
-      "num_comments": 6,
-      "evidence_score": 4.1
+      "title": "ECONOMICS",
+      "url": "https://www.reddit.com/r/wlu/comments/1k1rbm2/economics/",
+      "score": 2,
+      "created": "2025-04-17T23:52:05.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "EC238 vs EC239 vs EC248",
+      "url": "https://www.reddit.com/r/wlu/comments/1k3uvfw/ec238_vs_ec239_vs_ec248/",
+      "score": 1,
+      "created": "2025-04-20T19:48:22.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.2
     },
     {
       "title": "EC238 Midterm Tips",
@@ -138,27 +138,27 @@
       "evidence_score": 4.0
     },
     {
+      "title": "EC238 Post Final",
+      "url": "https://www.reddit.com/r/wlu/comments/kge4y1/ec238_post_final/",
+      "score": 6,
+      "created": "2020-12-19T19:12:36.000Z",
+      "num_comments": 6,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "EC Minor Courses",
+      "url": "https://www.reddit.com/r/wlu/comments/nx0uxv/ec_minor_courses/",
+      "score": 4,
+      "created": "2021-06-10T22:49:23.000Z",
+      "num_comments": 15,
+      "evidence_score": 3.9
+    },
+    {
       "title": "EC223 or EC238",
       "url": "https://www.reddit.com/r/wlu/comments/oejtrh/ec223_or_ec238/",
-      "score": 5,
+      "score": 4,
       "created": "2021-07-06T00:22:04.000Z",
       "num_comments": 9,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "Is the management option worth it?",
-      "url": "https://www.reddit.com/r/wlu/comments/10qcwpv/is_the_management_option_worth_it/",
-      "score": 5,
-      "created": "2023-01-31T22:43:03.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "EC238 Op Ed Assignment",
-      "url": "https://www.reddit.com/r/wlu/comments/1lueq9e/ec238_op_ed_assignment/",
-      "score": 0,
-      "created": "2025-07-08T03:44:32.000Z",
-      "num_comments": 0,
       "evidence_score": 3.8
     },
     {
@@ -170,30 +170,6 @@
       "evidence_score": 3.8
     },
     {
-      "title": "Bird courses for second year",
-      "url": "https://www.reddit.com/r/wlu/comments/m0u75t/bird_courses_for_second_year/",
-      "score": 13,
-      "created": "2021-03-09T00:19:14.000Z",
-      "num_comments": 13,
-      "evidence_score": 3.8
-    },
-    {
-      "title": "EC238 Exam",
-      "url": "https://www.reddit.com/r/wlu/comments/1dj6c6u/ec238_exam/",
-      "score": 2,
-      "created": "2024-06-19T00:44:21.000Z",
-      "num_comments": 2,
-      "evidence_score": 3.7
-    },
-    {
-      "title": "EM203 or EC238",
-      "url": "https://www.reddit.com/r/wlu/comments/adayc6/em203_or_ec238/",
-      "score": 5,
-      "created": "2019-01-06T22:53:12.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.7
-    },
-    {
       "title": "Second Year Econ Bird Courses",
       "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
       "score": 2,
@@ -202,12 +178,44 @@
       "evidence_score": 3.7
     },
     {
-      "title": "EC Minor Courses",
-      "url": "https://www.reddit.com/r/wlu/comments/nx0uxv/ec_minor_courses/",
-      "score": 3,
-      "created": "2021-06-10T22:49:23.000Z",
-      "num_comments": 15,
+      "title": "Is the management option worth it?",
+      "url": "https://www.reddit.com/r/wlu/comments/10qcwpv/is_the_management_option_worth_it/",
+      "score": 4,
+      "created": "2023-01-31T22:43:03.000Z",
+      "num_comments": 4,
       "evidence_score": 3.7
+    },
+    {
+      "title": "Bird courses for second year",
+      "url": "https://www.reddit.com/r/wlu/comments/m0u75t/bird_courses_for_second_year/",
+      "score": 12,
+      "created": "2021-03-09T00:19:14.000Z",
+      "num_comments": 13,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "EC238 Op Ed Assignment",
+      "url": "https://www.reddit.com/r/wlu/comments/1lueq9e/ec238_op_ed_assignment/",
+      "score": 0,
+      "created": "2025-07-08T03:44:32.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "EC238 Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1dj6c6u/ec238_exam/",
+      "score": 2,
+      "created": "2024-06-19T00:44:21.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.6
+    },
+    {
+      "title": "EM203 or EC238",
+      "url": "https://www.reddit.com/r/wlu/comments/adayc6/em203_or_ec238/",
+      "score": 4,
+      "created": "2019-01-06T22:53:12.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.6
     },
     {
       "title": "Ec238 Exam",
@@ -215,14 +223,22 @@
       "score": 2,
       "created": "2024-08-07T05:03:11.000Z",
       "num_comments": 0,
-      "evidence_score": 3.6
+      "evidence_score": 3.5
     },
     {
-      "title": "EC238 midterm grade changes sooo frequently",
-      "url": "https://www.reddit.com/r/wlu/comments/jfhamh/ec238_midterm_grade_changes_sooo_frequently/",
+      "title": "EC238 fall 2022",
+      "url": "https://www.reddit.com/r/wlu/comments/y52o4q/ec238_fall_2022/",
+      "score": 5,
+      "created": "2022-10-16T00:11:45.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "EC238 - Environmental Econ",
+      "url": "https://www.reddit.com/r/wlu/comments/rzau6p/ec238_environmental_econ/",
       "score": 3,
-      "created": "2020-10-21T17:23:42.000Z",
-      "num_comments": 5,
+      "created": "2022-01-08T21:42:27.000Z",
+      "num_comments": 4,
       "evidence_score": 3.5
     },
     {
@@ -232,14 +248,6 @@
       "created": "2023-07-24T01:11:08.000Z",
       "num_comments": 2,
       "evidence_score": 3.5
-    },
-    {
-      "title": "EC238 Final Exam Winter 2024",
-      "url": "https://www.reddit.com/r/wlu/comments/1cdal6n/ec238_final_exam_winter_2024/",
-      "score": 2,
-      "created": "2024-04-26T02:53:24.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.4
     },
     {
       "title": "econ electives: ec238, ec248, ec250, ec207?",
@@ -266,6 +274,14 @@
       "evidence_score": 3.4
     },
     {
+      "title": "Upper Year Econ Elective",
+      "url": "https://www.reddit.com/r/wlu/comments/xjdwhq/upper_year_econ_elective/",
+      "score": 3,
+      "created": "2022-09-20T16:48:27.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.4
+    },
+    {
       "title": "ECON COURSE SECOND YEAR",
       "url": "https://www.reddit.com/r/wlu/comments/ga1el0/econ_course_second_year/",
       "score": 3,
@@ -274,19 +290,19 @@
       "evidence_score": 3.4
     },
     {
+      "title": "EC238 Final Exam Winter 2024",
+      "url": "https://www.reddit.com/r/wlu/comments/1cdal6n/ec238_final_exam_winter_2024/",
+      "score": 2,
+      "created": "2024-04-26T02:53:24.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.3
+    },
+    {
       "title": "EC223 vs EC238",
       "url": "https://www.reddit.com/r/wlu/comments/1034wv1/ec223_vs_ec238/",
       "score": 2,
       "created": "2023-01-04T14:25:36.000Z",
       "num_comments": 3,
-      "evidence_score": 3.3
-    },
-    {
-      "title": "EC238 fall 2022",
-      "url": "https://www.reddit.com/r/wlu/comments/y52o4q/ec238_fall_2022/",
-      "score": 4,
-      "created": "2022-10-16T00:11:45.000Z",
-      "num_comments": 0,
       "evidence_score": 3.3
     },
     {
@@ -298,35 +314,11 @@
       "evidence_score": 3.3
     },
     {
-      "title": "Workload in 3A BBA",
-      "url": "https://www.reddit.com/r/wlu/comments/vxuqh2/workload_in_3a_bba/",
-      "score": 3,
-      "created": "2022-07-13T04:45:18.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.3
-    },
-    {
-      "title": "Second year econ",
-      "url": "https://www.reddit.com/r/wlu/comments/vrj01c/second_year_econ/",
-      "score": 4,
-      "created": "2022-07-04T22:23:38.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.3
-    },
-    {
       "title": "Ec239 vs Ec238",
       "url": "https://www.reddit.com/r/wlu/comments/1614ans/ec239_vs_ec238/",
       "score": 1,
       "created": "2023-08-25T16:40:08.000Z",
       "num_comments": 6,
-      "evidence_score": 3.2
-    },
-    {
-      "title": "EC238 - Environmental Econ",
-      "url": "https://www.reddit.com/r/wlu/comments/rzau6p/ec238_environmental_econ/",
-      "score": 2,
-      "created": "2022-01-08T21:42:27.000Z",
-      "num_comments": 4,
       "evidence_score": 3.2
     },
     {
@@ -338,20 +330,12 @@
       "evidence_score": 3.2
     },
     {
-      "title": "Upper Year Econ Elective",
-      "url": "https://www.reddit.com/r/wlu/comments/xjdwhq/upper_year_econ_elective/",
+      "title": "EC238 midterm grade changes sooo frequently",
+      "url": "https://www.reddit.com/r/wlu/comments/jfhamh/ec238_midterm_grade_changes_sooo_frequently/",
       "score": 2,
-      "created": "2022-09-20T16:48:27.000Z",
-      "num_comments": 2,
+      "created": "2020-10-21T17:23:42.000Z",
+      "num_comments": 5,
       "evidence_score": 3.2
-    },
-    {
-      "title": "ec238 with Nicholas Bedard?",
-      "url": "https://www.reddit.com/r/wlu/comments/14fsrop/ec238_with_nicholas_bedard/",
-      "score": 2,
-      "created": "2023-06-22T04:01:39.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.1
     },
     {
       "title": "EC238 final",
@@ -370,12 +354,28 @@
       "evidence_score": 3.1
     },
     {
+      "title": "Workload in 3A BBA",
+      "url": "https://www.reddit.com/r/wlu/comments/vxuqh2/workload_in_3a_bba/",
+      "score": 2,
+      "created": "2022-07-13T04:45:18.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.1
+    },
+    {
       "title": "Which one is easier?",
       "url": "https://www.reddit.com/r/wlu/comments/8u63d3/which_one_is_easier/",
       "score": 3,
       "created": "2018-06-27T02:53:58.000Z",
       "num_comments": 0,
       "evidence_score": 3.1
+    },
+    {
+      "title": "ec238 with Nicholas Bedard?",
+      "url": "https://www.reddit.com/r/wlu/comments/14fsrop/ec238_with_nicholas_bedard/",
+      "score": 2,
+      "created": "2023-06-22T04:01:39.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.0
     },
     {
       "title": "How is the content of EC223, EC238, EC239?",
@@ -402,19 +402,27 @@
       "evidence_score": 3.0
     },
     {
-      "title": "EC electives",
-      "url": "https://www.reddit.com/r/wlu/comments/1612ylg/ec_electives/",
-      "score": 1,
-      "created": "2023-08-25T15:49:14.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.0
-    },
-    {
       "title": "CC205 vs. EC238",
       "url": "https://www.reddit.com/r/wlu/comments/phs1yl/cc205_vs_ec238/",
       "score": 1,
       "created": "2021-09-04T14:00:00.000Z",
       "num_comments": 4,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "EC electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1612ylg/ec_electives/",
+      "score": 1,
+      "created": "2023-08-25T15:49:14.000Z",
+      "num_comments": 1,
+      "evidence_score": 2.9
+    },
+    {
+      "title": "Second year econ",
+      "url": "https://www.reddit.com/r/wlu/comments/vrj01c/second_year_econ/",
+      "score": 2,
+      "created": "2022-07-04T22:23:38.000Z",
+      "num_comments": 0,
       "evidence_score": 2.9
     },
     {

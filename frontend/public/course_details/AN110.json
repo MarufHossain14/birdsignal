@@ -1,7 +1,7 @@
 {
   "code": "AN110",
   "department": "AN",
-  "bird_score": 5.62,
+  "bird_score": 5.37,
   "specific_mentions": 16,
   "is_online_available": true,
   "ai_summary": "Mixed difficulty signals (2 easy, 2 hard mentions). Light workload signals across 0 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
@@ -47,7 +47,7 @@
       "score": 1,
       "created": "2026-02-23T03:03:12.000Z",
       "num_comments": 4,
-      "evidence_score": 6.3
+      "evidence_score": 6.0
     },
     {
       "title": "AN110",
@@ -55,7 +55,7 @@
       "score": 5,
       "created": "2025-10-16T13:53:07.000Z",
       "num_comments": 1,
-      "evidence_score": 5.9
+      "evidence_score": 5.7
     },
     {
       "title": "Is an110 final cumulative?",
@@ -63,7 +63,7 @@
       "score": 1,
       "created": "2025-12-09T00:53:03.000Z",
       "num_comments": 3,
-      "evidence_score": 5.6
+      "evidence_score": 5.3
     },
     {
       "title": "AN110 a bird course??",
@@ -71,7 +71,7 @@
       "score": 0,
       "created": "2025-08-09T23:41:48.000Z",
       "num_comments": 1,
-      "evidence_score": 4.1
+      "evidence_score": 4.0
     },
     {
       "title": "AN110",

@@ -1,7 +1,7 @@
 {
   "code": "AS102",
   "department": "AS",
-  "bird_score": 7.91,
+  "bird_score": 7.67,
   "specific_mentions": 9,
   "is_online_available": true,
   "ai_summary": "Mixed difficulty signals (2 easy, 3 hard mentions). Light workload signals across 0 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
@@ -55,15 +55,15 @@
       "score": 2,
       "created": "2024-04-20T23:49:00.000Z",
       "num_comments": 0,
-      "evidence_score": 3.4
+      "evidence_score": 3.3
     },
     {
-      "title": "when do the online courses show up on myls and my schedule?",
-      "url": "https://www.reddit.com/r/wlu/comments/1910s7e/when_do_the_online_courses_show_up_on_myls_and_my/",
-      "score": 1,
-      "created": "2024-01-07T19:55:22.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.1
+      "title": "Hey guys! I need some help picking electives. Lets Pool our knowledge!",
+      "url": "https://www.reddit.com/r/wlu/comments/1gxsla/hey_guys_i_need_some_help_picking_electives_lets/",
+      "score": 9,
+      "created": "2013-06-24T00:36:31.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.3
     },
     {
       "title": "AS102 (online) with Arthur Read",
@@ -74,11 +74,11 @@
       "evidence_score": 3.0
     },
     {
-      "title": "Hey guys! I need some help picking electives. Lets Pool our knowledge!",
-      "url": "https://www.reddit.com/r/wlu/comments/1gxsla/hey_guys_i_need_some_help_picking_electives_lets/",
-      "score": 6,
-      "created": "2013-06-24T00:36:31.000Z",
-      "num_comments": 3,
+      "title": "when do the online courses show up on myls and my schedule?",
+      "url": "https://www.reddit.com/r/wlu/comments/1910s7e/when_do_the_online_courses_show_up_on_myls_and_my/",
+      "score": 1,
+      "created": "2024-01-07T19:55:22.000Z",
+      "num_comments": 1,
       "evidence_score": 3.0
     },
     {

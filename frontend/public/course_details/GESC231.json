@@ -1,0 +1,69 @@
+{
+  "code": "GESC231",
+  "department": "GESC",
+  "bird_score": 10.0,
+  "specific_mentions": 3,
+  "is_online_available": true,
+  "ai_summary": "More posts call it easy than hard (2 vs 0). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
+  "confidence_signals": {
+    "recent_mentions": 2,
+    "oldest_thread_date": "2024-11-24T23:02:55+00:00",
+    "newest_thread_date": "2025-07-02T19:26:32+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": -100
+    },
+    "grading": {
+      "label": "Grading",
+      "score": -100
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 40
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 2,
+    "hard_mentions": 0,
+    "workload": 1
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": true,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Which Online Bird Courses Should I Take? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1gz47ii/which_online_bird_courses_should_i_take/",
+      "score": 5,
+      "created": "2024-11-24T23:02:55.000Z",
+      "num_comments": 17,
+      "evidence_score": 4.9
+    },
+    {
+      "title": "Easiest bird courses for 200/300/400 level?",
+      "url": "https://www.reddit.com/r/wlu/comments/1lmxfye/easiest_bird_courses_for_200300400_level/",
+      "score": 3,
+      "created": "2025-06-28T21:08:43.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "easy senior bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1lq4wsd/easy_senior_bird_courses/",
+      "score": 0,
+      "created": "2025-07-02T19:26:32.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.8
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "code": "HI127",
   "department": "HI",
-  "bird_score": 5.89,
+  "bird_score": 6.39,
   "specific_mentions": 10,
   "is_online_available": false,
   "ai_summary": "More posts call it easy than hard (3 vs 1). Light workload signals across 1 workload references. Finals: mentioned; midterms: not clearly mentioned. Most evidence is older. Course experience may have changed.",
@@ -44,18 +44,18 @@
     {
       "title": "HI127",
       "url": "https://www.reddit.com/r/wlu/comments/1pga8l6/hi127/",
-      "score": 7,
+      "score": 8,
       "created": "2025-12-07T05:18:26.000Z",
       "num_comments": 1,
-      "evidence_score": 6.5
+      "evidence_score": 6.3
     },
     {
       "title": "HI127 final exam",
       "url": "https://www.reddit.com/r/wlu/comments/1pkb0ag/hi127_final_exam/",
       "score": 2,
       "created": "2025-12-11T22:28:01.000Z",
-      "num_comments": 7,
-      "evidence_score": 6.1
+      "num_comments": 8,
+      "evidence_score": 5.8
     },
     {
       "title": "HI127 textbook",
@@ -63,12 +63,12 @@
       "score": 1,
       "created": "2026-01-07T19:25:59.000Z",
       "num_comments": 0,
-      "evidence_score": 5.5
+      "evidence_score": 5.3
     },
     {
       "title": "Shoutout to Jeff Grischow, he's a gem",
       "url": "https://www.reddit.com/r/wlu/comments/k8kdg9/shoutout_to_jeff_grischow_hes_a_gem/",
-      "score": 40,
+      "score": 39,
       "created": "2020-12-07T16:56:46.000Z",
       "num_comments": 1,
       "evidence_score": 5.0
@@ -79,15 +79,15 @@
       "score": 5,
       "created": "2025-01-02T00:54:53.000Z",
       "num_comments": 4,
-      "evidence_score": 4.8
+      "evidence_score": 4.7
     },
     {
       "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
       "url": "https://www.reddit.com/r/wlu/comments/18aqxdy/need_one_more_course_for_winter_whats_your/",
-      "score": 4,
+      "score": 3,
       "created": "2023-12-04T18:42:01.000Z",
       "num_comments": 20,
-      "evidence_score": 4.3
+      "evidence_score": 4.0
     },
     {
       "title": "Elective Advice",

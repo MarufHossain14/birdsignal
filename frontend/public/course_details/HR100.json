@@ -1,12 +1,12 @@
 {
   "code": "HR100",
   "department": "HR",
-  "bird_score": 6.18,
-  "specific_mentions": 12,
+  "bird_score": 6.9,
+  "specific_mentions": 11,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (6 vs 2). Light workload signals across 1 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "ai_summary": "More posts call it easy than hard (4 vs 2). Light workload signals across 1 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
   "confidence_signals": {
-    "recent_mentions": 9,
+    "recent_mentions": 8,
     "oldest_thread_date": "2021-10-14T17:06:00+00:00",
     "newest_thread_date": "2026-02-27T14:29:28+00:00",
     "sample_bias_warning": "Signals are reasonably representative."
@@ -30,7 +30,7 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 6,
+    "easy_mentions": 4,
     "hard_mentions": 2,
     "workload": 1
   },
@@ -47,7 +47,7 @@
       "score": 2,
       "created": "2026-02-23T17:01:22.000Z",
       "num_comments": 1,
-      "evidence_score": 6.4
+      "evidence_score": 6.1
     },
     {
       "title": "Hr100 VA",
@@ -55,7 +55,7 @@
       "score": 2,
       "created": "2026-01-06T22:02:06.000Z",
       "num_comments": 1,
-      "evidence_score": 6.0
+      "evidence_score": 5.7
     },
     {
       "title": "Bird course for the winter term (HR100)",
@@ -63,31 +63,15 @@
       "score": 2,
       "created": "2025-12-04T00:48:18.000Z",
       "num_comments": 2,
-      "evidence_score": 5.8
-    },
-    {
-      "title": "Is hr100 easy",
-      "url": "https://www.reddit.com/r/wlu/comments/1phln40/is_hr100_easy/",
-      "score": 2,
-      "created": "2025-12-08T19:25:26.000Z",
-      "num_comments": 1,
-      "evidence_score": 5.7
+      "evidence_score": 5.5
     },
     {
       "title": "Professor not replying and I need topic approval or I\u2019ll get 0",
       "url": "https://www.reddit.com/r/wlu/comments/1odf9ku/professor_not_replying_and_i_need_topic_approval/",
-      "score": 4,
+      "score": 5,
       "created": "2025-10-22T17:48:23.000Z",
-      "num_comments": 13,
-      "evidence_score": 5.4
-    },
-    {
-      "title": "Bird courses Suggestion",
-      "url": "https://www.reddit.com/r/wlu/comments/1rg86bw/bird_courses_suggestion/",
-      "score": 0,
-      "created": "2026-02-27T14:29:28.000Z",
-      "num_comments": 3,
-      "evidence_score": 4.9
+      "num_comments": 12,
+      "evidence_score": 5.3
     },
     {
       "title": "course recommendations",
@@ -95,7 +79,15 @@
       "score": 2,
       "created": "2025-05-05T20:22:50.000Z",
       "num_comments": 6,
-      "evidence_score": 4.8
+      "evidence_score": 4.6
+    },
+    {
+      "title": "Bird courses Suggestion",
+      "url": "https://www.reddit.com/r/wlu/comments/1rg86bw/bird_courses_suggestion/",
+      "score": 0,
+      "created": "2026-02-27T14:29:28.000Z",
+      "num_comments": 3,
+      "evidence_score": 4.6
     },
     {
       "title": "ES295 or HR100",
@@ -103,7 +95,7 @@
       "score": 3,
       "created": "2025-01-04T03:07:37.000Z",
       "num_comments": 4,
-      "evidence_score": 4.5
+      "evidence_score": 4.4
     },
     {
       "title": "BBA FIRST YEAR COURSE RECOMMENDATIONS",
@@ -111,7 +103,7 @@
       "score": 2,
       "created": "2025-06-04T00:46:09.000Z",
       "num_comments": 12,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "Electives",
@@ -119,7 +111,7 @@
       "score": 3,
       "created": "2025-05-26T06:57:22.000Z",
       "num_comments": 4,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "HR100 Textbook (Cheap!!!)",
@@ -127,7 +119,7 @@
       "score": 1,
       "created": "2023-09-11T21:06:15.000Z",
       "num_comments": 1,
-      "evidence_score": 3.0
+      "evidence_score": 2.9
     },
     {
       "title": "HR100 Midterm with Pietro Piriani",

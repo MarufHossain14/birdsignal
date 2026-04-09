@@ -1,7 +1,7 @@
 {
   "code": "EM110",
   "department": "EM",
-  "bird_score": 8.09,
+  "bird_score": 8.57,
   "specific_mentions": 9,
   "is_online_available": true,
   "ai_summary": "More posts call it easy than hard (2 vs 0). Light workload signals across 2 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
@@ -44,10 +44,10 @@
     {
       "title": "Insane EM110 Prof",
       "url": "https://www.reddit.com/r/wlu/comments/1qyyvhl/insane_em110_prof/",
-      "score": 16,
+      "score": 17,
       "created": "2026-02-08T04:04:28.000Z",
-      "num_comments": 6,
-      "evidence_score": 7.8
+      "num_comments": 8,
+      "evidence_score": 7.6
     },
     {
       "title": "EM110 chelsie leger",
@@ -55,15 +55,7 @@
       "score": 5,
       "created": "2026-02-17T00:00:31.000Z",
       "num_comments": 0,
-      "evidence_score": 6.7
-    },
-    {
-      "title": "Anyone taking EM110 with Chelsie Leger?",
-      "url": "https://www.reddit.com/r/wlu/comments/1rdt23m/anyone_taking_em110_with_chelsie_leger/",
-      "score": 2,
-      "created": "2026-02-24T21:18:09.000Z",
-      "num_comments": 0,
-      "evidence_score": 6.3
+      "evidence_score": 6.4
     },
     {
       "title": "Em110",
@@ -71,7 +63,15 @@
       "score": 3,
       "created": "2026-01-11T01:29:56.000Z",
       "num_comments": 2,
-      "evidence_score": 6.3
+      "evidence_score": 6.0
+    },
+    {
+      "title": "Anyone taking EM110 with Chelsie Leger?",
+      "url": "https://www.reddit.com/r/wlu/comments/1rdt23m/anyone_taking_em110_with_chelsie_leger/",
+      "score": 2,
+      "created": "2026-02-24T21:18:09.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.9
     },
     {
       "title": "Em110/ cc102",
@@ -79,15 +79,15 @@
       "score": 2,
       "created": "2026-01-03T21:29:42.000Z",
       "num_comments": 2,
-      "evidence_score": 6.0
+      "evidence_score": 5.8
     },
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 17,
+      "score": 14,
       "created": "2024-09-10T16:03:00.000Z",
       "num_comments": 24,
-      "evidence_score": 5.7
+      "evidence_score": 5.5
     },
     {
       "title": "em110 vs em300",
@@ -95,7 +95,7 @@
       "score": 4,
       "created": "2024-12-19T19:39:10.000Z",
       "num_comments": 0,
-      "evidence_score": 4.3
+      "evidence_score": 4.2
     },
     {
       "title": "EM110",
@@ -103,7 +103,7 @@
       "score": 1,
       "created": "2024-06-18T03:31:45.000Z",
       "num_comments": 11,
-      "evidence_score": 3.7
+      "evidence_score": 3.6
     },
     {
       "title": "EM101 vs EM110 vs EM202/203",

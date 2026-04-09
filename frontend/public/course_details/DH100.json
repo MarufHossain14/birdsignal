@@ -1,7 +1,7 @@
 {
   "code": "DH100",
   "department": "DH",
-  "bird_score": 5.98,
+  "bird_score": 6.48,
   "specific_mentions": 11,
   "is_online_available": true,
   "ai_summary": "More posts call it easy than hard (6 vs 3). Light workload signals across 0 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
@@ -47,15 +47,7 @@
       "score": 3,
       "created": "2025-12-23T07:38:13.000Z",
       "num_comments": 9,
-      "evidence_score": 6.4
-    },
-    {
-      "title": "DH100 help",
-      "url": "https://www.reddit.com/r/wlu/comments/1q5s24k/dh100_help/",
-      "score": 1,
-      "created": "2026-01-06T19:19:28.000Z",
-      "num_comments": 0,
-      "evidence_score": 5.5
+      "evidence_score": 6.2
     },
     {
       "title": "My Bird Course List",
@@ -63,7 +55,15 @@
       "score": 26,
       "created": "2024-02-27T01:53:43.000Z",
       "num_comments": 5,
-      "evidence_score": 5.4
+      "evidence_score": 5.3
+    },
+    {
+      "title": "DH100 help",
+      "url": "https://www.reddit.com/r/wlu/comments/1q5s24k/dh100_help/",
+      "score": 1,
+      "created": "2026-01-06T19:19:28.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.2
     },
     {
       "title": "Elective not showing up. ",
@@ -87,7 +87,7 @@
       "score": 0,
       "created": "2024-06-26T19:55:26.000Z",
       "num_comments": 11,
-      "evidence_score": 3.2
+      "evidence_score": 3.1
     },
     {
       "title": "First Year Electives",

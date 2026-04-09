@@ -93,6 +93,7 @@ echo "Step 3/5: Run backend pipeline"
 )
 
 echo "Step 4/5: Copy generated course details into frontend public data"
+rm -f "$FRONTEND_DIR"/public/course_details/*.json
 cp -f "$DATA_DIR"/processed/course_details/*.json "$FRONTEND_DIR"/public/course_details/
 
 echo "Step 5/5: Build frontend"

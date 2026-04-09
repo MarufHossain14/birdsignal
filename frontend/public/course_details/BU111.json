@@ -2,23 +2,23 @@
   "code": "BU111",
   "department": "BU",
   "bird_score": 0.0,
-  "specific_mentions": 162,
+  "specific_mentions": 161,
   "is_online_available": true,
-  "ai_summary": "More posts call it hard than easy (31 vs 4). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "ai_summary": "More posts call it hard than easy (33 vs 3). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
   "confidence_signals": {
-    "recent_mentions": 156,
+    "recent_mentions": 152,
     "oldest_thread_date": "2024-04-30T08:22:00+00:00",
-    "newest_thread_date": "2026-03-04T05:25:06+00:00",
+    "newest_thread_date": "2026-04-09T05:30:26+00:00",
     "sample_bias_warning": "Signals are reasonably representative."
   },
   "aspect_sentiment": {
     "difficulty": {
       "label": "Difficulty",
-      "score": -50
+      "score": -56
     },
     "grading": {
       "label": "Grading",
-      "score": -50
+      "score": -56
     },
     "workload": {
       "label": "Workload",
@@ -26,12 +26,12 @@
     },
     "professor": {
       "label": "Professor",
-      "score": 25
+      "score": 33
     }
   },
   "difficulty_level": {
-    "easy_mentions": 4,
-    "hard_mentions": 31,
+    "easy_mentions": 3,
+    "hard_mentions": 33,
     "workload": 4
   },
   "course_structure": {
@@ -47,23 +47,31 @@
       "score": 28,
       "created": "2026-02-22T07:05:23.000Z",
       "num_comments": 17,
-      "evidence_score": 8.6
+      "evidence_score": 8.3
     },
     {
       "title": "BU111 Final Leak rumours",
       "url": "https://www.reddit.com/r/wlu/comments/1pg69ex/bu111_final_leak_rumours/",
-      "score": 27,
+      "score": 29,
       "created": "2025-12-07T01:52:58.000Z",
-      "num_comments": 66,
-      "evidence_score": 8.2
+      "num_comments": 67,
+      "evidence_score": 8.0
     },
     {
       "title": "BU111 - It\u2019s not THAT bad.",
       "url": "https://www.reddit.com/r/wlu/comments/1qld5qf/bu111_its_not_that_bad/",
-      "score": 27,
+      "score": 28,
       "created": "2026-01-24T04:24:15.000Z",
       "num_comments": 11,
-      "evidence_score": 8.2
+      "evidence_score": 7.9
+    },
+    {
+      "title": "BU111 Live Case Write Up",
+      "url": "https://www.reddit.com/r/wlu/comments/1op53yc/bu111_live_case_write_up/",
+      "score": 42,
+      "created": "2025-11-05T14:59:08.000Z",
+      "num_comments": 16,
+      "evidence_score": 7.8
     },
     {
       "title": "BU111 final leak?",
@@ -71,23 +79,15 @@
       "score": 34,
       "created": "2025-12-08T05:22:10.000Z",
       "num_comments": 13,
-      "evidence_score": 8.0
-    },
-    {
-      "title": "BU111 Live Case Write Up",
-      "url": "https://www.reddit.com/r/wlu/comments/1op53yc/bu111_live_case_write_up/",
-      "score": 45,
-      "created": "2025-11-05T14:59:08.000Z",
-      "num_comments": 16,
-      "evidence_score": 8.0
+      "evidence_score": 7.8
     },
     {
       "title": "BU111 FINAL",
       "url": "https://www.reddit.com/r/wlu/comments/1pu6afq/bu111_final/",
-      "score": 25,
+      "score": 26,
       "created": "2025-12-23T21:55:59.000Z",
       "num_comments": 9,
-      "evidence_score": 7.9
+      "evidence_score": 7.6
     },
     {
       "title": "Failing an exam",
@@ -95,7 +95,23 @@
       "score": 23,
       "created": "2026-01-02T06:15:55.000Z",
       "num_comments": 5,
-      "evidence_score": 7.8
+      "evidence_score": 7.5
+    },
+    {
+      "title": "When is bu111 final grades coming out?",
+      "url": "https://www.reddit.com/r/wlu/comments/1prmzdu/when_is_bu111_final_grades_coming_out/",
+      "score": 17,
+      "created": "2025-12-20T19:47:47.000Z",
+      "num_comments": 18,
+      "evidence_score": 7.4
+    },
+    {
+      "title": "Bu121 is going to make me drop out",
+      "url": "https://www.reddit.com/r/wlu/comments/1rkcymk/bu121_is_going_to_make_me_drop_out/",
+      "score": 8,
+      "created": "2026-03-04T05:25:06.000Z",
+      "num_comments": 14,
+      "evidence_score": 7.4
     },
     {
       "title": "David Swanston - BU111 Appreciation Post",
@@ -103,31 +119,15 @@
       "score": 7,
       "created": "2026-02-26T20:22:20.000Z",
       "num_comments": 17,
-      "evidence_score": 7.6
-    },
-    {
-      "title": "When is bu111 final grades coming out?",
-      "url": "https://www.reddit.com/r/wlu/comments/1prmzdu/when_is_bu111_final_grades_coming_out/",
-      "score": 15,
-      "created": "2025-12-20T19:47:47.000Z",
-      "num_comments": 18,
-      "evidence_score": 7.6
-    },
-    {
-      "title": "Bu121 is going to make me drop out",
-      "url": "https://www.reddit.com/r/wlu/comments/1rkcymk/bu121_is_going_to_make_me_drop_out/",
-      "score": 7,
-      "created": "2026-03-04T05:25:06.000Z",
-      "num_comments": 13,
-      "evidence_score": 7.6
+      "evidence_score": 7.3
     },
     {
       "title": "help",
       "url": "https://www.reddit.com/r/wlu/comments/1ptatl6/help/",
-      "score": 15,
+      "score": 14,
       "created": "2025-12-22T20:59:45.000Z",
-      "num_comments": 16,
-      "evidence_score": 7.6
+      "num_comments": 15,
+      "evidence_score": 7.3
     },
     {
       "title": "What are your guys crazy comeback story",
@@ -135,15 +135,23 @@
       "score": 24,
       "created": "2025-10-11T01:11:24.000Z",
       "num_comments": 24,
-      "evidence_score": 7.5
+      "evidence_score": 7.3
     },
     {
       "title": "BU121 midterm",
       "url": "https://www.reddit.com/r/wlu/comments/1qu827t/bu121_midterm/",
-      "score": 16,
+      "score": 15,
       "created": "2026-02-02T21:19:49.000Z",
       "num_comments": 1,
-      "evidence_score": 7.5
+      "evidence_score": 7.2
+    },
+    {
+      "title": "9.8/20 bu111 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1ocgwvy/9820_bu111_midterm/",
+      "score": 16,
+      "created": "2025-10-21T16:02:14.000Z",
+      "num_comments": 28,
+      "evidence_score": 7.1
     },
     {
       "title": "The Impossible part of BU111",
@@ -151,31 +159,15 @@
       "score": 10,
       "created": "2026-02-14T18:15:15.000Z",
       "num_comments": 2,
-      "evidence_score": 7.4
-    },
-    {
-      "title": "How hard is BBA actually(hopefully I survive)",
-      "url": "https://www.reddit.com/r/wlu/comments/1reugbd/how_hard_is_bba_actuallyhopefully_i_survive/",
-      "score": 5,
-      "created": "2026-02-25T23:59:48.000Z",
-      "num_comments": 19,
-      "evidence_score": 7.4
-    },
-    {
-      "title": "9.8/20 bu111 midterm",
-      "url": "https://www.reddit.com/r/wlu/comments/1ocgwvy/9820_bu111_midterm/",
-      "score": 15,
-      "created": "2025-10-21T16:02:14.000Z",
-      "num_comments": 28,
-      "evidence_score": 7.3
+      "evidence_score": 7.1
     },
     {
       "title": "bu111 case write up",
       "url": "https://www.reddit.com/r/wlu/comments/1opmbm1/bu111_case_write_up/",
-      "score": 19,
+      "score": 18,
       "created": "2025-11-06T01:58:44.000Z",
       "num_comments": 10,
-      "evidence_score": 7.3
+      "evidence_score": 7.1
     },
     {
       "title": "Failed BU111 by 0.5 marks",
@@ -183,15 +175,15 @@
       "score": 12,
       "created": "2026-01-07T06:07:11.000Z",
       "num_comments": 3,
-      "evidence_score": 7.2
+      "evidence_score": 7.0
     },
     {
-      "title": "Anyone who had to retake courses because they couldn't make the average for BBA.",
-      "url": "https://www.reddit.com/r/wlu/comments/1pbgq1n/anyone_who_had_to_retake_courses_because_they/",
-      "score": 10,
-      "created": "2025-12-01T16:07:31.000Z",
-      "num_comments": 12,
-      "evidence_score": 7.1
+      "title": "Incoming BBA: What is the actual vibe of the Year 1 exams?",
+      "url": "https://www.reddit.com/r/wlu/comments/1sahiqu/incoming_bba_what_is_the_actual_vibe_of_the_year/",
+      "score": 4,
+      "created": "2026-04-02T13:32:36.000Z",
+      "num_comments": 5,
+      "evidence_score": 7.0
     },
     {
       "title": "Where is BBAGod?",
@@ -199,39 +191,55 @@
       "score": 39,
       "created": "2025-07-02T05:28:52.000Z",
       "num_comments": 12,
-      "evidence_score": 7.1
+      "evidence_score": 7.0
     },
     {
       "title": "Real talk yall are some disappointments",
       "url": "https://www.reddit.com/r/wlu/comments/1cgnomn/real_talk_yall_are_some_disappointments/",
-      "score": 281,
+      "score": 283,
       "created": "2024-04-30T08:22:00.000Z",
       "num_comments": 70,
-      "evidence_score": 7.0
+      "evidence_score": 6.9
+    },
+    {
+      "title": "Why is BU111 Marked so hard?",
+      "url": "https://www.reddit.com/r/wlu/comments/1nq8lnt/why_is_bu111_marked_so_hard/",
+      "score": 13,
+      "created": "2025-09-25T14:41:15.000Z",
+      "num_comments": 24,
+      "evidence_score": 6.8
+    },
+    {
+      "title": "How hard is BBA actually(hopefully I survive)",
+      "url": "https://www.reddit.com/r/wlu/comments/1reugbd/how_hard_is_bba_actuallyhopefully_i_survive/",
+      "score": 3,
+      "created": "2026-02-25T23:59:48.000Z",
+      "num_comments": 20,
+      "evidence_score": 6.8
     },
     {
       "title": "HELP! How to succeed in BBA",
       "url": "https://www.reddit.com/r/wlu/comments/1nyv1l9/help_how_to_succeed_in_bba/",
-      "score": 13,
+      "score": 12,
       "created": "2025-10-05T17:54:04.000Z",
       "num_comments": 27,
-      "evidence_score": 7.0
+      "evidence_score": 6.8
+    },
+    {
+      "title": "Anyone who had to retake courses because they couldn't make the average for BBA.",
+      "url": "https://www.reddit.com/r/wlu/comments/1pbgq1n/anyone_who_had_to_retake_courses_because_they/",
+      "score": 9,
+      "created": "2025-12-01T16:07:31.000Z",
+      "num_comments": 13,
+      "evidence_score": 6.8
     },
     {
       "title": "ciip project nobody seems to be in the mood to show up to the presentation",
       "url": "https://www.reddit.com/r/wlu/comments/1ohqtif/ciip_project_nobody_seems_to_be_in_the_mood_to/",
-      "score": 12,
+      "score": 11,
       "created": "2025-10-27T21:16:31.000Z",
       "num_comments": 12,
-      "evidence_score": 7.0
-    },
-    {
-      "title": "It\u2019s going to be a rough for me",
-      "url": "https://www.reddit.com/r/wlu/comments/1q353u6/its_going_to_be_a_rough_for_me/",
-      "score": 6,
-      "created": "2026-01-03T20:24:42.000Z",
-      "num_comments": 6,
-      "evidence_score": 6.9
+      "evidence_score": 6.7
     },
     {
       "title": "What is the grade requirement for BBA Year 1 for DD student",
@@ -239,23 +247,39 @@
       "score": 8,
       "created": "2025-12-02T14:01:07.000Z",
       "num_comments": 10,
-      "evidence_score": 6.9
+      "evidence_score": 6.7
+    },
+    {
+      "title": "Failing bu111",
+      "url": "https://www.reddit.com/r/wlu/comments/1rs5uq7/failing_bu111/",
+      "score": 2,
+      "created": "2026-03-12T22:44:36.000Z",
+      "num_comments": 11,
+      "evidence_score": 6.6
     },
     {
       "title": "What to do if you failed BU111 midterm",
       "url": "https://www.reddit.com/r/wlu/comments/1ny29q8/what_to_do_if_you_failed_bu111_midterm/",
       "score": 9,
       "created": "2025-10-04T18:56:01.000Z",
-      "num_comments": 30,
-      "evidence_score": 6.8
+      "num_comments": 29,
+      "evidence_score": 6.6
     },
     {
-      "title": "Why is BU111 Marked so hard?",
-      "url": "https://www.reddit.com/r/wlu/comments/1nq8lnt/why_is_bu111_marked_so_hard/",
-      "score": 11,
-      "created": "2025-09-25T14:41:15.000Z",
-      "num_comments": 24,
-      "evidence_score": 6.8
+      "title": "How do I achieve high grades in bu111 with Swanston?",
+      "url": "https://www.reddit.com/r/wlu/comments/1n8k9ko/how_do_i_achieve_high_grades_in_bu111_with/",
+      "score": 12,
+      "created": "2025-09-04T19:50:46.000Z",
+      "num_comments": 28,
+      "evidence_score": 6.6
+    },
+    {
+      "title": "Bu111 final",
+      "url": "https://www.reddit.com/r/wlu/comments/1or7lu3/bu111_final/",
+      "score": 10,
+      "created": "2025-11-07T21:58:31.000Z",
+      "num_comments": 7,
+      "evidence_score": 6.6
     },
     {
       "title": "bu111 SI session",
@@ -263,39 +287,23 @@
       "score": 14,
       "created": "2025-10-01T01:47:23.000Z",
       "num_comments": 7,
-      "evidence_score": 6.8
+      "evidence_score": 6.6
     },
     {
-      "title": "Bu121",
-      "url": "https://www.reddit.com/r/wlu/comments/1qvjvmi/bu121/",
-      "score": 7,
-      "created": "2026-02-04T09:15:52.000Z",
-      "num_comments": 0,
-      "evidence_score": 6.8
-    },
-    {
-      "title": "Bu127 final",
-      "url": "https://www.reddit.com/r/wlu/comments/1pmoprj/bu127_final/",
-      "score": 9,
-      "created": "2025-12-14T20:54:35.000Z",
+      "title": "Worried about progression requirements for bba",
+      "url": "https://www.reddit.com/r/wlu/comments/1sggqyz/worried_about_progression_requirements_for_bba/",
+      "score": 2,
+      "created": "2026-04-09T05:30:26.000Z",
       "num_comments": 2,
-      "evidence_score": 6.8
-    },
-    {
-      "title": "How to do well in the final",
-      "url": "https://www.reddit.com/r/wlu/comments/1p98o3u/how_to_do_well_in_the_final/",
-      "score": 11,
-      "created": "2025-11-28T22:54:11.000Z",
-      "num_comments": 2,
-      "evidence_score": 6.8
+      "evidence_score": 6.6
     },
     {
       "title": "How to study for finals?",
       "url": "https://www.reddit.com/r/wlu/comments/1ouxqk6/how_to_study_for_finals/",
-      "score": 12,
+      "score": 13,
       "created": "2025-11-12T06:20:56.000Z",
       "num_comments": 2,
-      "evidence_score": 6.8
+      "evidence_score": 6.6
     },
     {
       "title": "Bu111 mark is out",
@@ -303,23 +311,7 @@
       "score": 3,
       "created": "2025-12-22T16:59:57.000Z",
       "num_comments": 42,
-      "evidence_score": 6.7
-    },
-    {
-      "title": "How do I achieve high grades in bu111 with Swanston?",
-      "url": "https://www.reddit.com/r/wlu/comments/1n8k9ko/how_do_i_achieve_high_grades_in_bu111_with/",
-      "score": 11,
-      "created": "2025-09-04T19:50:46.000Z",
-      "num_comments": 28,
-      "evidence_score": 6.7
-    },
-    {
-      "title": "BU111 Midterm",
-      "url": "https://www.reddit.com/r/wlu/comments/1qyrgjq/bu111_midterm/",
-      "score": 4,
-      "created": "2026-02-07T22:28:27.000Z",
-      "num_comments": 2,
-      "evidence_score": 6.7
+      "evidence_score": 6.5
     },
     {
       "title": "BU111 Live Case",
@@ -327,15 +319,63 @@
       "score": 8,
       "created": "2025-11-06T01:40:50.000Z",
       "num_comments": 11,
-      "evidence_score": 6.7
+      "evidence_score": 6.5
     },
     {
-      "title": "Bu111 final",
-      "url": "https://www.reddit.com/r/wlu/comments/1or7lu3/bu111_final/",
-      "score": 9,
-      "created": "2025-11-07T21:58:31.000Z",
-      "num_comments": 7,
-      "evidence_score": 6.7
+      "title": "It\u2019s going to be a rough for me",
+      "url": "https://www.reddit.com/r/wlu/comments/1q353u6/its_going_to_be_a_rough_for_me/",
+      "score": 5,
+      "created": "2026-01-03T20:24:42.000Z",
+      "num_comments": 6,
+      "evidence_score": 6.5
+    },
+    {
+      "title": "Bu121",
+      "url": "https://www.reddit.com/r/wlu/comments/1qvjvmi/bu121/",
+      "score": 7,
+      "created": "2026-02-04T09:15:52.000Z",
+      "num_comments": 0,
+      "evidence_score": 6.5
+    },
+    {
+      "title": "BBA courses are not to \u201cweed you out,\u201d you\u2019re just underperforming",
+      "url": "https://www.reddit.com/r/wlu/comments/1hnrppt/bba_courses_are_not_to_weed_you_out_youre_just/",
+      "score": 34,
+      "created": "2024-12-27T23:10:15.000Z",
+      "num_comments": 37,
+      "evidence_score": 6.5
+    },
+    {
+      "title": "Bu127 final",
+      "url": "https://www.reddit.com/r/wlu/comments/1pmoprj/bu127_final/",
+      "score": 8,
+      "created": "2025-12-14T20:54:35.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.5
+    },
+    {
+      "title": "How to do well in the final",
+      "url": "https://www.reddit.com/r/wlu/comments/1p98o3u/how_to_do_well_in_the_final/",
+      "score": 10,
+      "created": "2025-11-28T22:54:11.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.5
+    },
+    {
+      "title": "Spring Semester BU111 Help",
+      "url": "https://www.reddit.com/r/wlu/comments/1s2si1v/spring_semester_bu111_help/",
+      "score": 2,
+      "created": "2026-03-24T22:23:19.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.4
+    },
+    {
+      "title": "BU111 Midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1qyrgjq/bu111_midterm/",
+      "score": 4,
+      "created": "2026-02-07T22:28:27.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.4
     },
     {
       "title": "BU121 Midterm",
@@ -343,15 +383,7 @@
       "score": 4,
       "created": "2026-01-27T23:31:46.000Z",
       "num_comments": 3,
-      "evidence_score": 6.7
-    },
-    {
-      "title": "Bu121 vs bu111 midterm",
-      "url": "https://www.reddit.com/r/wlu/comments/1qpnoxn/bu121_vs_bu111_midterm/",
-      "score": 4,
-      "created": "2026-01-28T20:54:49.000Z",
-      "num_comments": 2,
-      "evidence_score": 6.6
+      "evidence_score": 6.4
     },
     {
       "title": "How do they mark TVM on the BU111 final",
@@ -359,7 +391,15 @@
       "score": 6,
       "created": "2025-12-07T00:16:50.000Z",
       "num_comments": 4,
-      "evidence_score": 6.6
+      "evidence_score": 6.3
+    },
+    {
+      "title": "Struggling to study ? (1st year bba)",
+      "url": "https://www.reddit.com/r/wlu/comments/1sdww0c/struggling_to_study_1st_year_bba/",
+      "score": 2,
+      "created": "2026-04-06T12:02:02.000Z",
+      "num_comments": 0,
+      "evidence_score": 6.3
     },
     {
       "title": "how do i save myself?",
@@ -367,7 +407,23 @@
       "score": 7,
       "created": "2025-11-30T19:03:15.000Z",
       "num_comments": 3,
-      "evidence_score": 6.6
+      "evidence_score": 6.3
+    },
+    {
+      "title": "Bu121 vs bu111 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1qpnoxn/bu121_vs_bu111_midterm/",
+      "score": 3,
+      "created": "2026-01-28T20:54:49.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.2
+    },
+    {
+      "title": "Bu111 final tips",
+      "url": "https://www.reddit.com/r/wlu/comments/1pbyljm/bu111_final_tips/",
+      "score": 5,
+      "created": "2025-12-02T04:03:20.000Z",
+      "num_comments": 4,
+      "evidence_score": 6.2
     },
     {
       "title": "Student life and campus vibe?",
@@ -375,15 +431,23 @@
       "score": 3,
       "created": "2025-12-29T20:57:27.000Z",
       "num_comments": 8,
-      "evidence_score": 6.5
+      "evidence_score": 6.2
     },
     {
-      "title": "BBA courses are not to \u201cweed you out,\u201d you\u2019re just underperforming",
-      "url": "https://www.reddit.com/r/wlu/comments/1hnrppt/bba_courses_are_not_to_weed_you_out_youre_just/",
-      "score": 33,
-      "created": "2024-12-27T23:10:15.000Z",
-      "num_comments": 37,
-      "evidence_score": 6.5
+      "title": "bu121",
+      "url": "https://www.reddit.com/r/wlu/comments/1pu3bn3/bu121/",
+      "score": 5,
+      "created": "2025-12-23T19:51:58.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.2
+    },
+    {
+      "title": "Laurier BBA First-Year: Challenges, Insights, and What to Expect",
+      "url": "https://www.reddit.com/r/wlu/comments/1j5zikn/laurier_bba_firstyear_challenges_insights_and/",
+      "score": 24,
+      "created": "2025-03-07T20:31:02.000Z",
+      "num_comments": 15,
+      "evidence_score": 6.2
     },
     {
       "title": "BU111 mid term",
@@ -391,7 +455,7 @@
       "score": 3,
       "created": "2026-01-30T07:07:44.000Z",
       "num_comments": 1,
-      "evidence_score": 6.4
+      "evidence_score": 6.1
     },
     {
       "title": "Nailed It Case on BU111 Midterm",
@@ -399,23 +463,7 @@
       "score": 3,
       "created": "2026-01-26T21:13:31.000Z",
       "num_comments": 1,
-      "evidence_score": 6.4
-    },
-    {
-      "title": "bu111 spring",
-      "url": "https://www.reddit.com/r/wlu/comments/1qzppaw/bu111_spring/",
-      "score": 2,
-      "created": "2026-02-09T00:31:57.000Z",
-      "num_comments": 1,
-      "evidence_score": 6.3
-    },
-    {
-      "title": "BU111 Midterm results are out",
-      "url": "https://www.reddit.com/r/wlu/comments/1ocgbd8/bu111_midterm_results_are_out/",
-      "score": 5,
-      "created": "2025-10-21T15:39:43.000Z",
-      "num_comments": 8,
-      "evidence_score": 6.3
+      "evidence_score": 6.1
     },
     {
       "title": "is management option actually worth it",
@@ -423,63 +471,31 @@
       "score": 2,
       "created": "2026-02-01T18:31:03.000Z",
       "num_comments": 3,
-      "evidence_score": 6.3
+      "evidence_score": 6.1
     },
     {
-      "title": "BU121 textbook?",
-      "url": "https://www.reddit.com/r/wlu/comments/1q35hqb/bu121_textbook/",
-      "score": 3,
-      "created": "2026-01-03T20:40:12.000Z",
-      "num_comments": 2,
-      "evidence_score": 6.3
+      "title": "do swanston and sofy have different midterms for bu111?",
+      "url": "https://www.reddit.com/r/wlu/comments/1nfolmm/do_swanston_and_sofy_have_different_midterms_for/",
+      "score": 5,
+      "created": "2025-09-13T04:48:32.000Z",
+      "num_comments": 21,
+      "evidence_score": 6.0
     },
     {
-      "title": "bu121",
-      "url": "https://www.reddit.com/r/wlu/comments/1pu3bn3/bu121/",
-      "score": 4,
-      "created": "2025-12-23T19:51:58.000Z",
-      "num_comments": 2,
-      "evidence_score": 6.3
-    },
-    {
-      "title": "Laurier BBA First-Year: Challenges, Insights, and What to Expect",
-      "url": "https://www.reddit.com/r/wlu/comments/1j5zikn/laurier_bba_firstyear_challenges_insights_and/",
-      "score": 23,
-      "created": "2025-03-07T20:31:02.000Z",
-      "num_comments": 15,
-      "evidence_score": 6.3
-    },
-    {
-      "title": "Bu111",
-      "url": "https://www.reddit.com/r/wlu/comments/1qm9wpw/bu111/",
-      "score": 1,
-      "created": "2026-01-25T05:04:40.000Z",
-      "num_comments": 9,
-      "evidence_score": 6.2
-    },
-    {
-      "title": "retaking bu127 or bu111 in summer",
-      "url": "https://www.reddit.com/r/wlu/comments/1q66lc1/retaking_bu127_or_bu111_in_summer/",
+      "title": "bu111 spring",
+      "url": "https://www.reddit.com/r/wlu/comments/1qzppaw/bu111_spring/",
       "score": 2,
-      "created": "2026-01-07T05:11:28.000Z",
-      "num_comments": 4,
-      "evidence_score": 6.2
+      "created": "2026-02-09T00:31:57.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.0
     },
     {
-      "title": "bu111 winter or summer",
-      "url": "https://www.reddit.com/r/wlu/comments/1qh96ac/bu111_winter_or_summer/",
+      "title": "what gpa do u need to become a bu111 si session instructor and how do i apply",
+      "url": "https://www.reddit.com/r/wlu/comments/1qd4t32/what_gpa_do_u_need_to_become_a_bu111_si_session/",
       "score": 3,
-      "created": "2026-01-19T16:39:44.000Z",
-      "num_comments": 0,
-      "evidence_score": 6.2
-    },
-    {
-      "title": "Bu111 final",
-      "url": "https://www.reddit.com/r/wlu/comments/1oi1uhu/bu111_final/",
-      "score": 4,
-      "created": "2025-10-28T06:06:39.000Z",
-      "num_comments": 8,
-      "evidence_score": 6.2
+      "created": "2026-01-15T00:40:05.000Z",
+      "num_comments": 1,
+      "evidence_score": 6.0
     },
     {
       "title": "Bu111",
@@ -487,47 +503,47 @@
       "score": 6,
       "created": "2025-12-04T06:22:28.000Z",
       "num_comments": 0,
-      "evidence_score": 6.2
+      "evidence_score": 6.0
+    },
+    {
+      "title": "BU121 textbook?",
+      "url": "https://www.reddit.com/r/wlu/comments/1q35hqb/bu121_textbook/",
+      "score": 3,
+      "created": "2026-01-03T20:40:12.000Z",
+      "num_comments": 2,
+      "evidence_score": 6.0
     },
     {
       "title": "Bu111",
-      "url": "https://www.reddit.com/r/wlu/comments/1od8e7m/bu111/",
-      "score": 6,
-      "created": "2025-10-22T13:32:37.000Z",
-      "num_comments": 3,
-      "evidence_score": 6.2
-    },
-    {
-      "title": "Peer evaluation",
-      "url": "https://www.reddit.com/r/wlu/comments/1pcv9gr/peer_evaluation/",
-      "score": 2,
-      "created": "2025-12-03T04:58:37.000Z",
-      "num_comments": 15,
-      "evidence_score": 6.2
-    },
-    {
-      "title": "Should I be fine for co-op?",
-      "url": "https://www.reddit.com/r/wlu/comments/1p6g7nd/should_i_be_fine_for_coop/",
-      "score": 3,
-      "created": "2025-11-25T16:00:48.000Z",
+      "url": "https://www.reddit.com/r/wlu/comments/1qm9wpw/bu111/",
+      "score": 1,
+      "created": "2026-01-25T05:04:40.000Z",
       "num_comments": 8,
-      "evidence_score": 6.2
+      "evidence_score": 5.9
     },
     {
-      "title": "do swanston and sofy have different midterms for bu111?",
-      "url": "https://www.reddit.com/r/wlu/comments/1nfolmm/do_swanston_and_sofy_have_different_midterms_for/",
-      "score": 4,
-      "created": "2025-09-13T04:48:32.000Z",
-      "num_comments": 21,
-      "evidence_score": 6.1
+      "title": "How do I do good in non-BBA BU111?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ncpsmj/how_do_i_do_good_in_nonbba_bu111/",
+      "score": 5,
+      "created": "2025-09-09T17:49:38.000Z",
+      "num_comments": 16,
+      "evidence_score": 5.9
     },
     {
-      "title": "Bu111 final tips",
-      "url": "https://www.reddit.com/r/wlu/comments/1pbyljm/bu111_final_tips/",
-      "score": 3,
-      "created": "2025-12-02T04:03:20.000Z",
+      "title": "retaking bu127 or bu111 in summer",
+      "url": "https://www.reddit.com/r/wlu/comments/1q66lc1/retaking_bu127_or_bu111_in_summer/",
+      "score": 2,
+      "created": "2026-01-07T05:11:28.000Z",
       "num_comments": 4,
-      "evidence_score": 6.1
+      "evidence_score": 5.9
+    },
+    {
+      "title": "bu111 winter or summer",
+      "url": "https://www.reddit.com/r/wlu/comments/1qh96ac/bu111_winter_or_summer/",
+      "score": 3,
+      "created": "2026-01-19T16:39:44.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.9
     },
     {
       "title": "bu111 final",
@@ -535,7 +551,39 @@
       "score": 3,
       "created": "2025-12-03T09:42:27.000Z",
       "num_comments": 4,
-      "evidence_score": 6.1
+      "evidence_score": 5.9
+    },
+    {
+      "title": "BU111 Midterm results are out",
+      "url": "https://www.reddit.com/r/wlu/comments/1ocgbd8/bu111_midterm_results_are_out/",
+      "score": 4,
+      "created": "2025-10-21T15:39:43.000Z",
+      "num_comments": 8,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "Bu111",
+      "url": "https://www.reddit.com/r/wlu/comments/1od8e7m/bu111/",
+      "score": 5,
+      "created": "2025-10-22T13:32:37.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "Peer evaluation",
+      "url": "https://www.reddit.com/r/wlu/comments/1pcv9gr/peer_evaluation/",
+      "score": 2,
+      "created": "2025-12-03T04:58:37.000Z",
+      "num_comments": 15,
+      "evidence_score": 5.9
+    },
+    {
+      "title": "Bu111 final",
+      "url": "https://www.reddit.com/r/wlu/comments/1oi1uhu/bu111_final/",
+      "score": 3,
+      "created": "2025-10-28T06:06:39.000Z",
+      "num_comments": 8,
+      "evidence_score": 5.8
     },
     {
       "title": "Sofy Office Hours?",
@@ -543,15 +591,7 @@
       "score": 2,
       "created": "2026-02-04T01:26:40.000Z",
       "num_comments": 0,
-      "evidence_score": 6.1
-    },
-    {
-      "title": "are there any upper year students who have taken bu111&amp;bu121 in the same term?",
-      "url": "https://www.reddit.com/r/wlu/comments/1rk8n2j/are_there_any_upper_year_students_who_have_taken/",
-      "score": 1,
-      "created": "2026-03-04T01:57:06.000Z",
-      "num_comments": 0,
-      "evidence_score": 6.0
+      "evidence_score": 5.8
     },
     {
       "title": "BU111 deferred exam mark",
@@ -559,23 +599,7 @@
       "score": 1,
       "created": "2026-02-27T16:08:27.000Z",
       "num_comments": 0,
-      "evidence_score": 6.0
-    },
-    {
-      "title": "what gpa do u need to become a bu111 si session instructor and how do i apply",
-      "url": "https://www.reddit.com/r/wlu/comments/1qd4t32/what_gpa_do_u_need_to_become_a_bu111_si_session/",
-      "score": 2,
-      "created": "2026-01-15T00:40:05.000Z",
-      "num_comments": 1,
-      "evidence_score": 6.0
-    },
-    {
-      "title": "BU121 SI sessions",
-      "url": "https://www.reddit.com/r/wlu/comments/1q6oc08/bu121_si_sessions/",
-      "score": 2,
-      "created": "2026-01-07T19:02:40.000Z",
-      "num_comments": 1,
-      "evidence_score": 6.0
+      "evidence_score": 5.7
     },
     {
       "title": "Bu111",
@@ -583,15 +607,7 @@
       "score": 1,
       "created": "2026-01-07T04:18:21.000Z",
       "num_comments": 6,
-      "evidence_score": 5.9
-    },
-    {
-      "title": "bu111 midterm",
-      "url": "https://www.reddit.com/r/wlu/comments/1qroi4m/bu111_midterm/",
-      "score": 1,
-      "created": "2026-01-31T01:24:34.000Z",
-      "num_comments": 1,
-      "evidence_score": 5.9
+      "evidence_score": 5.7
     },
     {
       "title": "Bu111",
@@ -599,15 +615,15 @@
       "score": 2,
       "created": "2025-12-05T09:40:52.000Z",
       "num_comments": 4,
-      "evidence_score": 5.9
+      "evidence_score": 5.7
     },
     {
-      "title": "Bu111 peer evals",
-      "url": "https://www.reddit.com/r/wlu/comments/1pcylsa/bu111_peer_evals/",
-      "score": 2,
-      "created": "2025-12-03T08:12:42.000Z",
-      "num_comments": 3,
-      "evidence_score": 5.9
+      "title": "DEFFER BU111 EXAM???",
+      "url": "https://www.reddit.com/r/wlu/comments/1pd8ens/deffer_bu111_exam/",
+      "score": 3,
+      "created": "2025-12-03T16:12:08.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.7
     },
     {
       "title": "Bu111 multiple choice",
@@ -615,7 +631,23 @@
       "score": 4,
       "created": "2025-10-21T19:12:08.000Z",
       "num_comments": 3,
-      "evidence_score": 5.9
+      "evidence_score": 5.7
+    },
+    {
+      "title": "Should I be fine for co-op?",
+      "url": "https://www.reddit.com/r/wlu/comments/1p6g7nd/should_i_be_fine_for_coop/",
+      "score": 2,
+      "created": "2025-11-25T16:00:48.000Z",
+      "num_comments": 8,
+      "evidence_score": 5.7
+    },
+    {
+      "title": "BU121 SI sessions",
+      "url": "https://www.reddit.com/r/wlu/comments/1q6oc08/bu121_si_sessions/",
+      "score": 2,
+      "created": "2026-01-07T19:02:40.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.7
     },
     {
       "title": "Switch Out Of BBA? First Year",
@@ -623,7 +655,7 @@
       "score": 3,
       "created": "2025-10-27T15:25:36.000Z",
       "num_comments": 5,
-      "evidence_score": 5.9
+      "evidence_score": 5.7
     },
     {
       "title": "Does it matter if I go to a different lecture time",
@@ -631,39 +663,31 @@
       "score": 6,
       "created": "2025-09-14T23:36:06.000Z",
       "num_comments": 2,
-      "evidence_score": 5.9
+      "evidence_score": 5.7
+    },
+    {
+      "title": "Are these profs good?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l6bym3/are_these_profs_good/",
+      "score": 10,
+      "created": "2025-06-08T13:19:13.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.7
     },
     {
       "title": "Bu111 midterm tomorrow and I\u2019m freaking out",
       "url": "https://www.reddit.com/r/wlu/comments/1nwd1io/bu111_midterm_tomorrow_and_im_freaking_out/",
       "score": 2,
       "created": "2025-10-02T19:14:44.000Z",
-      "num_comments": 19,
-      "evidence_score": 5.8
+      "num_comments": 20,
+      "evidence_score": 5.6
     },
     {
-      "title": "How do I do good in non-BBA BU111?",
-      "url": "https://www.reddit.com/r/wlu/comments/1ncpsmj/how_do_i_do_good_in_nonbba_bu111/",
-      "score": 3,
-      "created": "2025-09-09T17:49:38.000Z",
-      "num_comments": 16,
-      "evidence_score": 5.8
-    },
-    {
-      "title": "bu111 midterm advice",
-      "url": "https://www.reddit.com/r/wlu/comments/1qnzifs/bu111_midterm_advice/",
+      "title": "bu111 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1qroi4m/bu111_midterm/",
       "score": 1,
-      "created": "2026-01-27T01:19:19.000Z",
+      "created": "2026-01-31T01:24:34.000Z",
       "num_comments": 1,
-      "evidence_score": 5.8
-    },
-    {
-      "title": "Bu111",
-      "url": "https://www.reddit.com/r/wlu/comments/1pukceh/bu111/",
-      "score": 1,
-      "created": "2025-12-24T10:29:20.000Z",
-      "num_comments": 4,
-      "evidence_score": 5.8
+      "evidence_score": 5.6
     },
     {
       "title": "Bu111 consulting case",
@@ -671,7 +695,15 @@
       "score": 2,
       "created": "2025-11-05T14:10:00.000Z",
       "num_comments": 7,
-      "evidence_score": 5.8
+      "evidence_score": 5.6
+    },
+    {
+      "title": "Bu111 peer evals",
+      "url": "https://www.reddit.com/r/wlu/comments/1pcylsa/bu111_peer_evals/",
+      "score": 2,
+      "created": "2025-12-03T08:12:42.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.6
     },
     {
       "title": "are financial calculators allowed on bu111 final?",
@@ -679,7 +711,15 @@
       "score": 2,
       "created": "2025-12-04T04:53:08.000Z",
       "num_comments": 2,
-      "evidence_score": 5.8
+      "evidence_score": 5.6
+    },
+    {
+      "title": "BU111 Prof",
+      "url": "https://www.reddit.com/r/wlu/comments/1mztjc9/bu111_prof/",
+      "score": 4,
+      "created": "2025-08-25T15:25:54.000Z",
+      "num_comments": 11,
+      "evidence_score": 5.6
     },
     {
       "title": "BU111 CIIP presentation",
@@ -687,23 +727,15 @@
       "score": 3,
       "created": "2025-10-29T22:40:20.000Z",
       "num_comments": 3,
-      "evidence_score": 5.8
+      "evidence_score": 5.6
     },
     {
-      "title": "Places to find M/C for BU111 midterm?",
-      "url": "https://www.reddit.com/r/wlu/comments/1nwnklg/places_to_find_mc_for_bu111_midterm/",
-      "score": 5,
-      "created": "2025-10-03T02:41:49.000Z",
-      "num_comments": 1,
-      "evidence_score": 5.8
-    },
-    {
-      "title": "First year BBA study tips",
-      "url": "https://www.reddit.com/r/wlu/comments/1l5qssv/first_year_bba_study_tips/",
-      "score": 9,
-      "created": "2025-06-07T17:51:11.000Z",
+      "title": "Bu111",
+      "url": "https://www.reddit.com/r/wlu/comments/1pukceh/bu111/",
+      "score": 1,
+      "created": "2025-12-24T10:29:20.000Z",
       "num_comments": 4,
-      "evidence_score": 5.8
+      "evidence_score": 5.5
     },
     {
       "title": "Bu111",
@@ -711,23 +743,15 @@
       "score": 1,
       "created": "2026-01-05T22:28:01.000Z",
       "num_comments": 2,
-      "evidence_score": 5.7
+      "evidence_score": 5.5
     },
     {
-      "title": "DEFFER BU111 EXAM???",
-      "url": "https://www.reddit.com/r/wlu/comments/1pd8ens/deffer_bu111_exam/",
-      "score": 2,
-      "created": "2025-12-03T16:12:08.000Z",
-      "num_comments": 1,
-      "evidence_score": 5.7
-    },
-    {
-      "title": "BU111 Prof",
-      "url": "https://www.reddit.com/r/wlu/comments/1mztjc9/bu111_prof/",
-      "score": 3,
-      "created": "2025-08-25T15:25:54.000Z",
-      "num_comments": 11,
-      "evidence_score": 5.7
+      "title": "BU111 exam remark",
+      "url": "https://www.reddit.com/r/wlu/comments/1hkbsoo/bu111_exam_remark/",
+      "score": 9,
+      "created": "2024-12-23T00:28:28.000Z",
+      "num_comments": 36,
+      "evidence_score": 5.5
     },
     {
       "title": "bu111 SI sessions",
@@ -735,47 +759,7 @@
       "score": 3,
       "created": "2025-09-14T02:07:34.000Z",
       "num_comments": 7,
-      "evidence_score": 5.7
-    },
-    {
-      "title": "Midterm study tips for bu111?",
-      "url": "https://www.reddit.com/r/wlu/comments/1nmxhni/midterm_study_tips_for_bu111/",
-      "score": 4,
-      "created": "2025-09-21T17:08:10.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.7
-    },
-    {
-      "title": "Are these profs good?",
-      "url": "https://www.reddit.com/r/wlu/comments/1l6bym3/are_these_profs_good/",
-      "score": 8,
-      "created": "2025-06-08T13:19:13.000Z",
-      "num_comments": 5,
-      "evidence_score": 5.7
-    },
-    {
-      "title": "Who\u2019s retaking bu111?",
-      "url": "https://www.reddit.com/r/wlu/comments/1r8tgmm/whos_retaking_bu111/",
-      "score": 0,
-      "created": "2026-02-19T08:05:34.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.6
-    },
-    {
-      "title": "Someone please tell me I'm not tripping bu111",
-      "url": "https://www.reddit.com/r/wlu/comments/1nxfiv3/someone_please_tell_me_im_not_tripping_bu111/",
-      "score": 2,
-      "created": "2025-10-04T00:12:24.000Z",
-      "num_comments": 7,
-      "evidence_score": 5.6
-    },
-    {
-      "title": "Tips to do well for BU111 Live Case Presentation?",
-      "url": "https://www.reddit.com/r/wlu/comments/1opoylf/tips_to_do_well_for_bu111_live_case_presentation/",
-      "score": 2,
-      "created": "2025-11-06T04:02:57.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.6
+      "evidence_score": 5.5
     },
     {
       "title": "Retake Bu111 twice",
@@ -783,15 +767,31 @@
       "score": 4,
       "created": "2025-08-06T03:54:03.000Z",
       "num_comments": 7,
-      "evidence_score": 5.6
+      "evidence_score": 5.5
     },
     {
-      "title": "Fall Final Exams",
-      "url": "https://www.reddit.com/r/wlu/comments/1mry4ou/fall_final_exams/",
-      "score": 3,
-      "created": "2025-08-16T15:16:18.000Z",
-      "num_comments": 8,
-      "evidence_score": 5.6
+      "title": "can someone send me their midterm notes for bu111 ill buy you boba",
+      "url": "https://www.reddit.com/r/wlu/comments/1npi10t/can_someone_send_me_their_midterm_notes_for_bu111/",
+      "score": 4,
+      "created": "2025-09-24T17:14:19.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.5
+    },
+    {
+      "title": "Places to find M/C for BU111 midterm?",
+      "url": "https://www.reddit.com/r/wlu/comments/1nwnklg/places_to_find_mc_for_bu111_midterm/",
+      "score": 4,
+      "created": "2025-10-03T02:41:49.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.5
+    },
+    {
+      "title": "First year BBA study tips",
+      "url": "https://www.reddit.com/r/wlu/comments/1l5qssv/first_year_bba_study_tips/",
+      "score": 8,
+      "created": "2025-06-07T17:51:11.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.5
     },
     {
       "title": "BU111 Spring OC",
@@ -799,15 +799,15 @@
       "score": 8,
       "created": "2025-04-24T02:24:45.000Z",
       "num_comments": 8,
-      "evidence_score": 5.6
+      "evidence_score": 5.5
     },
     {
-      "title": "Bu111 ciip groups",
-      "url": "https://www.reddit.com/r/wlu/comments/1qep86a/bu111_ciip_groups/",
-      "score": 0,
-      "created": "2026-01-16T19:12:32.000Z",
-      "num_comments": 6,
-      "evidence_score": 5.5
+      "title": "Fall Final Exams",
+      "url": "https://www.reddit.com/r/wlu/comments/1mry4ou/fall_final_exams/",
+      "score": 3,
+      "created": "2025-08-16T15:16:18.000Z",
+      "num_comments": 8,
+      "evidence_score": 5.4
     },
     {
       "title": "bu111 live case semi-finals announcement ?",
@@ -815,39 +815,23 @@
       "score": 1,
       "created": "2025-11-27T04:05:55.000Z",
       "num_comments": 3,
-      "evidence_score": 5.5
+      "evidence_score": 5.3
     },
     {
-      "title": "Bu111 lab attendance",
-      "url": "https://www.reddit.com/r/wlu/comments/1plvpjf/bu111_lab_attendance/",
-      "score": 1,
-      "created": "2025-12-13T20:52:08.000Z",
+      "title": "Tips to do well for BU111 Live Case Presentation?",
+      "url": "https://www.reddit.com/r/wlu/comments/1opoylf/tips_to_do_well_for_bu111_live_case_presentation/",
+      "score": 2,
+      "created": "2025-11-06T04:02:57.000Z",
       "num_comments": 1,
-      "evidence_score": 5.5
+      "evidence_score": 5.3
     },
     {
-      "title": "BU111 exam remark",
-      "url": "https://www.reddit.com/r/wlu/comments/1hkbsoo/bu111_exam_remark/",
-      "score": 8,
-      "created": "2024-12-23T00:28:28.000Z",
-      "num_comments": 36,
-      "evidence_score": 5.5
-    },
-    {
-      "title": "EC120 and BU111 GC Insta",
-      "url": "https://www.reddit.com/r/wlu/comments/1nb8yn6/ec120_and_bu111_gc_insta/",
+      "title": "Midterm study tips for bu111?",
+      "url": "https://www.reddit.com/r/wlu/comments/1nmxhni/midterm_study_tips_for_bu111/",
       "score": 3,
-      "created": "2025-09-08T00:02:17.000Z",
-      "num_comments": 3,
-      "evidence_score": 5.5
-    },
-    {
-      "title": "can someone send me their midterm notes for bu111 ill buy you boba",
-      "url": "https://www.reddit.com/r/wlu/comments/1npi10t/can_someone_send_me_their_midterm_notes_for_bu111/",
-      "score": 3,
-      "created": "2025-09-24T17:14:19.000Z",
+      "created": "2025-09-21T17:08:10.000Z",
       "num_comments": 2,
-      "evidence_score": 5.5
+      "evidence_score": 5.3
     },
     {
       "title": "Can\u2019t register required courses",
@@ -855,15 +839,23 @@
       "score": 5,
       "created": "2025-06-27T18:35:07.000Z",
       "num_comments": 4,
-      "evidence_score": 5.5
+      "evidence_score": 5.3
     },
     {
-      "title": "BU111 short answer midterm regrade?",
-      "url": "https://www.reddit.com/r/wlu/comments/1ocgl0b/bu111_short_answer_midterm_regrade/",
-      "score": 1,
-      "created": "2025-10-21T15:49:57.000Z",
+      "title": "Bu111 ciip groups",
+      "url": "https://www.reddit.com/r/wlu/comments/1qep86a/bu111_ciip_groups/",
+      "score": 0,
+      "created": "2026-01-16T19:12:32.000Z",
       "num_comments": 6,
-      "evidence_score": 5.4
+      "evidence_score": 5.2
+    },
+    {
+      "title": "Bu111 lab attendance",
+      "url": "https://www.reddit.com/r/wlu/comments/1plvpjf/bu111_lab_attendance/",
+      "score": 1,
+      "created": "2025-12-13T20:52:08.000Z",
+      "num_comments": 1,
+      "evidence_score": 5.2
     },
     {
       "title": "bu111 final",
@@ -871,31 +863,7 @@
       "score": 1,
       "created": "2025-12-05T15:52:26.000Z",
       "num_comments": 1,
-      "evidence_score": 5.4
-    },
-    {
-      "title": "Bu111",
-      "url": "https://www.reddit.com/r/wlu/comments/1pc3hnu/bu111/",
-      "score": 1,
-      "created": "2025-12-02T08:44:07.000Z",
-      "num_comments": 1,
-      "evidence_score": 5.4
-    },
-    {
-      "title": "Looking for BU111 Tutor",
-      "url": "https://www.reddit.com/r/wlu/comments/1p172ql/looking_for_bu111_tutor/",
-      "score": 1,
-      "created": "2025-11-19T13:01:15.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.4
-    },
-    {
-      "title": "NRV TVM (bu111)",
-      "url": "https://www.reddit.com/r/wlu/comments/1oznhsp/nrv_tvm_bu111/",
-      "score": 1,
-      "created": "2025-11-17T18:06:57.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.4
+      "evidence_score": 5.2
     },
     {
       "title": "BU111 and EC120 midterm notes?",
@@ -903,7 +871,7 @@
       "score": 2,
       "created": "2025-09-25T00:04:12.000Z",
       "num_comments": 4,
-      "evidence_score": 5.4
+      "evidence_score": 5.2
     },
     {
       "title": "Bu111 midterm results",
@@ -911,7 +879,7 @@
       "score": 2,
       "created": "2025-10-04T20:23:10.000Z",
       "num_comments": 3,
-      "evidence_score": 5.4
+      "evidence_score": 5.2
     },
     {
       "title": "Bu111 lab 4",
@@ -919,55 +887,7 @@
       "score": 2,
       "created": "2025-10-07T23:56:29.000Z",
       "num_comments": 2,
-      "evidence_score": 5.4
-    },
-    {
-      "title": "How to study for bu111?",
-      "url": "https://www.reddit.com/r/wlu/comments/1ntycel/how_to_study_for_bu111/",
-      "score": 2,
-      "created": "2025-09-30T00:04:30.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.4
-    },
-    {
-      "title": "Thought on courses first year",
-      "url": "https://www.reddit.com/r/wlu/comments/1lalgke/thought_on_courses_first_year/",
-      "score": 4,
-      "created": "2025-06-13T17:13:18.000Z",
-      "num_comments": 9,
-      "evidence_score": 5.4
-    },
-    {
-      "title": "BU111 Mock Exams",
-      "url": "https://www.reddit.com/r/wlu/comments/1pf87d0/bu111_mock_exams/",
-      "score": 1,
-      "created": "2025-12-05T22:07:17.000Z",
-      "num_comments": 0,
-      "evidence_score": 5.3
-    },
-    {
-      "title": "Bu111/ BBA progression",
-      "url": "https://www.reddit.com/r/wlu/comments/1m7rsjb/bu111_bba_progression/",
-      "score": 2,
-      "created": "2025-07-24T01:52:00.000Z",
-      "num_comments": 13,
-      "evidence_score": 5.3
-    },
-    {
-      "title": "BU111 midterm regrade?",
-      "url": "https://www.reddit.com/r/wlu/comments/1ol0og4/bu111_midterm_regrade/",
-      "score": 2,
-      "created": "2025-10-31T17:23:43.000Z",
-      "num_comments": 0,
-      "evidence_score": 5.3
-    },
-    {
-      "title": "Course time change?",
-      "url": "https://www.reddit.com/r/wlu/comments/1l47cp1/course_time_change/",
-      "score": 3,
-      "created": "2025-06-05T18:54:13.000Z",
-      "num_comments": 16,
-      "evidence_score": 5.3
+      "evidence_score": 5.2
     },
     {
       "title": "Best profs for ma127, bu127, &amp; bu111",
@@ -975,15 +895,79 @@
       "score": 5,
       "created": "2025-05-19T21:11:32.000Z",
       "num_comments": 5,
-      "evidence_score": 5.3
+      "evidence_score": 5.2
     },
     {
-      "title": "Bu111 final",
-      "url": "https://www.reddit.com/r/wlu/comments/1qd89o2/bu111_final/",
-      "score": 0,
-      "created": "2026-01-15T03:13:29.000Z",
+      "title": "BU111 short answer midterm regrade?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ocgl0b/bu111_short_answer_midterm_regrade/",
+      "score": 1,
+      "created": "2025-10-21T15:49:57.000Z",
+      "num_comments": 6,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "Bu111",
+      "url": "https://www.reddit.com/r/wlu/comments/1pc3hnu/bu111/",
+      "score": 1,
+      "created": "2025-12-02T08:44:07.000Z",
       "num_comments": 1,
-      "evidence_score": 5.2
+      "evidence_score": 5.1
+    },
+    {
+      "title": "Looking for BU111 Tutor",
+      "url": "https://www.reddit.com/r/wlu/comments/1p172ql/looking_for_bu111_tutor/",
+      "score": 1,
+      "created": "2025-11-19T13:01:15.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "NRV TVM (bu111)",
+      "url": "https://www.reddit.com/r/wlu/comments/1oznhsp/nrv_tvm_bu111/",
+      "score": 1,
+      "created": "2025-11-17T18:06:57.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "Bu111/ BBA progression",
+      "url": "https://www.reddit.com/r/wlu/comments/1m7rsjb/bu111_bba_progression/",
+      "score": 2,
+      "created": "2025-07-24T01:52:00.000Z",
+      "num_comments": 13,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "BU111 midterm regrade?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ol0og4/bu111_midterm_regrade/",
+      "score": 2,
+      "created": "2025-10-31T17:23:43.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "EC120 and BU111 GC Insta",
+      "url": "https://www.reddit.com/r/wlu/comments/1nb8yn6/ec120_and_bu111_gc_insta/",
+      "score": 2,
+      "created": "2025-09-08T00:02:17.000Z",
+      "num_comments": 3,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "How to study for bu111?",
+      "url": "https://www.reddit.com/r/wlu/comments/1ntycel/how_to_study_for_bu111/",
+      "score": 2,
+      "created": "2025-09-30T00:04:30.000Z",
+      "num_comments": 2,
+      "evidence_score": 5.1
+    },
+    {
+      "title": "Thought on courses first year",
+      "url": "https://www.reddit.com/r/wlu/comments/1lalgke/thought_on_courses_first_year/",
+      "score": 3,
+      "created": "2025-06-13T17:13:18.000Z",
+      "num_comments": 9,
+      "evidence_score": 5.1
     },
     {
       "title": "BU111 slide assignment",
@@ -991,47 +975,15 @@
       "score": 1,
       "created": "2025-09-15T14:14:49.000Z",
       "num_comments": 9,
-      "evidence_score": 5.2
+      "evidence_score": 5.0
     },
     {
-      "title": "How do I study for CP102",
-      "url": "https://www.reddit.com/r/wlu/comments/1p7nuyz/how_do_i_study_for_cp102/",
-      "score": 0,
-      "created": "2025-11-27T00:10:31.000Z",
-      "num_comments": 8,
-      "evidence_score": 5.2
-    },
-    {
-      "title": "How do you apply/become a BU127 IA/Grader?",
-      "url": "https://www.reddit.com/r/wlu/comments/1mjfj5n/how_do_you_applybecome_a_bu127_iagrader/",
-      "score": 2,
-      "created": "2025-08-06T20:20:43.000Z",
-      "num_comments": 5,
-      "evidence_score": 5.2
-    },
-    {
-      "title": "Bu111 spring",
-      "url": "https://www.reddit.com/r/wlu/comments/1jnjz2l/bu111_spring/",
-      "score": 6,
-      "created": "2025-03-30T19:10:34.000Z",
-      "num_comments": 3,
-      "evidence_score": 5.2
-    },
-    {
-      "title": "Skipping bu111 final",
-      "url": "https://www.reddit.com/r/wlu/comments/1p3ecsn/skipping_bu111_final/",
-      "score": 0,
-      "created": "2025-11-21T23:51:22.000Z",
-      "num_comments": 6,
-      "evidence_score": 5.1
-    },
-    {
-      "title": "In BU111, how much of the 30% TVM will be multiple choice?",
-      "url": "https://www.reddit.com/r/wlu/comments/1pdqp6z/in_bu111_how_much_of_the_30_tvm_will_be_multiple/",
-      "score": 0,
-      "created": "2025-12-04T04:31:52.000Z",
-      "num_comments": 5,
-      "evidence_score": 5.1
+      "title": "BU111 Mock Exams",
+      "url": "https://www.reddit.com/r/wlu/comments/1pf87d0/bu111_mock_exams/",
+      "score": 1,
+      "created": "2025-12-05T22:07:17.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.0
     },
     {
       "title": "Is BU111 and BU127 manageable in the same term. I have an option to take EC140 in place of one of them but i want to reduce my study load for next semester. My prof is Abraham Abraham. PLEASE HELP ME CHOOSE",
@@ -1039,15 +991,39 @@
       "score": 1,
       "created": "2025-08-27T00:58:55.000Z",
       "num_comments": 11,
-      "evidence_score": 5.1
+      "evidence_score": 5.0
     },
     {
-      "title": "Bu111 and bu127",
-      "url": "https://www.reddit.com/r/wlu/comments/1nb2tww/bu111_and_bu127/",
-      "score": 1,
-      "created": "2025-09-07T19:46:07.000Z",
-      "num_comments": 7,
-      "evidence_score": 5.1
+      "title": "Failed BU111",
+      "url": "https://www.reddit.com/r/wlu/comments/1hpa7kn/failed_bu111/",
+      "score": 5,
+      "created": "2024-12-30T00:24:01.000Z",
+      "num_comments": 21,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "How do you apply/become a BU127 IA/Grader?",
+      "url": "https://www.reddit.com/r/wlu/comments/1mjfj5n/how_do_you_applybecome_a_bu127_iagrader/",
+      "score": 2,
+      "created": "2025-08-06T20:20:43.000Z",
+      "num_comments": 5,
+      "evidence_score": 5.0
+    },
+    {
+      "title": "In BU111, how much of the 30% TVM will be multiple choice?",
+      "url": "https://www.reddit.com/r/wlu/comments/1pdqp6z/in_bu111_how_much_of_the_30_tvm_will_be_multiple/",
+      "score": 0,
+      "created": "2025-12-04T04:31:52.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.9
+    },
+    {
+      "title": "Bu111 final",
+      "url": "https://www.reddit.com/r/wlu/comments/1qd89o2/bu111_final/",
+      "score": 0,
+      "created": "2026-01-15T03:13:29.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.9
     },
     {
       "title": "BU111 Tutors",
@@ -1055,7 +1031,7 @@
       "score": 1,
       "created": "2025-11-14T15:18:23.000Z",
       "num_comments": 0,
-      "evidence_score": 5.1
+      "evidence_score": 4.9
     },
     {
       "title": "BU111 Short Answer",
@@ -1063,7 +1039,7 @@
       "score": 1,
       "created": "2025-10-01T19:40:03.000Z",
       "num_comments": 3,
-      "evidence_score": 5.1
+      "evidence_score": 4.9
     },
     {
       "title": "how does one even study for bu111",
@@ -1071,7 +1047,23 @@
       "score": 1,
       "created": "2025-09-19T02:15:51.000Z",
       "num_comments": 4,
-      "evidence_score": 5.1
+      "evidence_score": 4.9
+    },
+    {
+      "title": "BU111 friday SOS session",
+      "url": "https://www.reddit.com/r/wlu/comments/1nwlhnk/bu111_friday_sos_session/",
+      "score": 2,
+      "created": "2025-10-03T01:00:32.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.9
+    },
+    {
+      "title": "How do I study for CP102",
+      "url": "https://www.reddit.com/r/wlu/comments/1p7nuyz/how_do_i_study_for_cp102/",
+      "score": 0,
+      "created": "2025-11-27T00:10:31.000Z",
+      "num_comments": 9,
+      "evidence_score": 4.9
     },
     {
       "title": "BU111",
@@ -1079,7 +1071,7 @@
       "score": 2,
       "created": "2025-09-20T04:50:08.000Z",
       "num_comments": 0,
-      "evidence_score": 5.1
+      "evidence_score": 4.9
     },
     {
       "title": "Study group for BU111",
@@ -1087,63 +1079,23 @@
       "score": 2,
       "created": "2025-09-05T12:50:35.000Z",
       "num_comments": 1,
-      "evidence_score": 5.1
-    },
-    {
-      "title": "Bba",
-      "url": "https://www.reddit.com/r/wlu/comments/1j8hwc0/bba/",
-      "score": 4,
-      "created": "2025-03-11T03:42:06.000Z",
-      "num_comments": 11,
-      "evidence_score": 5.1
-    },
-    {
-      "title": "Bu111 retake in summer online",
-      "url": "https://www.reddit.com/r/wlu/comments/1iengoe/bu111_retake_in_summer_online/",
-      "score": 5,
-      "created": "2025-01-31T19:46:53.000Z",
-      "num_comments": 10,
-      "evidence_score": 5.1
+      "evidence_score": 4.9
     },
     {
       "title": "EC120 Midterm",
       "url": "https://www.reddit.com/r/wlu/comments/1g4qpx8/ec120_midterm/",
-      "score": 7,
+      "score": 6,
       "created": "2024-10-16T03:59:22.000Z",
       "num_comments": 16,
-      "evidence_score": 5.1
+      "evidence_score": 4.9
     },
     {
-      "title": "BU111 Studying Methodology",
-      "url": "https://www.reddit.com/r/wlu/comments/1peg3gh/bu111_studying_methodology/",
+      "title": "Skipping bu111 final",
+      "url": "https://www.reddit.com/r/wlu/comments/1p3ecsn/skipping_bu111_final/",
       "score": 0,
-      "created": "2025-12-05T00:01:38.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.0
-    },
-    {
-      "title": "BU111 tophat",
-      "url": "https://www.reddit.com/r/wlu/comments/1pdqjhx/bu111_tophat/",
-      "score": 0,
-      "created": "2025-12-04T04:23:40.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.0
-    },
-    {
-      "title": "BU111",
-      "url": "https://www.reddit.com/r/wlu/comments/1pdixks/bu111/",
-      "score": 0,
-      "created": "2025-12-03T22:41:19.000Z",
-      "num_comments": 2,
-      "evidence_score": 5.0
-    },
-    {
-      "title": "Bu111 midterm results",
-      "url": "https://www.reddit.com/r/wlu/comments/1o520fr/bu111_midterm_results/",
-      "score": 1,
-      "created": "2025-10-12T21:56:49.000Z",
-      "num_comments": 1,
-      "evidence_score": 5.0
+      "created": "2025-11-21T23:51:22.000Z",
+      "num_comments": 6,
+      "evidence_score": 4.8
     },
     {
       "title": "notes for bu111 today",
@@ -1151,7 +1103,7 @@
       "score": 1,
       "created": "2025-10-09T13:07:44.000Z",
       "num_comments": 1,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "Bu111",
@@ -1159,7 +1111,7 @@
       "score": 1,
       "created": "2025-09-16T16:03:00.000Z",
       "num_comments": 3,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "Any tips for solving bu111 case study for midterm",
@@ -1167,7 +1119,7 @@
       "score": 1,
       "created": "2025-10-03T19:22:51.000Z",
       "num_comments": 1,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "How to study for bu111 midterm",
@@ -1175,7 +1127,7 @@
       "score": 1,
       "created": "2025-10-01T13:24:42.000Z",
       "num_comments": 1,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "bba textbooks",
@@ -1183,15 +1135,55 @@
       "score": 1,
       "created": "2025-09-09T14:38:20.000Z",
       "num_comments": 3,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "Getting Ahead on course content",
       "url": "https://www.reddit.com/r/wlu/comments/1eg6lwt/getting_ahead_on_course_content/",
-      "score": 7,
+      "score": 6,
       "created": "2024-07-30T22:22:23.000Z",
       "num_comments": 22,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
+    },
+    {
+      "title": "Bba",
+      "url": "https://www.reddit.com/r/wlu/comments/1j8hwc0/bba/",
+      "score": 3,
+      "created": "2025-03-11T03:42:06.000Z",
+      "num_comments": 11,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "Bu111 retake in summer online",
+      "url": "https://www.reddit.com/r/wlu/comments/1iengoe/bu111_retake_in_summer_online/",
+      "score": 4,
+      "created": "2025-01-31T19:46:53.000Z",
+      "num_comments": 10,
+      "evidence_score": 4.8
+    },
+    {
+      "title": "BU111 Studying Methodology",
+      "url": "https://www.reddit.com/r/wlu/comments/1peg3gh/bu111_studying_methodology/",
+      "score": 0,
+      "created": "2025-12-05T00:01:38.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.7
+    },
+    {
+      "title": "BU111 tophat",
+      "url": "https://www.reddit.com/r/wlu/comments/1pdqjhx/bu111_tophat/",
+      "score": 0,
+      "created": "2025-12-04T04:23:40.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.7
+    },
+    {
+      "title": "BU111",
+      "url": "https://www.reddit.com/r/wlu/comments/1pdixks/bu111/",
+      "score": 0,
+      "created": "2025-12-03T22:41:19.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.7
     },
     {
       "title": "bu111 etext",
@@ -1199,29 +1191,13 @@
       "score": 1,
       "created": "2025-09-21T00:49:17.000Z",
       "num_comments": 1,
-      "evidence_score": 4.9
+      "evidence_score": 4.7
     },
     {
       "title": "What\u2019s I clicker",
       "url": "https://www.reddit.com/r/wlu/comments/1n6pwgc/whats_i_clicker/",
       "score": 1,
       "created": "2025-09-02T17:31:29.000Z",
-      "num_comments": 2,
-      "evidence_score": 4.9
-    },
-    {
-      "title": "Course registration",
-      "url": "https://www.reddit.com/r/wlu/comments/1leqkkl/course_registration/",
-      "score": 2,
-      "created": "2025-06-18T19:43:20.000Z",
-      "num_comments": 2,
-      "evidence_score": 4.8
-    },
-    {
-      "title": "BU111 Live case survey",
-      "url": "https://www.reddit.com/r/wlu/comments/1ok0g7m/bu111_live_case_survey/",
-      "score": 0,
-      "created": "2025-10-30T13:58:07.000Z",
       "num_comments": 2,
       "evidence_score": 4.7
     },
@@ -1231,7 +1207,31 @@
       "score": 1,
       "created": "2025-06-25T21:08:11.000Z",
       "num_comments": 7,
-      "evidence_score": 4.7
+      "evidence_score": 4.6
+    },
+    {
+      "title": "Course registration",
+      "url": "https://www.reddit.com/r/wlu/comments/1leqkkl/course_registration/",
+      "score": 2,
+      "created": "2025-06-18T19:43:20.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.6
+    },
+    {
+      "title": "BU111 Live case survey",
+      "url": "https://www.reddit.com/r/wlu/comments/1ok0g7m/bu111_live_case_survey/",
+      "score": 0,
+      "created": "2025-10-30T13:58:07.000Z",
+      "num_comments": 2,
+      "evidence_score": 4.5
+    },
+    {
+      "title": "Bu111 and bu127",
+      "url": "https://www.reddit.com/r/wlu/comments/1nb2tww/bu111_and_bu127/",
+      "score": 0,
+      "created": "2025-09-07T19:46:07.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.4
     },
     {
       "title": "Bu111 cpa workshop bonus",
@@ -1239,7 +1239,7 @@
       "score": 0,
       "created": "2025-10-25T18:49:24.000Z",
       "num_comments": 1,
-      "evidence_score": 4.6
+      "evidence_score": 4.4
     },
     {
       "title": "BU111 Midterm Review",
@@ -1247,7 +1247,7 @@
       "score": 0,
       "created": "2025-09-29T20:12:35.000Z",
       "num_comments": 2,
-      "evidence_score": 4.5
+      "evidence_score": 4.3
     },
     {
       "title": "BU111 SI sessions",
@@ -1255,7 +1255,7 @@
       "score": 0,
       "created": "2025-09-17T20:08:25.000Z",
       "num_comments": 3,
-      "evidence_score": 4.5
+      "evidence_score": 4.3
     },
     {
       "title": "Advice about MA123",
@@ -1263,31 +1263,7 @@
       "score": 0,
       "created": "2025-09-22T23:28:29.000Z",
       "num_comments": 2,
-      "evidence_score": 4.5
-    },
-    {
-      "title": "BU111 midterm results",
-      "url": "https://www.reddit.com/r/wlu/comments/1oci0cn/bu111_midterm_results/",
-      "score": 0,
-      "created": "2025-10-21T16:43:37.000Z",
-      "num_comments": 0,
-      "evidence_score": 4.4
-    },
-    {
-      "title": "EC 120 zoom and midterm",
-      "url": "https://www.reddit.com/r/wlu/comments/1oah4k9/ec_120_zoom_and_midterm/",
-      "score": 0,
-      "created": "2025-10-19T05:03:26.000Z",
-      "num_comments": 0,
-      "evidence_score": 4.4
-    },
-    {
-      "title": "BBA Textbooks",
-      "url": "https://www.reddit.com/r/wlu/comments/1n0x5al/bba_textbooks/",
-      "score": 0,
-      "created": "2025-08-26T20:36:31.000Z",
-      "num_comments": 4,
-      "evidence_score": 4.4
+      "evidence_score": 4.3
     },
     {
       "title": "Course selection BBA Fall 2025 (exchange student)",
@@ -1295,15 +1271,31 @@
       "score": 1,
       "created": "2025-05-06T14:49:02.000Z",
       "num_comments": 5,
-      "evidence_score": 4.4
+      "evidence_score": 4.3
     },
     {
-      "title": "Lab 0 BU111",
-      "url": "https://www.reddit.com/r/wlu/comments/1ndezy4/lab_0_bu111/",
+      "title": "BU111 midterm results",
+      "url": "https://www.reddit.com/r/wlu/comments/1oci0cn/bu111_midterm_results/",
       "score": 0,
-      "created": "2025-09-10T14:00:09.000Z",
-      "num_comments": 1,
-      "evidence_score": 4.3
+      "created": "2025-10-21T16:43:37.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "EC 120 zoom and midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1oah4k9/ec_120_zoom_and_midterm/",
+      "score": 0,
+      "created": "2025-10-19T05:03:26.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.2
+    },
+    {
+      "title": "BBA Textbooks",
+      "url": "https://www.reddit.com/r/wlu/comments/1n0x5al/bba_textbooks/",
+      "score": 0,
+      "created": "2025-08-26T20:36:31.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.2
     },
     {
       "title": "Any advice for BBA schedule for first year?",
@@ -1311,7 +1303,15 @@
       "score": 0,
       "created": "2025-06-24T22:40:28.000Z",
       "num_comments": 8,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
+    },
+    {
+      "title": "Lab 0 BU111",
+      "url": "https://www.reddit.com/r/wlu/comments/1ndezy4/lab_0_bu111/",
+      "score": 0,
+      "created": "2025-09-10T14:00:09.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.1
     },
     {
       "title": "BU111 Lab",
@@ -1319,7 +1319,7 @@
       "score": 0,
       "created": "2025-09-17T20:39:07.000Z",
       "num_comments": 0,
-      "evidence_score": 4.2
+      "evidence_score": 4.0
     },
     {
       "title": "Year 1  &amp; 2 Course layout, is this good??",
@@ -1327,15 +1327,7 @@
       "score": 0,
       "created": "2025-05-18T03:45:04.000Z",
       "num_comments": 3,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "BBA help",
-      "url": "https://www.reddit.com/r/wlu/comments/1l7gw96/bba_help/",
-      "score": 0,
-      "created": "2025-06-09T21:20:54.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.8
+      "evidence_score": 3.7
     }
   ]
 }

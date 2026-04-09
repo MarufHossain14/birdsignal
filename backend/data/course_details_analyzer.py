@@ -505,6 +505,14 @@ def extract_key_course_attributes(
 def analyze_course_specific_threads(api_url: str, course_codes: List[str], output_dir: str, limit: int = 25) -> List[Dict[str, Any]]:
     """Analyze threads specific to a list of course codes"""
     os.makedirs(output_dir, exist_ok=True)
+
+    # Remove stale generated JSON so index/catalog and per-course files stay in sync.
+    for name in os.listdir(output_dir):
+        if not name.endswith(".json"):
+            continue
+        full_path = os.path.join(output_dir, name)
+        if os.path.isfile(full_path):
+            os.remove(full_path)
     
     # Initialize sentiment analyzer
     analyzer = SentimentAnalyzer()

@@ -1,14 +1,14 @@
 {
   "code": "RE104",
   "department": "RE",
-  "bird_score": 6.44,
-  "specific_mentions": 39,
+  "bird_score": 9.52,
+  "specific_mentions": 40,
   "is_online_available": true,
   "ai_summary": "More posts call it easy than hard (15 vs 4). Light workload signals across 3 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
-    "recent_mentions": 4,
+    "recent_mentions": 5,
     "oldest_thread_date": "2018-06-12T23:38:18+00:00",
-    "newest_thread_date": "2026-01-15T19:49:58+00:00",
+    "newest_thread_date": "2026-03-20T23:10:41+00:00",
     "sample_bias_warning": "Most evidence is older. Course experience may have changed."
   },
   "aspect_sentiment": {
@@ -44,7 +44,7 @@
     {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 69,
+      "score": 70,
       "created": "2021-04-07T20:33:30.000Z",
       "num_comments": 46,
       "evidence_score": 6.1
@@ -52,10 +52,18 @@
     {
       "title": "Easiest 12 ",
       "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
-      "score": 18,
+      "score": 19,
       "created": "2024-12-17T22:57:19.000Z",
       "num_comments": 17,
       "evidence_score": 5.9
+    },
+    {
+      "title": "RE104 Oral Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1rzbeeh/re104_oral_exam/",
+      "score": 1,
+      "created": "2026-03-20T23:10:41.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.8
     },
     {
       "title": "RE104 - evil and its symbols",
@@ -63,7 +71,15 @@
       "score": 1,
       "created": "2026-01-08T07:01:03.000Z",
       "num_comments": 2,
-      "evidence_score": 5.8
+      "evidence_score": 5.5
+    },
+    {
+      "title": "Exam Study Guide Google Doc [Free] Hopefully this helps with any remaining exams",
+      "url": "https://www.reddit.com/r/wlu/comments/ecckjd/exam_study_guide_google_doc_free_hopefully_this/",
+      "score": 84,
+      "created": "2019-12-18T13:24:21.000Z",
+      "num_comments": 0,
+      "evidence_score": 5.4
     },
     {
       "title": "RE104 insta gc",
@@ -71,7 +87,7 @@
       "score": 1,
       "created": "2026-01-15T19:49:58.000Z",
       "num_comments": 0,
-      "evidence_score": 5.6
+      "evidence_score": 5.3
     },
     {
       "title": "RE104 online vs CP102 online",
@@ -79,15 +95,7 @@
       "score": 1,
       "created": "2025-11-02T17:55:35.000Z",
       "num_comments": 6,
-      "evidence_score": 5.5
-    },
-    {
-      "title": "Exam Study Guide Google Doc [Free] Hopefully this helps with any remaining exams",
-      "url": "https://www.reddit.com/r/wlu/comments/ecckjd/exam_study_guide_google_doc_free_hopefully_this/",
-      "score": 83,
-      "created": "2019-12-18T13:24:21.000Z",
-      "num_comments": 0,
-      "evidence_score": 5.4
+      "evidence_score": 5.2
     },
     {
       "title": "first year elective recs?",
@@ -95,7 +103,7 @@
       "score": 3,
       "created": "2025-06-09T03:07:56.000Z",
       "num_comments": 7,
-      "evidence_score": 5.2
+      "evidence_score": 5.0
     },
     {
       "title": "Updated birds Laurier first year?",
@@ -103,12 +111,12 @@
       "score": 17,
       "created": "2023-12-01T22:52:07.000Z",
       "num_comments": 9,
-      "evidence_score": 4.3
+      "evidence_score": 4.2
     },
     {
       "title": "easy summer courses",
       "url": "https://www.reddit.com/r/wlu/comments/fq8eck/easy_summer_courses/",
-      "score": 10,
+      "score": 11,
       "created": "2020-03-27T23:23:04.000Z",
       "num_comments": 1,
       "evidence_score": 4.0
@@ -119,37 +127,21 @@
       "score": 3,
       "created": "2024-12-21T01:12:46.000Z",
       "num_comments": 15,
-      "evidence_score": 3.9
+      "evidence_score": 3.8
     },
     {
-      "title": "RE104 online?",
-      "url": "https://www.reddit.com/r/wlu/comments/1dq1rlm/re104_online/",
-      "score": 1,
-      "created": "2024-06-27T20:49:11.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.5
-    },
-    {
-      "title": "Opinions on AN100, RE104, ES295,WS 203,Gg231 OR any other online course",
-      "url": "https://www.reddit.com/r/wlu/comments/cqqswc/opinions_on_an100_re104_es295ws_203gg231_or_any/",
-      "score": 5,
-      "created": "2019-08-15T14:46:58.000Z",
+      "title": "how hard is re104",
+      "url": "https://www.reddit.com/r/wlu/comments/ah8554/how_hard_is_re104/",
+      "score": 6,
+      "created": "2019-01-18T07:40:39.000Z",
       "num_comments": 1,
-      "evidence_score": 3.5
+      "evidence_score": 3.6
     },
     {
-      "title": "4th year BBA student looking for an OC course because of co-op commitments",
-      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
-      "score": 0,
-      "created": "2024-12-16T02:23:39.000Z",
-      "num_comments": 6,
-      "evidence_score": 3.5
-    },
-    {
-      "title": "RE103 Online?",
-      "url": "https://www.reddit.com/r/wlu/comments/hscvpa/re103_online/",
+      "title": "RE103 (Love &amp; Myths) or RE104 (Evil &amp; Symbols) online",
+      "url": "https://www.reddit.com/r/wlu/comments/ju7uws/re103_love_myths_or_re104_evil_symbols_online/",
       "score": 4,
-      "created": "2020-07-16T16:36:01.000Z",
+      "created": "2020-11-14T19:40:25.000Z",
       "num_comments": 3,
       "evidence_score": 3.5
     },
@@ -162,19 +154,27 @@
       "evidence_score": 3.5
     },
     {
-      "title": "RE103 (Love &amp; Myths) or RE104 (Evil &amp; Symbols) online",
-      "url": "https://www.reddit.com/r/wlu/comments/ju7uws/re103_love_myths_or_re104_evil_symbols_online/",
-      "score": 3,
-      "created": "2020-11-14T19:40:25.000Z",
+      "title": "RE104 online?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dq1rlm/re104_online/",
+      "score": 1,
+      "created": "2024-06-27T20:49:11.000Z",
       "num_comments": 3,
       "evidence_score": 3.4
     },
     {
-      "title": "how hard is re104",
-      "url": "https://www.reddit.com/r/wlu/comments/ah8554/how_hard_is_re104/",
+      "title": "Opinions on AN100, RE104, ES295,WS 203,Gg231 OR any other online course",
+      "url": "https://www.reddit.com/r/wlu/comments/cqqswc/opinions_on_an100_re104_es295ws_203gg231_or_any/",
       "score": 4,
-      "created": "2019-01-18T07:40:39.000Z",
+      "created": "2019-08-15T14:46:58.000Z",
       "num_comments": 1,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "4th year BBA student looking for an OC course because of co-op commitments",
+      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
+      "score": 0,
+      "created": "2024-12-16T02:23:39.000Z",
+      "num_comments": 6,
       "evidence_score": 3.4
     },
     {
@@ -208,6 +208,14 @@
       "created": "2024-01-05T03:16:34.000Z",
       "num_comments": 0,
       "evidence_score": 3.2
+    },
+    {
+      "title": "RE103 Online?",
+      "url": "https://www.reddit.com/r/wlu/comments/hscvpa/re103_online/",
+      "score": 2,
+      "created": "2020-07-16T16:36:01.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.1
     },
     {
       "title": "Re104?",
@@ -250,22 +258,6 @@
       "evidence_score": 3.0
     },
     {
-      "title": "Help!",
-      "url": "https://www.reddit.com/r/wlu/comments/15glwac/help/",
-      "score": 4,
-      "created": "2023-08-02T22:21:11.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.0
-    },
-    {
-      "title": "Any OC recommendation?",
-      "url": "https://www.reddit.com/r/wlu/comments/11ww0d5/any_oc_recommendation/",
-      "score": 4,
-      "created": "2023-03-20T21:09:44.000Z",
-      "num_comments": 3,
-      "evidence_score": 2.9
-    },
-    {
       "title": "Thoughts on RE104",
       "url": "https://www.reddit.com/r/wlu/comments/hyvy5a/thoughts_on_re104/",
       "score": 2,
@@ -274,11 +266,11 @@
       "evidence_score": 2.8
     },
     {
-      "title": "As of 2024, What are the best first year electives?",
-      "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
-      "score": 1,
-      "created": "2024-06-17T02:28:21.000Z",
-      "num_comments": 7,
+      "title": "Help!",
+      "url": "https://www.reddit.com/r/wlu/comments/15glwac/help/",
+      "score": 3,
+      "created": "2023-08-02T22:21:11.000Z",
+      "num_comments": 3,
       "evidence_score": 2.8
     },
     {
@@ -295,6 +287,14 @@
       "score": 1,
       "created": "2019-12-12T17:32:35.000Z",
       "num_comments": 1,
+      "evidence_score": 2.7
+    },
+    {
+      "title": "Any OC recommendation?",
+      "url": "https://www.reddit.com/r/wlu/comments/11ww0d5/any_oc_recommendation/",
+      "score": 3,
+      "created": "2023-03-20T21:09:44.000Z",
+      "num_comments": 3,
       "evidence_score": 2.7
     },
     {
@@ -330,12 +330,20 @@
       "evidence_score": 2.4
     },
     {
+      "title": "As of 2024, What are the best first year electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
+      "score": 0,
+      "created": "2024-06-17T02:28:21.000Z",
+      "num_comments": 7,
+      "evidence_score": 2.2
+    },
+    {
       "title": "Selling required books for RE104",
       "url": "https://www.reddit.com/r/wlu/comments/10en26y/selling_required_books_for_re104/",
       "score": 0,
       "created": "2023-01-17T20:48:16.000Z",
       "num_comments": 0,
-      "evidence_score": 2.2
+      "evidence_score": 2.1
     },
     {
       "title": "First Year Easy Electives with NO labs or tutorials",

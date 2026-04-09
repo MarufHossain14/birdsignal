@@ -1,7 +1,7 @@
 {
   "code": "GL102",
   "department": "GL",
-  "bird_score": 3.57,
+  "bird_score": 3.58,
   "specific_mentions": 4,
   "is_online_available": false,
   "ai_summary": "Mixed difficulty signals (1 easy, 1 hard mentions). Light workload signals across 0 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
@@ -47,15 +47,15 @@
       "score": 2,
       "created": "2025-11-11T22:33:18.000Z",
       "num_comments": 5,
-      "evidence_score": 5.8
+      "evidence_score": 5.6
     },
     {
       "title": "Second year bird courses",
       "url": "https://www.reddit.com/r/wlu/comments/1duk5dr/second_year_bird_courses/",
-      "score": 4,
+      "score": 5,
       "created": "2024-07-03T17:31:15.000Z",
       "num_comments": 0,
-      "evidence_score": 3.9
+      "evidence_score": 4.0
     },
     {
       "title": "GL102",

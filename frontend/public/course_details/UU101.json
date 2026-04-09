@@ -1,14 +1,14 @@
 {
   "code": "UU101",
   "department": "UU",
-  "bird_score": 8.48,
-  "specific_mentions": 28,
+  "bird_score": 8.78,
+  "specific_mentions": 30,
   "is_online_available": true,
   "ai_summary": "More posts call it hard than easy (8 vs 6). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
-    "recent_mentions": 0,
+    "recent_mentions": 2,
     "oldest_thread_date": "2019-05-09T11:03:39+00:00",
-    "newest_thread_date": "2024-12-12T00:45:40+00:00",
+    "newest_thread_date": "2026-04-08T19:55:46+00:00",
     "sample_bias_warning": "Most evidence is older. Course experience may have changed."
   },
   "aspect_sentiment": {
@@ -42,20 +42,36 @@
   },
   "threads": [
     {
+      "title": "UU101",
+      "url": "https://www.reddit.com/r/wlu/comments/1s46fhx/uu101/",
+      "score": 1,
+      "created": "2026-03-26T12:44:45.000Z",
+      "num_comments": 3,
+      "evidence_score": 6.2
+    },
+    {
       "title": "Complete bird course list (1st year)",
       "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 71,
+      "score": 68,
       "created": "2021-04-07T20:33:30.000Z",
       "num_comments": 46,
       "evidence_score": 6.1
     },
     {
+      "title": "wait bird classes aren\u2019t about birds???",
+      "url": "https://www.reddit.com/r/wlu/comments/1sg3mxj/wait_bird_classes_arent_about_birds/",
+      "score": 1,
+      "created": "2026-04-08T19:55:46.000Z",
+      "num_comments": 4,
+      "evidence_score": 5.6
+    },
+    {
       "title": "My thoughts on Laurier Econ after two years, from a former BBA transfer hopeful",
       "url": "https://www.reddit.com/r/wlu/comments/bmidrr/my_thoughts_on_laurier_econ_after_two_years_from/",
-      "score": 32,
+      "score": 37,
       "created": "2019-05-09T11:03:39.000Z",
       "num_comments": 24,
-      "evidence_score": 5.4
+      "evidence_score": 5.5
     },
     {
       "title": "Interesting/easy first and second year courses for BBA Winter Term?",
@@ -63,15 +79,15 @@
       "score": 2,
       "created": "2024-12-12T00:45:40.000Z",
       "num_comments": 6,
-      "evidence_score": 4.3
+      "evidence_score": 4.2
     },
     {
       "title": "First year Electives Help",
       "url": "https://www.reddit.com/r/wlu/comments/ha6sob/first_year_electives_help/",
-      "score": 4,
+      "score": 5,
       "created": "2020-06-16T16:02:05.000Z",
       "num_comments": 15,
-      "evidence_score": 3.8
+      "evidence_score": 4.0
     },
     {
       "title": "raising gpa second sem in bba",
@@ -82,11 +98,11 @@
       "evidence_score": 3.6
     },
     {
-      "title": "UU101",
-      "url": "https://www.reddit.com/r/wlu/comments/kslror/uu101/",
-      "score": 6,
-      "created": "2021-01-07T20:20:18.000Z",
-      "num_comments": 0,
+      "title": "gg102 vs uu101",
+      "url": "https://www.reddit.com/r/wlu/comments/qq7mgp/gg102_vs_uu101/",
+      "score": 3,
+      "created": "2021-11-09T16:40:04.000Z",
+      "num_comments": 5,
       "evidence_score": 3.5
     },
     {
@@ -98,12 +114,12 @@
       "evidence_score": 3.4
     },
     {
-      "title": "gg102 vs uu101",
-      "url": "https://www.reddit.com/r/wlu/comments/qq7mgp/gg102_vs_uu101/",
-      "score": 2,
-      "created": "2021-11-09T16:40:04.000Z",
-      "num_comments": 5,
-      "evidence_score": 3.3
+      "title": "UU101",
+      "url": "https://www.reddit.com/r/wlu/comments/kslror/uu101/",
+      "score": 5,
+      "created": "2021-01-07T20:20:18.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.4
     },
     {
       "title": "uu101 w Manuel Riemer vs cc102OC w Wayne Moris",
@@ -111,6 +127,14 @@
       "score": 2,
       "created": "2020-12-08T20:08:04.000Z",
       "num_comments": 5,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Thoughts on UU101",
+      "url": "https://www.reddit.com/r/wlu/comments/ksqupm/thoughts_on_uu101/",
+      "score": 3,
+      "created": "2021-01-08T00:27:06.000Z",
+      "num_comments": 1,
       "evidence_score": 3.2
     },
     {
@@ -130,14 +154,6 @@
       "evidence_score": 3.0
     },
     {
-      "title": "Thoughts on UU101",
-      "url": "https://www.reddit.com/r/wlu/comments/ksqupm/thoughts_on_uu101/",
-      "score": 2,
-      "created": "2021-01-08T00:27:06.000Z",
-      "num_comments": 1,
-      "evidence_score": 3.0
-    },
-    {
       "title": "Winter 2021: UU101 or AN100?",
       "url": "https://www.reddit.com/r/wlu/comments/kwkbpf/winter_2021_uu101_or_an100/",
       "score": 2,
@@ -154,20 +170,20 @@
       "evidence_score": 3.0
     },
     {
+      "title": "Easiest electives beside uu150 and cp102",
+      "url": "https://www.reddit.com/r/wlu/comments/hadw6b/easiest_electives_beside_uu150_and_cp102/",
+      "score": 4,
+      "created": "2020-06-16T22:04:03.000Z",
+      "num_comments": 7,
+      "evidence_score": 2.9
+    },
+    {
       "title": "should I take uu101 as an elective or ux103? what would be more easier?",
       "url": "https://www.reddit.com/r/wlu/comments/107w63l/should_i_take_uu101_as_an_elective_or_ux103_what/",
       "score": 1,
       "created": "2023-01-10T01:09:09.000Z",
       "num_comments": 1,
       "evidence_score": 2.8
-    },
-    {
-      "title": "Easiest electives beside uu150 and cp102",
-      "url": "https://www.reddit.com/r/wlu/comments/hadw6b/easiest_electives_beside_uu150_and_cp102/",
-      "score": 3,
-      "created": "2020-06-16T22:04:03.000Z",
-      "num_comments": 7,
-      "evidence_score": 2.7
     },
     {
       "title": "Need Help Choosing Electives",
@@ -210,14 +226,6 @@
       "evidence_score": 2.3
     },
     {
-      "title": "As of 2024, What are the best first year electives?",
-      "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
-      "score": 0,
-      "created": "2024-06-17T02:28:21.000Z",
-      "num_comments": 7,
-      "evidence_score": 2.3
-    },
-    {
       "title": "Does UU101 negatively effect your chances for co-op for BBA students?",
       "url": "https://www.reddit.com/r/wlu/comments/vgp1cj/does_uu101_negatively_effect_your_chances_for/",
       "score": 0,
@@ -247,6 +255,14 @@
       "score": 0,
       "created": "2022-01-07T00:09:07.000Z",
       "num_comments": 1,
+      "evidence_score": 2.2
+    },
+    {
+      "title": "As of 2024, What are the best first year electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1dhnn8g/as_of_2024_what_are_the_best_first_year_electives/",
+      "score": 0,
+      "created": "2024-06-17T02:28:21.000Z",
+      "num_comments": 7,
       "evidence_score": 2.2
     },
     {

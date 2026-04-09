@@ -1,14 +1,14 @@
 {
   "code": "UU100",
   "department": "UU",
-  "bird_score": 9.81,
-  "specific_mentions": 34,
+  "bird_score": 10.0,
+  "specific_mentions": 35,
   "is_online_available": true,
-  "ai_summary": "More posts call it easy than hard (12 vs 0). Light workload signals across 2 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "ai_summary": "More posts call it easy than hard (12 vs 1). Light workload signals across 2 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
-    "recent_mentions": 11,
+    "recent_mentions": 12,
     "oldest_thread_date": "2023-01-11T20:13:51+00:00",
-    "newest_thread_date": "2025-12-17T01:56:25+00:00",
+    "newest_thread_date": "2026-03-13T04:25:42+00:00",
     "sample_bias_warning": "Most evidence is older. Course experience may have changed."
   },
   "aspect_sentiment": {
@@ -31,7 +31,7 @@
   },
   "difficulty_level": {
     "easy_mentions": 12,
-    "hard_mentions": 0,
+    "hard_mentions": 1,
     "workload": 2
   },
   "course_structure": {
@@ -42,28 +42,36 @@
   },
   "threads": [
     {
+      "title": "Has anyone taken mental health literacy UU100?",
+      "url": "https://www.reddit.com/r/wlu/comments/1rsdlcs/has_anyone_taken_mental_health_literacy_uu100/",
+      "score": 5,
+      "created": "2026-03-13T04:25:42.000Z",
+      "num_comments": 6,
+      "evidence_score": 7.0
+    },
+    {
       "title": "Easiest 12 ",
       "url": "https://www.reddit.com/r/wlu/comments/1hgnbqu/easiest_12/",
       "score": 20,
       "created": "2024-12-17T22:57:19.000Z",
       "num_comments": 17,
-      "evidence_score": 6.0
+      "evidence_score": 5.9
     },
     {
       "title": "Looking for first year bird courses with no exams",
       "url": "https://www.reddit.com/r/wlu/comments/1ozngx8/looking_for_first_year_bird_courses_with_no_exams/",
-      "score": 7,
+      "score": 9,
       "created": "2025-11-17T18:06:09.000Z",
       "num_comments": 9,
-      "evidence_score": 5.9
+      "evidence_score": 5.8
     },
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 18,
+      "score": 17,
       "created": "2024-09-10T16:03:00.000Z",
       "num_comments": 24,
-      "evidence_score": 5.7
+      "evidence_score": 5.6
     },
     {
       "title": "UU100 with Rebecca Pister and SY103 with Greg Bird",
@@ -71,7 +79,7 @@
       "score": 1,
       "created": "2025-12-09T21:57:04.000Z",
       "num_comments": 4,
-      "evidence_score": 5.6
+      "evidence_score": 5.4
     },
     {
       "title": "UU100 OR SC100 FOR SPRING 2025?",
@@ -79,7 +87,15 @@
       "score": 5,
       "created": "2025-02-25T12:23:35.000Z",
       "num_comments": 5,
-      "evidence_score": 5.0
+      "evidence_score": 4.9
+    },
+    {
+      "title": "What are the easiest/best courses for me to take first year BBA?",
+      "url": "https://www.reddit.com/r/wlu/comments/1l162s9/what_are_the_easiestbest_courses_for_me_to_take/",
+      "score": 7,
+      "created": "2025-06-02T01:52:47.000Z",
+      "num_comments": 19,
+      "evidence_score": 4.9
     },
     {
       "title": "virtual bird courses?",
@@ -87,15 +103,7 @@
       "score": 2,
       "created": "2025-12-17T01:56:25.000Z",
       "num_comments": 1,
-      "evidence_score": 5.0
-    },
-    {
-      "title": "What are the easiest/best courses for me to take first year BBA?",
-      "url": "https://www.reddit.com/r/wlu/comments/1l162s9/what_are_the_easiestbest_courses_for_me_to_take/",
-      "score": 6,
-      "created": "2025-06-02T01:52:47.000Z",
-      "num_comments": 19,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "course recommendations",
@@ -103,7 +111,7 @@
       "score": 2,
       "created": "2025-05-05T20:22:50.000Z",
       "num_comments": 6,
-      "evidence_score": 4.8
+      "evidence_score": 4.6
     },
     {
       "title": "What 4 electives should I take for first year bba",
@@ -111,15 +119,23 @@
       "score": 5,
       "created": "2025-06-18T15:11:20.000Z",
       "num_comments": 8,
-      "evidence_score": 4.8
+      "evidence_score": 4.6
     },
     {
       "title": "spring courses a good idea?",
       "url": "https://www.reddit.com/r/wlu/comments/11sxmmi/spring_courses_a_good_idea/",
-      "score": 9,
+      "score": 10,
       "created": "2023-03-16T15:41:55.000Z",
       "num_comments": 7,
       "evidence_score": 4.4
+    },
+    {
+      "title": "Is UU100 a pass fail course?",
+      "url": "https://www.reddit.com/r/wlu/comments/1g084p3/is_uu100_a_pass_fail_course/",
+      "score": 4,
+      "created": "2024-10-10T01:52:13.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.2
     },
     {
       "title": "BBA FIRST YEAR COURSE RECOMMENDATIONS",
@@ -127,7 +143,7 @@
       "score": 2,
       "created": "2025-06-04T00:46:09.000Z",
       "num_comments": 12,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "Professors",
@@ -135,7 +151,7 @@
       "score": 2,
       "created": "2025-08-06T01:05:57.000Z",
       "num_comments": 2,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "Electives",
@@ -143,7 +159,7 @@
       "score": 3,
       "created": "2025-05-26T06:57:22.000Z",
       "num_comments": 4,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "UU100 OC",
@@ -151,15 +167,7 @@
       "score": 2,
       "created": "2024-10-25T04:17:44.000Z",
       "num_comments": 5,
-      "evidence_score": 4.1
-    },
-    {
-      "title": "Is UU100 a pass fail course?",
-      "url": "https://www.reddit.com/r/wlu/comments/1g084p3/is_uu100_a_pass_fail_course/",
-      "score": 3,
-      "created": "2024-10-10T01:52:13.000Z",
-      "num_comments": 1,
-      "evidence_score": 4.1
+      "evidence_score": 4.0
     },
     {
       "title": "How are my electives (first year)",
@@ -167,7 +175,7 @@
       "score": 0,
       "created": "2025-06-15T20:35:15.000Z",
       "num_comments": 2,
-      "evidence_score": 3.9
+      "evidence_score": 3.8
     },
     {
       "title": "what are good courses to take in first year?",
@@ -175,15 +183,7 @@
       "score": 0,
       "created": "2025-06-23T03:05:58.000Z",
       "num_comments": 1,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "Looking for the 100% easiest GPA boosting electives.",
-      "url": "https://www.reddit.com/r/wlu/comments/14p9969/looking_for_the_100_easiest_gpa_boosting_electives/",
-      "score": 2,
-      "created": "2023-07-03T04:52:14.000Z",
-      "num_comments": 8,
-      "evidence_score": 3.6
+      "evidence_score": 3.7
     },
     {
       "title": "Winter 2025 electives",
@@ -191,7 +191,7 @@
       "score": 0,
       "created": "2024-12-18T05:05:59.000Z",
       "num_comments": 9,
-      "evidence_score": 3.5
+      "evidence_score": 3.4
     },
     {
       "title": "first year courses selection",
@@ -199,14 +199,6 @@
       "score": 2,
       "created": "2023-06-20T05:36:09.000Z",
       "num_comments": 2,
-      "evidence_score": 3.3
-    },
-    {
-      "title": "What are good coures to take as first psych student at Laurier for BA? ",
-      "url": "https://www.reddit.com/r/wlu/comments/1dgt44r/what_are_good_coures_to_take_as_first_psych/",
-      "score": 3,
-      "created": "2024-06-15T22:19:20.000Z",
-      "num_comments": 5,
       "evidence_score": 3.3
     },
     {
@@ -218,11 +210,19 @@
       "evidence_score": 3.2
     },
     {
-      "title": "WILL I SURVIVE? \ud83d\ude42",
-      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
+      "title": "Looking for the 100% easiest GPA boosting electives.",
+      "url": "https://www.reddit.com/r/wlu/comments/14p9969/looking_for_the_100_easiest_gpa_boosting_electives/",
+      "score": 1,
+      "created": "2023-07-03T04:52:14.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "What are good coures to take as first psych student at Laurier for BA? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1dgt44r/what_are_good_coures_to_take_as_first_psych/",
       "score": 3,
-      "created": "2023-07-21T02:49:30.000Z",
-      "num_comments": 23,
+      "created": "2024-06-15T22:19:20.000Z",
+      "num_comments": 5,
       "evidence_score": 3.2
     },
     {
@@ -231,6 +231,14 @@
       "score": 0,
       "created": "2024-06-15T01:16:23.000Z",
       "num_comments": 6,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "WILL I SURVIVE? \ud83d\ude42",
+      "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
+      "score": 2,
+      "created": "2023-07-21T02:49:30.000Z",
+      "num_comments": 23,
       "evidence_score": 3.0
     },
     {
@@ -271,15 +279,7 @@
       "score": 0,
       "created": "2024-12-16T02:23:39.000Z",
       "num_comments": 6,
-      "evidence_score": 2.7
-    },
-    {
-      "title": "No exam bird courses ",
-      "url": "https://www.reddit.com/r/wlu/comments/1equpp6/no_exam_bird_courses/",
-      "score": 0,
-      "created": "2024-08-13T00:55:29.000Z",
-      "num_comments": 6,
-      "evidence_score": 2.4
+      "evidence_score": 2.6
     },
     {
       "title": "Easiest Electives for Freshmen to Boost GPA?",
@@ -290,12 +290,20 @@
       "evidence_score": 2.3
     },
     {
+      "title": "No exam bird courses ",
+      "url": "https://www.reddit.com/r/wlu/comments/1equpp6/no_exam_bird_courses/",
+      "score": 0,
+      "created": "2024-08-13T00:55:29.000Z",
+      "num_comments": 6,
+      "evidence_score": 2.3
+    },
+    {
       "title": "UU100",
       "url": "https://www.reddit.com/r/wlu/comments/109en87/uu100/",
       "score": 0,
       "created": "2023-01-11T20:13:51.000Z",
       "num_comments": 0,
-      "evidence_score": 2.2
+      "evidence_score": 2.1
     },
     {
       "title": "Bird Courses",

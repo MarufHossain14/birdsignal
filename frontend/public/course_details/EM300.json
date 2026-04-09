@@ -44,25 +44,17 @@
     {
       "title": "BIRD COURSES",
       "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 16,
+      "score": 15,
       "created": "2024-09-10T16:03:00.000Z",
       "num_comments": 24,
-      "evidence_score": 5.6
+      "evidence_score": 5.5
     },
     {
       "title": "Em 202 is it easy",
       "url": "https://www.reddit.com/r/wlu/comments/1ivx41m/em_202_is_it_easy/",
-      "score": 6,
+      "score": 4,
       "created": "2025-02-23T00:13:55.000Z",
       "num_comments": 13,
-      "evidence_score": 4.5
-    },
-    {
-      "title": "em110 vs em300",
-      "url": "https://www.reddit.com/r/wlu/comments/1hi15bq/em110_vs_em300/",
-      "score": 3,
-      "created": "2024-12-19T19:39:10.000Z",
-      "num_comments": 0,
       "evidence_score": 4.1
     },
     {
@@ -74,12 +66,20 @@
       "evidence_score": 4.0
     },
     {
+      "title": "em110 vs em300",
+      "url": "https://www.reddit.com/r/wlu/comments/1hi15bq/em110_vs_em300/",
+      "score": 3,
+      "created": "2024-12-19T19:39:10.000Z",
+      "num_comments": 0,
+      "evidence_score": 4.0
+    },
+    {
       "title": "Bird courses with take home exam",
       "url": "https://www.reddit.com/r/wlu/comments/1laqibq/bird_courses_with_take_home_exam/",
       "score": 1,
       "created": "2025-06-13T20:39:53.000Z",
       "num_comments": 2,
-      "evidence_score": 3.7
+      "evidence_score": 3.5
     },
     {
       "title": "EM300 or ES110?",
@@ -87,14 +87,6 @@
       "score": 1,
       "created": "2023-08-28T03:32:21.000Z",
       "num_comments": 5,
-      "evidence_score": 3.2
-    },
-    {
-      "title": "Easiest BBA electives?",
-      "url": "https://www.reddit.com/r/wlu/comments/1der9n0/easiest_bba_electives/",
-      "score": 2,
-      "created": "2024-06-13T05:18:09.000Z",
-      "num_comments": 10,
       "evidence_score": 3.2
     },
     {
@@ -111,7 +103,15 @@
       "score": 1,
       "created": "2024-06-18T03:31:45.000Z",
       "num_comments": 11,
-      "evidence_score": 2.9
+      "evidence_score": 2.8
+    },
+    {
+      "title": "Easiest BBA electives?",
+      "url": "https://www.reddit.com/r/wlu/comments/1der9n0/easiest_bba_electives/",
+      "score": 1,
+      "created": "2024-06-13T05:18:09.000Z",
+      "num_comments": 10,
+      "evidence_score": 2.8
     },
     {
       "title": "Education Minor",
@@ -127,7 +127,7 @@
       "score": 1,
       "created": "2024-01-04T16:14:12.000Z",
       "num_comments": 4,
-      "evidence_score": 2.5
+      "evidence_score": 2.4
     },
     {
       "title": "Easy 200 year courses",
@@ -143,7 +143,7 @@
       "score": 0,
       "created": "2023-12-30T05:01:27.000Z",
       "num_comments": 8,
-      "evidence_score": 2.1
+      "evidence_score": 2.0
     }
   ]
 }

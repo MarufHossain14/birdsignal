@@ -4,9 +4,9 @@
   "bird_score": 10.0,
   "specific_mentions": 119,
   "is_online_available": true,
-  "ai_summary": "More posts call it hard than easy (28 vs 20). Moderate workload signals across 7 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
+  "ai_summary": "More posts call it hard than easy (28 vs 21). Moderate workload signals across 7 workload references. Finals: mentioned; midterms: mentioned. Most evidence is older. Course experience may have changed.",
   "confidence_signals": {
-    "recent_mentions": 11,
+    "recent_mentions": 10,
     "oldest_thread_date": "2013-06-24T00:36:31+00:00",
     "newest_thread_date": "2026-02-27T14:29:28+00:00",
     "sample_bias_warning": "Most evidence is older. Course experience may have changed."
@@ -30,7 +30,7 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 20,
+    "easy_mentions": 21,
     "hard_mentions": 28,
     "workload": 7
   },
@@ -44,10 +44,18 @@
     {
       "title": "When will as101 grades come out?",
       "url": "https://www.reddit.com/r/wlu/comments/1q0n956/when_will_as101_grades_come_out/",
-      "score": 4,
+      "score": 5,
       "created": "2025-12-31T20:58:10.000Z",
       "num_comments": 1,
-      "evidence_score": 6.3
+      "evidence_score": 6.2
+    },
+    {
+      "title": "Complete bird course list (1st year)",
+      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
+      "score": 73,
+      "created": "2021-04-07T20:33:30.000Z",
+      "num_comments": 46,
+      "evidence_score": 6.1
     },
     {
       "title": "AS101 in-person textbook",
@@ -55,15 +63,7 @@
       "score": 2,
       "created": "2026-01-07T18:32:11.000Z",
       "num_comments": 3,
-      "evidence_score": 6.1
-    },
-    {
-      "title": "Complete bird course list (1st year)",
-      "url": "https://www.reddit.com/r/wlu/comments/mmbavs/complete_bird_course_list_1st_year/",
-      "score": 71,
-      "created": "2021-04-07T20:33:30.000Z",
-      "num_comments": 46,
-      "evidence_score": 6.1
+      "evidence_score": 5.9
     },
     {
       "title": "GL 102 with Abdullah BaMasoud",
@@ -71,7 +71,15 @@
       "score": 2,
       "created": "2025-11-11T22:33:18.000Z",
       "num_comments": 5,
-      "evidence_score": 5.8
+      "evidence_score": 5.6
+    },
+    {
+      "title": "BIRD COURSES",
+      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
+      "score": 14,
+      "created": "2024-09-10T16:03:00.000Z",
+      "num_comments": 24,
+      "evidence_score": 5.5
     },
     {
       "title": "AS101 OC with Ismael Moumen",
@@ -79,39 +87,39 @@
       "score": 2,
       "created": "2025-12-01T19:45:47.000Z",
       "num_comments": 1,
-      "evidence_score": 5.7
-    },
-    {
-      "title": "BIRD COURSES",
-      "url": "https://www.reddit.com/r/wlu/comments/1fdli6c/bird_courses/",
-      "score": 16,
-      "created": "2024-09-10T16:03:00.000Z",
-      "num_comments": 24,
-      "evidence_score": 5.6
-    },
-    {
-      "title": "My thoughts on Laurier Econ after two years, from a former BBA transfer hopeful",
-      "url": "https://www.reddit.com/r/wlu/comments/bmidrr/my_thoughts_on_laurier_econ_after_two_years_from/",
-      "score": 34,
-      "created": "2019-05-09T11:03:39.000Z",
-      "num_comments": 24,
       "evidence_score": 5.4
     },
     {
       "title": "Exam Study Guide Google Doc [Free] Hopefully this helps with any remaining exams",
       "url": "https://www.reddit.com/r/wlu/comments/ecckjd/exam_study_guide_google_doc_free_hopefully_this/",
-      "score": 86,
+      "score": 85,
       "created": "2019-12-18T13:24:21.000Z",
       "num_comments": 0,
       "evidence_score": 5.4
     },
     {
-      "title": "Bird Courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1q19kev/bird_courses/",
-      "score": 1,
-      "created": "2026-01-01T17:26:38.000Z",
-      "num_comments": 5,
-      "evidence_score": 5.1
+      "title": "My thoughts on Laurier Econ after two years, from a former BBA transfer hopeful",
+      "url": "https://www.reddit.com/r/wlu/comments/bmidrr/my_thoughts_on_laurier_econ_after_two_years_from/",
+      "score": 30,
+      "created": "2019-05-09T11:03:39.000Z",
+      "num_comments": 24,
+      "evidence_score": 5.3
+    },
+    {
+      "title": "Best and worst electives at WLU\u2014what would you recommend?",
+      "url": "https://www.reddit.com/r/wlu/comments/1j9l6t7/best_and_worst_electives_at_wluwhat_would_you/",
+      "score": 23,
+      "created": "2025-03-12T14:20:33.000Z",
+      "num_comments": 8,
+      "evidence_score": 5.3
+    },
+    {
+      "title": "AS101 midterm",
+      "url": "https://www.reddit.com/r/wlu/comments/1iy9egs/as101_midterm/",
+      "score": 4,
+      "created": "2025-02-25T23:37:30.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.7
     },
     {
       "title": "Bird courses Suggestion",
@@ -119,15 +127,7 @@
       "score": 0,
       "created": "2026-02-27T14:29:28.000Z",
       "num_comments": 3,
-      "evidence_score": 4.9
-    },
-    {
-      "title": "AS101 midterm",
-      "url": "https://www.reddit.com/r/wlu/comments/1iy9egs/as101_midterm/",
-      "score": 3,
-      "created": "2025-02-25T23:37:30.000Z",
-      "num_comments": 4,
-      "evidence_score": 4.7
+      "evidence_score": 4.6
     },
     {
       "title": "AS101 EXAM",
@@ -135,7 +135,7 @@
       "score": 7,
       "created": "2024-04-14T03:47:33.000Z",
       "num_comments": 8,
-      "evidence_score": 4.6
+      "evidence_score": 4.5
     },
     {
       "title": "AS 101 Midterm",
@@ -143,14 +143,6 @@
       "score": 3,
       "created": "2025-02-12T04:36:08.000Z",
       "num_comments": 4,
-      "evidence_score": 4.6
-    },
-    {
-      "title": "virtual intro to crim",
-      "url": "https://www.reddit.com/r/wlu/comments/1lkg06t/virtual_intro_to_crim/",
-      "score": 3,
-      "created": "2025-06-25T20:05:23.000Z",
-      "num_comments": 8,
       "evidence_score": 4.5
     },
     {
@@ -159,7 +151,7 @@
       "score": 2,
       "created": "2025-04-21T00:01:55.000Z",
       "num_comments": 1,
-      "evidence_score": 4.4
+      "evidence_score": 4.3
     },
     {
       "title": "AS101 midterm",
@@ -178,12 +170,36 @@
       "evidence_score": 4.3
     },
     {
+      "title": "As-101OC Final",
+      "url": "https://www.reddit.com/r/wlu/comments/1biaj2e/as101oc_final/",
+      "score": 5,
+      "created": "2024-03-19T03:20:26.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "virtual intro to crim",
+      "url": "https://www.reddit.com/r/wlu/comments/1lkg06t/virtual_intro_to_crim/",
+      "score": 3,
+      "created": "2025-06-25T20:05:23.000Z",
+      "num_comments": 8,
+      "evidence_score": 4.3
+    },
+    {
+      "title": "Am i cooked?",
+      "url": "https://www.reddit.com/r/wlu/comments/1eq7d1x/am_i_cooked/",
+      "score": 9,
+      "created": "2024-08-12T07:16:53.000Z",
+      "num_comments": 14,
+      "evidence_score": 4.2
+    },
+    {
       "title": "as101 midterm",
       "url": "https://www.reddit.com/r/wlu/comments/1ixqnqq/as101_midterm/",
       "score": 2,
       "created": "2025-02-25T08:57:07.000Z",
       "num_comments": 1,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "Is As101 online class difficult?",
@@ -191,39 +207,31 @@
       "score": 2,
       "created": "2024-12-28T13:06:35.000Z",
       "num_comments": 3,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
-      "title": "As-101OC Final",
-      "url": "https://www.reddit.com/r/wlu/comments/1biaj2e/as101oc_final/",
-      "score": 4,
-      "created": "2024-03-19T03:20:26.000Z",
-      "num_comments": 7,
-      "evidence_score": 4.2
-    },
-    {
-      "title": "Am i cooked?",
-      "url": "https://www.reddit.com/r/wlu/comments/1eq7d1x/am_i_cooked/",
-      "score": 8,
-      "created": "2024-08-12T07:16:53.000Z",
-      "num_comments": 14,
-      "evidence_score": 4.2
+      "title": "as101",
+      "url": "https://www.reddit.com/r/wlu/comments/17wu5wp/as101/",
+      "score": 5,
+      "created": "2023-11-16T18:42:23.000Z",
+      "num_comments": 4,
+      "evidence_score": 4.0
     },
     {
       "title": "CC102 or AS101? (both in person)",
       "url": "https://www.reddit.com/r/wlu/comments/zu13ce/cc102_or_as101_both_in_person/",
-      "score": 6,
+      "score": 5,
       "created": "2022-12-24T03:56:26.000Z",
       "num_comments": 8,
-      "evidence_score": 4.1
+      "evidence_score": 4.0
     },
     {
       "title": "AS101",
       "url": "https://www.reddit.com/r/wlu/comments/f5g9cj/as101/",
-      "score": 7,
+      "score": 6,
       "created": "2020-02-17T21:42:27.000Z",
       "num_comments": 10,
-      "evidence_score": 4.1
+      "evidence_score": 4.0
     },
     {
       "title": "EM101",
@@ -231,23 +239,7 @@
       "score": 2,
       "created": "2025-01-17T14:32:51.000Z",
       "num_comments": 1,
-      "evidence_score": 4.1
-    },
-    {
-      "title": "First Year BBA Courses/Electives",
-      "url": "https://www.reddit.com/r/wlu/comments/o3ud16/first_year_bba_courseselectives/",
-      "score": 6,
-      "created": "2021-06-20T01:14:05.000Z",
-      "num_comments": 8,
       "evidence_score": 4.0
-    },
-    {
-      "title": "Is As101 in person with stephen hard?",
-      "url": "https://www.reddit.com/r/wlu/comments/1hvgyzs/is_as101_in_person_with_stephen_hard/",
-      "score": 1,
-      "created": "2025-01-07T02:23:26.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.9
     },
     {
       "title": "as101 oc",
@@ -258,67 +250,35 @@
       "evidence_score": 3.9
     },
     {
-      "title": "as101",
-      "url": "https://www.reddit.com/r/wlu/comments/17wu5wp/as101/",
-      "score": 4,
-      "created": "2023-11-16T18:42:23.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "CP102 or AS101",
-      "url": "https://www.reddit.com/r/wlu/comments/1524npt/cp102_or_as101/",
-      "score": 5,
-      "created": "2023-07-17T15:11:18.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "do you need a science background to do well in AS101?",
-      "url": "https://www.reddit.com/r/wlu/comments/7k5ffc/do_you_need_a_science_background_to_do_well_in/",
-      "score": 5,
-      "created": "2017-12-16T05:53:05.000Z",
-      "num_comments": 12,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "Year 1  &amp; 2 Course layout, is this good??",
-      "url": "https://www.reddit.com/r/wlu/comments/1kpaxvp/year_1_2_course_layout_is_this_good/",
-      "score": 0,
-      "created": "2025-05-18T03:45:04.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "Second year bird courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1duk5dr/second_year_bird_courses/",
-      "score": 4,
-      "created": "2024-07-03T17:31:15.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "Hey guys! I need some help picking electives. Lets Pool our knowledge!",
-      "url": "https://www.reddit.com/r/wlu/comments/1gxsla/hey_guys_i_need_some_help_picking_electives_lets/",
-      "score": 7,
-      "created": "2013-06-24T00:36:31.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.9
-    },
-    {
-      "title": "As101 with Iannos Haranas",
-      "url": "https://www.reddit.com/r/wlu/comments/xvu71h/as101_with_iannos_haranas/",
-      "score": 3,
-      "created": "2022-10-04T23:32:38.000Z",
-      "num_comments": 15,
-      "evidence_score": 3.8
-    },
-    {
       "title": "AS101 final exam",
       "url": "https://www.reddit.com/r/wlu/comments/1aef687/as101_final_exam/",
-      "score": 4,
+      "score": 5,
       "created": "2024-01-30T03:51:43.000Z",
       "num_comments": 1,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "Elective difficulty",
+      "url": "https://www.reddit.com/r/wlu/comments/kkrlxv/elective_difficulty/",
+      "score": 4,
+      "created": "2020-12-26T22:41:48.000Z",
+      "num_comments": 23,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "First Year BBA Courses/Electives",
+      "url": "https://www.reddit.com/r/wlu/comments/o3ud16/first_year_bba_courseselectives/",
+      "score": 5,
+      "created": "2021-06-20T01:14:05.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.9
+    },
+    {
+      "title": "Is As101 in person with stephen hard?",
+      "url": "https://www.reddit.com/r/wlu/comments/1hvgyzs/is_as101_in_person_with_stephen_hard/",
+      "score": 1,
+      "created": "2025-01-07T02:23:26.000Z",
+      "num_comments": 3,
       "evidence_score": 3.8
     },
     {
@@ -326,6 +286,14 @@
       "url": "https://www.reddit.com/r/wlu/comments/16hbbf5/as101_astronomy_with_stephen_sathiaraj/",
       "score": 4,
       "created": "2023-09-13T02:50:30.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "CP102 or AS101",
+      "url": "https://www.reddit.com/r/wlu/comments/1524npt/cp102_or_as101/",
+      "score": 4,
+      "created": "2023-07-17T15:11:18.000Z",
       "num_comments": 3,
       "evidence_score": 3.8
     },
@@ -338,52 +306,60 @@
       "evidence_score": 3.8
     },
     {
-      "title": "AS101 Final Exam",
-      "url": "https://www.reddit.com/r/wlu/comments/e3hzse/as101_final_exam/",
-      "score": 6,
-      "created": "2019-11-29T17:45:35.000Z",
-      "num_comments": 4,
-      "evidence_score": 3.8
-    },
-    {
-      "title": "1st Year Course Selection",
-      "url": "https://www.reddit.com/r/wlu/comments/1litu59/1st_year_course_selection/",
-      "score": 1,
-      "created": "2025-06-23T22:01:17.000Z",
-      "num_comments": 3,
-      "evidence_score": 3.8
-    },
-    {
-      "title": "Missed Online Final Exam",
-      "url": "https://www.reddit.com/r/wlu/comments/zod34c/missed_online_final_exam/",
-      "score": 10,
-      "created": "2022-12-17T18:48:44.000Z",
-      "num_comments": 17,
+      "title": "Second year bird courses",
+      "url": "https://www.reddit.com/r/wlu/comments/1duk5dr/second_year_bird_courses/",
+      "score": 4,
+      "created": "2024-07-03T17:31:15.000Z",
+      "num_comments": 0,
       "evidence_score": 3.8
     },
     {
       "title": "As1010",
       "url": "https://www.reddit.com/r/wlu/comments/18tgegk/as1010/",
-      "score": 3,
+      "score": 4,
       "created": "2023-12-29T06:25:16.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "Hey guys! I need some help picking electives. Lets Pool our knowledge!",
+      "url": "https://www.reddit.com/r/wlu/comments/1gxsla/hey_guys_i_need_some_help_picking_electives_lets/",
+      "score": 6,
+      "created": "2013-06-24T00:36:31.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.8
+    },
+    {
+      "title": "AS101 does anyone feel like there were some errors with the design of the exam?",
+      "url": "https://www.reddit.com/r/wlu/comments/zoxbiu/as101_does_anyone_feel_like_there_were_some/",
+      "score": 5,
+      "created": "2022-12-18T12:15:42.000Z",
       "num_comments": 2,
       "evidence_score": 3.7
     },
     {
-      "title": "Selling AS101 textbook",
-      "url": "https://www.reddit.com/r/wlu/comments/1hy7k11/selling_as101_textbook/",
-      "score": 1,
-      "created": "2025-01-10T15:56:27.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.6
+      "title": "AS101 Final Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/e3hzse/as101_final_exam/",
+      "score": 5,
+      "created": "2019-11-29T17:45:35.000Z",
+      "num_comments": 4,
+      "evidence_score": 3.7
     },
     {
-      "title": "AS101 exam",
-      "url": "https://www.reddit.com/r/wlu/comments/1eqjums/as101_exam/",
-      "score": 2,
-      "created": "2024-08-12T17:30:41.000Z",
-      "num_comments": 0,
-      "evidence_score": 3.6
+      "title": "Year 1  &amp; 2 Course layout, is this good??",
+      "url": "https://www.reddit.com/r/wlu/comments/1kpaxvp/year_1_2_course_layout_is_this_good/",
+      "score": 0,
+      "created": "2025-05-18T03:45:04.000Z",
+      "num_comments": 3,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "Missed Online Final Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/zod34c/missed_online_final_exam/",
+      "score": 9,
+      "created": "2022-12-17T18:48:44.000Z",
+      "num_comments": 17,
+      "evidence_score": 3.7
     },
     {
       "title": "AS101 Midterm with Stephen Sathiaraj",
@@ -391,22 +367,6 @@
       "score": 2,
       "created": "2023-10-10T17:16:04.000Z",
       "num_comments": 8,
-      "evidence_score": 3.6
-    },
-    {
-      "title": "Is AS101 with Stephen Sathiaraj Easy?",
-      "url": "https://www.reddit.com/r/wlu/comments/14sgqj3/is_as101_with_stephen_sathiaraj_easy/",
-      "score": 2,
-      "created": "2023-07-06T17:57:26.000Z",
-      "num_comments": 8,
-      "evidence_score": 3.6
-    },
-    {
-      "title": "AS101 does anyone feel like there were some errors with the design of the exam?",
-      "url": "https://www.reddit.com/r/wlu/comments/zoxbiu/as101_does_anyone_feel_like_there_were_some/",
-      "score": 4,
-      "created": "2022-12-18T12:15:42.000Z",
-      "num_comments": 2,
       "evidence_score": 3.6
     },
     {
@@ -418,19 +378,43 @@
       "evidence_score": 3.6
     },
     {
-      "title": "Has anyone taken the course Planetary and Space Science?",
-      "url": "https://www.reddit.com/r/wlu/comments/ehjz3s/has_anyone_taken_the_course_planetary_and_space/",
-      "score": 6,
-      "created": "2019-12-30T09:29:54.000Z",
-      "num_comments": 1,
+      "title": "1st Year Course Selection",
+      "url": "https://www.reddit.com/r/wlu/comments/1litu59/1st_year_course_selection/",
+      "score": 1,
+      "created": "2025-06-23T22:01:17.000Z",
+      "num_comments": 3,
       "evidence_score": 3.6
     },
     {
-      "title": "as101 online with Ismael Moumen",
-      "url": "https://www.reddit.com/r/wlu/comments/107yuvt/as101_online_with_ismael_moumen/",
-      "score": 4,
-      "created": "2023-01-10T03:10:35.000Z",
-      "num_comments": 1,
+      "title": "Selling AS101 textbook",
+      "url": "https://www.reddit.com/r/wlu/comments/1hy7k11/selling_as101_textbook/",
+      "score": 1,
+      "created": "2025-01-10T15:56:27.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "AS101 exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1eqjums/as101_exam/",
+      "score": 2,
+      "created": "2024-08-12T17:30:41.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "Is AS101 with Stephen Sathiaraj Easy?",
+      "url": "https://www.reddit.com/r/wlu/comments/14sgqj3/is_as101_with_stephen_sathiaraj_easy/",
+      "score": 2,
+      "created": "2023-07-06T17:57:26.000Z",
+      "num_comments": 8,
+      "evidence_score": 3.5
+    },
+    {
+      "title": "As101 with Iannos Haranas",
+      "url": "https://www.reddit.com/r/wlu/comments/xvu71h/as101_with_iannos_haranas/",
+      "score": 2,
+      "created": "2022-10-04T23:32:38.000Z",
+      "num_comments": 15,
       "evidence_score": 3.5
     },
     {
@@ -439,22 +423,6 @@
       "score": 5,
       "created": "2019-09-16T19:24:38.000Z",
       "num_comments": 1,
-      "evidence_score": 3.5
-    },
-    {
-      "title": "Winter 2025 electives",
-      "url": "https://www.reddit.com/r/wlu/comments/1hgue3i/winter_2025_electives/",
-      "score": 0,
-      "created": "2024-12-18T05:05:59.000Z",
-      "num_comments": 9,
-      "evidence_score": 3.5
-    },
-    {
-      "title": "4th year BBA student looking for an OC course because of co-op commitments",
-      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
-      "score": 0,
-      "created": "2024-12-16T02:23:39.000Z",
-      "num_comments": 6,
       "evidence_score": 3.5
     },
     {
@@ -482,11 +450,11 @@
       "evidence_score": 3.5
     },
     {
-      "title": "Elective difficulty",
-      "url": "https://www.reddit.com/r/wlu/comments/kkrlxv/elective_difficulty/",
-      "score": 2,
-      "created": "2020-12-26T22:41:48.000Z",
-      "num_comments": 23,
+      "title": "Has anyone taken the course Planetary and Space Science?",
+      "url": "https://www.reddit.com/r/wlu/comments/ehjz3s/has_anyone_taken_the_course_planetary_and_space/",
+      "score": 5,
+      "created": "2019-12-30T09:29:54.000Z",
+      "num_comments": 1,
       "evidence_score": 3.5
     },
     {
@@ -498,27 +466,11 @@
       "evidence_score": 3.5
     },
     {
-      "title": "Anyone recommend any easy courses for first year",
-      "url": "https://www.reddit.com/r/wlu/comments/1dqatt7/anyone_recommend_any_easy_courses_for_first_year/",
-      "score": 3,
-      "created": "2024-06-28T04:11:29.000Z",
-      "num_comments": 12,
-      "evidence_score": 3.5
-    },
-    {
       "title": "As101 midterm ",
       "url": "https://www.reddit.com/r/wlu/comments/1azz7zi/as101_midterm/",
       "score": 1,
       "created": "2024-02-25T21:17:18.000Z",
       "num_comments": 7,
-      "evidence_score": 3.4
-    },
-    {
-      "title": "AS101 test bank",
-      "url": "https://www.reddit.com/r/wlu/comments/1bxy7fo/as101_test_bank/",
-      "score": 2,
-      "created": "2024-04-07T07:07:05.000Z",
-      "num_comments": 0,
       "evidence_score": 3.4
     },
     {
@@ -546,11 +498,35 @@
       "evidence_score": 3.4
     },
     {
+      "title": "do you need a science background to do well in AS101?",
+      "url": "https://www.reddit.com/r/wlu/comments/7k5ffc/do_you_need_a_science_background_to_do_well_in/",
+      "score": 2,
+      "created": "2017-12-16T05:53:05.000Z",
+      "num_comments": 12,
+      "evidence_score": 3.4
+    },
+    {
       "title": "AS101?",
       "url": "https://www.reddit.com/r/wlu/comments/douwnx/as101/",
       "score": 3,
       "created": "2019-10-29T19:34:44.000Z",
       "num_comments": 3,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "Winter 2025 electives",
+      "url": "https://www.reddit.com/r/wlu/comments/1hgue3i/winter_2025_electives/",
+      "score": 0,
+      "created": "2024-12-18T05:05:59.000Z",
+      "num_comments": 9,
+      "evidence_score": 3.4
+    },
+    {
+      "title": "4th year BBA student looking for an OC course because of co-op commitments",
+      "url": "https://www.reddit.com/r/wlu/comments/1hf8wp1/4th_year_bba_student_looking_for_an_oc_course/",
+      "score": 0,
+      "created": "2024-12-16T02:23:39.000Z",
+      "num_comments": 6,
       "evidence_score": 3.4
     },
     {
@@ -562,12 +538,20 @@
       "evidence_score": 3.4
     },
     {
-      "title": "Is this a good first yr bba schedule",
-      "url": "https://www.reddit.com/r/wlu/comments/1lfklnj/is_this_a_good_first_yr_bba_schedule/",
-      "score": 0,
-      "created": "2025-06-19T20:05:13.000Z",
-      "num_comments": 10,
-      "evidence_score": 3.4
+      "title": "AS101 test bank",
+      "url": "https://www.reddit.com/r/wlu/comments/1bxy7fo/as101_test_bank/",
+      "score": 2,
+      "created": "2024-04-07T07:07:05.000Z",
+      "num_comments": 0,
+      "evidence_score": 3.3
+    },
+    {
+      "title": "as101 online with Ismael Moumen",
+      "url": "https://www.reddit.com/r/wlu/comments/107yuvt/as101_online_with_ismael_moumen/",
+      "score": 3,
+      "created": "2023-01-10T03:10:35.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.3
     },
     {
       "title": "Any Bird Electives Other than CP102, GG102, AS101 &amp; UU150",
@@ -575,14 +559,6 @@
       "score": 2,
       "created": "2020-08-27T12:42:18.000Z",
       "num_comments": 9,
-      "evidence_score": 3.3
-    },
-    {
-      "title": "Thoughts on AS101 during Covid",
-      "url": "https://www.reddit.com/r/wlu/comments/n1dbj6/thoughts_on_as101_during_covid/",
-      "score": 2,
-      "created": "2021-04-29T20:23:08.000Z",
-      "num_comments": 5,
       "evidence_score": 3.3
     },
     {
@@ -618,6 +594,14 @@
       "evidence_score": 3.3
     },
     {
+      "title": "Is this a good first yr bba schedule",
+      "url": "https://www.reddit.com/r/wlu/comments/1lfklnj/is_this_a_good_first_yr_bba_schedule/",
+      "score": 0,
+      "created": "2025-06-19T20:05:13.000Z",
+      "num_comments": 10,
+      "evidence_score": 3.3
+    },
+    {
       "title": "AS101 midterm",
       "url": "https://www.reddit.com/r/wlu/comments/1b13qa7/as101_midterm/",
       "score": 1,
@@ -642,6 +626,14 @@
       "evidence_score": 3.2
     },
     {
+      "title": "Thoughts on AS101 during Covid",
+      "url": "https://www.reddit.com/r/wlu/comments/n1dbj6/thoughts_on_as101_during_covid/",
+      "score": 2,
+      "created": "2021-04-29T20:23:08.000Z",
+      "num_comments": 5,
+      "evidence_score": 3.2
+    },
+    {
       "title": "AS101 Final Exam",
       "url": "https://www.reddit.com/r/wlu/comments/g56w4t/as101_final_exam/",
       "score": 3,
@@ -655,6 +647,14 @@
       "score": 1,
       "created": "2023-07-07T00:18:00.000Z",
       "num_comments": 7,
+      "evidence_score": 3.2
+    },
+    {
+      "title": "Anyone recommend any easy courses for first year",
+      "url": "https://www.reddit.com/r/wlu/comments/1dqatt7/anyone_recommend_any_easy_courses_for_first_year/",
+      "score": 2,
+      "created": "2024-06-28T04:11:29.000Z",
+      "num_comments": 12,
       "evidence_score": 3.2
     },
     {
@@ -687,6 +687,14 @@
       "score": 2,
       "created": "2019-04-17T21:02:14.000Z",
       "num_comments": 2,
+      "evidence_score": 3.1
+    },
+    {
+      "title": "Help!",
+      "url": "https://www.reddit.com/r/wlu/comments/15glwac/help/",
+      "score": 5,
+      "created": "2023-08-02T22:21:11.000Z",
+      "num_comments": 3,
       "evidence_score": 3.1
     },
     {
@@ -754,14 +762,6 @@
       "evidence_score": 2.9
     },
     {
-      "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
-      "url": "https://www.reddit.com/r/wlu/comments/1dvp78v/i_gotta_take_off_1_elective_to_fit_in_a_pc_class/",
-      "score": 0,
-      "created": "2024-07-05T04:10:23.000Z",
-      "num_comments": 2,
-      "evidence_score": 2.9
-    },
-    {
       "title": "is AS102 also a bird course?",
       "url": "https://www.reddit.com/r/wlu/comments/18koh9k/is_as102_also_a_bird_course/",
       "score": 1,
@@ -790,6 +790,14 @@
       "url": "https://www.reddit.com/r/wlu/comments/gjagoh/how_do_prepare_for_as101_quizzes/",
       "score": 1,
       "created": "2020-05-13T23:27:36.000Z",
+      "num_comments": 2,
+      "evidence_score": 2.8
+    },
+    {
+      "title": "I gotta take off 1 elective to fit in a pc class, should i take off AN100(online), or ES110(McLeman)",
+      "url": "https://www.reddit.com/r/wlu/comments/1dvp78v/i_gotta_take_off_1_elective_to_fit_in_a_pc_class/",
+      "score": 0,
+      "created": "2024-07-05T04:10:23.000Z",
       "num_comments": 2,
       "evidence_score": 2.8
     },
@@ -839,14 +847,6 @@
       "score": 1,
       "created": "2020-09-01T12:27:11.000Z",
       "num_comments": 1,
-      "evidence_score": 2.7
-    },
-    {
-      "title": "Easiest elective for winter",
-      "url": "https://www.reddit.com/r/wlu/comments/103d75n/easiest_elective_for_winter/",
-      "score": 2,
-      "created": "2023-01-04T19:55:15.000Z",
-      "num_comments": 8,
       "evidence_score": 2.7
     },
     {
@@ -930,14 +930,6 @@
       "evidence_score": 2.3
     },
     {
-      "title": "Selling textbooks BU127 AS101",
-      "url": "https://www.reddit.com/r/wlu/comments/108t506/selling_textbooks_bu127_as101/",
-      "score": 0,
-      "created": "2023-01-11T02:38:15.000Z",
-      "num_comments": 0,
-      "evidence_score": 2.2
-    },
-    {
       "title": "AS101 Online VS AN100 Online",
       "url": "https://www.reddit.com/r/wlu/comments/km16n4/as101_online_vs_an100_online/",
       "score": 0,
@@ -952,6 +944,14 @@
       "created": "2019-06-05T01:09:19.000Z",
       "num_comments": 1,
       "evidence_score": 2.2
+    },
+    {
+      "title": "Selling textbooks BU127 AS101",
+      "url": "https://www.reddit.com/r/wlu/comments/108t506/selling_textbooks_bu127_as101/",
+      "score": 0,
+      "created": "2023-01-11T02:38:15.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.1
     },
     {
       "title": "As101 Midterm Result Expectation",
@@ -991,7 +991,7 @@
       "score": 0,
       "created": "2023-04-14T19:52:27.000Z",
       "num_comments": 12,
-      "evidence_score": 2.0
+      "evidence_score": 1.9
     }
   ]
 }

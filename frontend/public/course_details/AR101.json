@@ -1,15 +1,15 @@
 {
   "code": "AR101",
   "department": "AR",
-  "bird_score": 7.31,
-  "specific_mentions": 8,
+  "bird_score": 6.13,
+  "specific_mentions": 7,
   "is_online_available": true,
-  "ai_summary": "Mixed difficulty signals (5 easy, 4 hard mentions). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Most evidence is older. Course experience may have changed.",
+  "ai_summary": "Mixed difficulty signals (3 easy, 4 hard mentions). Light workload signals across 1 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
   "confidence_signals": {
     "recent_mentions": 2,
     "oldest_thread_date": "2022-08-17T00:59:16+00:00",
     "newest_thread_date": "2026-01-05T07:33:00+00:00",
-    "sample_bias_warning": "Most evidence is older. Course experience may have changed."
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
   },
   "aspect_sentiment": {
     "difficulty": {
@@ -30,7 +30,7 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 5,
+    "easy_mentions": 3,
     "hard_mentions": 4,
     "workload": 1
   },
@@ -47,15 +47,7 @@
       "score": 3,
       "created": "2026-01-05T07:33:00.000Z",
       "num_comments": 1,
-      "evidence_score": 6.2
-    },
-    {
-      "title": "Are these electives easy",
-      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
-      "score": 1,
-      "created": "2025-06-26T18:07:52.000Z",
-      "num_comments": 7,
-      "evidence_score": 4.7
+      "evidence_score": 5.9
     },
     {
       "title": "UU150 OC or AR101 OC- easier bird course?",
@@ -66,12 +58,12 @@
       "evidence_score": 4.3
     },
     {
-      "title": "How\u2019s AR101 online with Alec McLellan?",
-      "url": "https://www.reddit.com/r/wlu/comments/1hk28y3/hows_ar101_online_with_alec_mclellan/",
-      "score": 3,
-      "created": "2024-12-22T16:45:26.000Z",
-      "num_comments": 0,
-      "evidence_score": 4.1
+      "title": "Are these electives easy",
+      "url": "https://www.reddit.com/r/wlu/comments/1ll7728/are_these_electives_easy/",
+      "score": 0,
+      "created": "2025-06-26T18:07:52.000Z",
+      "num_comments": 7,
+      "evidence_score": 4.0
     },
     {
       "title": "Ar101 or ar104 or ar105 all online? Which one is easier from your experience?",
@@ -95,7 +87,7 @@
       "score": 0,
       "created": "2024-07-05T04:10:23.000Z",
       "num_comments": 2,
-      "evidence_score": 2.9
+      "evidence_score": 2.8
     },
     {
       "title": "Transferring, need course Syllabus to show credit transfer",
@@ -103,7 +95,7 @@
       "score": 0,
       "created": "2022-08-17T00:59:16.000Z",
       "num_comments": 1,
-      "evidence_score": 2.3
+      "evidence_score": 2.2
     }
   ]
 }

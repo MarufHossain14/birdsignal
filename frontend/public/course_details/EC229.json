@@ -1,14 +1,14 @@
 {
   "code": "EC229",
   "department": "EC",
-  "bird_score": 3.82,
-  "specific_mentions": 15,
+  "bird_score": 3.58,
+  "specific_mentions": 17,
   "is_online_available": true,
-  "ai_summary": "Mixed difficulty signals (4 easy, 3 hard mentions). Moderate workload signals across 4 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
+  "ai_summary": "Mixed difficulty signals (4 easy, 3 hard mentions). Moderate workload signals across 5 workload references. Finals: mentioned; midterms: mentioned. Signals are reasonably representative.",
   "confidence_signals": {
-    "recent_mentions": 7,
+    "recent_mentions": 9,
     "oldest_thread_date": "2022-12-06T23:22:24+00:00",
-    "newest_thread_date": "2026-02-17T17:01:45+00:00",
+    "newest_thread_date": "2026-04-07T01:24:26+00:00",
     "sample_bias_warning": "Signals are reasonably representative."
   },
   "aspect_sentiment": {
@@ -22,7 +22,7 @@
     },
     "workload": {
       "label": "Workload",
-      "score": -20
+      "score": -40
     },
     "professor": {
       "label": "Professor",
@@ -32,7 +32,7 @@
   "difficulty_level": {
     "easy_mentions": 4,
     "hard_mentions": 3,
-    "workload": 4
+    "workload": 5
   },
   "course_structure": {
     "has_finals": true,
@@ -42,12 +42,28 @@
   },
   "threads": [
     {
+      "title": "ec229 exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1sehxni/ec229_exam/",
+      "score": 2,
+      "created": "2026-04-07T01:24:26.000Z",
+      "num_comments": 3,
+      "evidence_score": 6.6
+    },
+    {
+      "title": "EC229 Final Exam",
+      "url": "https://www.reddit.com/r/wlu/comments/1sa9yud/ec229_final_exam/",
+      "score": 3,
+      "created": "2026-04-02T06:45:08.000Z",
+      "num_comments": 0,
+      "evidence_score": 6.5
+    },
+    {
       "title": "EC online courses summer recommendations \ud83d\ude4f\ud83c\udffc",
       "url": "https://www.reddit.com/r/wlu/comments/1r7bslr/ec_online_courses_summer_recommendations/",
       "score": 3,
       "created": "2026-02-17T17:01:45.000Z",
       "num_comments": 1,
-      "evidence_score": 5.8
+      "evidence_score": 5.5
     },
     {
       "title": "Second year bird econ courses?",
@@ -55,7 +71,15 @@
       "score": 3,
       "created": "2025-12-16T04:05:31.000Z",
       "num_comments": 2,
-      "evidence_score": 5.3
+      "evidence_score": 5.1
+    },
+    {
+      "title": "Ec229 Final",
+      "url": "https://www.reddit.com/r/wlu/comments/1k4m8gw/ec229_final/",
+      "score": 3,
+      "created": "2025-04-21T19:27:21.000Z",
+      "num_comments": 5,
+      "evidence_score": 4.8
     },
     {
       "title": "Econ Courses Minor",
@@ -63,15 +87,7 @@
       "score": 1,
       "created": "2025-09-04T16:25:31.000Z",
       "num_comments": 3,
-      "evidence_score": 5.0
-    },
-    {
-      "title": "Econ courses!",
-      "url": "https://www.reddit.com/r/wlu/comments/1q0hr0f/econ_courses/",
-      "score": 1,
-      "created": "2025-12-31T16:58:27.000Z",
-      "num_comments": 4,
-      "evidence_score": 5.0
+      "evidence_score": 4.8
     },
     {
       "title": "EC249 (Online)",
@@ -79,14 +95,14 @@
       "score": 2,
       "created": "2025-06-14T19:22:53.000Z",
       "num_comments": 3,
-      "evidence_score": 4.8
+      "evidence_score": 4.7
     },
     {
-      "title": "Ec229 Final",
-      "url": "https://www.reddit.com/r/wlu/comments/1k4m8gw/ec229_final/",
-      "score": 2,
-      "created": "2025-04-21T19:27:21.000Z",
-      "num_comments": 5,
+      "title": "Econ courses!",
+      "url": "https://www.reddit.com/r/wlu/comments/1q0hr0f/econ_courses/",
+      "score": 1,
+      "created": "2025-12-31T16:58:27.000Z",
+      "num_comments": 4,
       "evidence_score": 4.7
     },
     {
@@ -95,7 +111,7 @@
       "score": 2,
       "created": "2024-12-09T18:50:25.000Z",
       "num_comments": 12,
-      "evidence_score": 4.4
+      "evidence_score": 4.3
     },
     {
       "title": "EC229 and EC248",
@@ -103,7 +119,7 @@
       "score": 1,
       "created": "2024-11-03T19:15:47.000Z",
       "num_comments": 6,
-      "evidence_score": 3.9
+      "evidence_score": 3.8
     },
     {
       "title": "EC229 or EC248?",
@@ -111,7 +127,7 @@
       "score": 0,
       "created": "2025-04-29T19:21:15.000Z",
       "num_comments": 3,
-      "evidence_score": 3.8
+      "evidence_score": 3.7
     },
     {
       "title": "Second Year Econ Bird Courses",
@@ -135,7 +151,7 @@
       "score": 0,
       "created": "2024-12-16T02:23:39.000Z",
       "num_comments": 6,
-      "evidence_score": 3.5
+      "evidence_score": 3.4
     },
     {
       "title": "EC229 - Economics of China (Final)",
@@ -151,7 +167,7 @@
       "score": 0,
       "created": "2024-07-02T09:57:02.000Z",
       "num_comments": 1,
-      "evidence_score": 2.8
+      "evidence_score": 2.7
     },
     {
       "title": "Double Minor",

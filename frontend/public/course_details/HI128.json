@@ -1,7 +1,7 @@
 {
   "code": "HI128",
   "department": "HI",
-  "bird_score": 8.17,
+  "bird_score": 8.42,
   "specific_mentions": 7,
   "is_online_available": true,
   "ai_summary": "Mixed difficulty signals (1 easy, 0 hard mentions). Light workload signals across 1 workload references. Finals: mentioned; midterms: mentioned. Low sample size. Treat this score as directional only.",
@@ -47,7 +47,7 @@
       "score": 11,
       "created": "2026-01-05T19:10:22.000Z",
       "num_comments": 6,
-      "evidence_score": 6.5
+      "evidence_score": 6.2
     },
     {
       "title": "Online Summer Course Options?",
@@ -55,7 +55,7 @@
       "score": 2,
       "created": "2026-02-02T20:16:59.000Z",
       "num_comments": 0,
-      "evidence_score": 6.1
+      "evidence_score": 5.8
     },
     {
       "title": "Are these electives easy",
@@ -63,7 +63,7 @@
       "score": 1,
       "created": "2025-06-26T18:07:52.000Z",
       "num_comments": 7,
-      "evidence_score": 4.7
+      "evidence_score": 4.6
     },
     {
       "title": "HI128 (OC) - Revolution in the Modern World",
@@ -71,7 +71,7 @@
       "score": 3,
       "created": "2024-12-11T16:48:39.000Z",
       "num_comments": 1,
-      "evidence_score": 4.2
+      "evidence_score": 4.1
     },
     {
       "title": "Need one more course for winter, what's your favourite bird/enjoyable course that might still be open?",
@@ -79,15 +79,15 @@
       "score": 3,
       "created": "2023-12-04T18:42:01.000Z",
       "num_comments": 20,
-      "evidence_score": 4.1
+      "evidence_score": 4.0
     },
     {
       "title": "WILL I SURVIVE? \ud83d\ude42",
       "url": "https://www.reddit.com/r/wlu/comments/155bavd/will_i_survive/",
-      "score": 2,
+      "score": 3,
       "created": "2023-07-21T02:49:30.000Z",
       "num_comments": 23,
-      "evidence_score": 3.8
+      "evidence_score": 4.0
     },
     {
       "title": "Bird summer (6 week) online courses?",

@@ -1,14 +1,14 @@
 {
-  "code": "EC328",
-  "department": "EC",
-  "bird_score": 8.69,
+  "code": "LY205",
+  "department": "LY",
+  "bird_score": 2.49,
   "specific_mentions": 2,
-  "is_online_available": false,
+  "is_online_available": true,
   "ai_summary": "Very limited evidence (2 mentions). Use the thread list directly before relying on this score.",
   "confidence_signals": {
-    "recent_mentions": 0,
-    "oldest_thread_date": "2022-07-02T02:24:58+00:00",
-    "newest_thread_date": "2024-07-05T03:42:23+00:00",
+    "recent_mentions": 1,
+    "oldest_thread_date": "2024-11-24T23:02:55+00:00",
+    "newest_thread_date": "2025-08-14T00:00:35+00:00",
     "sample_bias_warning": "Low sample size. Treat this score as directional only."
   },
   "aspect_sentiment": {
@@ -30,7 +30,7 @@
     }
   },
   "difficulty_level": {
-    "easy_mentions": 3,
+    "easy_mentions": 0,
     "hard_mentions": 0,
     "workload": 0
   },
@@ -42,20 +42,20 @@
   },
   "threads": [
     {
-      "title": "Second Year Econ Bird Courses",
-      "url": "https://www.reddit.com/r/wlu/comments/1dvoqc1/second_year_econ_bird_courses/",
-      "score": 2,
-      "created": "2024-07-05T03:42:23.000Z",
-      "num_comments": 2,
-      "evidence_score": 3.7
+      "title": "Which Online Bird Courses Should I Take? ",
+      "url": "https://www.reddit.com/r/wlu/comments/1gz47ii/which_online_bird_courses_should_i_take/",
+      "score": 4,
+      "created": "2024-11-24T23:02:55.000Z",
+      "num_comments": 17,
+      "evidence_score": 4.7
     },
     {
-      "title": "Guys pls help with easy Economics ec300/400 level courses",
-      "url": "https://www.reddit.com/r/wlu/comments/vphc6d/guys_pls_help_with_easy_economics_ec300400_level/",
+      "title": "Ly205",
+      "url": "https://www.reddit.com/r/wlu/comments/1mpkzpu/ly205/",
       "score": 1,
-      "created": "2022-07-02T02:24:58.000Z",
-      "num_comments": 0,
-      "evidence_score": 1.8
+      "created": "2025-08-14T00:00:35.000Z",
+      "num_comments": 1,
+      "evidence_score": 4.5
     }
   ]
 }

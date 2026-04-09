@@ -19,8 +19,8 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
   onClose,
 }) => {
   const sortedThreads = [...course.threads].sort((a, b) => {
-    const evidenceDelta = (b.evidence_score ?? 0) - (a.evidence_score ?? 0);
-    if (evidenceDelta !== 0) return evidenceDelta;
+    const rankDelta = (b.evidence_score ?? 0) - (a.evidence_score ?? 0);
+    if (rankDelta !== 0) return rankDelta;
     return new Date(b.created).getTime() - new Date(a.created).getTime();
   });
 
@@ -36,15 +36,15 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
 
   const confidenceLabel = (() => {
     const warning = confidence?.sample_bias_warning ?? "";
-    if (warning.includes("Low sample size")) return "Limited data";
-    if (warning.includes("older")) return "Some data";
-    return "Strong signal";
+    if (warning.includes("Not many posts")) return "Few posts";
+    if (warning.includes("older")) return "Older posts";
+    return "Good coverage";
   })();
 
   const confidenceToneClass =
-    confidenceLabel === "Strong signal"
+    confidenceLabel === "Good coverage"
       ? "border-emerald-200 bg-emerald-50 text-emerald-800"
-      : confidenceLabel === "Some data"
+      : confidenceLabel === "Older posts"
         ? "border-amber-200 bg-amber-50 text-amber-900"
         : "border-rose-200 bg-rose-50 text-rose-900";
 
@@ -100,7 +100,7 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
             </h3>
             {course.score_confidence === "low" && (
               <p className="mt-3 rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900">
-                There is not enough recent discussion to show a reliable ease score yet.
+                There is not enough recent discussion to show a reliable bird score yet.
               </p>
             )}
             <p className="mt-4 text-sm text-[var(--text)]">
@@ -153,7 +153,7 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
 
           <section>
             <h3 className="text-sm font-medium uppercase tracking-[0.1em] text-[var(--muted)]">
-              Discussion Window
+              Reddit coverage
             </h3>
             <dl className="mt-3 space-y-2 text-sm">
               <div className="flex items-start justify-between gap-3">
@@ -163,7 +163,7 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
                 </dd>
               </div>
               <div className="flex items-start justify-between gap-3">
-                <dt>Data quality</dt>
+                <dt>Coverage</dt>
                 <dd className="text-right">{confidenceLabel}</dd>
               </div>
             </dl>
@@ -172,10 +172,10 @@ const CourseDetailsBody: React.FC<CourseDetailsBodyProps> = ({
 
         <section className="max-h-none overflow-y-visible p-4 sm:p-6 lg:max-h-[66dvh] lg:overflow-y-auto lg:p-7">
           <h3 className="mb-2 text-sm font-medium uppercase tracking-[0.1em] text-[var(--muted)]">
-            Reddit Posts About This Course
+            Reddit posts about this course
           </h3>
           <p className="text-xs text-[var(--muted)]">
-            Newer posts and posts focused on this course appear first.
+            Listed with the most relevant-looking posts first.
           </p>
           <div className="mb-5" />
           <ThreadList threads={sortedThreads} />
@@ -288,7 +288,7 @@ export const CourseDetails: React.FC<CourseDetailsProps> = ({
           <Drawer.Content className="fixed inset-x-0 bottom-0 z-50 max-h-[92dvh] rounded-t-2xl border border-[var(--line)] bg-[var(--surface)] outline-none">
             <Drawer.Title className="sr-only">{course.code} details</Drawer.Title>
             <Drawer.Description className="sr-only">
-              Detailed course summary and evidence-ranked Reddit mentions.
+              Course summary and linked Reddit posts.
             </Drawer.Description>
             <div className="mx-auto mt-2 h-1.5 w-10 rounded-full bg-[var(--line-strong)]" />
             <div className="max-h-[calc(92dvh-14px)] overflow-y-auto [overscroll-behavior:contain]">

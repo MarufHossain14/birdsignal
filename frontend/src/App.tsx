@@ -270,24 +270,24 @@ function App() {
             Find bird courses at Laurier
           </h1>
           <p className="mt-4 max-w-3xl text-[var(--muted)]">
-            These are courses students on Reddit describe as lighter, easier, or
-            more manageable.
+            Courses students on r/wlu often describe as lighter or easier. Each
+            card shows a <span className="text-[var(--text)]">bird score</span>{" "}
+            (0–10) from that Reddit chatter—higher usually means people talk about
+            it like an easier course.{" "}
+            <span className="text-[var(--text)]">N/A</span> means there isn’t
+            enough recent discussion to score it yet.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-2 text-xs sm:text-sm">
             <span className="score-band score-band-good">
-              8.0-10.0 Easy / light
+              8.0–10.0 Easier
             </span>
             <span className="score-band score-band-mid">
-              6.0-7.9 Moderate
+              6.0–7.9 Mixed
             </span>
             <span className="score-band score-band-low">
-              0.0-5.9 Heavier
+              0.0–5.9 Heavier
             </span>
           </div>
-          <p className="mt-3 max-w-3xl text-xs text-[var(--muted)]">
-            The ease score is a quick estimate based on Reddit discussion. Higher
-            usually means easier. N/A means there is not enough recent data yet.
-          </p>
         </div>
 
         {loading ? (

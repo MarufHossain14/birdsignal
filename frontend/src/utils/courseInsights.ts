@@ -72,11 +72,11 @@ export const computeConfidenceSignals = (course: CourseData): ConfidenceSignals 
 
   const oldest = validDates[0] ?? null;
   const newest = validDates[validDates.length - 1] ?? null;
-  let warning = "Signals are reasonably representative.";
+  let warning = "Discussion looks recent enough to use as a rough guide.";
   if (course.specific_mentions < 8) {
-    warning = "Low sample size. Treat this score as directional only.";
+    warning = "Not many posts yet—treat the bird score as a rough hint only.";
   } else if (newest && Date.now() - newest.getTime() > YEAR_MS) {
-    warning = "Most evidence is older. Course experience may have changed.";
+    warning = "Most posts are older—the course may have changed since then.";
   }
 
   return {
@@ -91,9 +91,9 @@ export const computeAiSummary = (course: CourseData): string => {
   const hard = course.difficulty_level.hard_mentions;
   const mentions = course.specific_mentions ?? 0;
   if (mentions < 3) {
-    return `Very limited evidence (${mentions} mention${
+    return `Very few Reddit posts (${mentions} mention${
       mentions === 1 ? "" : "s"
-    }). Use the thread list directly before relying on this score.`;
+    }). Read the threads below before trusting the bird score.`;
   }
 
   const difficultyNote =
@@ -123,7 +123,7 @@ export const getScoreConfidence = (course: CourseData): "high" | "medium" | "low
   const newestAgeMs =
     newest && !Number.isNaN(newest.getTime()) ? Date.now() - newest.getTime() : Number.POSITIVE_INFINITY;
 
-  if (course.specific_mentions < 5 || confidence.sample_bias_warning.includes("Low sample size")) {
+  if (course.specific_mentions < 5 || confidence.sample_bias_warning.includes("Not many posts")) {
     return "low";
   }
 

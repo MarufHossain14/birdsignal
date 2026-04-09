@@ -10,19 +10,17 @@ export const BirdScoreMeter: React.FC<BirdScoreMeterProps> = ({
   size = "default",
 }) => {
   if (typeof score !== "number") {
-    const emptyLabel = size === "compact" ? "Bird Score" : "Not Enough Data";
-
     return (
       <div className={`score-pill ${size === "compact" ? "score-pill--compact" : ""} score-pill-na`}>
         <span className="score-pill-value">N/A</span>
-        {emptyLabel && <span className="score-pill-label">{emptyLabel}</span>}
+        <span className="score-pill-label">No data</span>
       </div>
     );
   }
 
   const tone = score >= 8 ? "good" : score >= 6 ? "mid" : "low";
   const sizeClass = size === "compact" ? "score-pill--compact" : "";
-  const label = size === "compact" ? "Bird Score" : "Ease Score";
+  const label = size === "compact" ? "Bird" : "Bird score";
 
   return (
     <div className={`score-pill ${sizeClass} score-pill-${tone}`}>

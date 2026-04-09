@@ -45,7 +45,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
       <div className="mt-5 flex items-center justify-between text-xs">
         <span className="text-[var(--muted)]">
           {mentions} Reddit posts
-          {scoreConfidence === "low" ? " • limited data" : ""}
+          {scoreConfidence === "low" ? " • few posts" : ""}
         </span>
         <span className="font-medium text-[var(--primary)]/80">
           View

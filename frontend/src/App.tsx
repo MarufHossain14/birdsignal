@@ -328,7 +328,7 @@ function App() {
                 >
                   <option value="all">All delivery</option>
                   <option value="online">Online-friendly</option>
-                  <option value="in-person">In-person leaning</option>
+                  <option value="in-person">In-person learning</option>
                 </select>
                 <select
                   value={assessmentFilter}

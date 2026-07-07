@@ -77,6 +77,7 @@ echo "Step 2/5: Sync curated catalog from sheet"
 )
 
 echo "Step 3/5: Run backend pipeline"
+PIPELINE_MARKER="$(mktemp /tmp/birdsignal-pipeline-start.XXXXXX)"
 (
   cd "$DATA_DIR"
   uv sync
@@ -91,6 +92,12 @@ echo "Step 3/5: Run backend pipeline"
     --course-thread-limit "$COURSE_THREAD_LIMIT" \
     --no-prompt
 )
+
+if ! find "$DATA_DIR/processed/course_details" -type f -name '*.json' -newer "$PIPELINE_MARKER" | grep -q .; then
+  echo "Pipeline did not generate fresh course detail files; refusing to copy stale data." >&2
+  echo "Check that the Reddit API can fetch threads from $API_URL." >&2
+  exit 1
+fi
 
 echo "Step 4/5: Copy generated course details into frontend public data"
 rm -f "$FRONTEND_DIR"/public/course_details/*.json

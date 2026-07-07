@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { Header } from "./components/Header";
 import { CourseCard } from "./components/CourseCard";
 import { CourseDetails } from "./components/CourseDetails";
@@ -38,7 +38,6 @@ const getSortableScore = (course: CourseData): number =>
 function App() {
   const hasDrawerHistoryEntry = useRef(false);
   const [courses, setCourses] = useState<CourseData[]>([]);
-  const [filteredCourses, setFilteredCourses] = useState<CourseData[]>([]);
   const [selectedCourse, setSelectedCourse] = useState<CourseData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -152,7 +151,6 @@ function App() {
 
         const combined = [...enriched, ...catalogOnly].sort((a, b) => getSortableScore(b) - getSortableScore(a));
         setCourses(combined);
-        setFilteredCourses(combined);
       } catch (error) {
         console.error("Error loading courses:", error);
         setError(
@@ -201,8 +199,8 @@ function App() {
     };
   }, []);
 
-  useEffect(() => {
-    const next = courses.filter((course) => {
+  const filteredCourses = useMemo(() => {
+    return courses.filter((course) => {
       const queryMatch =
         course.code.toLowerCase().includes(searchQuery.toLowerCase()) ||
         course.department.toLowerCase().includes(searchQuery.toLowerCase());
@@ -248,8 +246,6 @@ function App() {
         catalogMatch
       );
     });
-
-    setFilteredCourses(next);
   }, [
     courses,
     searchQuery,

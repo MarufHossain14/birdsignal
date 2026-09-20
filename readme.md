@@ -47,6 +47,32 @@ birdcourse/
 - `uv` (recommended)
 - `curl`
 
+## Reddit Data Access
+
+No Reddit account or credentials are required. By default, BirdSignal uses
+Reddit's public RSS search feed and reuses that feed for per-course analysis to
+avoid redundant rate-limited requests.
+
+OAuth is optional and makes refreshes faster. To enable it, create a Reddit
+application at `https://www.reddit.com/prefs/apps` (choose the `script`
+application type), then copy the environment template:
+
+```bash
+cp .env.example .env
+```
+
+Fill in these values in `.env`:
+
+```dotenv
+REDDIT_CLIENT_ID=your_client_id
+REDDIT_CLIENT_SECRET=your_client_secret
+REDDIT_USER_AGENT=BirdSignal/1.0.0 by u/your_reddit_username
+```
+
+Keep `.env` private. It is ignored by Git. If these values are absent, the
+project automatically stays in account-free RSS mode. Your Reddit password is
+never needed by this project.
+
 ## Local Development (3 Terminals)
 
 ### 1. Run Reddit API
@@ -149,6 +175,9 @@ Returns deduplicated course-specific threads (title/body/general search).
 
 Set these in your shell or `.env` before starting `backend/reddit_api`:
 
+- `REDDIT_CLIENT_ID` (optional; enables faster OAuth requests)
+- `REDDIT_CLIENT_SECRET` (optional; enables faster OAuth requests)
+- `REDDIT_USER_AGENT` (optional; required only with OAuth)
 - `PORT` (default `3001`)
 - `CORS_ORIGIN` (comma-separated allowlist; empty means allow all origins)
 - `RATE_LIMIT_WINDOW_SECONDS` (default `60`)

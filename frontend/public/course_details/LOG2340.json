@@ -1,14 +1,14 @@
 {
-  "code": "SE200",
-  "department": "SE",
-  "bird_score": 8.86,
+  "code": "LOG2340",
+  "department": "LOG",
+  "bird_score": 8.65,
   "specific_mentions": 1,
   "is_online_available": false,
   "ai_summary": "Very limited evidence (1 mention). Use the thread list directly before relying on this score.",
   "confidence_signals": {
-    "recent_mentions": 1,
-    "oldest_thread_date": "2026-01-05T21:35:48+00:00",
-    "newest_thread_date": "2026-01-05T21:35:48+00:00",
+    "recent_mentions": 0,
+    "oldest_thread_date": "2025-08-09T23:41:48+00:00",
+    "newest_thread_date": "2025-08-09T23:41:48+00:00",
     "sample_bias_warning": "Low sample size. Treat this score as directional only."
   },
   "aspect_sentiment": {
@@ -42,12 +42,12 @@
   },
   "threads": [
     {
-      "title": "Bird courses virtual",
-      "url": "https://www.reddit.com/r/wlu/comments/1q4yw7l/bird_courses_virtual/",
+      "title": "AN110 a bird course??",
+      "url": "https://www.reddit.com/r/wlu/comments/1mm3qee/an110_a_bird_course/",
       "score": 0,
-      "created": "2026-01-05T21:35:48.000Z",
+      "created": "2025-08-09T23:41:48.000Z",
       "num_comments": 0,
-      "evidence_score": 3.7
+      "evidence_score": 3.2
     }
   ]
 }

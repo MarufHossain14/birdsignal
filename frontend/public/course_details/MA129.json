@@ -1,13 +1,13 @@
 {
-  "code": "PS101",
-  "department": "PS",
-  "bird_score": 9.09,
-  "specific_mentions": 2,
+  "code": "MA129",
+  "department": "MA",
+  "bird_score": 9.45,
+  "specific_mentions": 1,
   "is_online_available": true,
-  "ai_summary": "Very limited evidence (2 mentions). Use the thread list directly before relying on this score.",
+  "ai_summary": "Very limited evidence (1 mention). Use the thread list directly before relying on this score.",
   "confidence_signals": {
     "recent_mentions": 1,
-    "oldest_thread_date": "2024-11-24T23:02:55+00:00",
+    "oldest_thread_date": "2026-06-25T18:05:46+00:00",
     "newest_thread_date": "2026-06-25T18:05:46+00:00",
     "sample_bias_warning": "Low sample size. Treat this score as directional only."
   },
@@ -48,14 +48,6 @@
       "created": "2026-06-25T18:05:46.000Z",
       "num_comments": 0,
       "evidence_score": 4.8
-    },
-    {
-      "title": "Which Online Bird Courses Should I Take?",
-      "url": "https://www.reddit.com/r/wlu/comments/1gz47ii/which_online_bird_courses_should_i_take/",
-      "score": 0,
-      "created": "2024-11-24T23:02:55.000Z",
-      "num_comments": 0,
-      "evidence_score": 2.6
     }
   ]
 }

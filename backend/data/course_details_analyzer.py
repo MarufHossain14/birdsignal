@@ -10,6 +10,88 @@ from typing import List, Dict, Any
 from collections import Counter
 from sentiment_analyzer import SentimentAnalyzer
 
+
+def load_existing_course_details(output_dir: str) -> Dict[str, Dict[str, Any]]:
+    """Load the last successful per-course output before starting a refresh."""
+    existing = {}
+    if not os.path.isdir(output_dir):
+        return existing
+
+    for name in os.listdir(output_dir):
+        if not name.endswith(".json") or name in {"index.json", "catalog.json"}:
+            continue
+        try:
+            with open(os.path.join(output_dir, name), "r") as f:
+                details = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+
+        code = str(details.get("code", "")).strip().upper()
+        if code:
+            existing[code] = details
+    return existing
+
+
+def merge_with_existing_details(
+    existing: Dict[str, Any] | None,
+    refreshed: Dict[str, Any],
+) -> Dict[str, Any]:
+    """Keep historical evidence when Reddit returns only a partial refresh."""
+    if not existing:
+        return refreshed
+
+    old_threads = existing.get("threads", [])
+    new_threads = refreshed.get("threads", [])
+    merged_threads = []
+    seen = set()
+
+    # Existing records retain engagement fields that RSS does not provide.
+    for thread in list(old_threads) + list(new_threads):
+        identity = thread.get("url") or (
+            str(thread.get("title", "")).strip().lower(),
+            str(thread.get("created", "")),
+        )
+        if identity in seen:
+            continue
+        seen.add(identity)
+        merged_threads.append(thread)
+
+    merged_threads.sort(key=lambda item: item.get("evidence_score", 0) or 0, reverse=True)
+    result = dict(existing if len(old_threads) > len(new_threads) else refreshed)
+    result["threads"] = merged_threads
+    result["specific_mentions"] = len(merged_threads)
+
+    parsed_dates = []
+    for thread in merged_threads:
+        try:
+            parsed_date = datetime.datetime.fromisoformat(
+                str(thread.get("created", "")).replace("Z", "+00:00")
+            )
+            if parsed_date.tzinfo is None:
+                parsed_date = parsed_date.replace(tzinfo=datetime.timezone.utc)
+            parsed_dates.append(parsed_date)
+        except (TypeError, ValueError):
+            continue
+
+    if parsed_dates:
+        now = datetime.datetime.now(datetime.timezone.utc)
+        recent_cutoff = now - datetime.timedelta(days=365)
+        recent_mentions = sum(date > recent_cutoff for date in parsed_dates)
+        if len(merged_threads) < 8:
+            warning = "Low sample size. Treat this score as directional only."
+        elif recent_mentions / len(merged_threads) < 0.35:
+            warning = "Most evidence is older. Course experience may have changed."
+        else:
+            warning = "Signals are reasonably representative."
+        result["confidence_signals"] = {
+            "recent_mentions": recent_mentions,
+            "oldest_thread_date": min(parsed_dates).isoformat(),
+            "newest_thread_date": max(parsed_dates).isoformat(),
+            "sample_bias_warning": warning,
+        }
+
+    return result
+
 def fetch_course_specific_threads(api_url: str, course_code: str, limit: int = 25) -> List[Dict[str, Any]]:
     """Fetch threads that specifically mention a course code in the title"""
     try:
@@ -506,14 +588,8 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
     """Analyze threads specific to a list of course codes"""
     os.makedirs(output_dir, exist_ok=True)
 
-    # Remove stale generated JSON so index/catalog and per-course files stay in sync.
-    for name in os.listdir(output_dir):
-        if not name.endswith(".json"):
-            continue
-        full_path = os.path.join(output_dir, name)
-        if os.path.isfile(full_path):
-            os.remove(full_path)
-    
+    existing_details = load_existing_course_details(output_dir)
+
     # Initialize sentiment analyzer
     analyzer = SentimentAnalyzer()
     
@@ -693,6 +769,11 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
                 },
                 "threads": annotated_threads
             }
+
+            streamlined_details = merge_with_existing_details(
+                existing_details.get(requested_code),
+                streamlined_details,
+            )
             
             all_course_details.append(streamlined_details)
             successful_course_codes.append(requested_code)  # Add to successful courses list
@@ -700,6 +781,17 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
             # Save individual course details
             with open(os.path.join(output_dir, f"{requested_code}.json"), 'w') as f:
                 json.dump(streamlined_details, f, indent=2)
+
+    # A temporary empty/error response must not erase a course that was part of
+    # this refresh and had usable evidence in the last successful run.
+    for requested_code in [str(code).strip().upper() for code in course_codes]:
+        if requested_code in successful_course_codes or requested_code not in existing_details:
+            continue
+        preserved_details = existing_details[requested_code]
+        all_course_details.append(preserved_details)
+        successful_course_codes.append(requested_code)
+        with open(os.path.join(output_dir, f"{requested_code}.json"), 'w') as f:
+            json.dump(preserved_details, f, indent=2)
     
     # Save index.json with all successful course codes
     with open(os.path.join(output_dir, "index.json"), 'w') as f:
@@ -712,6 +804,15 @@ def analyze_course_specific_threads(api_url: str, course_codes: List[str], outpu
             f,
             indent=2
         )
+
+    # Remove stale files only after a complete catalog has been generated. If a
+    # refresh crashes midway, the previous output remains available for retry.
+    generated_names = {f"{code}.json" for code in successful_course_codes}
+    generated_names.update({"index.json", "catalog.json"})
+    for name in os.listdir(output_dir):
+        full_path = os.path.join(output_dir, name)
+        if name.endswith(".json") and name not in generated_names and os.path.isfile(full_path):
+            os.remove(full_path)
     
     return all_course_details
 

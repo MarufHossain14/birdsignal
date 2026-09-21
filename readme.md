@@ -50,8 +50,9 @@ birdcourse/
 ## Reddit Data Access
 
 No Reddit account or credentials are required. By default, BirdSignal uses
-Reddit's public RSS search feed and reuses that feed for per-course analysis to
-avoid redundant rate-limited requests.
+Reddit's public RSS search feed. Course detail refreshes use course-specific
+RSS searches, which are deliberately rate-limited and can take a while for a
+large catalog.
 
 OAuth is optional and makes refreshes faster. To enable it, create a Reddit
 application at `https://www.reddit.com/prefs/apps` (choose the `script`
@@ -232,6 +233,9 @@ BIRDCOURSE_SHEET_URL="<google-sheet-url>" pnpm run catalog:sync
 ## Generated Data Artifacts
 
 Pipeline output files are written under `backend/data/processed/` and then copied to frontend public assets.
+Refreshes merge newly fetched posts with the last successful course output, and
+the update script refuses to publish a catalog whose total post count dropped.
+For an intentional reset, run with `ALLOW_POST_COUNT_DROP=1`.
 
 Primary files used by UI:
 

@@ -1,0 +1,69 @@
+{
+  "code": "MZ201",
+  "department": "MZ",
+  "bird_score": 3.29,
+  "specific_mentions": 3,
+  "is_online_available": false,
+  "ai_summary": "Mixed difficulty signals (1 easy, 1 hard mentions). Light workload signals across 0 workload references. Finals: not clearly mentioned; midterms: not clearly mentioned. Low sample size. Treat this score as directional only.",
+  "confidence_signals": {
+    "recent_mentions": 0,
+    "oldest_thread_date": "2019-07-04T14:22:35+00:00",
+    "newest_thread_date": "2024-01-07T00:47:01+00:00",
+    "sample_bias_warning": "Low sample size. Treat this score as directional only."
+  },
+  "aspect_sentiment": {
+    "difficulty": {
+      "label": "Difficulty",
+      "score": 0
+    },
+    "grading": {
+      "label": "Grading",
+      "score": 0
+    },
+    "workload": {
+      "label": "Workload",
+      "score": 60
+    },
+    "professor": {
+      "label": "Professor",
+      "score": 0
+    }
+  },
+  "difficulty_level": {
+    "easy_mentions": 1,
+    "hard_mentions": 1,
+    "workload": 0
+  },
+  "course_structure": {
+    "has_finals": false,
+    "has_midterms": false,
+    "has_assignments": false,
+    "has_projects": false
+  },
+  "threads": [
+    {
+      "title": "Is MZ201 hard",
+      "url": "https://www.reddit.com/r/wlu/comments/190f782/is_mz201_hard/",
+      "score": 3,
+      "created": "2024-01-07T00:47:01.000Z",
+      "num_comments": 2,
+      "evidence_score": 3.7
+    },
+    {
+      "title": "Anyone taken MZ200, Re213 or MZ201??",
+      "url": "https://www.reddit.com/r/wlu/comments/nl3pio/anyone_taken_mz200_re213_or_mz201/",
+      "score": 2,
+      "created": "2021-05-26T00:08:46.000Z",
+      "num_comments": 1,
+      "evidence_score": 3.0
+    },
+    {
+      "title": "MZ201/RE213",
+      "url": "https://www.reddit.com/r/wlu/comments/c935mw/mz201re213/",
+      "score": 1,
+      "created": "2019-07-04T14:22:35.000Z",
+      "num_comments": 0,
+      "evidence_score": 2.5
+    }
+  ]
+}

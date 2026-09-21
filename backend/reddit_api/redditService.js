@@ -14,7 +14,6 @@ class RedditService {
     this.MAX_RETRIES = 5; // Increased from 3
     this.BASE_DELAY = 2000; // Base delay for exponential backoff
     this.lastRequestTime = 0;
-    this.cachedBirdThreads = [];
     this.processedCourseDetailsPath = path.resolve(__dirname, '../data/processed/latest_course_details.json');
     this.courseDetailsDir = path.resolve(__dirname, '../data/processed/course_details');
   }
@@ -142,7 +141,6 @@ class RedditService {
           upvote_ratio: data.upvote_ratio
         };
       });
-      this.cachedBirdThreads = threads;
       return threads;
     });
   }
@@ -217,19 +215,10 @@ class RedditService {
   async getCourseSpecificThreads(courseCode, limit = 25) {
     try {
       if (!this.isOAuthConfigured()) {
-        if (this.cachedBirdThreads.length > 0) {
-          const normalizedCode = courseCode.replace(/\s+/g, '').toUpperCase();
-          return this.cachedBirdThreads
-            .filter((thread) => {
-              const searchable = `${thread.title || ''} ${thread.selftext || ''}`
-                .replace(/\s+/g, '')
-                .toUpperCase();
-              return searchable.includes(normalizedCode);
-            })
-            .slice(0, limit)
-            .map((thread) => ({ ...thread, search_type: 'cached_bird_feed' }));
-        }
-
+        // A generic "bird course" feed is useful for discovering course codes,
+        // but it is not a substitute for course-specific history. Query the
+        // requested course directly so a refresh cannot reduce every course to
+        // the handful of posts present in that one generic feed.
         const responseData = await this.makeRateLimitedRequest(() =>
           this.searchReddit({
             q: courseCode,

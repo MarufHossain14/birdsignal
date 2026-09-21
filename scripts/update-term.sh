@@ -15,6 +15,15 @@ COURSE_THREAD_LIMIT="${COURSE_THREAD_LIMIT:-100}"
 
 API_PID=""
 KEEP_API_RUNNING="${KEEP_API_RUNNING:-0}"
+ALLOW_POST_COUNT_DROP="${ALLOW_POST_COUNT_DROP:-0}"
+
+count_catalog_threads() {
+  node -e '
+    const fs = require("fs");
+    const catalog = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
+    process.stdout.write(String(catalog.reduce((sum, course) => sum + (course.threads?.length || 0), 0)));
+  ' "$1"
+}
 
 require_cmd() {
   if ! command -v "$1" >/dev/null 2>&1; then
@@ -66,6 +75,13 @@ start_api_if_needed() {
 require_cmd pnpm
 require_cmd uv
 require_cmd curl
+require_cmd node
+
+CURRENT_CATALOG="$FRONTEND_DIR/public/course_details/catalog.json"
+CURRENT_POST_COUNT=0
+if [[ -f "$CURRENT_CATALOG" ]]; then
+  CURRENT_POST_COUNT="$(count_catalog_threads "$CURRENT_CATALOG")"
+fi
 
 echo "Step 1/5: Ensure Reddit API is running"
 start_api_if_needed
@@ -96,6 +112,19 @@ PIPELINE_MARKER="$(mktemp /tmp/birdsignal-pipeline-start.XXXXXX)"
 if ! find "$DATA_DIR/processed/course_details" -type f -name '*.json' -newer "$PIPELINE_MARKER" | grep -q .; then
   echo "Pipeline did not generate fresh course detail files; refusing to copy stale data." >&2
   echo "Check that the Reddit API can fetch threads from $API_URL." >&2
+  exit 1
+fi
+
+GENERATED_CATALOG="$DATA_DIR/processed/course_details/catalog.json"
+if [[ ! -f "$GENERATED_CATALOG" ]]; then
+  echo "Pipeline did not generate catalog.json; refusing to replace frontend data." >&2
+  exit 1
+fi
+
+GENERATED_POST_COUNT="$(count_catalog_threads "$GENERATED_CATALOG")"
+if (( GENERATED_POST_COUNT < CURRENT_POST_COUNT )) && [[ "$ALLOW_POST_COUNT_DROP" != "1" ]]; then
+  echo "Generated catalog has fewer posts ($GENERATED_POST_COUNT) than the published catalog ($CURRENT_POST_COUNT)." >&2
+  echo "Refusing to replace richer data. Set ALLOW_POST_COUNT_DROP=1 only for an intentional reset." >&2
   exit 1
 fi
 

@@ -96,28 +96,23 @@ test('uses public RSS when OAuth is not configured', async () => {
   assert.equal(result.data.children[0].data.selftext, 'Easy course body');
 });
 
-test('reuses the public bird-course feed for course details', async () => {
+test('queries a course-specific RSS feed even after fetching the public bird-course feed', async () => {
+  const requests = [];
   const service = new RedditService({
     clientId: '',
     clientSecret: '',
     userAgent: '',
     requestDelay: 0,
-    fetchImpl: async () => {
-      throw new Error('Course lookup should not make another network request');
+    fetchImpl: async (url) => {
+      requests.push(String(url));
+      return textResponse('<?xml version="1.0"?><feed></feed>');
     },
   });
-  service.cachedBirdThreads = [
-    {
-      id: 'matching',
-      title: 'Thoughts on BU111?',
-      selftext: 'Is this a bird course?',
-      created: '2026-09-01T12:00:00.000Z',
-    },
-    { id: 'other', title: 'EM203 review', selftext: '', created: '2026-09-01T12:00:00.000Z' },
-  ];
 
-  const threads = await service.getCourseSpecificThreads('BU111', 25);
+  await service.getBirdCourseThreads(100, 'all');
+  await service.getCourseSpecificThreads('BU111', 25);
 
-  assert.deepEqual(threads.map((thread) => thread.id), ['matching']);
-  assert.equal(threads[0].search_type, 'cached_bird_feed');
+  assert.equal(requests.length, 2);
+  assert.match(requests[0], /q=bird\+course/);
+  assert.match(requests[1], /q=BU111/);
 });
